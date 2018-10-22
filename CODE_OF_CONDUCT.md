@@ -2,11 +2,11 @@
 
 DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
 
-Be kind to others. Do not insult or put down other attendees. Behave professionally. 
+Be kind to others. Do not insult or put down other attendees. Behave professionally.
 
-Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US. 
+Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US.
 
-Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers. 
+Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
 
 Thank you for helping make this a welcoming, friendly event for all.
 
@@ -73,7 +73,7 @@ or otherwise create a sexualized environment.
 
 ## Photography
 
-In order to make DjangoCon US 2018 a great experience for everyone, do not
+In order to make DjangoCon US 2019 a great experience for everyone, do not
 photograph, video, or audio record anyone at DjangoCon without their express
 permission, sought in advance. If someone does not want to be photographed,
 video or audio recorded, please respect their wishes.
@@ -93,6 +93,6 @@ harassment/Policy), created by the Ada Initiative and other volunteers. which
 is under a Creative Commons Zero license.
 
 Conference Code of Conduct by
-[2018.djangocon.us/coc/](https://2018.djangocon.us/coc/) is licensed under a
+[2019.djangocon.us/coc/](https://2019.djangocon.us/coc/) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).
