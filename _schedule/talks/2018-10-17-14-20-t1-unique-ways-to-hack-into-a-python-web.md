@@ -27,7 +27,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Unique ways to Hack into a Python Web Service

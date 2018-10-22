@@ -25,7 +25,7 @@ presenters:
   website: https://www.katekligman.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Elasticsearch: Accelerating the Django Admin'

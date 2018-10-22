@@ -28,7 +28,7 @@ presenters:
   website: http://eleanorstrib.com
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'A Bossy Sort of Voice: Uncovering gender bias in Harry Potter with Python'

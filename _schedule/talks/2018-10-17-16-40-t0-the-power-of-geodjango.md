@@ -26,7 +26,7 @@ presenters:
   website: http://www.annaskiefer.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: The Power of GeoDjango

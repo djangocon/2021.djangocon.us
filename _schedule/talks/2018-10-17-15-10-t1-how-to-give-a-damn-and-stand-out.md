@@ -24,7 +24,7 @@ presenters:
   website: http://www.candidatephilly.com/
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: How to give a damn, and stand out

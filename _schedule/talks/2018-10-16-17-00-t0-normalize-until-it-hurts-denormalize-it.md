@@ -22,7 +22,7 @@ presenters:
   website: https://www.vinta.com.br/
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: '"Normalize until it hurts; denormalize until it works" in Django'

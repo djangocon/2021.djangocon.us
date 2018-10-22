@@ -26,7 +26,7 @@ presenters:
   website: https://rmcomplexity.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Building Workflows With Celery

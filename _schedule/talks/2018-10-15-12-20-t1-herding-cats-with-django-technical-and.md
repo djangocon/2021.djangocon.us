@@ -46,7 +46,7 @@ presenters:
   website: https://outreachy.org
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Herding Cats with Django: Technical and social tools to incentivize participation'

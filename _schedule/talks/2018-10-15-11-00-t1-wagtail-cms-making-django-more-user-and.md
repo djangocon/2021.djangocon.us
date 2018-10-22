@@ -23,7 +23,7 @@ presenters:
   website: https://github.com/sheins
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Wagtail CMS - Making Django More User (and Developer) Friendly

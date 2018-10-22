@@ -17,7 +17,7 @@ presenters:
   twitter: mariatta
   website: https://mariatta.ca/
 room: Salon A-E
-sitemap: true
+sitemap: false
 talk_slot: full
 title: Keynote with Mariatta Wijaya
 video_url: null

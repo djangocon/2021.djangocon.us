@@ -23,7 +23,7 @@ presenters:
   website: https://wsvincent.com/
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Finally Understand Authentication in Django REST Framework '

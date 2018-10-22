@@ -16,7 +16,7 @@ presenters:
   twitter: ChloeCondon
   website: https://medium.com/@chloecondon
 room: Salon A-E
-sitemap: true
+sitemap: false
 talk_slot: full
 title: Keynote with Chloe Condon
 video_url: null

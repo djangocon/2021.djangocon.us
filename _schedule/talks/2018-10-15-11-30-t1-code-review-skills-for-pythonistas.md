@@ -19,7 +19,7 @@ presenters:
   website: http://nnja.io
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Code Review Skills for Pythonistas

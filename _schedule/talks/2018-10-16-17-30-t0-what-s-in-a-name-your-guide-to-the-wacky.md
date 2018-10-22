@@ -28,7 +28,7 @@ presenters:
   website: http://ashleysullins.github.io/
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: 'https://shorturl.at/prDV3'
 summary: ''
 title: What's in a Name? Your Guide to the Wacky World of DNS

@@ -19,7 +19,7 @@ presenters:
   website: https://www.laceyhenschel.com/
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: 'https://speakerdeck.com/williln/an-intro-to-docker-for-djangonauts'
 summary: ''
 title: 'An Intro to Docker for Djangonauts '

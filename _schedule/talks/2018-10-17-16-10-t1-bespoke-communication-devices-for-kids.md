@@ -24,7 +24,7 @@ presenters:
   website: https://www.patreon.com/thereisnotry
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Bespoke communication devices for kids with autism built with Django and Raspberry

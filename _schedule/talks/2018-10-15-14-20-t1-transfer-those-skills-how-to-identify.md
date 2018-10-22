@@ -42,7 +42,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Transfer those Skills! How to Identify, Communicate, and Sell your Transferable

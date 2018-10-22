@@ -27,7 +27,7 @@ presenters:
   website: https://jerivas.com
 published: true
 room: Sierra 5
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Build a GraphQL API powered by Django

@@ -4,7 +4,7 @@ layout: session-details
 category: talk
 permalink: /talk/state-of-django-panel/
 accepted: true
-sitemap: true
+sitemap: false
 difficulty: All
 
 title: '"State of Django" Panel'

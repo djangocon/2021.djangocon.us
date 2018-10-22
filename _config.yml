@@ -1,10 +1,10 @@
 title: DjangoCon US
-url: "https://2018.djangocon.us"
+url: "https://2019.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2018 conference will take place in San Diego, California
-  from October 14-19, 2018!
-enforce_ssl: "2018.djangocon.us"
+  DjangoCon US 2019 conference will take place in TBD
+  from September 15-20, 2019!
+enforce_ssl: "2019.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
 timezone: America/Chicago
@@ -68,7 +68,7 @@ twitter:
   username: djangocon
 
 # This is the default logo that people see with opengraph
-# logo: /static/2018-logos/squares-and-social/djangocon-square.png
+# logo: /static/2019-logos/squares-and-social/djangocon-square.png
 logo: /static/img/social/avatar-main.png
 
 
@@ -89,12 +89,12 @@ sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
-sponsorship_prospectus: "https://drive.google.com/file/d/1gPE-iGJVJjglf-1o5wVV_qnfVgVt6Gb-/view"
-financial_aid_application: "https://docs.google.com/forms/d/e/1FAIpQLSfqOQJNXDSftszH5Ar_LQT6Y0IcvuRUaXTC9ERS6h6PTKsvHg/viewform"
-cfp_application: "https://www.papercall.io/djangocon-us-2018"
-hotel_reservation_link: "http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DjangoCon%20US%202018%5Esanmv%60djcdjca%60169.00%60USD%60false%604%6010/13/18%6010/20/18%609/13/18&app=resvlink&stop_mobi=yes"
-ticket_link: "https://ti.to/defna/djangocon-us-2018"
-slack_link: ""
+# sponsorship_prospectus: "https://drive.google.com/file/d/1gPE-iGJVJjglf-1o5wVV_qnfVgVt6Gb-/view"
+# financial_aid_application: "https://docs.google.com/forms/d/e/1FAIpQLSfqOQJNXDSftszH5Ar_LQT6Y0IcvuRUaXTC9ERS6h6PTKsvHg/viewform"
+# cfp_application: "https://www.papercall.io/djangocon-us-2019"
+# hotel_reservation_link: "http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DjangoCon%20US%202019%5Esanmv%60djcdjca%60169.00%60USD%60false%604%6010/13/18%6010/20/18%609/13/18&app=resvlink&stop_mobi=yes"
+# ticket_link: "https://ti.to/defna/djangocon-us-2019"
+# slack_link: ""
 
 github: [metadata]
 facebook:

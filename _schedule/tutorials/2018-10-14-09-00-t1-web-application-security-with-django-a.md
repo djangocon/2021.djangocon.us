@@ -25,7 +25,7 @@ presenters:
   website: https://github.com/jacinda
 published: true
 room: Sierra 5
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Web Application Security with Django: A Hands-On Tutorial'

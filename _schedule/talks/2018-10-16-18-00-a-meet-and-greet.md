@@ -6,7 +6,7 @@ difficulty:
 layout: session-details
 permalink: /meet-and-greet/
 room: Marriott Lobby
-sitemap: true
+sitemap: false
 talk_slot: full
 title: DSF, PSF, DEFNA, and DjangoCon US Organizers Meet and Greet
 video_url: null

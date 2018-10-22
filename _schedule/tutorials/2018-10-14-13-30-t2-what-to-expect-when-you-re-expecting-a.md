@@ -28,7 +28,7 @@ presenters:
   website: http://emilyemorehouse.com
 published: true
 room: Cabrillo 1
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'What To Expect When You''re Expecting: A Hands-On Guide to Regression Testing'

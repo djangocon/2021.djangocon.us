@@ -22,7 +22,7 @@ presenters:
   website: http://lookasquirrel.co/
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: When your wetware has too many threads - Tips from an ADHDer on how to improve

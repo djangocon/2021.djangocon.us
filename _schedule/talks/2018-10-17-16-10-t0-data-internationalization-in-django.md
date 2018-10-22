@@ -22,7 +22,7 @@ presenters:
   website: https://www.raphaelmichel.de
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Data internationalization in Django
