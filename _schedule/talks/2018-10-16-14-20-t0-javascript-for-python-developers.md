@@ -22,7 +22,7 @@ presenters:
   website: http://zanderle.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: JavaScript for Python Developers

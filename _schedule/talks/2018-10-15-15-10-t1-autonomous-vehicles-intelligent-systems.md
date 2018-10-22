@@ -25,7 +25,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Autonomous Vehicles, Intelligent Transportation Systems, and yes, Django!

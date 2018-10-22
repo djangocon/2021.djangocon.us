@@ -28,7 +28,7 @@ presenters:
   website: http://www.SanyamKhurana.com/blog
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: 'https://speakerdeck.com/curiouslearner/becoming-a-mutltilingual-superhero-in-django-v2-dot-0'
 summary: ''
 title: Becoming a Multilingual SuperHero in Django

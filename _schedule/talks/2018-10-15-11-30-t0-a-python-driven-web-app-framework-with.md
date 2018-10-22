@@ -27,7 +27,7 @@ presenters:
   photo_url: '/static/img/speakers/henry-olson.jpg'
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: A Python-Driven Web App Framework with Django, Channels, and React

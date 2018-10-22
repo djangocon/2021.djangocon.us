@@ -3,7 +3,7 @@ layout: session-details
 category: talk
 permalink: /talk/lightning-talk-2/
 accepted: true
-sitemap: true
+sitemap: false
 
 title: Lightning Talks
 

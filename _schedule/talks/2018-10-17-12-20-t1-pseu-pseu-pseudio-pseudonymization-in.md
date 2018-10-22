@@ -24,7 +24,7 @@ presenters:
   website: https://www.cuttlesoft.com
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Pseu, Pseu, Pseudio. Pseudonymization in Django.

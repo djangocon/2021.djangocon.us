@@ -18,7 +18,7 @@ presenters:
   twitter: carltongibson
   website: https://noumenal.es/
 room: Salon A-E
-sitemap: true
+sitemap: false
 slides_url: null
 talk_slot: full
 title: Your web framework needs you!

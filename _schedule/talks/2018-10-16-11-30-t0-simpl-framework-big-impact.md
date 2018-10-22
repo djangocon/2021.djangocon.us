@@ -31,7 +31,7 @@ presenters:
   website: http://simulations.wharton.upenn.edu
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Simpl framework, big impact!

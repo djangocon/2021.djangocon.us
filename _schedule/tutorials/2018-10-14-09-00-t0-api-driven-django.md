@@ -22,7 +22,7 @@ presenters:
   website: http://phildini.net
 published: true
 room: Balboa I & II
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: API-Driven Django

@@ -31,7 +31,7 @@ presenters:
   website: https://lincolnloop.com/team/peter-baumgartner/
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: 'https://speakerdeck.com/ipmb/containerless-django'
 summary: ''
 title: 'Containerless Django: Deploying without Docker'

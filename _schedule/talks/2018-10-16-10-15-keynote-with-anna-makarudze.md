@@ -16,7 +16,7 @@ presenters:
   twitter: amakarudze
   website: http://amakarudze.pythonanywhere.com/
 room: Salon A-E
-sitemap: true
+sitemap: false
 slides_url: null
 talk_slot: full
 title: Keynote with Anna Makarudze

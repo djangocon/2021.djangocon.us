@@ -23,7 +23,7 @@ presenters:
   website: http://blog.dscpl.com.au
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Fundamentals of Kubernetes for Django developers

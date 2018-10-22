@@ -19,7 +19,7 @@ presenters:
   website: http://www.laura-hampton.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Packaging Django Apps for Distribution on PyPI

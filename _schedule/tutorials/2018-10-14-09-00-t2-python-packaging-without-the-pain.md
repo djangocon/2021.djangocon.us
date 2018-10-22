@@ -31,7 +31,7 @@ presenters:
   website: http://purplediane.github.io/
 published: true
 room: Cabrillo 1
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Python Packaging without the Pain

@@ -25,7 +25,7 @@ presenters:
   website: https://appsembler.com/blog
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Anatomy of Open edX - a modern online learning platform serving over 35 million

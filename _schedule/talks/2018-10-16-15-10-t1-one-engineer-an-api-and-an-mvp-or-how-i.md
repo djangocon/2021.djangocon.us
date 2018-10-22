@@ -26,7 +26,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'One Engineer, an API, and an MVP: Or how I spent one hour improving hiring

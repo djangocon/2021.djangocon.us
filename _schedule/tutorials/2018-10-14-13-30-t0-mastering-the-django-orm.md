@@ -25,7 +25,7 @@ presenters:
   website: http://www.b-list.org/
 published: true
 room: Balboa I & II
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Mastering the Django ORM

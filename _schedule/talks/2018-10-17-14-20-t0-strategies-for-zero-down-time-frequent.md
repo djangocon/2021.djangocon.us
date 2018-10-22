@@ -21,7 +21,7 @@ presenters:
   website: http://blog.humrich.us
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Strategies for Zero Down Time, Frequent Deployments

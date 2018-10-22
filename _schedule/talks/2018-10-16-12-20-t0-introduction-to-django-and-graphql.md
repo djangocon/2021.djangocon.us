@@ -19,7 +19,7 @@ presenters:
   website: https://patrick.wtf
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Introduction to Django and GraphQL

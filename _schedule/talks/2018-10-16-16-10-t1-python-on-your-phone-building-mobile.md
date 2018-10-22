@@ -27,7 +27,7 @@ presenters:
   website: http://rootaccess.space
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Python on your phone: Building mobile apps with Kivy'

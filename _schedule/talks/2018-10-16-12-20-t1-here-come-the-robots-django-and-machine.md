@@ -20,7 +20,7 @@ presenters:
   website: https://torchbox.com
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Here Come The Robots - Django and Machine Learning

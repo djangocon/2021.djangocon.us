@@ -29,7 +29,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Auto-generating an API using PostgreSQL, Django, and Django REST Framework

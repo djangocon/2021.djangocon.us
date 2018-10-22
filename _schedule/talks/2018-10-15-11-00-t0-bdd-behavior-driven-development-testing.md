@@ -28,7 +28,7 @@ presenters:
   website: ''
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: BDD (Behavior Driven Development) Testing for Django Apps

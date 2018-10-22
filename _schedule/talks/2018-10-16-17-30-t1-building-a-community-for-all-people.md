@@ -23,7 +23,7 @@ presenters:
   website: http://www.jenniferkonikowski.com
 published: true
 room: 'Salon F-H'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: Building a Community for All People

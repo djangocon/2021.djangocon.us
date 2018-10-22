@@ -24,7 +24,7 @@ presenters:
   website: http://treyhunner.com
 published: true
 room: 'Salon A-E'
-sitemap: true
+sitemap: false
 slides_url: ''
 summary: ''
 title: 'Easier Classes: Python Classes Without All The Cruft'
