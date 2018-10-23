@@ -10,7 +10,7 @@ Hello everyone! We are very excited to announce that the website for DjangoCon U
 
 We would also like to thank our wonderful [sponsors](https://2018.djangocon.us/sponsors).
 
-This year the conference will be September 15-20.
+This year the conference will be September 22-27.
 
 - October 14: Tutorials (Additional fee)
 - October 15-17: Talks

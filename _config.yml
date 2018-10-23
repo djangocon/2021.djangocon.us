@@ -3,7 +3,7 @@ url: "https://2019.djangocon.us"
 author : DjangoCon US
 description: |
   DjangoCon US 2019 conference will take place in TBD
-  from September 15-20, 2019!
+  from September 22-27, 2019!
 enforce_ssl: "2019.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
