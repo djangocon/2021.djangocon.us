@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "DjangoCon US Website",
   "devDependencies": {
-    "all-contributors-cli": "^4.11.2",
-    "style-sherpa": "^1.0.2"
+    "all-contributors-cli": "^4.11.2"
   },
   "scripts": {
     "add": "all-contributors add",
     "generate": "all-contributors generate",
-    "build-css": "sass --style=compressed _scss/styles.scss static/css/styles.css -q"
+    "build-css": "sass --style=compressed _scss/styles.scss static/css/styles.css -q --no-source-map"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "private": true,
   "dependencies": {
     "foundation-sites": "^6.5.3",
+    "hamburgers": "^1.1.3",
     "motion-ui": "^2.0.3",
     "sass": "^1.16.1"
   }
