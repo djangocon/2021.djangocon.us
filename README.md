@@ -72,7 +72,14 @@ $ bundle install
 
 #### Install Node Dependencies
 
-Jekyll will compile sass out of the box, but we're using
+You will need Node v10.0 or greater to compile frontend assets. We're using [Dart Sass](https://github.com/sass/dart-sass) to compile Scss, which needs to be installed globally.
+
+```bash
+$ npm install -g sass
+# Installs Dart Sass globally
+```
+
+Next you'll need to install all the other JS dependencies.
 
 ```bash
 $ npm install .
@@ -84,6 +91,13 @@ $ npm install .
 ```bash
 $ bundle exec jekyll serve
 # => Now browse to http://localhost:4000
+```
+
+#### Compile CSS
+
+```bash
+$ npm run build-css
+# Compiles the _scss/styles.scss file into static/css/styles.css
 ```
 
 #### Run html-proofer to find broken links and accessibility issues

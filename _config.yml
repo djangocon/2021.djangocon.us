@@ -33,7 +33,6 @@ exclude:
   - deploy_surge.sh
   - Gemfile
   - Gemfile.lock
-  - gulpfile.js
   - LICENSE
   - node_modules
   - NOTES.md
