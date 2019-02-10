@@ -1,10 +1,15 @@
 _site
+.cache
 .bundle
 .sass-cache
 .DS_Store
 .jekyll-metadata
 Gemfile.lock
 npm-debug.log
+
+static/main.css
+static/main.js
+static/main.map
 
 bower_components/
 node_modules/
