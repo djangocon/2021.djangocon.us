@@ -86,6 +86,15 @@ $ npm install .
 # installs dependencies listed in package.json
 ```
 
+#### Compile CSS & JS
+
+```bash
+$ npm run build
+# Builds production-ready assets
+```
+
+If you are working locally use `build-dev` instead to get source maps.
+
 #### Run Jekyll
 
 ```bash
