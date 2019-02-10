@@ -25,13 +25,11 @@ plugins:
 exclude:
   - .editorconfig
   - .gitignore
-  - .surgeignore
   - .cache
   - bower_components
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - deploy_surge.sh
   - Gemfile
   - Gemfile.lock
   - LICENSE
