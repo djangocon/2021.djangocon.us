@@ -20,7 +20,7 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 
 **Sponsorship is closed for this year**. Want to know more about sponsorship for 2019?
 
-<a href="mailto:{{site.sponsors_email}}" class="button hollow theme-sienna">Contact us today</a>.
+<a href="mailto:{{site.sponsors_email}}" class="button hollow">Contact us today</a>.
 
 ## Sponsorship Levels
 
