@@ -22,7 +22,7 @@ years with minimal alterations.
 
 ### Typefaces
 
-* [Signika](https://fonts.google.com/specimen/Signika) - Secondary typeface for logo
+* [Lilita One](https://fonts.google.com/specimen/Lilita+One) - Secondary typeface for logo
 * [Soure Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - Used in body copy throughout website
 
 
