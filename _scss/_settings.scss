@@ -46,15 +46,32 @@
 //  37. Top Bar
 
 
-$eminence: #6D0F84;
-$orchid: #B52BC9;
-$shakespeare: #05B4DD;
-$viking: #07C8E8;
-$willow: #B7DB53;
-$violetred: #EA5397;
+//$eminence: #6D0F84;
+//$orchid: #B52BC9;
+//$shakespeare: #05B4DD;
+//$viking: #07C8E8;
+//$willow: #B7DB53;
+//$violetred: #EA5397;
 //$sienna: #FC7E56;
 //$festival: #F9CC12;
 //$yellow: #FFE363;
+
+
+// Primary Colors
+$brand-color1: #0A51A4;
+$brand-color2: #703D76;
+$brand-color3: #F37741;
+$brand-color4: #171D2F;
+
+// Secondary colors
+$brand-color5: #A257AA;
+$brand-color6: #D19FDD;
+$brand-color7: #FBAECD;
+$brand-color8: #F7B07C;
+
+
+
+
 
 $color-twitter: #1DB4EB;
 $color-facebook: #44649D;
@@ -75,8 +92,8 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.4;
 
 $foundation-palette: (
-  primary: $eminence,
-  secondary: $orchid,
+  primary: $brand-color1,
+  secondary: $brand-color2,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -93,15 +110,25 @@ $white: #FFFFFF;
 
 
 $djangocon-palette: (
-  eminence: $eminence,
-  orchid: $orchid,
-  shakespeare: $shakespeare,
-  viking: $viking,
-  willow: $willow,
-  violetred: $violetred,
+  //eminence: $eminence,
+  //orchid: $orchid,
+  //shakespeare: $shakespeare,
+  //viking: $viking,
+  //willow: $willow,
+  //violetred: $violetred,
   //sienna: $sienna,
   //festival: $festival,
   //yellow: $yellow,
+
+  brand-color1: $brand-color1,
+  brand-color2: $brand-color2,
+  brand-color3: $brand-color3,
+  brand-color4: $brand-color4,
+
+  brand-color5: $brand-color5,
+  brand-color6: $brand-color6,
+  brand-color7: $brand-color7,
+  brand-color8: $brand-color8,
 
   light-gray: $light-gray,
   medium-gray: $medium-gray,
@@ -324,7 +351,7 @@ $buttongroup-radius-on-each: true;
 
 $callout-background: transparent;
 $callout-background-fade: 0%;
-$callout-border: 4px solid $violetred;
+$callout-border: 4px solid $brand-color2;
 $callout-margin: 0 0 1rem 0;
 $callout-padding: 1.5rem;
 $callout-font-color: $body-font-color;
@@ -636,7 +663,7 @@ $tab-content-padding: 0;
 
 $thumbnail-border: solid 4px $white;
 $thumbnail-margin-bottom: $global-margin;
-$thumbnail-shadow: 0 0 0 2px $violetred;
+$thumbnail-shadow: 0 0 0 2px $brand-color2;
 $thumbnail-shadow-hover: none;
 $thumbnail-transition: none;
 $thumbnail-radius: 0;

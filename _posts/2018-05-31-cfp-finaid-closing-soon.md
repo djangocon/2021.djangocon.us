@@ -12,7 +12,7 @@ Don't miss out on your chance to speak at DjangoCon US or get some financial hel
 <div class="row column">
     <div class="medium-5 medium-centered column">
         <div class="button-group expanded">
-            <a class="button hollow theme-viking" href="{{ site.cfp_application }}">Submit a talk!</a>
+            <a class="button hollow" href="{{ site.cfp_application }}">Submit a talk!</a>
         </div>
         <div class="button-group expanded">
             <a class="button hollow" href="{{ site.financial_aid_application }}">Apply for aid!</a>

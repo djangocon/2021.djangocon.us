@@ -31,18 +31,14 @@ years with minimal alterations.
 # Color guide
 
 <ul class="colors">
-  <!-- Darks -->
-  <li class="color theme-eminence">Eminence<br />#6D0F84</li>
-  <li class="color theme-orchid">Orchid<br/>#B52BC9</li>
-  <li class="color theme-shakespeare">shakespeare<br/>#05B4DD</li>
-
-  <!-- Brights -->
-  <li class="color theme-viking">Viking<br/>#07C8E8</li>
-  <li class="color theme-willow">Willow<br/>#B7DB53</li>
-  <li class="color theme-violetred">Violet Red<br/>#EA5397</li>
-  <li class="color theme-sienna">Sienna<br/>#FC7E56</li>
-  <li class="color theme-festival">Festival<br/>#F9CC12</li>
-  <li class="color theme-yellow">Yellow<br/>#FFE363</li>
+  <li class="color theme-brand-color1">Brand Color 1<br/>#6D0F84</li>
+  <li class="color theme-brand-color2">Brand Color 2<br/>#07C8E8</li>
+  <li class="color theme-brand-color3">Brand Color 3<br/>#07C8E8</li>
+  <li class="color theme-brand-color4">Brand Color 4<br/>#07C8E8</li>
+  <li class="color theme-brand-color5">Brand Color 5<br/>#07C8E8</li>
+  <li class="color theme-brand-color6">Brand Color 6<br/>#07C8E8</li>
+  <li class="color theme-brand-color7">Brand Color 7<br/>#07C8E8</li>
+  <li class="color theme-brand-color8">Brand Color 8<br/>#07C8E8</li>
 
   <!-- Black, White, & Gray -->
   <li class="color theme-light-gray">Light Gray<br/>#F7F8F9</li>
@@ -129,9 +125,9 @@ applied to the text within.
 
 
 ```html_example
-<section class="section-pad theme-eminence">
+<section class="section-pad theme-brand-color1">
     <h2 class="text-center">Headline</h2>
-    <p class="text-center">This section has `theme-eminence` applied.</p>
+    <p class="text-center">This section has `theme-brand-color1` applied.</p>
 </section>
 <section class="section-pad theme-orchid">
   <h2 class="text-center">Headline</h2>
@@ -145,21 +141,21 @@ applied to the text within.
   <h2 class="text-center">Headline</h2>
   <p class="text-center">This section has `theme-viking` applied.</p>
 </section>
-<section class="section-pad theme-willow">
+<section class="section-pad theme-brand-color3">
   <h2 class="text-center">Headline</h2>
-  <p class="text-center">This section has `theme-willow` applied.</p>
+  <p class="text-center">This section has `theme-brand-color3` applied.</p>
 </section>
-<section class="section-pad theme-violetred">
+<section class="section-pad theme-brand-color2">
   <h2 class="text-center">Headline</h2>
-  <p class="text-center">This section has `theme-violetred` applied.</p>
+  <p class="text-center">This section has `theme-brand-color2` applied.</p>
 </section>
 <section class="section-pad theme-sienna">
   <h2 class="text-center">Headline</h2>
   <p class="text-center">This section has `theme-sienna` applied.</p>
 </section>
-<section class="section-pad theme-festival">
+<section class="section-pad theme-brand-color4">
   <h2 class="text-center">Headline</h2>
-  <p class="text-center">This section has `theme-festival` applied.</p>
+  <p class="text-center">This section has `theme-brand-color4` applied.</p>
 </section>
 <section class="section-pad theme-yellow">
   <h2 class="text-center">Headline</h2>
@@ -187,7 +183,7 @@ applied to the text within.
 # Card themes
 The following pattern can be used with an icon or without. Themes may be applied
 to individual cards with the named colors listed in `_settings.scss` using the
-class name pattern here: `<div class="card card-theme-eminence">`. SVG icons in these
+class name pattern here: `<div class="card card-theme-brand-color1">`. SVG icons in these
 tiles will inherit the color of the card theme if there is no `fill` specified
 in the SVG file itself.
 
@@ -308,7 +304,7 @@ element.
           Director, Application Development PonyCorp
         </cite>
       </blockquote>
-      <a href="#TODO" class="button hollow theme-willow">Join Rory. Buy your ticket</a>
+      <a href="#TODO" class="button hollow theme-brand-color3">Join Rory. Buy your ticket</a>
     </div>
 
     </div>
@@ -350,7 +346,7 @@ element.
           Director, Application Development PonyCorp
         </cite>
       </blockquote>
-      <a href="#TODO" class="button hollow theme-festival">Join Rory. Buy your ticket</a>
+      <a href="#TODO" class="button hollow theme-brand-color4">Join Rory. Buy your ticket</a>
     </div>
 
     </div>

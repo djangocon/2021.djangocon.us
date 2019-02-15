@@ -21,7 +21,7 @@ layout: base
       <br />
       <div class="row">
         <div class="medium-8 column medium-centered text-center">
-          <a class="button hollow theme-willow" href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
+          <a class="button hollow theme-brand-color3" href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
         </div>
       </div>
 
@@ -79,13 +79,13 @@ layout: base
   </div>
 </section>
 
-<section class="section-pad theme-shakespeare">
+<section class="section-pad theme-brand-color2">
   <div class="row column v-pad-bottom text-center">
     <h2 class="contrast-fix">A conference with heart</h2>
   </div>
   <div class="row card-row">
     <div class="medium-4 column">
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color1">
         <img
           src="{{ "/static/img/hands.svg" | relative_url }}"
           alt="Two hands interlocked"
@@ -99,7 +99,7 @@ layout: base
     </div>
     <div class="medium-4 column">
       {% comment %} TODO: Contrast {% endcomment %}
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color1">
         <img
           src="{{ "/static/img/program.svg" | relative_url }}"
           alt="A megaphone producing a loud sound"
@@ -112,7 +112,7 @@ layout: base
       </div>
     </div>
     <div class="medium-4 column">
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color1">
         <img
           src="{{ "/static/img/heart.svg" | relative_url }}"
           alt="A heart"
@@ -136,7 +136,7 @@ layout: base
     {% for post in site.posts limit:12 %}
       {% unless post.hidden %}
       <article class="news-title medium-4 column">
-        <div class="card {% if post.category == "Sponsorship" %}card-theme-violetred{% else %}card-theme-orchid{% endif %}">
+        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color2{% else %}card-theme-brand-color3{% endif %}">
           <div class="card-section">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h3>
@@ -151,7 +151,7 @@ layout: base
 
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
-      <a class="button hollow theme-willow" href="/news/">Read More News</a>
+      <a class="button hollow theme-brand-color3" href="/news/">Read More News</a>
     </div>
   </div>
 </section>

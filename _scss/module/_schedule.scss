@@ -117,7 +117,7 @@
 // Handle variations
 .event.loc-main {
   @extend %has-bg;
-  border-top: 8px solid $festival;
+  border-top: 8px solid $brand-color5;
 }
 
 .event.loc-main .location {
@@ -126,17 +126,17 @@
 
 .event.loc-alt {
   @extend %has-bg;
-  border-top: 8px solid $orchid;
+  border-top: 8px solid $brand-color3;
 }
 
 .event.loc-alt-2 {
   @extend %has-bg;
-  border-top: 8px solid $violetred;
+  border-top: 8px solid $brand-color2;
 }
 
 .event.loc-alt-3 {
   @extend %has-bg;
-  border-top: 8px solid $sienna;
+  border-top: 8px solid $brand-color6;
 }
 
 .event.loc-main,
