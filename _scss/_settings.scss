@@ -180,7 +180,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Lilita One', Helvetica, sans-serif;
+//$header-font-family: 'Lilita One', Helvetica, sans-serif;
+$header-font-family: $body-font-family;
 $header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
