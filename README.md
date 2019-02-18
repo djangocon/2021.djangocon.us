@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/djangocon/2019.djangocon.us.svg?branch=master)](https://travis-ci.org/djangocon/2019.djangocon.us) [![Contributors](https://img.shields.io/github/contributors/djangocon/2019.djangocon.us.svg)](https://github.com/djangocon/2019.djangocon.us/graphs/contributors)
 
-The 2019 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/), and complied for production using [Gulp](http://gulpjs.com/).
+The 2019 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
 
 ## Code of Conduct
 
@@ -70,15 +70,30 @@ $ gem install jekyll bundler
 $ bundle install
 ```
 
-#### Install gulp
+#### Install Node Dependencies
 
-Jekyll will compile sass out of the box, but we're using gulp so we can add autoprefixer
-and whatever else we might need later.
+You will need Node v10.0 or greater to compile frontend assets. We're using [Parcel JS](https://github.com/sass/dart-sass) to compile Scss and JavaScript. Parcel JS needs to be installed globally.
+
+```bash
+$ npm install -g parcel-bundler
+# Installs Parcel JS globally
+```
+
+Next you'll need to install all the other JS dependencies.
 
 ```bash
 $ npm install .
-# installs dependencies listed in package.json, including gulp.
+# installs dependencies listed in package.json
 ```
+
+#### Compile CSS & JS
+
+```bash
+$ npm run build
+# Builds production-ready assets
+```
+
+If you are working locally use `build-dev` instead to get source maps.
 
 #### Run Jekyll
 
@@ -91,15 +106,6 @@ $ bundle exec jekyll serve
 
 ```bash
 $ bundle exec rake test
-```
-
-#### Run gulp
-
-For CSS development, open a new terminal in your project directory and run
-the following. This will run the gulp watch scripts to compile sass.
-
-```bash
-$ gulp
 ```
 
 #### Pushing to GitHub and Submitting a Pull Request

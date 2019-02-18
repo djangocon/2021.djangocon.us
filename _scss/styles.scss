@@ -8,9 +8,9 @@
 	http://cssguidelin.es/
 */
 
-@import 'foundation';
+@import '../node_modules/foundation-sites/scss/foundation';
 @import 'settings';
-@import 'motion-ui';
+@import '../node_modules/motion-ui/motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -30,7 +30,6 @@
 @include foundation-drilldown-menu;
 @include foundation-dropdown;
 @include foundation-dropdown-menu;
-@include foundation-flex-video;
 @include foundation-label;
 @include foundation-media-object;
 @include foundation-menu;
@@ -38,6 +37,7 @@
 @include foundation-orbit;
 @include foundation-pagination;
 @include foundation-progress-bar;
+//@include responsive-embed;
 @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;

@@ -23,18 +23,17 @@ plugins:
   - jemoji
 
 exclude:
+  - .cache
   - .editorconfig
   - .gitignore
-  - .surgeignore
   - bower_components
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - deploy_surge.sh
   - Gemfile
   - Gemfile.lock
-  - gulpfile.js
   - LICENSE
+  - Makefile
   - node_modules
   - NOTES.md
   - package*.json
