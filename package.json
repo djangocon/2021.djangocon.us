@@ -11,7 +11,8 @@
     "add": "all-contributors add",
     "generate": "all-contributors generate",
     "build": "parcel build main.js -d static/ --no-source-maps",
-    "build-dev": "parcel build main.js -d static/ --no-minify"
+    "build-dev": "parcel build main.js -d static/ --no-minify",
+    "watch-dev": "bundle exec jekyll serve --watch -l"
   },
   "repository": {
     "type": "git",
