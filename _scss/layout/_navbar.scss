@@ -16,6 +16,10 @@
   transform: translate3d(0,0,0);
 }
 
+.title-bar .menu .menu {
+  position: absolute;
+}
+
 .off-canvas .menu a {
   color: $white;
 }
@@ -60,6 +64,7 @@
 
 .headroom .menu .menu a {
   font-size: rem-calc(18);
+  color: $white;
 }
 
 .logo {
