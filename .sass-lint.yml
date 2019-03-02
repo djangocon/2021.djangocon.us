@@ -85,9 +85,13 @@ rules:
         - box-shadow
         - border
         - border-top
+        - border-top-width
         - border-right
+        - border-right-width
         - border-bottom
+        - border-bottom-width
         - border-left
+        - border-left-width
         - border-color
         - border-image
         - border-radius

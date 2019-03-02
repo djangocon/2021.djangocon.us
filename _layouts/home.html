@@ -4,31 +4,44 @@ layout: base
 
 <header class="header">
   <div class="row">
-    <div class="column small-12 medium-6 header-text">
+    <div class="column small-12 medium-7 header-text">
       <h1>Six days of talks, sprints, and tutorials in San Diego</h1>
-      <a class="button hollow theme-brand-color3" href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
+
+      <a href="#" class="button">Buy Tickets</a>
+      <a href="#" class="button">Submit Talk</a>
+
+      {% comment %}
+      <a
+        class="button"
+        href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
+      {% endcomment %}
     </div>
   </div>
 </header>
 
-<div class="section-pad event-info theme-brand-color1">
-  <div class="row home-eventinfo">
-    <span class="column medium-5 large-4 subheading datesyear">
-      <strong>September 22-27</strong>
-      <span class="datesyear-year">2019</span>
-    </span>
+<div class="section-pad theme-brand-color1">
+  <div class="row column">
+    <div class="event-info">
+      <img
+        src="{{ "/static/img/marker.svg" | relative_url }}"
+        alt="A location marker"
+        />
 
-    <span class="column medium-7 large-8 subheading location">
-      San Diego Marriott of Mission Valley in
-      <strong>San Diego, California</strong>
-    </span>
+      <div class="event-info-detail">
+        <strong class="event-info-date">Sept 22-27</strong>
+        <span class="subheading event-info-location">
+          San Diego Marriott of Mission Valley in
+          <strong>San Diego, California</strong>
+        </span>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="home-content">
-<section class="section-pad theme-light-gray">
+<section class="section-pad theme-brand-color2">
   <div class="row column xlarge-9">
-    <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon US is easy for you!</p>
+    <p class="lead column large-9 large-centered text-center stripes">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon US is easy for you!</p>
 
     <div class="date-card medium-4 column">
       <a href="/tutorials"><div class="row collapse">
@@ -75,7 +88,7 @@ layout: base
   </div>
 </section>
 
-<section class="section-pad theme-brand-color2">
+<section class="section-pad theme-brand-color6">
   <div class="row column v-pad-bottom text-center">
     <h2 class="contrast-fix">A conference with heart</h2>
   </div>
@@ -94,7 +107,6 @@ layout: base
       </div>
     </div>
     <div class="medium-4 column">
-      {% comment %} TODO: Contrast {% endcomment %}
       <div class="card card-theme-brand-color1">
         <img
           src="{{ "/static/img/program.svg" | relative_url }}"
@@ -132,7 +144,7 @@ layout: base
     {% for post in site.posts limit:12 %}
       {% unless post.hidden %}
       <article class="news-title medium-4 column">
-        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color2{% else %}card-theme-brand-color3{% endif %}">
+        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
           <div class="card-section">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h3>
@@ -147,7 +159,7 @@ layout: base
 
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
-      <a class="button hollow theme-brand-color3" href="/news/">Read More News</a>
+      <a class="button" href="/news/">Read More News</a>
     </div>
   </div>
 </section>

@@ -2,66 +2,14 @@
   padding: 6rem 0 3rem;
 
   h1 {
-    text-align: center;
     color: $body-font-color;
-  }
-
-  .subhead {
-    max-width: 660px;
-    text-align: center;
-    color: $body-font-color;
-  }
-
-  .home-eventinfo {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .datesyear-year {
-    @include show-for(medium);
-  }
-
-  .subhead strong {
-    display: block;
-    font-weight: $global-weight-bold;
-  }
-
-  .subheading {
-    margin-bottom: $global-margin / 2;
-    font-size: rem-calc(22);
-  }
-
-  .header-img {
-    max-width: 280px;
   }
 
   @include breakpoint(large) {
     padding-top: 2rem;
 
     .header-text {
-      padding-top: 5.5rem;
-    }
-
-    .subhead {
-      text-align: right;
-    }
-
-    .subheading {
-      margin-bottom: 0;
-    }
-
-    .datesyear {
-      text-align: right;
-    }
-
-    .location {
-      padding-top: 0;
-      border-left: 6px solid $brand-color2;
-      text-align: left;
-    }
-
-    .header-img {
-      max-width: 380px;
+      padding-top: 3.5rem;
     }
   }
 }

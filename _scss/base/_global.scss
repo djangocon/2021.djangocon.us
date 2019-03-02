@@ -18,6 +18,14 @@ li {
   font-weight: $global-weight-normal;
 }
 
+.lead.stripes {
+  margin-bottom: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 2px solid $white;
+  border-bottom: 2px solid $white;
+}
+
 .lead.min {
   margin-bottom: 1.5rem;
 }

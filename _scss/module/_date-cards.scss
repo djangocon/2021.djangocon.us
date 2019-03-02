@@ -21,9 +21,12 @@
   .month {
     display: block;
     padding: .2em;
-    background-color: get-color(primary);
+    border: 4px solid $brand-color8;
+    border-bottom: none;
+    background-color: $brand-color3;
     font-size: 1rem;
     font-weight: $global-weight-bold;
+    text-transform: uppercase;
     color: $white;
   }
 
@@ -31,10 +34,10 @@
     display: block;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    border: 4px solid;
+    border: 4px solid $brand-color8;
     background-color: $white;
-    font-size: 1.4rem;
-    color: get-color(primary);
+    font-size: 1.2rem;
+    color: $body-font-color;
   }
 
   @include breakpoint(large) {

@@ -2673,7 +2673,7 @@ kbd {
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -2863,9 +2863,9 @@ h3 {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 0.85em 1em;
+  padding: 0.85em 2em;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 30px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
   font-size: 0.9rem;
@@ -2873,14 +2873,14 @@ h3 {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #0A51A4;
+  background-color: #FFFFFF;
   color: #FFFFFF;
 }
 [data-whatinput=mouse] .button {
   outline: 0;
 }
 .button:hover, .button:focus {
-  background-color: #09458b;
+  background-color: #703D76;
   color: #FFFFFF;
 }
 .button.tiny {
@@ -2951,7 +2951,7 @@ h3 {
   cursor: not-allowed;
 }
 .button.disabled, .button.disabled:hover, .button.disabled:focus, .button[disabled], .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #0A51A4;
+  background-color: #FFFFFF;
   color: #FFFFFF;
 }
 .button.disabled.primary, .button[disabled].primary {
@@ -3003,8 +3003,8 @@ h3 {
   color: #FFFFFF;
 }
 .button.hollow {
-  border: 2px solid #0A51A4;
-  color: #0A51A4;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .button.hollow, .button.hollow:hover, .button.hollow:focus {
   background-color: transparent;
@@ -3013,12 +3013,12 @@ h3 {
   background-color: transparent;
 }
 .button.hollow:hover, .button.hollow:focus {
-  border-color: #052952;
-  color: #052952;
+  border-color: gray;
+  color: gray;
 }
 .button.hollow:hover.disabled, .button.hollow:hover[disabled], .button.hollow:focus.disabled, .button.hollow:focus[disabled] {
-  border: 2px solid #0A51A4;
-  color: #0A51A4;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .button.hollow.primary {
   border: 2px solid #0A51A4;
@@ -3093,8 +3093,8 @@ h3 {
   color: #0a0a0a;
 }
 .button.clear {
-  border: 2px solid #0A51A4;
-  color: #0A51A4;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .button.clear, .button.clear:hover, .button.clear:focus {
   background-color: transparent;
@@ -3103,12 +3103,12 @@ h3 {
   background-color: transparent;
 }
 .button.clear:hover, .button.clear:focus {
-  border-color: #052952;
-  color: #052952;
+  border-color: gray;
+  color: gray;
 }
 .button.clear:hover.disabled, .button.clear:hover[disabled], .button.clear:focus.disabled, .button.clear:focus[disabled] {
-  border: 2px solid #0A51A4;
-  color: #0A51A4;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 .button.clear, .button.clear.disabled, .button.clear[disabled], .button.clear:hover, .button.clear:hover.disabled, .button.clear:hover[disabled], .button.clear:focus, .button.clear:focus.disabled, .button.clear:focus[disabled] {
   border-color: transparent;
@@ -3216,10 +3216,10 @@ h3 {
   top: 0.4em;
   display: inline-block;
   float: right;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 .button.dropdown.hollow::after, .button.dropdown.clear::after {
-  border-top-color: #0A51A4;
+  border-top-color: #FFFFFF;
 }
 .button.dropdown.hollow.primary::after, .button.dropdown.clear.primary::after {
   border-top-color: #0A51A4;
@@ -7901,6 +7901,14 @@ li {
   font-weight: 400;
 }
 
+.lead.stripes {
+  margin-bottom: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
 .lead.min {
   margin-bottom: 1.5rem;
 }
@@ -7985,7 +7993,8 @@ blockquote cite {
 }
 
 .button {
-  border: 2px solid #1E1E1E;
+  border: 3px solid #1E1E1E;
+  border-bottom-width: 6px;
   font-weight: 700;
   text-decoration: none;
   color: #1E1E1E;
@@ -8416,6 +8425,33 @@ blockquote cite {
   }
 }
 
+.event-info {
+  display: flex;
+  margin: 0 auto;
+  max-width: 590px;
+}
+.event-info-detail {
+  margin-left: 20px;
+}
+.event-info-date {
+  display: block;
+  font-size: 1.4rem;
+}
+@media print, screen and (min-width: 55.625em) {
+  .event-info img {
+    width: 160px;
+  }
+  .event-info-detail {
+    margin-left: 30px;
+  }
+  .event-info-date {
+    font-size: 2rem;
+  }
+  .event-info-location {
+    font-size: 1.5rem;
+  }
+}
+
 .event-links-heading {
   margin-right: 1em;
   width: 100%;
@@ -8481,57 +8517,14 @@ blockquote cite {
   padding: 6rem 0 3rem;
 }
 .header h1 {
-  text-align: center;
   color: #1E1E1E;
-}
-.header .subhead {
-  max-width: 660px;
-  text-align: center;
-  color: #1E1E1E;
-}
-.header .home-eventinfo {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-@media screen and (max-width: 55.62375em) {
-  .header .datesyear-year {
-    display: none !important;
-  }
-}
-.header .subhead strong {
-  display: block;
-  font-weight: 700;
-}
-.header .subheading {
-  margin-bottom: 0.5rem;
-  font-size: 1.0576923077rem;
-}
-.header .header-img {
-  max-width: 280px;
 }
 @media print, screen and (min-width: 64em) {
   .header {
     padding-top: 2rem;
   }
   .header .header-text {
-    padding-top: 5.5rem;
-  }
-  .header .subhead {
-    text-align: right;
-  }
-  .header .subheading {
-    margin-bottom: 0;
-  }
-  .header .datesyear {
-    text-align: right;
-  }
-  .header .location {
-    padding-top: 0;
-    border-left: 6px solid #703D76;
-    text-align: left;
-  }
-  .header .header-img {
-    max-width: 380px;
+    padding-top: 3.5rem;
   }
 }
 
@@ -8703,19 +8696,22 @@ blockquote cite {
 .date-card .month {
   display: block;
   padding: 0.2em;
-  background-color: #0A51A4;
+  border: 4px solid #F7B07C;
+  border-bottom: none;
+  background-color: #F37741;
   font-size: 1rem;
   font-weight: 700;
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 .date-card .days {
   display: block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border: 4px solid;
+  border: 4px solid #F7B07C;
   background-color: #FFFFFF;
-  font-size: 1.4rem;
-  color: #0A51A4;
+  font-size: 1.2rem;
+  color: #1E1E1E;
 }
 @media print, screen and (min-width: 64em) {
   .date-card {

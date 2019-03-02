@@ -1,0 +1,32 @@
+.event-info {
+  display: flex;
+  margin: 0 auto;
+  max-width: 590px;
+
+  &-detail {
+    margin-left: map-get($grid-column-gutter, small);
+  }
+
+  &-date {
+    display: block;
+    font-size: 1.4rem;
+  }
+
+  @include breakpoint(medium) {
+    img {
+      width: 160px;
+    }
+
+    &-detail {
+      margin-left: map-get($grid-column-gutter, medium);
+    }
+
+    &-date {
+      font-size: 2rem;
+    }
+
+    &-location {
+      font-size: 1.5rem;
+    }
+  }
+}

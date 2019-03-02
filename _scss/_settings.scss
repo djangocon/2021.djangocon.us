@@ -46,17 +46,6 @@
 //  37. Top Bar
 
 
-//$eminence: #6D0F84;
-//$orchid: #B52BC9;
-//$shakespeare: #05B4DD;
-//$viking: #07C8E8;
-//$willow: #B7DB53;
-//$violetred: #EA5397;
-//$sienna: #FC7E56;
-//$festival: #F9CC12;
-//$yellow: #FFE363;
-
-
 // Primary Colors
 $brand-color1: #0A51A4;
 $brand-color2: #703D76;
@@ -250,7 +239,7 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: 1.2rem;
+$lead-font-size: 1.4rem;
 $lead-lineheight: 1.5;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
@@ -317,14 +306,14 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
+$button-padding: 0.85em 2em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-background: $white;
+$button-background-hover: $brand-color2;
 $button-color: $white;
 $button-color-alt: $black;
-$button-radius: $global-radius;
+$button-radius: 30px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
