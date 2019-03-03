@@ -6348,7 +6348,7 @@ a.thumbnail image {
 .title-bar-title {
   display: inline-block;
   vertical-align: middle;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .has-tip {
@@ -8152,10 +8152,6 @@ blockquote cite {
   z-index: 2;
 }
 
-.home-content > *:last-child {
-  padding-bottom: 3rem;
-}
-
 .video-card .label {
   float: right;
   margin-right: 10px;
@@ -8517,6 +8513,37 @@ blockquote cite {
   .faq-item-question {
     font-size: 1.8269230769rem;
   }
+}
+
+.full-crowd {
+  position: relative;
+  background-color: linear-gradient(90deg, #F7B07C 0%, #D19FDD 100%);
+}
+.full-crowd:before, .full-crowd:after {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  content: "";
+}
+.full-crowd:before {
+  top: -6%;
+  background-image: url("full-crowd-top.ea70905e.svg");
+}
+.full-crowd:after {
+  bottom: -10%;
+  background-image: url("full-crowd-bottom.fc721d0e.svg");
+  background-position: bottom left -10px;
+  background-size: 70% auto;
+}
+.full-crowd-photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .header {
