@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="123px" viewBox="0 0 96 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0133411192 48.0527418 0.0133411192 48.0527418 85.9695455 0 85.9695455"></polygon>
+        <polygon id="path-3" points="0.703426364 0.0118189781 95.87189 0.0118189781 95.87189 22.3844282 0.703426364 22.3844282"></polygon>
+        <polygon id="path-5" points="0 122.666667 96.2592727 122.666667 96.2592727 0.0134306569 0 0.0134306569"></polygon>
+    </defs>
+    <g id="YES-SUNRISE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1076.000000, -477.000000)">
+            <g id="Group-11" transform="translate(1076.000000, 477.000000)">
+                <polygon id="Fill-1" fill="#0A51A4" points="48 85 96 85 73.6442857 50.5338313 69.8752613 44.7243855 48 11"></polygon>
+                <g id="Group-10">
+                    <g id="Group-4" transform="translate(0.000000, 6.267640)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M48.0236418,0.0133411192 C20.7102055,0.227336253 -0.000176363636,38.6291659 -0.000176363636,85.9695455 L48.0527418,85.9695455" id="Fill-2" fill="#0A51A4" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-7" transform="translate(0.000000, 100.282238)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-6"></g>
+                        <polygon id="Fill-5" fill="#0A51A4" mask="url(#mask-4)" points="86.4955173 22.3846073 10.0797991 22.3846073 0.703426364 0.0118189781 95.87189 0.0118189781"></polygon>
+                    </g>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-9"></g>
+                    <polygon id="Fill-8" fill="#0A51A4" mask="url(#mask-6)" points="44.9771364 107.458686 52.0316818 107.458686 52.0316818 0.0134306569 44.9771364 0.0134306569"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
