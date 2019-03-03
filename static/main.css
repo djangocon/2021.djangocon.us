@@ -8521,6 +8521,10 @@ blockquote cite {
 
 .header {
   padding: 6rem 0 3rem;
+  background-image: url("sunrise.67d25221.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header h1 {
   color: #1E1E1E;
