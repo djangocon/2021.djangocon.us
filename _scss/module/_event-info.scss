@@ -1,5 +1,6 @@
 .event-info {
   display: flex;
+  align-items: center;
   margin: 0 auto;
   max-width: 590px;
 
@@ -12,9 +13,15 @@
     font-size: 1.4rem;
   }
 
+  img {
+    width: 80px;
+    height: auto;
+  }
+
   @include breakpoint(medium) {
     img {
-      width: 160px;
+      width: 120px;
+      height: auto;
     }
 
     &-detail {

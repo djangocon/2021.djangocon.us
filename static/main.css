@@ -8427,6 +8427,7 @@ blockquote cite {
 
 .event-info {
   display: flex;
+  align-items: center;
   margin: 0 auto;
   max-width: 590px;
 }
@@ -8437,9 +8438,14 @@ blockquote cite {
   display: block;
   font-size: 1.4rem;
 }
+.event-info img {
+  width: 80px;
+  height: auto;
+}
 @media print, screen and (min-width: 55.625em) {
   .event-info img {
-    width: 160px;
+    width: 120px;
+    height: auto;
   }
   .event-info-detail {
     margin-left: 30px;
