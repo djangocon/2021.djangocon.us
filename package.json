@@ -12,7 +12,7 @@
     "generate": "all-contributors generate",
     "build": "parcel build main.js -d static/ --no-source-maps",
     "watch-fe-dev": "parcel watch main.js -d static/",
-    "watch-jk-dev": "bundle exec jekyll serve --watch -l"
+    "watch-jk-dev": "bundle exec jekyll serve --watch -l -H 0.0.0.0"
   },
   "repository": {
     "type": "git",

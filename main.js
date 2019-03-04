@@ -26,3 +26,13 @@ $("[data-off-canvas-wrapper]")
   .bind("opened.zf.offcanvas closed.zf.offcanvas", function(e) {
     $(".hamburger").toggleClass("is-active");
 });
+
+let $homeNode = $('body.home-page');
+if ($homeNode.length > 0) {
+  let hour = (new Date()).getHours();
+
+  // If it's after 6pm or before 7am, set the Sunset effect.
+  if (hour > 18 || hour < 7) {
+    $homeNode.addClass('sunset');
+  }
+}
