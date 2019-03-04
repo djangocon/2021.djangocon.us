@@ -1,9 +1,11 @@
 .header {
+  margin: 0 auto;
   padding: 6rem 0 3rem;
-  background-image: url('/static/img/sunrise.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 1800px;
+  background-image: url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
+  background-position: bottom -2px right 20%, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80px 80px, cover;
 
   h1 {
     color: $body-font-color;
@@ -15,5 +17,13 @@
     .header-text {
       padding-top: 3.5rem;
     }
+  }
+}
+
+body.sunset .header {
+  background-image: url('/static/img/boat.svg'), url('/static/img/sunset.svg');
+
+  h1 {
+    color: $white;
   }
 }

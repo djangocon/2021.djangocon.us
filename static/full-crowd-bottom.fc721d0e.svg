@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="892px" height="141px" viewBox="0 0 892 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
-    <title>full-crowd-bottom</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="full-crowd-bottom" fill="#703D76" transform="translate(446.000000, 70.500500) rotate(180.000000) translate(-446.000000, -70.500500) " points="0 109.461496 892 141.001 892 1.13686838e-13"></polygon>
-    </g>
-</svg>
+<svg width="892" height="141" xmlns="http://www.w3.org/2000/svg"><path fill="#703D76" d="M892 31.54L0 0v141.001z" fill-rule="evenodd"/></svg>

@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/full-crowd-top.svg":[["full-crowd-top.ea70905e.svg","static/img/full-crowd-top.svg"],"static/img/full-crowd-top.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/full-crowd-bottom.svg":[["full-crowd-bottom.fc721d0e.svg","static/img/full-crowd-bottom.svg"],"static/img/full-crowd-bottom.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/sunrise.svg":[["sunrise.67d25221.svg","static/img/sunrise.svg"],"static/img/sunrise.svg"],"_css_loader":"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/full-crowd-top.svg":[["full-crowd-top.ea70905e.svg","static/img/full-crowd-top.svg"],"static/img/full-crowd-top.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/full-crowd-bottom.svg":[["full-crowd-bottom.fc721d0e.svg","static/img/full-crowd-bottom.svg"],"static/img/full-crowd-bottom.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/boat.svg":[["boat.9412c0d4.svg","static/img/boat.svg"],"static/img/boat.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/sunrise.svg":[["sunrise.67d25221.svg","static/img/sunrise.svg"],"static/img/sunrise.svg"],"/Users/mtrythall/Projects/YupGup/2019.djangocon.us/static/img/sunset.svg":[["sunset.1e862d79.svg","static/img/sunset.svg"],"static/img/sunset.svg"],"_css_loader":"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -23557,7 +23557,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53055" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51333" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

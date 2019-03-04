@@ -1,6 +1,6 @@
 .full-crowd {
   position: relative;
-  background-color: linear-gradient(90deg, $brand-color8 0%, $brand-color6 100%);
+  background-image: linear-gradient(to right, $brand-color8, $brand-color7);
 
   &:before,
   &:after {
@@ -16,12 +16,12 @@
   }
 
   &:before {
-    top: -6%;
+    top: -4vw;
     background-image: url('/static/img/full-crowd-top.svg');
   }
 
   &:after {
-    bottom: -10%;
+    bottom: -4vw;
     background-image: url('/static/img/full-crowd-bottom.svg');
     background-position: bottom left -10px;
     background-size: 70% auto;
@@ -30,6 +30,6 @@
   &-photo {
     display: block;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 94%;
   }
 }

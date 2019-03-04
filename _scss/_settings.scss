@@ -307,7 +307,7 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 2em;
+$button-padding: 0.85em 1.25em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $white;
@@ -663,12 +663,12 @@ $thumbnail-radius: 0;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: get-color(primary);
+$titlebar-background: $white;
 $titlebar-color: $black;
 $titlebar-padding: 0;
-$titlebar-text-font-weight: $global-weight-semibold;
-$titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-text-font-weight: $global-weight-normal;
+$titlebar-icon-color: $brand-color1;
+$titlebar-icon-color-hover: $brand-color2;
 $titlebar-icon-spacing: 0.25rem;
 
 // 36. Tooltip

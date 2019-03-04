@@ -2863,7 +2863,7 @@ h3 {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 0.85em 2em;
+  padding: 0.85em 1.25em;
   border: 1px solid transparent;
   border-radius: 30px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
@@ -3216,7 +3216,7 @@ h3 {
   top: 0.4em;
   display: inline-block;
   float: right;
-  margin-left: 2em;
+  margin-left: 1.25em;
 }
 .button.dropdown.hollow::after, .button.dropdown.clear::after {
   border-top-color: #FFFFFF;
@@ -6321,7 +6321,7 @@ a.thumbnail image {
 
 .title-bar {
   padding: 0;
-  background: #0A51A4;
+  background: #FFFFFF;
   color: #1E1E1E;
 }
 .title-bar::before, .title-bar::after {
@@ -6348,7 +6348,7 @@ a.thumbnail image {
 .title-bar-title {
   display: inline-block;
   vertical-align: middle;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .has-tip {
@@ -8030,6 +8030,10 @@ blockquote cite {
   margin-bottom: 0;
 }
 
+.title-bar .menu > li > a {
+  font-weight: 600;
+}
+
 .title-bar .button.hollow {
   padding: 0.65rem 0.5rem;
   font-size: 0.85rem;
@@ -8052,6 +8056,10 @@ blockquote cite {
   text-align: left;
 }
 
+.title-bar {
+  border-bottom: 8px solid #F7B07C;
+}
+
 .headroom--top .menu .navbar-button,
 .navbar-button {
   text-align: center;
@@ -8066,19 +8074,11 @@ blockquote cite {
   color: #FFFFFF;
 }
 
-.logo {
+.title-bar .logo {
   display: block;
   margin: 10px 0 -20px 10px;
-  width: 147px;
-  height: 40px;
-}
-.logo svg {
-  max-width: 100%;
-  height: 100%;
-}
-
-.title-bar .logo {
-  width: 200px;
+  width: 160px;
+  height: auto;
 }
 .title-bar .menu > li > a {
   padding: 0.6rem;
@@ -8096,7 +8096,7 @@ blockquote cite {
 }
 .headroom,
 .headroom .hamburger {
-  height: 60px;
+  height: 80px;
 }
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
@@ -8108,11 +8108,6 @@ blockquote cite {
     position: static;
   }
 }
-@media screen and (max-width: 63.99875em) {
-  .logo path {
-    fill: #FFFFFF;
-  }
-}
 @media print, screen and (min-width: 64em) {
   .headroom {
     position: relative !important;
@@ -8120,6 +8115,7 @@ blockquote cite {
   }
 
   .title-bar {
+    border-bottom-width: 12px;
     background: #FFFFFF !important;
   }
   .title-bar .logo {
@@ -8133,18 +8129,19 @@ blockquote cite {
   }
 
   .title-bar-right {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
   }
 }
 @media screen and (min-width: 75em) {
-  .title-bar .logo {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    width: 280px;
-    height: 100%;
+  .title-bar {
+    padding-bottom: 0.5rem;
   }
   .title-bar .menu > li > a {
     padding: 1rem;
+  }
+  .title-bar .logo {
+    width: 220px;
+    height: 100%;
   }
 }
 .home-content {
@@ -8517,7 +8514,7 @@ blockquote cite {
 
 .full-crowd {
   position: relative;
-  background-color: linear-gradient(90deg, #F7B07C 0%, #D19FDD 100%);
+  background-image: linear-gradient(to right, #F7B07C, #FBAECD);
 }
 .full-crowd:before, .full-crowd:after {
   position: absolute;
@@ -8531,11 +8528,11 @@ blockquote cite {
   content: "";
 }
 .full-crowd:before {
-  top: -6%;
+  top: -4vw;
   background-image: url("full-crowd-top.ea70905e.svg");
 }
 .full-crowd:after {
-  bottom: -10%;
+  bottom: -4vw;
   background-image: url("full-crowd-bottom.fc721d0e.svg");
   background-position: bottom left -10px;
   background-size: 70% auto;
@@ -8543,15 +8540,17 @@ blockquote cite {
 .full-crowd-photo {
   display: block;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 94%;
 }
 
 .header {
+  margin: 0 auto;
   padding: 6rem 0 3rem;
-  background-image: url("sunrise.67d25221.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 1800px;
+  background-image: url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
+  background-position: bottom -2px right 20%, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80px 80px, cover;
 }
 .header h1 {
   color: #1E1E1E;
@@ -8563,6 +8562,13 @@ blockquote cite {
   .header .header-text {
     padding-top: 3.5rem;
   }
+}
+
+body.sunset .header {
+  background-image: url("boat.9412c0d4.svg"), url("sunset.1e862d79.svg");
+}
+body.sunset .header h1 {
+  color: #FFFFFF;
 }
 
 .photo-hero {
@@ -8638,7 +8644,7 @@ blockquote cite {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #FFFFFF;
+  background-color: #0A51A4;
 }
 
 .hamburger-box {
@@ -8656,7 +8662,7 @@ blockquote cite {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: #FFFFFF;
+  background-color: #0A51A4;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -8710,7 +8716,7 @@ blockquote cite {
 .hamburger-inner,
 .hamburger-inner:before,
 .hamburger-inner:after {
-  background-color: #FFFFFF;
+  background-color: #0A51A4;
 }
 
 .date-card {
