@@ -8543,14 +8543,18 @@ blockquote cite {
   max-width: 94%;
 }
 
+.home-content {
+  margin-top: -4px;
+}
+
 .header {
   margin: 0 auto;
   padding: 6rem 0 3rem;
   max-width: 1800px;
-  background-image: url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
-  background-position: bottom -2px right 20%, center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 80px 80px, cover;
+  background-image: url("sunrise.67d25221.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header h1 {
   color: #1E1E1E;
@@ -8565,12 +8569,24 @@ blockquote cite {
 }
 
 body.sunset .header {
-  background-image: url("boat.9412c0d4.svg"), url("sunset.1e862d79.svg");
+  background-image: url("sunset.1e862d79.svg");
 }
 body.sunset .header h1 {
   color: #FFFFFF;
 }
 
+@media print, screen and (min-width: 55.625em) {
+  .header {
+    background-image: url("birds-sunrise.85ed01c4.svg"), url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
+    background-position: top 40% right 24%, bottom -2px right 20%, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 200px 90px, 80px 80px, cover;
+  }
+
+  body.sunset .header {
+    background-image: url("birds-sunset.5f7d0724.svg"), url("boat.9412c0d4.svg"), url("sunset.1e862d79.svg");
+  }
+}
 .photo-hero {
   background-size: cover;
 }

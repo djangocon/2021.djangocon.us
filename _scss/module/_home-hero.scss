@@ -1,11 +1,15 @@
+.home-content {
+  margin-top: -4px;
+}
+
 .header {
   margin: 0 auto;
   padding: 6rem 0 3rem;
   max-width: 1800px;
-  background-image: url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
-  background-position: bottom -2px right 20%, center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 80px 80px, cover;
+  background-image: url('/static/img/sunrise.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   h1 {
     color: $body-font-color;
@@ -21,9 +25,22 @@
 }
 
 body.sunset .header {
-  background-image: url('/static/img/boat.svg'), url('/static/img/sunset.svg');
+  background-image: url('/static/img/sunset.svg');
 
   h1 {
     color: $white;
+  }
+}
+
+@include breakpoint(medium) {
+  .header {
+    background-image: url('/static/img/birds-sunrise.svg'), url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
+    background-position: top 40% right 24%, bottom -2px right 20%, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 200px 90px, 80px 80px, cover;
+  }
+
+  body.sunset .header {
+    background-image: url('/static/img/birds-sunset.svg'), url('/static/img/boat.svg'), url('/static/img/sunset.svg');
   }
 }
