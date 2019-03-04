@@ -8131,6 +8131,14 @@ blockquote cite {
   .title-bar-right {
     padding: 1rem 1rem 0;
   }
+
+  .title-bar .link-effect1 {
+    background-image: linear-gradient(to right bottom, #F37741, #703D76) !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }
 }
 @media screen and (min-width: 75em) {
   .title-bar {
@@ -8555,6 +8563,10 @@ blockquote cite {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header .header-text {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 .header h1 {
   color: #1E1E1E;
