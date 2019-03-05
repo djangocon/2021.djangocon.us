@@ -19,16 +19,29 @@ description: Information about buying tickets to DjangoCon US
       <a
         class="button"
         href="{{ site.ticket_link }}"
-        target="_blank">Join the Waiting List Now</a>
+        target="_blank">Buy Tickets Now</a>
+        {% comment %}
+        <a
+          class="button"
+          href="{{ site.ticket_link }}"
+          target="_blank">Join the Waiting List Now</a>
+        {% endcomment %}
     </div>
     <div class="show-for-medium column medium-5" aria-hidden="true">
       <div class="callout">
+        <h3>Don't Forget!</h3>
+          <ul>
+            <li>Early bird tickets on sale until they're gone</li>
+            <li>If your employer is paying, please use the corporate rate.</li>
+          </ul>
+        {% comment %}
         <h3>Tickets are nearly sold out!</h3>
         <ul>
           <li>Join the <a href="{{ site.ticket_link }}">waiting list</a> and we'll let you know if there's a cancellation. It happens!</li>
           <li>There might still be tutorials available.</li>
           <li>You can still register for sprints!</li>
         </ul>
+        {% endcomment %}
       </div>
     </div>
   </div>
@@ -116,6 +129,8 @@ description: Information about buying tickets to DjangoCon US
     </ul>
     <p>For all dates the cutoff is on or before 5:00 PM PDT per the time stamp on DEFNA’s servers.</p>
 
+    <p>DjangoCon US has sold out the past two years, so buy your ticket soon!</p>
+    
     <p>We hope to see you in San Diego!</p>
   </div>
 </div>
