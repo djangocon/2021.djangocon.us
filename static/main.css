@@ -2880,7 +2880,7 @@ h3 {
   outline: 0;
 }
 .button:hover, .button:focus {
-  background-color: #703D76;
+  background-color: #14679e;
   color: #FFFFFF;
 }
 .button.tiny {
@@ -8003,6 +8003,150 @@ blockquote cite {
   margin-left: 0.5em;
 }
 
+.button.theme-brand-color1 {
+  border-color: #073974;
+  background: transparent;
+  color: #0A51A4;
+}
+
+.button.theme-brand-color1:hover {
+  border-color: #042244;
+  background: #073974;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color2 {
+  border-color: #502c54;
+  background: transparent;
+  color: #703D76;
+}
+
+.button.theme-brand-color2:hover {
+  border-color: #301a33;
+  background: #502c54;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color3 {
+  border-color: #f05511;
+  background: transparent;
+  color: #F37741;
+}
+
+.button.theme-brand-color3:hover {
+  border-color: #c2430c;
+  background: #f05511;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color4 {
+  border-color: #06080d;
+  background: transparent;
+  color: #171D2F;
+}
+
+.button.theme-brand-color4:hover {
+  border-color: black;
+  background: #06080d;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color5 {
+  border-color: #824589;
+  background: transparent;
+  color: #A257AA;
+}
+
+.button.theme-brand-color5:hover {
+  border-color: #623467;
+  background: #824589;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color6 {
+  border-color: #bf79d0;
+  background: transparent;
+  color: #D19FDD;
+}
+
+.button.theme-brand-color6:hover {
+  border-color: #ad54c2;
+  background: #bf79d0;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color7 {
+  border-color: #f97daf;
+  background: transparent;
+  color: #FBAECD;
+}
+
+.button.theme-brand-color7:hover {
+  border-color: #f64d91;
+  background: #f97daf;
+  color: #FFFFFF;
+}
+
+.button.theme-brand-color8 {
+  border-color: #f4934c;
+  background: transparent;
+  color: #F7B07C;
+}
+
+.button.theme-brand-color8:hover {
+  border-color: #f1761c;
+  background: #f4934c;
+  color: #FFFFFF;
+}
+
+.button.theme-light-gray {
+  border-color: #dadfe3;
+  background: transparent;
+  color: #F7F8F9;
+}
+
+.button.theme-light-gray:hover {
+  border-color: #bdc5cd;
+  background: #dadfe3;
+  color: #FFFFFF;
+}
+
+.button.theme-medium-gray {
+  border-color: #d0d0d0;
+  background: transparent;
+  color: #E9E9E9;
+}
+
+.button.theme-medium-gray:hover {
+  border-color: #b6b6b6;
+  background: #d0d0d0;
+  color: #FFFFFF;
+}
+
+.button.theme-dark-gray {
+  border-color: #b1b1b1;
+  background: transparent;
+  color: #CACACA;
+}
+
+.button.theme-dark-gray:hover {
+  border-color: #979797;
+  background: #b1b1b1;
+  color: #FFFFFF;
+}
+
+.button.theme-black {
+  border-color: #050505;
+  background: transparent;
+  color: #1E1E1E;
+}
+
+.button.theme-black:hover {
+  border-color: black;
+  background: #050505;
+  color: #FFFFFF;
+}
+
 .event-page h1 {
   margin-bottom: 0.5rem;
 }
@@ -8552,7 +8696,7 @@ blockquote cite {
 }
 
 .home-content {
-  margin-top: -4px;
+  margin-top: -5px;
 }
 
 .header {
@@ -8589,7 +8733,7 @@ body.sunset .header h1 {
 @media print, screen and (min-width: 55.625em) {
   .header {
     background-image: url("birds-sunrise.85ed01c4.svg"), url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
-    background-position: top 40% right 24%, bottom -2px right 20%, bottom 30% center;
+    background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 200px 90px, 80px 80px, cover;
   }

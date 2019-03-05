@@ -9,3 +9,17 @@
     margin-left: 0.5em;
   }
 }
+
+@each $name, $color in $djangocon-palette {
+  .button.theme-#{$name} {
+    border-color: darken($color, 10%);
+    background: transparent;
+    color: $color;
+  }
+
+  .button.theme-#{$name}:hover {
+    border-color: darken($color, 20%);
+    background: darken($color, 10%);
+    color: $white;
+  }
+}
