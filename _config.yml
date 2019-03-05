@@ -2,7 +2,7 @@ title: DjangoCon US
 url: "https://2019.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2019 conference will take place in TBD
+  DjangoCon US 2019 conference will take place in San Diego
   from September 22-27, 2019!
 enforce_ssl: "2019.djangocon.us"
 relative_permalinks: false
