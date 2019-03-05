@@ -32,8 +32,8 @@ We are looking for original and interesting talks that can benefit the diverse i
 
 Here are some examples of what has been accepted over the last couple of years:
 
+* [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
 * [DjangoCon US 2017 Talks](https://2017.djangocon.us/talks/)
-* [DjangoCon US 2016 Talks](https://2016.djangocon.us/schedule/general-sessions/)
 
 ### Tutorials (October 14th)
 
