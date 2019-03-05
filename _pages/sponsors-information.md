@@ -26,7 +26,7 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 
 ### Diversity Sponsorships
 
-Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Financial Aid fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
+Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
 
 ### Other Sponsorship Opportunities
 

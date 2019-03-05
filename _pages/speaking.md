@@ -10,7 +10,7 @@ Our Call for Proposals is now closed and all decision notifications have been se
 
 ## Why speak at DjangoCon US?
 
-- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged apply for financial aid. Financial aid decision notifications have all been sent.)
+- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an opportunity grant. Opportunity grant decision notifications have all been sent.)
 - Professionally produced video of your talk published to our YouTube channel. (You may opt out of this.)
 - Professional photographer on hand to photograph your talk. (Also optional.)
 - Expose the Django community to new tools, practices, or ideas.
