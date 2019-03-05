@@ -9,9 +9,11 @@ description: |
     As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
 ---
 
+{% comment %}
 Our opportunity grant application is now closed and all decision notifications have been sent.
 
 If you have any questions, feel free to reach out to the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+{% endcomment %}
 
 <br>
 
@@ -23,9 +25,11 @@ Your organization can help increase diversity at DjangoCon US by contributing to
 
 ## Frequently Asked Questions
 
+{% comment %}
 ### When will I find out whether I've received an opportunity grant?
 
 You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+{% endcomment %}
 
 ### Do I need to be a speaker, first time attendee, or a member of an underrepresented group to receive an opportunity grant?
 
@@ -35,7 +39,7 @@ We try to allocate opportunity grants to a diverse set of attendees based on nee
 
 The opportunity grant is paid to the recipient at the conference or shortly after.
 
-### How will I receive my aid?
+### How will I receive my opportunity grant?
 
 The opportunity grant is paid to the recipient in the form of a check for US account holders. A bank transfer is used for non-US account holders. We typically use TransferWise for international payments, but have used other services for currencies they do not support.
 
