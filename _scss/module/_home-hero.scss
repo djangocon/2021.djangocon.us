@@ -5,9 +5,8 @@
 .header {
   margin: 0 auto;
   padding: 6rem 0 3rem;
-  max-width: 1800px;
   background-image: url('/static/img/sunrise.svg');
-  background-position: center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -40,7 +39,7 @@ body.sunset .header {
 @include breakpoint(medium) {
   .header {
     background-image: url('/static/img/birds-sunrise.svg'), url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
-    background-position: top 40% right 24%, bottom -2px right 20%, center;
+    background-position: top 40% right 24%, bottom -2px right 20%, bottom 30% center;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 200px 90px, 80px 80px, cover;
   }
