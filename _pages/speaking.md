@@ -6,11 +6,17 @@ permalink: /speaking/
 description: Information about submitting a proposal to speak at DjangoCon US
 ---
 
+Our [Call for Proposals (CFP)](https://www.papercall.io/djangocon-us-2017) is now open! Submit your talk or tutorial proposal by April 10 ([AoE](https://time.is/compare/0000_11_Apr_2017_in_Anywhere_on_Earth)), and encourage your friends and colleagues to do the same.
+
+Need help with your proposal? We’ve got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
+
+{% comment %}
 Our Call for Proposals is now closed and all decision notifications have been sent.
+{% endcomment %}
 
 ## Why Speak at DjangoCon US?
 
-- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an opportunity grant. Opportunity grant decision notifications have all been sent.)
+- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers are encouraged to apply for an opportunity grant. {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %})
 - Professionally produced video of your talk published to our YouTube channel. (You may opt out of this.)
 - Professional photographer on hand to photograph your talk. (Also optional.)
 - Expose the Django community to new tools, practices, or ideas.
