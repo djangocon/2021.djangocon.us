@@ -8732,6 +8732,7 @@ body.sunset .header h1 {
 
 @media print, screen and (min-width: 55.625em) {
   .header {
+    min-height: 25rem;
     background-image: url("birds-sunrise.85ed01c4.svg"), url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
     background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -9012,7 +9013,7 @@ body.sunset .header h1 {
 }
 
 .post-title {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .post-title a {

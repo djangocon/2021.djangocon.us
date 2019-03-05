@@ -38,6 +38,7 @@ body.sunset .header {
 
 @include breakpoint(medium) {
   .header {
+    min-height: 25rem;
     background-image: url('/static/img/birds-sunrise.svg'), url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
     background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
     background-repeat: no-repeat, no-repeat, no-repeat;
