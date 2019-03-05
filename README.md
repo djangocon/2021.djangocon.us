@@ -93,7 +93,7 @@ $ npm run build
 # Builds production-ready assets
 ```
 
-If you are working locally use `build-dev` instead to get source maps.
+If you are working locally use `npm run watch-fe-dev` instead to get source maps.
 
 #### Run Jekyll
 
