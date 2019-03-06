@@ -65,6 +65,10 @@ layout: base
 
 
 <div class="presenters section-pad theme-light-gray">
+  <div class="row">
+    <div class="column small-12"><h2>Presenters</h2></div>
+  </div>
+
   {% for presenter in page.presenters %}
   <div class="row profile wide presenter">
     <div class="column medium-4">
@@ -77,7 +81,7 @@ layout: base
     </div>
 
     <div class="column medium-8">
-      <h3>
+      <h3 class="profile-name">
         {{ presenter.name }}
         {% if presenter.pronouns != blank %}
           ({{ presenter.pronouns }})
