@@ -21,7 +21,7 @@ layout: base
 
 <div class="content subpage-content">
   <div class="row">
-    <div class="column medium-8" markdown="1">
+    <div class="column medium-10" markdown="1">
       {% if page.lead %}
       <div class="lead">
         {{ page.lead }}
@@ -58,49 +58,65 @@ layout: base
       <h2 style="text-transform:capitalize;">About This {{ page.category | capitalize }}</h2>
       {{ content }}
     </div>
-    <div class="column medium-4">
-      {% for presenter in page.presenters %}
-        <div class="profile">
-          {% if presenter.photo_url != blank %}
-          <img
-            class="thumbnail"
-            src="{{ presenter.photo_url }}"
-            alt="Photo of {{ presenter.presenters }}" />
-          {% endif %}
-          <h4>
-            {{ presenter.name }}
-            {% if presenter.pronouns != blank %}
-              ({{ presenter.pronouns }})
-            {% endif %}
-          </h4>
-          {% if presenter.bio != blank %}
-            {{ presenter.bio | markdownify }}
-          {% endif %}
-          <ul class="social-icons">
-            {% if presenter.twitter != blank %}
-            <li>
-              <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
-                <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
-              </a>
-            </li>
-            {% endif %}
-            {% if presenter.github != blank %}
-            <li>
-              <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
-                <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
-              </a>
-              </li>
-            {% endif %}
-            {% if presenter.website != blank %}
-            <li>
-              <a class="web" href="{{ presenter.website }}" target="_blank">
-                <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
-              </a>
-            </li>
-            {% endif %}
-          </ul>
-        </div><!--/.profile -->
-      {% endfor %}
-    </div><!-- end .column -->
+
   </div><!-- end .row -->
+
+
+
+
+<div class="presenters section-pad theme-light-gray">
+  {% for presenter in page.presenters %}
+  <div class="row profile wide presenter">
+    <div class="column medium-4">
+      {% if presenter.photo_url != blank %}
+        <img
+          class="thumbnail"
+          src="{{ presenter.photo_url }}"
+          alt="Photo of {{ presenter.presenters }}" />
+      {% endif %}
+    </div>
+
+    <div class="column medium-8">
+      <h3>
+        {{ presenter.name }}
+        {% if presenter.pronouns != blank %}
+          ({{ presenter.pronouns }})
+        {% endif %}
+      </h3>
+
+      {% if presenter.twitter or presenter.github or presenter.website %}
+        <ul class="social-icons">
+          {% if presenter.twitter != blank %}
+          <li>
+            <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
+              <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if presenter.github != blank %}
+          <li>
+            <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
+              <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+            </a>
+            </li>
+          {% endif %}
+          {% if presenter.website != blank %}
+          <li>
+            <a class="web" href="{{ presenter.website }}" target="_blank">
+              <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+      {% if presenter.bio != blank %}
+        {{ presenter.bio | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
 </div><!-- end .content -->

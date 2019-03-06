@@ -8367,7 +8367,8 @@ blockquote cite {
 
 .subpage-header h1 {
   position: relative;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 70rem;
 }
 
 .subpage-header h1:after {
@@ -8453,6 +8454,7 @@ blockquote cite {
   font-size: 1.3461538462rem;
 }
 
+.session-details-page .subpage-content,
 .schedule-page .subpage-content {
   padding-bottom: 0;
 }
@@ -8989,19 +8991,47 @@ body.sunset .header h1 {
   text-align: center;
 }
 
+.presenters {
+  margin-top: 2rem;
+}
+
+.presenters .profile {
+  margin-bottom: 3rem;
+}
+.presenters .profile:last-child {
+  margin-bottom: 0;
+}
+
 .profile {
   margin: 0 auto;
   padding: 20px;
   max-width: 360px;
 }
 
+.profile.wide {
+  padding: 0;
+  max-width: 57.6923076923rem;
+}
+
 .profile-name {
-  font-size: 1.1538461538rem;
+  font-size: 1.4423076923rem;
 }
 
 .profile p {
   font-size: 0.9rem;
-  line-height: 1.35;
+  line-height: 1.5;
+}
+.profile p:last-child {
+  margin-bottom: 0;
+}
+
+.profile .social-icons a {
+  color: #0A51A4;
+}
+.profile .social-icons a svg {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
 }
 
 .post-item {
@@ -9337,11 +9367,6 @@ body.sunset .header h1 {
   width: 42px;
   height: 42px;
   fill: #FFFFFF;
-}
-.profile .social-icons a svg {
-  width: 32px;
-  height: 32px;
-  fill: #703D76;
 }
 .social-icons a:hover svg {
   fill: #0A51A4;
