@@ -82,7 +82,7 @@ defaults:
 # Our DjangoCon US settings...
 conduct_email: "conduct@djangocon.us"
 contact_us_email: "hello@djangocon.us"
-opportunity_grants_email: "opportunitygrants@djangocon.us"
+opportunity_grants_email: "grants@djangocon.us"
 program_team_email: "program@djangocon.us"
 sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
