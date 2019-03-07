@@ -40,6 +40,7 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 * Make text as large as possible, at least 68pt.
 * Choose fonts with adequate spacing between letters, and avoid thin or cursive fonts.
 * Leave the bottom ⅓ of your slides free of text to ensure nothing is obscured.
+* If your talk requires live coding or using the terminal, make sure your editor or terminal settings are legible. Dark text on a light background (high contrast) with a large font is best.
 * Avoid or limit flashing videos or animated gifs, as these may have negative effects for people with seizure disorders, migraines, or ADD/ADHD.
 * Images, memes, and GIFs should be appropriate for a professional audience.
 * Your talk should lose nothing if the slides aren’t visible. Generally describe graphs, images, and other information for the audience.
