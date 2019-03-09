@@ -2,12 +2,17 @@
   position: relative;
   padding: 6rem 0 4rem;
   text-align: center;
+
+  &.no-bottom {
+    padding-bottom: 0;
+  }
 }
 
 .subpage-header h1 {
   position: relative;
   margin: 0 auto 2rem;
-  max-width: 70rem;
+  padding: 0 1rem;
+  max-width: 60rem;
 }
 
 .subpage-header h1:after {

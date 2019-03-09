@@ -1,0 +1,16 @@
+.post-page {
+  h2:not(:first-child),
+  h3 {
+    margin-top: $global-margin * 2;
+  }
+
+  h2,
+  h3 {
+    font-weight: $global-weight-semibold;
+  }
+
+  img.full-width {
+    margin-left: -2rem;
+    max-width: calc(100% + 4rem);
+  }
+}

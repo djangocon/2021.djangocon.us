@@ -8,6 +8,7 @@ enforce_ssl: "2019.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
 timezone: America/Chicago
+conf_year: 2019
 
 include:
   - _pages

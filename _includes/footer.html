@@ -1,7 +1,10 @@
 <footer class="footer" role="contentinfo">
 
-  <a class="footer-logo" href="{{ site.url }}">
-    {% include logo.svg.html %}
+  <a
+    class="footer-logo"
+    href="{{ site.url }}" aria-hidden="true">
+    <img src="{{ "/static/img/submark.svg" | relative_url }}"
+    alt="DjangoCon {{ site.conf_year }} | San Diego" />
   </a>
 
   <div class="row column">

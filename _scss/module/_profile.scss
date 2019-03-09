@@ -2,6 +2,13 @@
   margin: 0 auto;
   padding: 20px;
   max-width: 360px;
+
+  font-size: .9rem;
+  line-height: 1.5;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .profile.wide {
@@ -12,15 +19,6 @@
 .profile-name {
   font-size: rem-calc(30);
   font-weight: $global-weight-semibold;
-}
-
-.profile p {
-  font-size: .9rem;
-  line-height: 1.5;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
 }
 
 .profile .social-icons a {

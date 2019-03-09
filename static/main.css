@@ -2673,7 +2673,7 @@ kbd {
 }
 
 .lead {
-  font-size: 1.4rem;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -7900,6 +7900,11 @@ li {
   margin-bottom: 2.5rem;
   font-weight: 400;
 }
+@media print, screen and (min-width: 55.625em) {
+  .lead {
+    font-size: 1.4rem;
+  }
+}
 
 .lead.stripes {
   margin-bottom: 3.5rem;
@@ -8256,7 +8261,7 @@ blockquote cite {
 @media print, screen and (min-width: 64em) {
   .headroom {
     position: relative !important;
-    height: auto;
+    height: 120px;
   }
 
   .title-bar {
@@ -8300,6 +8305,19 @@ blockquote cite {
 .home-content {
   position: relative;
   z-index: 2;
+}
+
+.post-page h2:not(:first-child),
+.post-page h3 {
+  margin-top: 2rem;
+}
+.post-page h2,
+.post-page h3 {
+  font-weight: 600;
+}
+.post-page img.full-width {
+  margin-left: -2rem;
+  max-width: calc(100% + 4rem);
 }
 
 .video-card .label {
@@ -8364,11 +8382,15 @@ blockquote cite {
   padding: 6rem 0 4rem;
   text-align: center;
 }
+.subpage-header.no-bottom {
+  padding-bottom: 0;
+}
 
 .subpage-header h1 {
   position: relative;
   margin: 0 auto 2rem;
-  max-width: 70rem;
+  padding: 0 1rem;
+  max-width: 60rem;
 }
 
 .subpage-header h1:after {
@@ -8413,7 +8435,7 @@ blockquote cite {
   z-index: 2;
   display: block;
   margin: 0 auto 1.5em;
-  width: 240px;
+  width: 140px;
 }
 .footer-logo svg {
   max-width: 100%;
@@ -8457,6 +8479,10 @@ blockquote cite {
 .session-details-page .subpage-content,
 .schedule-page .subpage-content {
   padding-bottom: 0;
+}
+
+.session-details-page .responsive-embed + .event-links {
+  margin-top: 2rem;
 }
 
 /* This styles code blocks used for examples. */
@@ -8606,16 +8632,16 @@ blockquote cite {
   }
 }
 
+.event-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
 .event-links-heading {
   margin-right: 1em;
-  width: 100%;
   font-size: 1.3461538462rem;
   color: #1E1E1E;
-}
-@media print, screen and (min-width: 55.625em) {
-  .event-links-heading {
-    width: auto;
-  }
 }
 
 .event-link-icon {
@@ -8623,7 +8649,7 @@ blockquote cite {
 }
 
 .event-link-icon path {
-  fill: #FFFFFF;
+  fill: currentColor;
 }
 
 .event-link {
@@ -8631,27 +8657,10 @@ blockquote cite {
   justify-content: center;
   align-items: center;
   padding: 0.75em 1.75em;
-  width: 48%;
 }
 
 .event-link-icon {
   margin-right: 0.5em;
-}
-
-.event-links {
-  display: flex;
-  flex-flow: row wrap;
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 32.75em) {
-  .event-links {
-    justify-content: center;
-    align-items: center;
-  }
-  .event-links .event-links-heading,
-.event-links .event-link {
-    width: auto;
-  }
 }
 
 .faq-item {
@@ -8711,18 +8720,15 @@ blockquote cite {
   background-size: cover;
 }
 .header .header-text {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 .header h1 {
   color: #1E1E1E;
 }
 @media print, screen and (min-width: 64em) {
   .header {
-    padding-top: 2rem;
-  }
-  .header .header-text {
-    padding-top: 3.5rem;
+    padding-top: 3rem;
   }
 }
 
@@ -8732,18 +8738,30 @@ body.sunset .header {
 body.sunset .header h1 {
   color: #FFFFFF;
 }
+body.sunset .footer {
+  background: #A72A3D;
+}
 
 @media print, screen and (min-width: 55.625em) {
   .header {
-    min-height: 25rem;
     background-image: url("birds-sunrise.85ed01c4.svg"), url("boat.9412c0d4.svg"), url("sunrise.67d25221.svg");
-    background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
+    background-position: top 40% right 24%, bottom -1px right 10%, bottom 30% center;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 200px 90px, 80px 80px, cover;
+    background-size: 200px 90px, 110px 110px, cover;
+  }
+
+  .header .header-text {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   body.sunset .header {
     background-image: url("birds-sunset.5f7d0724.svg"), url("boat.9412c0d4.svg"), url("sunset.1e862d79.svg");
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .header {
+    background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
   }
 }
 .photo-hero {
@@ -9006,6 +9024,11 @@ body.sunset .header h1 {
   margin: 0 auto;
   padding: 20px;
   max-width: 360px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.profile:last-child {
+  margin-bottom: 0;
 }
 
 .profile.wide {
@@ -9016,14 +9039,6 @@ body.sunset .header h1 {
 .profile-name {
   font-size: 1.4423076923rem;
   font-weight: 600;
-}
-
-.profile p {
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-.profile p:last-child {
-  margin-bottom: 0;
 }
 
 .profile .social-icons a {
@@ -9042,10 +9057,6 @@ body.sunset .header h1 {
 }
 .post-item > *:last-child {
   margin-bottom: 0;
-}
-
-.post-title {
-  font-weight: 600;
 }
 
 .post-title a {
@@ -9137,10 +9148,6 @@ body.sunset .header h1 {
 .event .event-content > *:last-child {
   margin-bottom: 0;
 }
-.event .event-byline {
-  margin-top: auto;
-  padding-top: 2rem;
-}
 .event .label {
   align-self: center;
 }
@@ -9194,6 +9201,14 @@ body.sunset .header h1 {
 .event.loc-alt-2,
 .event.loc-alt-3 {
   padding: 1.75rem 1rem 1rem;
+}
+
+.event-byline {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.event-byline + .event-byline {
+  margin-top: 0.5rem;
 }
 
 @media print, screen and (min-width: 55.625em) {

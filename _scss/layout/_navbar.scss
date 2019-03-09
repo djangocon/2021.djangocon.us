@@ -119,7 +119,7 @@
 @include breakpoint(large) {
   .headroom {
     position: relative !important;
-    height: auto;
+    height: 120px;
   }
 
   .title-bar {

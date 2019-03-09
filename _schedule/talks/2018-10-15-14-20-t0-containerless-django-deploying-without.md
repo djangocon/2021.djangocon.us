@@ -31,12 +31,12 @@ presenters:
   website: https://lincolnloop.com/team/peter-baumgartner/
 published: true
 room: 'Salon A-E'
-sitemap: false
+sitemap: true
 slides_url: 'https://speakerdeck.com/ipmb/containerless-django'
 summary: ''
 title: 'Containerless Django: Deploying without Docker'
 track: t0
-video_url: ''
+video_url: 'https://youtu.be/Jzf8gTLN1To'
 ---
 
 Docker or more generally, containers, are great for lots of use cases, but they don't come for free. Container runtimes, network virtualization, orchestration platforms, and registries are all added to the stack. Like all software, they bring their own bugs and operational burden with them. For most Django sites, containers are a heavyweight solution to a lightweight problem.

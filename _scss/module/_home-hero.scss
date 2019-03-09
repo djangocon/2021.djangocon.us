@@ -11,8 +11,8 @@
   background-size: cover;
 
   .header-text {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   h1 {
@@ -20,32 +20,54 @@
   }
 
   @include breakpoint(large) {
-    padding-top: 2rem;
-
-    .header-text {
-      padding-top: 3.5rem;
-    }
+    padding-top: 3rem;
   }
 }
 
-body.sunset .header {
-  background-image: url('/static/img/sunset.svg');
+body.sunset {
+  .header {
+    background-image: url('/static/img/sunset.svg');
 
-  h1 {
-    color: $white;
+    h1 {
+      color: $white;
+    }
+  }
+
+  .footer {
+    background: #A72A3D;
   }
 }
 
 @include breakpoint(medium) {
   .header {
-    min-height: 25rem;
-    background-image: url('/static/img/birds-sunrise.svg'), url('/static/img/boat.svg'), url('/static/img/sunrise.svg');
-    background-position: top 40% right 24%, bottom -1px right 20%, bottom 30% center;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 200px 90px, 80px 80px, cover;
+    background-image: url('/static/img/birds-sunrise.svg'),
+      url('/static/img/boat.svg'),
+      url('/static/img/sunrise.svg');
+    background-position: top 40% right 24%,
+      bottom -1px right 10%,
+      bottom 30% center;
+    background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+    background-size: 200px 90px,
+      110px 110px,
+      cover;
+  }
+
+  .header .header-text {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   body.sunset .header {
     background-image: url('/static/img/birds-sunset.svg'), url('/static/img/boat.svg'), url('/static/img/sunset.svg');
+  }
+}
+
+@include breakpoint(large) {
+  .header {
+    background-position: top 40% right 24%,
+      bottom -1px right 20%,
+      bottom 30% center;
   }
 }
