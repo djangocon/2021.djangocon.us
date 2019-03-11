@@ -8,7 +8,7 @@ description: Become a Sponsor
 
 ## What Is DjangoCon US?
 
-This October, more than 500 people from the Django community will descend upon San Diego for six days of tutorials, talks, and code sprints. There is no better place to recruit Django developers than at DjangoCon US!
+This September, more than 500 people from the Django community will descend upon San Diego for six days of tutorials, talks, and code sprints. There is no better place to recruit Django developers than at DjangoCon US!
 
 Sponsoring DjangoCon US can help you:
 
@@ -18,7 +18,11 @@ Sponsoring DjangoCon US can help you:
 
 Because the conference is organized by [DEFNA](https://www.defna.org/), a non-profit 501(c)(3) organization, your sponsorship is tax-deductible!
 
+{% comment %}
 **Sponsorship is closed for this year**. Want to know more about sponsorship for 2019?
+{% endcomment %}
+
+Want to know more about sponsorship? 
 
 <a href="mailto:{{site.sponsors_email}}" class="button">Contact us today</a>
 
@@ -26,7 +30,7 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 
 ### Diversity Sponsorships
 
-Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Financial Aid fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
+Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
 
 ### Other Sponsorship Opportunities
 
@@ -53,7 +57,7 @@ The following a la carte offerings are available to increase visibility on site.
 | Logo on tote bags                                                                  | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | 1 push notification to attendees during conference                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
 
-#### <del>Lanyard $2,000 (Limit 1)</del> SOLD!
+#### <del>Lanyard $2,500 (Limit 1)</del> SOLD!
 
 Lanyard sponsors enjoy having their logo visible to all attendees during the conference on the lanyards for the badges in which they’re sponsoring.
 
@@ -74,7 +78,11 @@ Interested in another sponsorship opportunity? Get in touch and we’ll do our b
 
 ## Interested in Sponsoring?
 
-Sponsorship is closed for this year. But we're recruiting for DjangoCon US 2019! <strong><a href="mailto:{{site.sponsors_email}}">Send us an email!</a></strong> We're here to help make the process of becoming a sponsor as easy as we can!
+{% comment %}
+Sponsorship is closed for this year. But we're recruiting for DjangoCon US 2019! <strong><a href="mailto:{{site.sponsors_email}}
+{% endcomment %}
+
+<strong><a href="mailto:{{site.sponsors_email}}">Send us an email!</a></strong> We're here to help make the process of becoming a sponsor as easy as we can!
 
 {% comment %}
 #### Booth info

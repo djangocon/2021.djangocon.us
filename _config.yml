@@ -2,7 +2,7 @@ title: DjangoCon US
 url: "https://2019.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2019 conference will take place in TBD
+  DjangoCon US 2019 conference will take place in San Diego
   from September 22-27, 2019!
 enforce_ssl: "2019.djangocon.us"
 relative_permalinks: false
@@ -83,14 +83,14 @@ defaults:
 # Our DjangoCon US settings...
 conduct_email: "conduct@djangocon.us"
 contact_us_email: "hello@djangocon.us"
-financial_aid_email: "financialaid@djangocon.us"
+opportunity_grants_email: "grants@djangocon.us"
 program_team_email: "program@djangocon.us"
 sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
 # sponsorship_prospectus: "https://drive.google.com/file/d/1gPE-iGJVJjglf-1o5wVV_qnfVgVt6Gb-/view"
-# financial_aid_application: "https://docs.google.com/forms/d/e/1FAIpQLSfqOQJNXDSftszH5Ar_LQT6Y0IcvuRUaXTC9ERS6h6PTKsvHg/viewform"
+# opportunity_grant_application: "https://docs.google.com/forms/d/e/1FAIpQLSfqOQJNXDSftszH5Ar_LQT6Y0IcvuRUaXTC9ERS6h6PTKsvHg/viewform"
 # cfp_application: "https://www.papercall.io/djangocon-us-2019"
 # hotel_reservation_link: "http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DjangoCon%20US%202019%5Esanmv%60djcdjca%60169.00%60USD%60false%604%6010/13/18%6010/20/18%609/13/18&app=resvlink&stop_mobi=yes"
 # ticket_link: "https://ti.to/defna/djangocon-us-2019"

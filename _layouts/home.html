@@ -7,14 +7,12 @@ layout: base
     <div class="column small-12 medium-7 header-text">
       <h1>Six days of talks, sprints, and tutorials in San Diego</h1>
 
-      <a href="{{ site.ticket_link }}" class="button">Buy Tickets</a>
-      <a href="#" class="button">Submit Talk</a>
+      <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
+      {% comment %}<a href="{{ site.cfp_application }}" class="button">Submit Talk</a>{% endcomment %}
 
-      {% comment %}
       <a
         class="button"
-        href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
-      {% endcomment %}
+        href="http://eepurl.com/bpvu2f">Join Mailing List</a>
     </div>
   </div>
 </header>
@@ -51,7 +49,7 @@ layout: base
         <div class="small-5 column">
           <div class="dates">
             <div class="month">Sept</div>
-            <div class="days">15</div>
+            <div class="days">22</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -65,7 +63,7 @@ layout: base
         <div class="small-5 column">
           <div class="dates">
             <div class="month">Sept</div>
-            <div class="days">17-18</div>
+            <div class="days">23-25</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -79,7 +77,7 @@ layout: base
         <div class="small-5 column">
           <div class="dates">
             <div class="month">Sept</div>
-            <div class="days">19-20</div>
+            <div class="days">26-27</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -104,8 +102,8 @@ layout: base
           class="card-icon"
           />
         <div class="card-section">
-          <h3 class="card-title">State of Django</h3>
-          <p>We're presenting a panel on the State of Django: the codebase and the community. Join us on Wednesday afternoon to hear from Django contributors, the Django Software Foundation, Django Girls, and DEFNA.</p>
+          <h3 class="card-title">Sponsors!</h3>
+          <p>We can't put on DjangoCon US without you. Go ahead and <strong><a href="mailto:{{site.sponsors_email}}">drop us a line</a></strong> so we can talk to you about how we can make it easy for you to sponsor us.</p>
         </div>
       </div>
     </div>
@@ -117,8 +115,12 @@ layout: base
           class="card-icon"
           />
         <div class="card-section">
+            <h3 class="card-title">Submit a Proposal</h3>
+            <p>Get more out of your DjangoCon US experience by presenting! Our CFP will open soon and in the meantime, check our <strong><a href="/speaking/">speaking</a></strong> page for more information.</p>
+          {% comment %}
           <h3 class="card-title">Tutorials & Talks</h3>
           <p>Our program is <a href="/schedule">live</a>! There's something for everyone, from APIs to Zappa and everything in between. Take a peek at our keynotes and start planning which talks you'll attend!</p>
+          {% endcomment %}
         </div>
       </div>
     </div>

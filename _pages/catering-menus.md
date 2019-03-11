@@ -17,7 +17,7 @@ description: |
 
 ----
 
-## Tutorials: Sunday, October 14 - Lunch
+## Tutorials: Sunday, September 22 - Lunch
 
 ### Farmers Market-Herb Garlic Roasted Chicken Lunch Buffet
 
@@ -41,7 +41,7 @@ description: |
 
 ----
 
-## Talks: Monday, October 15 - Lunch
+## Talks: Monday, September 23 - Lunch
 
 ### Tuscany Lunch Buffet
 
@@ -67,7 +67,7 @@ description: |
 
 ----
 
-## Talks: Tuesday, October 16 - Lunch
+## Talks: Tuesday, September 24 - Lunch
 
 ### South of the Border Lunch Buffet
 
@@ -93,7 +93,7 @@ Same menu as above.
 
 ----
 
-## Talks: Wednesday, October 17 - Lunch
+## Talks: Wednesday, September 25 - Lunch
 
 ### Farmers Market-Herb Garlic Roasted Chicken Lunch Buffet
 
@@ -117,7 +117,7 @@ Same menu as above.
 
 ----
 
-## Sprints: Thursday, October 18 - Friday, October 19 - Lunch
+## Sprints: Thursday, September 26 - Friday, September 27 - Lunch
 
 ### Deli Buffet
 
