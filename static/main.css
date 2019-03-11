@@ -8307,19 +8307,6 @@ blockquote cite {
   z-index: 2;
 }
 
-.post-page h2:not(:first-child),
-.post-page h3 {
-  margin-top: 2rem;
-}
-.post-page h2,
-.post-page h3 {
-  font-weight: 600;
-}
-.post-page img.full-width {
-  margin-left: -2rem;
-  max-width: calc(100% + 4rem);
-}
-
 .video-card .label {
   float: right;
   margin-right: 10px;
@@ -9007,17 +8994,6 @@ body.sunset .footer {
 
 .card-title {
   text-align: center;
-}
-
-.presenters {
-  margin-top: 2rem;
-}
-
-.presenters .profile {
-  margin-bottom: 3rem;
-}
-.presenters .profile:last-child {
-  margin-bottom: 0;
 }
 
 .profile {
