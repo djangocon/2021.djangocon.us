@@ -7354,6 +7354,41 @@ a.thumbnail image {
   }
 }
 
+.theme-white {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+.theme-white a,
+.theme-white a:hover {
+  color: #FFFFFF;
+}
+.theme-white .theme-color {
+  color: #FFFFFF;
+}
+
+.tint-white {
+  position: relative;
+}
+@media print, screen and (min-width: 55.625em) {
+  .tint-white, .tint-white blockquote, .tint-white blockquote p, .tint-white cite {
+    color: #FFFFFF;
+  }
+  .tint-white a,
+.tint-white a:hover {
+    color: #FFFFFF;
+  }
+  .tint-white:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #cccccc;
+    content: "";
+    opacity: 0.8;
+  }
+}
+
 .theme-light-gray {
   background-color: #F7F8F9;
 }
@@ -7716,6 +7751,37 @@ a.thumbnail image {
 }
 .card-theme-brand-color8 path {
   fill: #F7B07C;
+}
+
+.swatch-color-white {
+  color: #FFFFFF;
+}
+
+.card-theme-white {
+  border: none;
+  border-top: 8px solid #FFFFFF;
+}
+.card-theme-white h1,
+.card-theme-white h2,
+.card-theme-white h3,
+.card-theme-white h4,
+.card-theme-white h5,
+.card-theme-white h6,
+.card-theme-white a {
+  color: #FFFFFF;
+}
+.card-theme-white a:hover {
+  color: #b3b3b3;
+}
+.card-theme-white .theme-color {
+  color: #FFFFFF;
+}
+.card-theme-white .theme-bg {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+.card-theme-white path {
+  fill: #FFFFFF;
 }
 
 .swatch-color-light-gray {
@@ -8105,6 +8171,18 @@ blockquote cite {
   color: #FFFFFF;
 }
 
+.button.theme-white {
+  border-color: #e6e6e6;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.button.theme-white:hover {
+  border-color: #cccccc;
+  background: #e6e6e6;
+  color: #FFFFFF;
+}
+
 .button.theme-light-gray {
   border-color: #dadfe3;
   background: transparent;
@@ -8307,6 +8385,19 @@ blockquote cite {
   z-index: 2;
 }
 
+.post-page h2:not(:first-child),
+.post-page h3 {
+  margin-top: 2rem;
+}
+.post-page h2,
+.post-page h3 {
+  font-weight: 600;
+}
+.post-page img.full-width {
+  margin-left: -2rem;
+  max-width: calc(100% + 4rem);
+}
+
 .video-card .label {
   float: right;
   margin-right: 10px;
@@ -8473,16 +8564,16 @@ blockquote cite {
 }
 
 /* This styles code blocks used for examples. */
-.ss-code {
+.highlight {
   background: #F7F8F9;
 }
 
-.ss-code,
+.highlight,
 .ss-code-live {
   margin-bottom: 1.5rem;
 }
 
-.ss-code code {
+.highlight code {
   display: block;
   padding: 1rem;
   font-size: 0.7em;
@@ -8556,6 +8647,7 @@ blockquote cite {
 
 .styleguide-content {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .attraction-name {
@@ -8994,6 +9086,17 @@ body.sunset .footer {
 
 .card-title {
   text-align: center;
+}
+
+.presenters {
+  margin-top: 2rem;
+}
+
+.presenters .profile {
+  margin-bottom: 3rem;
+}
+.presenters .profile:last-child {
+  margin-bottom: 0;
 }
 
 .profile {

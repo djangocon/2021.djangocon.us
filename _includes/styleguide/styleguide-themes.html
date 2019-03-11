@@ -1,0 +1,44 @@
+<h1>Themed page sections</h1>
+<p>Themes can be applied to page sections using the color palette provided in the
+  <code>_settings.scss</code> file. Elements with the <code>theme-[color]</code> class applied will
+  be styled with the appropriate background color, and default colors will be
+  applied to the text within.</p>
+
+
+  {% highlight html %}{% include styleguide/themes-example1.html %}{% endhighlight %}
+
+
+<div class="ss-code-live">
+  {% include styleguide/themes-example1.html %}
+</div>
+
+<hr>
+
+<h1>Card themes</h1>
+<p>The following pattern can be used with an icon or without. Themes may be applied
+  to individual cards with the named colors listed in <code>_settings.scss</code> using the
+  class name pattern here: <code>&lt;div class=&quot;card card-theme-brand-color1&quot;&gt;</code>. SVG icons in these
+  tiles will inherit the color of the card theme if there is no <code>fill</code> specified
+  in the SVG file itself.</p>
+
+  {% highlight html %}{% include styleguide/themes-example2.html %}{% endhighlight %}
+
+<div class="ss-code-live">
+  {% include styleguide/themes-example2.html %}
+</div>
+
+
+<hr>
+
+
+<h2>Right and Left options.</h2>
+<p>In addition, cards have additional modifier classes for when the icon should be
+  displayed to the left or right. This CSS pattern uses flexbox with a float-based
+  fallback. To enable this option, add <code>.icon-right</code> or <code>.icon-left</code> to the <code>.card</code>
+  element.</p>
+
+  {% highlight html %}{% include styleguide/themes-example3.html %}{% endhighlight %}
+
+  <div class="ss-code-live">
+    {% include styleguide/themes-example3.html %}
+  </div>

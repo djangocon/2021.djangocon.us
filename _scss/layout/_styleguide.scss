@@ -1,14 +1,14 @@
 /* This styles code blocks used for examples. */
-.ss-code {
+.highlight {
   background: $light-gray;
 }
 
-.ss-code,
+.highlight,
 .ss-code-live {
   margin-bottom: 1.5rem;
 }
 
-.ss-code code {
+.highlight code {
   display: block;
   padding: 1rem;
   font-size: 0.7em;
@@ -82,4 +82,5 @@
 
 .styleguide-content {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
