@@ -8799,8 +8799,8 @@ blockquote cite {
   background-size: cover;
 }
 .header .header-text {
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 .header h1 {
   color: #1E1E1E;
@@ -8830,8 +8830,8 @@ body.sunset .footer {
   }
 
   .header .header-text {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
   body.sunset .header {
