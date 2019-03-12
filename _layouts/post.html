@@ -1,9 +1,8 @@
 ---
 layout: base
-image: /static/img/social/facebook-cover.jpg
 ---
 
-<header class="subpage-header">
+<header class="subpage-header{% if page.post_photo_url %} has-post-photo{% endif %}">
   <time class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
@@ -11,6 +10,14 @@ image: /static/img/social/facebook-cover.jpg
 <div class="content subpage-content">
   <div class="row">
     <div class="column medium-10 medium-centered large-9 large-centered">
+
+      {% if page.post_photo_url %}
+        <img
+          src="{{ page.post_photo_url }}"
+          alt="{{ page.post_photo_alt }}"
+          class="post-photo" />
+      {% endif %}
+
     {{ content }}
     </div>
   </div>

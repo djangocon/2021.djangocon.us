@@ -8398,6 +8398,24 @@ blockquote cite {
   max-width: calc(100% + 4rem);
 }
 
+.subpage-header.has-post-photo {
+  padding-bottom: 2rem;
+}
+
+.post-photo {
+  display: block;
+}
+.post-photo:first-child {
+  margin-bottom: 2rem;
+}
+
+@media print, screen and (min-width: 55.625em) {
+  .post-photo {
+    margin-left: -3rem;
+    width: calc(100% + 6rem);
+    max-width: none;
+  }
+}
 .video-card .label {
   float: right;
   margin-right: 10px;
@@ -8457,7 +8475,7 @@ blockquote cite {
 
 .subpage-header {
   position: relative;
-  padding: 6rem 0 4rem;
+  padding: 4rem 0;
   text-align: center;
 }
 .subpage-header.no-bottom {

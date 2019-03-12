@@ -14,3 +14,23 @@
     max-width: calc(100% + 4rem);
   }
 }
+
+.subpage-header.has-post-photo {
+  padding-bottom: 2rem;
+}
+
+.post-photo {
+  display: block;
+
+  &:first-child {
+    margin-bottom: $global-margin * 2;
+  }
+}
+
+@include breakpoint(medium) {
+  .post-photo {
+    margin-left: -3rem;
+    width: calc(100% + 6rem);
+    max-width: none;
+  }
+}
