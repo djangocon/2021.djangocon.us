@@ -3,14 +3,14 @@
   {% if post.room == 'full' %}
     <li>
       <article class="row hour-row">
-        <div class="column medium-1">
+        <div class="column medium-2">
           <time class="time">{{ post.date | date: "%l:%M %P" }}
-            {% if post.end_date %}
+            {% if post.end_date %}&ndash;
               <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
             {% endif %}
           </time>
         </div>
-        <div class="column medium-11">
+        <div class="column medium-10">
           <ul class="events">
             {% include schedule-session-full.html %}
           </ul>
@@ -23,14 +23,14 @@
   	{% if slot == 'begin' %}
       <li>
         <article class="row hour-row">
-          <div class="column medium-1">
+          <div class="column medium-2">
             <time class="time">{{ post.date | date: "%l:%M %P" }}
-              {% if post.end_date %}
+              {% if post.end_date %}&ndash;
                 <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
               {% endif %}
             </time>
           </div>
-          <div class="column medium-11">
+          <div class="column medium-10">
               <ul class="events">
   	{% endif %}
 

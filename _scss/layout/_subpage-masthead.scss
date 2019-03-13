@@ -1,6 +1,6 @@
 .subpage-header {
   position: relative;
-  padding: 4rem 0;
+  padding: 6rem 0 2rem;
   text-align: center;
 
   &.no-bottom {
@@ -28,4 +28,10 @@
 
 .subpage-header a {
   text-decoration: none;
+}
+
+@include breakpoint(medium) {
+  .subpage-header {
+    padding-top: 4rem;
+  }
 }

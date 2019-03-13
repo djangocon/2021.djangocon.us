@@ -105,6 +105,10 @@
   }
 }
 
+.drilldown .is-drilldown-submenu {
+  background: $brand-color1; // Fix overlap issue
+}
+
 // tightening drop-down arrows on navigaiton parent elements
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
   padding-right: 1.1rem;

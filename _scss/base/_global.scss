@@ -18,7 +18,7 @@ li {
   font-weight: $global-weight-normal;
 
   @include breakpoint(medium) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -39,7 +39,16 @@ li {
 }
 
 .demp {
-  font-weight: 600;
+  font-weight: $global-weight-semibold;
+}
+
+.label {
+  font-weight: $global-weight-semibold;
+}
+
+hr {
+  margin-top: $global-margin * 2;
+  margin-bottom: $global-margin * 2;
 }
 
 // For patching headers

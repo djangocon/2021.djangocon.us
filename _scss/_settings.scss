@@ -386,7 +386,7 @@ $drilldown-transition: transform 0.15s linear;
 $drilldown-arrows: true;
 $drilldown-arrow-color: $medium-gray;
 $drilldown-arrow-size: 6px;
-$drilldown-background: get-color(primary);
+$drilldown-background: $brand-color1;
 
 // 17. Dropdown
 // ------------
@@ -457,11 +457,11 @@ $form-button-radius: $global-radius;
 // 20. Label
 // ---------
 
-$label-background: get-color(primary);
+$label-background: $brand-color5;
 $label-color: $white;
 $label-color-alt: $black;
 $label-palette: $foundation-palette;
-$label-font-size: 0.8rem;
+$label-font-size: 0.9rem;
 $label-padding: 0.3333em 0.5em;
 $label-radius: 4px;
 
