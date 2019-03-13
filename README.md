@@ -21,7 +21,7 @@ Get started contributing by reading our [Contributing](CONTRIBUTING.md) guidelin
 
 3. For changes that do not need to be tested locally, the change can be made and submitted in the browser.
 
-4. Within your forked repo, make sure the "Branch" tab is set to the `master` branch.
+4. Within your forked repo, make sure the "Branch" tab is set to the `develop` branch.
 
 5. Once you are on the correct branch, navigate to the file you intend to change and click the pencil icon to open it. Make the change and click the "Commit changes" button.
 
@@ -53,7 +53,7 @@ Change directory into the folder
 $ cd 2019.djangocon.us
 ```
 
-Verify that you are on the master branch
+Verify that you are on the develop branch
 
 ```bash
 $ git branch
@@ -110,17 +110,17 @@ $ bundle exec rake test
 
 #### Pushing to GitHub and Submitting a Pull Request
 
-After you have made your changes, you will need to push the local files with the changes back to GitHub in order to submit a pull request. Assuming you are still on the "master" branch, you will be pushing your changes from the local "master" branch to the "master" branch of the forked repo at your GitHub account.
+After you have made your changes, you will need to push the local files with the changes back to GitHub in order to submit a pull request. Assuming you are still on the `develop` branch, you will be pushing your changes from the local `develop` branch to the `develop` branch of the forked repo at your GitHub account.
 
 ```bash
 $ git add .
 $ git commit -m "Your note"
-$ git push origin master
+$ git push origin develop
 ```
 
 You will then resume the process at step 6 to submit a pull request.
 
-If you plan to continue working locally and submitting pull requests, you may want to add an upstream remote locally that points to the DjangoCon US repo, in order to fetch changes. You may also want to consider creating a feature branch (also known as a "topic" branch), making your changes there (instead of in the master branch), pushing to GitHub and submitting the update via pull request. You can then keep your master branch up-to-date while working on multiple features.
+If you plan to continue working locally and submitting pull requests, you may want to add an upstream remote locally that points to the DjangoCon US repo, in order to fetch changes. You may also want to consider creating a feature branch (also known as a "topic" branch), making your changes there (instead of in the develop branch), pushing to GitHub and submitting the update via pull request. You can then keep your develop branch up-to-date while working on multiple features.
 
 ### Adding Contributors
 
