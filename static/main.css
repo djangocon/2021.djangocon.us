@@ -9445,6 +9445,60 @@ body.sunset .footer {
   }
 }
 
+.speaker-template {
+  position: relative;
+  max-width: 1200px;
+  text-align: right;
+  color: #0A51A4;
+}
+.speaker-template-name, .speaker-template-photo, .speaker-template-session-title {
+  position: absolute;
+  z-index: 1;
+}
+.speaker-template-name {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  font-family: "Lilita One", cursive;
+  font-size: 88px;
+  letter-spacing: 2px;
+}
+.speaker-template-session-title {
+  position: absolute;
+  top: 280px;
+  right: 40px;
+  max-width: 540px;
+  font-size: 52px;
+  font-weight: 600;
+}
+.speaker-template-photo {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  display: block;
+  width: 520px;
+  height: 520px;
+  background: rgba(249, 167, 167, 0.3);
+}
+.speaker-template-photo, .speaker-template-photo:after,
+.speaker-template-photo img {
+  border-radius: 100%;
+}
+.speaker-template-photo img, .speaker-template-photo:after {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: block;
+  width: 90%;
+  height: 90%;
+}
+.speaker-template-photo:after {
+  z-index: 2;
+  display: block;
+  background: linear-gradient(to left top, rgba(249, 167, 167, 0.3), rgba(252, 208, 119, 0.3));
+  content: "";
+}
+
 .partner {
   margin-bottom: 2rem;
 }
