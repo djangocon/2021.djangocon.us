@@ -10,17 +10,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  .header-text {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
-
   h1 {
     color: $body-font-color;
   }
 
+  @include breakpoint(720px) {
+    .header-text {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    h1 {
+      max-width: 27rem;
+    }
+  }
+
   @include breakpoint(large) {
     padding-top: 3rem;
+    min-height: 20rem;
   }
 }
 

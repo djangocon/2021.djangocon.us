@@ -8834,16 +8834,22 @@ blockquote cite {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header .header-text {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
 .header h1 {
   color: #1E1E1E;
+}
+@media screen and (min-width: 45em) {
+  .header .header-text {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .header h1 {
+    max-width: 27rem;
+  }
 }
 @media print, screen and (min-width: 64em) {
   .header {
     padding-top: 3rem;
+    min-height: 20rem;
   }
 }
 
