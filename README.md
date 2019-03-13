@@ -53,7 +53,7 @@ Change directory into the folder
 $ cd 2019.djangocon.us
 ```
 
-Verify that you are on the develop branch
+Verify that you are on the `develop` branch
 
 ```bash
 $ git branch
