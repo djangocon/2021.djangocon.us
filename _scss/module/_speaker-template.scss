@@ -1,0 +1,65 @@
+.speaker-template {
+  position: relative;
+  max-width: 1200px;
+
+  text-align: right;
+  color: $brand-color1;
+
+  &-name,
+  &-photo,
+  &-session-title {
+    position: absolute;
+    z-index: 1;
+  }
+
+  &-name {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    font-family: 'Lilita One', cursive;
+    font-size: 88px;
+    font-weight: normal;
+  }
+
+  &-session-title {
+    position: absolute;
+    top: 280px;
+    right: 40px;
+    max-width: 540px;
+    font-size: 52px;
+    font-weight: $global-weight-semibold;
+  }
+
+  &-photo {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    display: block;
+    width: 520px;
+    height: 520px;
+    background: rgba(#F9A7A7, .3);
+
+    &,
+    &:after,
+    img {
+      border-radius: 100%;
+    }
+
+    img,
+    &:after {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      display: block;
+      width: 90%;
+      height: 90%;
+    }
+
+    &:after {
+      z-index: 2;
+      display: block;
+      background: linear-gradient(to left top, rgba(#F9A7A7, .3), rgba(#FCD077, .3));
+      content: "";
+    }
+  }
+}

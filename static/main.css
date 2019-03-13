@@ -9461,7 +9461,7 @@ body.sunset .footer {
   right: 40px;
   font-family: "Lilita One", cursive;
   font-size: 88px;
-  letter-spacing: 2px;
+  font-weight: normal;
 }
 .speaker-template-session-title {
   position: absolute;
