@@ -4,7 +4,7 @@ title: Opportunity Grants
 heading: Opportunity Grants
 permalink: /opportunity-grants/
 redirect_from:
-  - /about/opportunity-grants/
+  - /financial-aid/
 description: |
     As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
 ---
