@@ -63,7 +63,7 @@ Follow the instructions below to run the website on a local server. GitHub recom
 
 #### Install Jekyll
 
-You might need to use ```$ sudo gem install jekyll bundler```
+You might need to use ```$ sudo gem install jekyll bundler foreman```
 
 ```bash
 $ gem install jekyll bundler
@@ -93,7 +93,7 @@ $ npm run build
 # Builds production-ready assets
 ```
 
-If you are working locally use `build-dev` instead to get source maps.
+If you are working locally use `npm run watch-fe-dev` instead to get source maps.
 
 #### Run Jekyll
 

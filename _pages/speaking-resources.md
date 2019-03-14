@@ -11,6 +11,7 @@ description: Resources to support DjangoCon 2018 speakers
 * Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
 * The Quiet Room will be in <strong>Santa Fe 3</strong> on all conference days.
 
+{% comment %}
 ## Need some help with your presentation?
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
@@ -26,7 +27,6 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 * [Portia Burton](mailto:plburton@gmail.com), Python programmer who really digs blockchain.
 * [Dr. Russell Keith-Magee](mailto:russell@keith-magee.com), 11 year veteran of the Django core team, former President of the Django Software Foundation, founder of the BeeWare project, developing GUI tools to support the development of Python software. When he’s not contributing to open source, he does freelance web development from his home in Perth, Western Australia.
 * [Sebastian Vetter](mailto:seb@roadsi.de), Vancouver Python Organizer, Senior Engineer @ Eventbase, Conference Enthusiast.
-{% comment %}
 * [Aisha Bello](mailto:aishabello2050@gmail.com), DjangoGirls Lagos organizer, a Python community enthusiastic with a lot of passion for women tech education in Africa.
 * [Kojo Idrissa](mailto:kojo.idrissa@gmail.com), DjangoCon US organizer, Code Newbie, author.
 {% endcomment %}
@@ -40,6 +40,7 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 * Make text as large as possible, at least 68pt.
 * Choose fonts with adequate spacing between letters, and avoid thin or cursive fonts.
 * Leave the bottom ⅓ of your slides free of text to ensure nothing is obscured.
+* If your talk requires live coding or using the terminal, make sure your editor or terminal settings are legible. Dark text on a light background (high contrast) with a large font is best.
 * Avoid or limit flashing videos or animated gifs, as these may have negative effects for people with seizure disorders, migraines, or ADD/ADHD.
 * Images, memes, and GIFs should be appropriate for a professional audience.
 * Your talk should lose nothing if the slides aren’t visible. Generally describe graphs, images, and other information for the audience.

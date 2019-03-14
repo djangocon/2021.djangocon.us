@@ -4,39 +4,43 @@ layout: base
 
 <header class="header">
   <div class="row">
-    <div class="column small-12 medium-6 header-text">
+    <div class="column small-12 medium-7 header-text">
       <h1>Six days of talks, sprints, and tutorials in San Diego</h1>
 
-      <div class="row home-eventinfo">
-        <span class="column medium-5 large-4 subheading datesyear">
-          <strong>September 22-27</strong>
-          <span class="datesyear-year">2019</span>
-        </span>
+      <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
+      {% comment %}<a href="{{ site.cfp_application }}" class="button">Submit Talk</a>{% endcomment %}
 
-        <span class="column medium-7 large-8 subheading location">
-          San Diego Marriott of Mission Valley in
-          <strong>San Diego, California</strong>
-        </span>
-      </div>
-      <br />
-      <div class="row">
-        <div class="medium-8 column medium-centered text-center">
-          <a class="button hollow theme-willow" href="http://eepurl.com/bpvu2f">Subscribe to our mailing list</a>
-        </div>
-      </div>
-
-    </div>
-    <div class="column small-12 medium-6 text-center">
-      <img
-        data-interchange="[{{ "/static/img/beach-small.svg" | relative_url }}, small], [{{ "/static/img/beach.svg" | relative_url }}, medium]"
-        alt="A beach scene featuring a crab and umbrella."
-        class="header-img" width="380" />
+      <a
+        class="button"
+        href="http://eepurl.com/bpvu2f">Join Mailing List</a>
     </div>
   </div>
 </header>
 
+
+
 <div class="home-content">
-<section class="section-pad theme-light-gray">
+<div class="section-pad theme-brand-color1">
+  <div class="row column">
+    <div class="event-info">
+      <img
+        src="{{ "/static/img/marker.svg" | relative_url }}"
+        alt="A location marker"
+        width="80"
+        />
+
+      <div class="event-info-detail">
+        <strong class="event-info-date">Sept 22-27</strong>
+        <span class="subheading event-info-location">
+          San Diego Marriott of Mission Valley in
+          <strong>San Diego, California</strong>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="section-pad theme-brand-color2">
   <div class="row column xlarge-9">
     <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon US is easy for you!</p>
 
@@ -44,8 +48,8 @@ layout: base
       <a href="/tutorials"><div class="row collapse">
         <div class="small-5 column">
           <div class="dates">
-            <div class="month">September</div>
-            <div class="days">15</div>
+            <div class="month">Sept</div>
+            <div class="days">22</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -58,8 +62,8 @@ layout: base
       <a href="/talks"><div class="row collapse">
         <div class="small-5 column">
           <div class="dates">
-            <div class="month">September</div>
-            <div class="days">17-18</div>
+            <div class="month">Sept</div>
+            <div class="days">23-25</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -72,8 +76,8 @@ layout: base
       <a href="/sprints"><div class="row collapse">
         <div class="small-5 column">
           <div class="dates">
-            <div class="month">September</div>
-            <div class="days">19-20</div>
+            <div class="month">Sept</div>
+            <div class="days">26-27</div>
           </div>
         </div></a>
         <div class="small-7 column">
@@ -85,40 +89,43 @@ layout: base
   </div>
 </section>
 
-<section class="section-pad theme-shakespeare">
+<section class="section-pad theme-brand-color6">
   <div class="row column v-pad-bottom text-center">
     <h2 class="contrast-fix">A conference with heart</h2>
   </div>
   <div class="row card-row">
     <div class="medium-4 column">
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color1">
         <img
           src="{{ "/static/img/hands.svg" | relative_url }}"
           alt="Two hands interlocked"
           class="card-icon"
           />
         <div class="card-section">
-          <h3 class="card-title">State of Django</h3>
-          <p>We're presenting a panel on the State of Django: the codebase and the community. Join us on Wednesday afternoon to hear from Django contributors, the Django Software Foundation, Django Girls, and DEFNA.</p>
+          <h3 class="card-title">Sponsors!</h3>
+          <p>We can't put on DjangoCon US without you. Go ahead and <strong><a href="mailto:{{site.sponsors_email}}">drop us a line</a></strong> so we can talk to you about how we can make it easy for you to sponsor us.</p>
         </div>
       </div>
     </div>
     <div class="medium-4 column">
-      {% comment %} TODO: Contrast {% endcomment %}
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color5">
         <img
           src="{{ "/static/img/program.svg" | relative_url }}"
           alt="A megaphone producing a loud sound"
           class="card-icon"
           />
         <div class="card-section">
+            <h3 class="card-title">Submit a Proposal</h3>
+            <p>Get more out of your DjangoCon US experience by presenting! Our CFP will open soon and in the meantime, check our <strong><a href="/speaking/">speaking</a></strong> page for more information.</p>
+          {% comment %}
           <h3 class="card-title">Tutorials & Talks</h3>
           <p>Our program is <a href="/schedule">live</a>! There's something for everyone, from APIs to Zappa and everything in between. Take a peek at our keynotes and start planning which talks you'll attend!</p>
+          {% endcomment %}
         </div>
       </div>
     </div>
     <div class="medium-4 column">
-      <div class="card card-theme-eminence">
+      <div class="card card-theme-brand-color2">
         <img
           src="{{ "/static/img/heart.svg" | relative_url }}"
           alt="A heart"
@@ -142,7 +149,7 @@ layout: base
     {% for post in site.posts limit:12 %}
       {% unless post.hidden %}
       <article class="news-title medium-4 column">
-        <div class="card {% if post.category == "Sponsorship" %}card-theme-violetred{% else %}card-theme-orchid{% endif %}">
+        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
           <div class="card-section">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h3>
@@ -157,11 +164,18 @@ layout: base
 
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
-      <a class="button hollow theme-willow" href="/news/">Read More News</a>
+      <a class="button" href="/news/">Read More News</a>
     </div>
   </div>
 </section>
 
 {% include sponsor-footer.html %}
+
+<div class="full-crowd">
+  <img
+    data-interchange="[{{ "/static/img/full-crowd-mobile.jpg" | relative_url }}, small], [{{ "/static/img/full-crowd.jpg" | relative_url }}, medium]"
+    alt="The crowd of DjangoCon 2018 attendees"
+    class="full-crowd-photo" />
+</div>
 
 </div><!-- end .content -->

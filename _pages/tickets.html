@@ -14,20 +14,34 @@ description: Information about buying tickets to DjangoCon US
   <div class="row" id="welcome">
     <div class="column small-12 medium-6">
       <h2>What ticket should I buy?</h2>
-      <p>Most people should buy an <strong>Individual</strong> ticket. If your company is paying, they shoud use the <strong>Corporate</strong> rate (or the <strong>Concierge</strong> rate for more flexibility; see below). For those who can't afford the Individual ticket, a <strong>discounted</strong> ticket is available; see below. And for those who want to go above and beyond and support our mission, check out the <strong>Patron</strong> ticket.</p>
+      <p>Most people should buy an <strong>Individual</strong> ticket. If your company is paying, they should use the <strong>Corporate</strong> rate (or the <strong>Concierge</strong> rate for more flexibility; see below). For those who can't afford the Individual ticket, a <strong>discounted</strong> ticket is available; see below. And for those who want to go above and beyond and support our mission, check out the <strong>Patron</strong> ticket.</p>
 
       <a
-        class="button hollow theme-willow"
-        href="{{ site.ticket_link }}" target="_blank">Join the Waiting List Now</a>
+        class="button"
+        href="{{ site.ticket_link }}"
+        target="_blank">Buy Tickets Now</a>
+        {% comment %}
+        <a
+          class="button"
+          href="{{ site.ticket_link }}"
+          target="_blank">Join the Waiting List Now</a>
+        {% endcomment %}
     </div>
     <div class="show-for-medium column medium-5" aria-hidden="true">
       <div class="callout">
+        <h3>Don't Forget!</h3>
+          <ul>
+            <li>Early bird tickets on sale until they're gone</li>
+            <li>If your employer is paying, please use the corporate rate.</li>
+          </ul>
+        {% comment %}
         <h3>Tickets are nearly sold out!</h3>
         <ul>
           <li>Join the <a href="{{ site.ticket_link }}">waiting list</a> and we'll let you know if there's a cancellation. It happens!</li>
           <li>There might still be tutorials available.</li>
           <li>You can still register for sprints!</li>
         </ul>
+        {% endcomment %}
       </div>
     </div>
   </div>
@@ -94,7 +108,7 @@ description: Information about buying tickets to DjangoCon US
 
     <p><strong>Individual:</strong> Companies with 5 or fewer employees, or those purchasing their own ticket without any help from their employer.</p>
     <p><strong>Corporate:</strong> Companies with more than 5 employees. State or government institutions and non-profit organizations should use the corporate rate if they are able.</p>
-    <p><strong>Patron:</strong> Every year, particularly generous attendees ask how they can pay extra for their ticket to help us expand our mission. This year, we're introducing this ticket type just for you. The cost difference will be put toward conference expenses that increase access to the conference, such as the financial aid fund and video captioning. Ticket holders of this type will also be invited to a special "thank you" event at the conference.</p>
+    <p><strong>Patron:</strong> Every year, particularly generous attendees ask how they can pay extra for their ticket to help us expand our mission. This year, we're introducing this ticket type just for you. The cost difference will be put toward conference expenses that increase access to the conference, such as the Opportunity Grant Fund and video captioning. Ticket holders of this type will also be invited to a special "thank you" event at the conference.</p>
     <p><strong>Corporate Concierge Service:</strong> Companies who want to purchase several tickets in advance, but decide who will be attending the conference at a later date, or companies who cannot pay by credit card. We'll send you a registration code your employees can use to register when you're ready. We will also send you a paper invoice for record-keeping if you need.</p>
     <p><strong>Discounted:</strong> If you’re unemployed, on a lower income, or would benefit from a lower-priced ticket for another reason. <strong>If your company is paying for your ticket, you are not eligible for this ticket type.</strong></p>
     <p><strong>Tutorials:</strong> They are a separate cost from your conference ticket. You can register for a tutorial without registering for the conference itself.</p>
@@ -115,6 +129,8 @@ description: Information about buying tickets to DjangoCon US
     </ul>
     <p>For all dates the cutoff is on or before 5:00 PM PDT per the time stamp on DEFNA’s servers.</p>
 
+    <p>DjangoCon US sold out last year, so buy your ticket soon!</p>
+    
     <p>We hope to see you in San Diego!</p>
   </div>
 </div>

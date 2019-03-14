@@ -1,0 +1,11 @@
+.presenters {
+  margin-top: $global-margin * 2;
+}
+
+.presenters .profile {
+  margin-bottom: $global-margin * 3;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

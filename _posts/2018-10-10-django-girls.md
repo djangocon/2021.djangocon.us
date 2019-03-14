@@ -3,7 +3,7 @@ author: Rachell Calhoun and Jessica Deaton
 category: General
 date: 2018-10-10 23:00:00
 layout: post
-image: /static/img/blog/django-girls.png 
+image: /static/img/blog/django-girls.png
 title: "Meet Django Girls"
 ---
 

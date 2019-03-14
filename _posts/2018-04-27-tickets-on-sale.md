@@ -97,7 +97,7 @@ For all dates the cutoff is on or before 5:00 PM PDT per the timestamp on DEFNAâ
 <div class="row column">
     <div class="medium-5 medium-centered column">
         <div class="button-group expanded">
-            <a class="button hollow theme-shakespeare" href="{{ site.ticket_link }}">Buy Your Ticket!</a>
+            <a class="button hollow" href="{{ site.ticket_link }}">Buy Your Ticket!</a>
         </div>
     </div>
 </div>

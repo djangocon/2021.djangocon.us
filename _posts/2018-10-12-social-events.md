@@ -5,6 +5,8 @@ date: 2018-10-12 06:50:00
 layout: post
 image: /static/img/blog/social-events.png
 title: "Social Events at DjangoCon US"
+post_photo_url: '/static/img/about-mobile.jpg'
+post_photo_alt: ''
 ---
 DjangoCon US has a variety of opportunities to socialize with attendees, speakers, organizers, and sponsors.
 

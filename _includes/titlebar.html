@@ -1,11 +1,11 @@
 <nav class="title-bar headroom headroom--top">
   <div class="title-bar-left">
       <a class="logo" href="/">
-        {% include logo.svg.html %}
+        <img src="{{ "/static/img/logo.svg" | relative_url }}" alt="DjangoCon {{ site.conf_year }} | San Diego" />
       </a>
   </div>
   <div class="title-bar-right">
-    <ul class="dropdown menu quiet show-for-large" data-dropdown-menu>
+    <ul class="dropdown menu show-for-large" data-dropdown-menu>
       {% include nav.html %}
     </ul>
     <button

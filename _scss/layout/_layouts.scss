@@ -5,6 +5,13 @@
   font-size: rem-calc(28);
 }
 
+.session-details-page .subpage-content ,
 .schedule-page .subpage-content {
   padding-bottom: 0;
+}
+
+.session-details-page {
+  .responsive-embed + .event-links {
+    margin-top: $global-margin * 2;
+  }
 }

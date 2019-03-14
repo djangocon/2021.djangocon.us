@@ -44,7 +44,7 @@ description: |
     </a>
     <p class="medium-text-center">
       <a
-        class="button hollow theme-violetred"
+        class="button"
         href="https://www.google.com/maps?ll=32.7751394,-117.139956&z=16&t=m&hl=en-US&gl=US&mapclient=embed&q=8757+Rio+San+Diego+Dr,+San+Diego,+CA+92108" target="_blank">View Larger Map</a>
     </p>
   </div>
@@ -62,22 +62,24 @@ description: |
     </div>
     <div class="medium-6 column">
       <h2>Staying at the San Diego Marriott Mission Valley</h2>
-      <p class="lead min">Our group rate of $169/night expired on September&nbsp;13!</p>
-
+      <p class="lead min">Our group rate of <strong>$179/night</strong> expires on September&nbsp;13, so don't wait to book your room!</p>
       <ul class="list-split">
         <li>Free Wi-Fi</li>
         <li>Room for hallway hacking</li>
         <li>Short trip to downtown</li>
         <li>Heated outdoor pool</li>
       </ul>
+      {% comment %}
       <p>Our room block is almost completely sold out. If you need assistance with your existing reservation, please contact Grace, our Marriott representative, at (619) 209-6697.</p>
+      {% endcomment %}
       <p>
-        <a href="{{ site.hotel_reservation_link }}" class="button hollow theme-shakespeare">Book a Room</a>
+        <a href="{{ site.hotel_reservation_link }}" class="button">Book a Room</a>
       </p>
     </div>
   </div>
 </section>
 
+{% comment %}
 <section class="section-pad theme-medium-gray" id="hotel">
   <div class="row column">
 
@@ -102,6 +104,7 @@ description: |
     </div>
   </div>
 </section>
+{% endcomment %}
 
 <div class="section-pad theme-light-gray" id="places">
   <div class="row column v-pad-bottom">
@@ -171,7 +174,7 @@ description: |
           <li>Service animals are welcome, and there is a grassy area to the left of the hotel where they can be walked.</li>
           <li>The Quiet Room is Santa Fe 3 on all conference days. This room is not for socializing.</li>
           <li><a href="http://www.aasandiego.org/">Attend a recovery meeting</a>. There are many recovery meetings near the conference hotel, <a href="https://www.google.com/maps/d/u/0/viewer?mid=1r2z9yZ5RPpGGhdOry7cHbwjZomA&ll=32.77259901952868%2C-117.14099820202603&z=14">which can be seen on a map here</a>. These include traditional AA meetings, LBGTQ community meetings, secular meetings, and more. If you need more information or want to carpool to meetings, please contact <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>. Anonymity will be maintained.</li>
-          <li><a href="/news/childcare-update/">Sponsored childcare</a> will be provided.</li>
+          <li>{% comment %}<a href="/news/childcare-update/">Sponsored childcare</a>{% endcomment %} Sponsored childcare will be provided.</li>
         </ul>
       </div>
     </div>

@@ -1,6 +1,6 @@
 // Hamburger menu options. The source is pulled in from a bower
 // component. Docs: https://github.com/jonsuh/hamburgers;
-$hamburger-layer-color: $body-background;
+$hamburger-layer-color: $brand-color1;
 $hamburger-layer-width: 30px;
 $hamburger-layer-height: 2px;
 $hamburger-types: (spin);
@@ -14,5 +14,5 @@ $hamburger-types: (spin);
 .hamburger-inner,
 .hamburger-inner:before,
 .hamburger-inner:after {
-  background-color: $white;
+  background-color: $brand-color1;
 }

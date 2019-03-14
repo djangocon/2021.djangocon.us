@@ -1,12 +1,18 @@
 .subpage-header {
   position: relative;
-  padding: 6rem 0 4rem;
+  padding: 6rem 0 2rem;
   text-align: center;
+
+  &.no-bottom {
+    padding-bottom: 0;
+  }
 }
 
 .subpage-header h1 {
   position: relative;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  max-width: 60rem;
 }
 
 .subpage-header h1:after {
@@ -16,10 +22,16 @@
   display: block;
   width: 3rem;
   height: 4px;
-  background: $sienna;
+  background: $brand-color2;
   content: "";
 }
 
 .subpage-header a {
   text-decoration: none;
+}
+
+@include breakpoint(medium) {
+  .subpage-header {
+    padding-top: 4rem;
+  }
 }

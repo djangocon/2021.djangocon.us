@@ -21,86 +21,96 @@ layout: base
 
 <div class="content subpage-content">
   <div class="row">
-    <div class="column medium-8" markdown="1">
-      {% if page.lead %}
-      <div class="lead">
-        {{ page.lead }}
-      </div>
-      {% endif %}
-
-      {% if page.video_url != blank or page.slides_url != blank %}
-      <section class="event-links">
-        <h2 class="event-links-heading">Resources</h2>
-          {% if page.video_url != blank %}
-          <a
-            href="{{ page.video_url }}"
-            class="event-link button secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon theme-white" viewBox="0 0 100 100"><title>Video</title><path d="M9 20v44h82V20zm34 10l20 12-20 12zM26 70c-2.046 0-3.788 1.24-4.563 3H13a2 2 0 1 0 0 4h8.438c.774 1.76 2.516 3 4.562 3 2.046 0 3.788-1.24 4.563-3H87a2 2 0 1 0 0-4H30.562c-.774-1.76-2.516-3-4.562-3z" overflow="visible"/></svg>
-            Video
-          </a>
-          {% endif %}
-          {% if page.slides_url != blank %}
-          <a
-            href="{{ page.slides_url }}"
-            class="event-link button secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon theme-white" viewBox="0 0 100 100"><title>Slideshow</title><path fill-rule="evenodd" d="M48.006 6v8.395H12v60.968h34.395l-15.03 15.03 3.422 3.42 15.996-15.997L66.78 93.813l3.42-3.42-15.028-15.03H88.85V14.395H52.845V6h-4.84zM26.232 31.888H58.07v-4.355H26.232v4.355zm0 10h45.483v-4.354H26.232v4.355zm0 10h12.275v-4.355H26.232v4.354zm0 10h30.645V57.53H26.232v4.355z"/></svg>
-            Slides
-          </a>
-          {% endif %}
-      </section>
-      {% endif %}
-
+    <div class="column medium-10 medium-centered" markdown="1">
       {% if page.video_url != blank %}
         {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
         {% include youtube-embed.html id=youtube_id %}
       {% endif %}
 
+      {% if page.video_url != blank or page.slides_url != blank %}
+      <section class="event-links">
+        {% if page.video_url != blank %}
+        <a
+          href="{{ page.video_url }}"
+          class="event-link button theme-brand-color5">
+          <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Video</title><path d="M9 20v44h82V20zm34 10l20 12-20 12zM26 70c-2.046 0-3.788 1.24-4.563 3H13a2 2 0 1 0 0 4h8.438c.774 1.76 2.516 3 4.562 3 2.046 0 3.788-1.24 4.563-3H87a2 2 0 1 0 0-4H30.562c-.774-1.76-2.516-3-4.562-3z" overflow="visible"/></svg>
+          Video
+        </a>
+        {% endif %}
+        {% if page.slides_url != blank %}
+        <a
+          href="{{ page.slides_url }}"
+          class="event-link button theme-brand-color5">
+          <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Slideshow</title><path fill-rule="evenodd" d="M48.006 6v8.395H12v60.968h34.395l-15.03 15.03 3.422 3.42 15.996-15.997L66.78 93.813l3.42-3.42-15.028-15.03H88.85V14.395H52.845V6h-4.84zM26.232 31.888H58.07v-4.355H26.232v4.355zm0 10h45.483v-4.354H26.232v4.355zm0 10h12.275v-4.355H26.232v4.354zm0 10h30.645V57.53H26.232v4.355z"/></svg>
+          Slides
+        </a>
+        {% endif %}
+      </section>
+      {% endif %}
+
+
       <h2 style="text-transform:capitalize;">About This {{ page.category | capitalize }}</h2>
       {{ content }}
     </div>
-    <div class="column medium-4">
-      {% for presenter in page.presenters %}
-        <div class="profile">
-          {% if presenter.photo_url != blank %}
-          <img
-            class="thumbnail"
-            src="{{ presenter.photo_url }}"
-            alt="Photo of {{ presenter.presenters }}" />
-          {% endif %}
-          <h4>
-            {{ presenter.name }}
-            {% if presenter.pronouns != blank %}
-              ({{ presenter.pronouns }})
-            {% endif %}
-          </h4>
-          {% if presenter.bio != blank %}
-            {{ presenter.bio | markdownify }}
-          {% endif %}
-          <ul class="social-icons">
-            {% if presenter.twitter != blank %}
-            <li>
-              <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
-                <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
-              </a>
-            </li>
-            {% endif %}
-            {% if presenter.github != blank %}
-            <li>
-              <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
-                <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
-              </a>
-              </li>
-            {% endif %}
-            {% if presenter.website != blank %}
-            <li>
-              <a class="web" href="{{ presenter.website }}" target="_blank">
-                <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
-              </a>
-            </li>
-            {% endif %}
-          </ul>
-        </div><!--/.profile -->
-      {% endfor %}
-    </div><!-- end .column -->
   </div><!-- end .row -->
+
+<div class="presenters section-pad theme-light-gray">
+  <div class="row">
+    <div class="column medium-10 medium-offset-1"><h2>Presenters</h2></div>
+  </div>
+
+  {% for presenter in page.presenters %}
+  <div class="row profile wide presenter">
+    <div class="column medium-4 medium-offset-1 large-3">
+      {% if presenter.photo_url != blank %}
+        <img
+          class="thumbnail"
+          src="{{ presenter.photo_url }}"
+          alt="Photo of {{ presenter.presenters }}" />
+      {% endif %}
+    </div>
+
+    <div class="column medium-7 large-7 end">
+      <h3 class="profile-name">
+        {{ presenter.name }}
+        {% if presenter.pronouns != blank %}
+          ({{ presenter.pronouns }})
+        {% endif %}
+      </h3>
+
+      {% if presenter.twitter or presenter.github or presenter.website %}
+        <ul class="social-icons">
+          {% if presenter.twitter != blank %}
+          <li>
+            <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
+              <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if presenter.github != blank %}
+          <li>
+            <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
+              <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+            </a>
+            </li>
+          {% endif %}
+          {% if presenter.website != blank %}
+          <li>
+            <a class="web" href="{{ presenter.website }}" target="_blank">
+              <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+      {% if presenter.bio != blank %}
+        {{ presenter.bio | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
 </div><!-- end .content -->

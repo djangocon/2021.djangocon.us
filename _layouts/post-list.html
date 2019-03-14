@@ -6,7 +6,7 @@ permalink: /news/
 {% for post in site.posts %}
   {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
   <article class="post-item">
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
     <h2 class="post-title">
       <a
         class="post-link"

@@ -3,7 +3,6 @@
 // Documentation here: http://wicky.nillia.ms/headroom.js/
 
 
-
 // title bar text overrides
 .off-canvas .menu a,
 .title-bar .menu a {
@@ -16,6 +15,10 @@
   transform: translate3d(0,0,0);
 }
 
+.title-bar .menu .menu {
+  position: absolute;
+}
+
 .off-canvas .menu a {
   color: $white;
 }
@@ -23,6 +26,10 @@
 .off-canvas .menu li,
 .dropdown .menu li {
   margin-bottom: 0;
+}
+
+.title-bar .menu > li > a {
+  font-weight: $global-weight-semibold;
 }
 
 .title-bar .button.hollow {
@@ -47,10 +54,10 @@
 
 .menu .menu { // subnav menu, with the headroom class added so it doesn't change
   text-align: left;
+}
 
-  a {
-    color: $white;
-  }
+.title-bar {
+  border-bottom: 8px solid $brand-color8;
 }
 
 .headroom--top .menu .navbar-button,
@@ -64,23 +71,15 @@
 
 .headroom .menu .menu a {
   font-size: rem-calc(18);
-}
-
-.logo {
-  display: block;
-  margin: 10px 0 -20px 10px;
-  width: 147px;
-  height: 40px; // for IE
-
-  svg {
-    max-width: 100%;
-    height: 100%;
-  }
+  color: $white;
 }
 
 .title-bar {
   .logo {
-    width: 200px;
+    display: block;
+    margin: 10px 0 -20px 10px;
+    width: 160px;
+    height: auto; // for IE
   }
 
   .menu > li > a {
@@ -102,8 +101,12 @@
 
   &,
   .hamburger {
-    height: 60px;
+    height: 80px;
   }
+}
+
+.drilldown .is-drilldown-submenu {
+  background: $brand-color1; // Fix overlap issue
 }
 
 // tightening drop-down arrows on navigaiton parent elements
@@ -117,19 +120,14 @@
   }
 }
 
-@include breakpoint(medium down) {
-  .logo path {
-    fill: $white;
-  }
-}
-
 @include breakpoint(large) {
   .headroom {
     position: relative !important;
-    height: auto;
+    height: 120px;
   }
 
   .title-bar {
+    border-bottom-width: 12px;
     background: $body-background !important;
 
     .logo {
@@ -145,22 +143,31 @@
   }
 
   .title-bar-right {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
+  }
+
+  .title-bar .link-effect1 {
+    // Importants used because this should stomp all over everything,
+    // all the time, no matter what.
+    background-image: linear-gradient(to right bottom, $brand-color3, $brand-color2) !important;
+    font-weight: $global-weight-bold !important;
+    text-transform: uppercase !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
   }
 }
 
 @include breakpoint(xlarge) {
   .title-bar {
-    .logo {
-      margin-top: $global-margin;
-      margin-left: $global-margin;
-      width: 280px;
-      height: 100%;
-    }
+    padding-bottom: .5rem;
 
     .menu > li > a {
       padding: 1rem;
-      font-size: 1rem;
+    }
+
+    .logo {
+      width: 220px;
+      height: 100%;
     }
   }
 }

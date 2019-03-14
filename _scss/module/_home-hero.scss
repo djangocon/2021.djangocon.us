@@ -1,67 +1,80 @@
+.home-content {
+  margin-top: -5px;
+}
+
 .header {
+  margin: 0 auto;
   padding: 6rem 0 3rem;
+  background-image: url('/static/img/sunrise.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   h1 {
-    text-align: center;
     color: $body-font-color;
   }
 
-  .subhead {
-    max-width: 660px;
-    text-align: center;
-    color: $body-font-color;
-  }
+  @include breakpoint(720px) {
+    .header-text {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
 
-  .home-eventinfo {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .datesyear-year {
-    @include show-for(medium);
-  }
-
-  .subhead strong {
-    display: block;
-    font-weight: $global-weight-bold;
-  }
-
-  .subheading {
-    margin-bottom: $global-margin / 2;
-    font-size: rem-calc(22);
-  }
-
-  .header-img {
-    max-width: 280px;
+    h1 {
+      max-width: 27rem;
+    }
   }
 
   @include breakpoint(large) {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    min-height: 20rem;
+  }
+}
 
-    .header-text {
-      padding-top: 5.5rem;
-    }
+body.sunset {
+  .header {
+    background-image: url('/static/img/sunset.svg');
 
-    .subhead {
-      text-align: right;
+    h1 {
+      color: $white;
     }
+  }
 
-    .subheading {
-      margin-bottom: 0;
-    }
+  .footer {
+    background: #A72A3D;
+  }
+}
 
-    .datesyear {
-      text-align: right;
-    }
+@include breakpoint(medium) {
+  .header {
+    background-image: url('/static/img/birds-sunrise.svg'),
+      url('/static/img/boat.svg'),
+      url('/static/img/sunrise.svg');
+    background-position: top 40% right 24%,
+      bottom -1px right 10%,
+      bottom 30% center;
+    background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+    background-size: 200px 90px,
+      110px 110px,
+      cover;
+  }
 
-    .location {
-      padding-top: 0;
-      border-left: 6px solid $violetred;
-      text-align: left;
-    }
+  .header .header-text {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
 
-    .header-img {
-      max-width: 380px;
-    }
+  body.sunset .header {
+    background-image: url('/static/img/birds-sunset.svg'), url('/static/img/boat.svg'), url('/static/img/sunset.svg');
+  }
+}
+
+@include breakpoint(large) {
+  .header {
+    background-position: top 40% right 24%,
+      bottom -1px right 20%,
+      bottom 30% center;
   }
 }

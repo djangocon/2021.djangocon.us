@@ -25,14 +25,6 @@
     fill: $white;
   }
 
-  .profile & {
-    svg {
-      width: 32px;
-      height: 32px;
-      fill: $secondary-color;
-    }
-  }
-
   &:hover svg {
     fill: $primary-color;
   }
