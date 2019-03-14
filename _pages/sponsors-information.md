@@ -24,7 +24,7 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 
 Want to know more about sponsorship? 
 
-<a href="mailto:{{site.sponsors_email}}" class="button">Contact us today</a>
+<a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>
 
 ## Sponsorship Levels
 
