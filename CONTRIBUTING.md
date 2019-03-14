@@ -25,7 +25,7 @@ If you find any bugs, it would be great if you would let us know so we can look 
 
 ## Creating Pull Requests
 
-After you've created a patch that fixes an issue, please submit a pull request for it. If you're not sure how to create a pull request, please follow [these instructions](https://help.github.com/articles/creating-a-pull-request/). In general we'd like to ask you to please target the master branch with your pull requests.
+After you've created a patch that fixes an issue, please submit a pull request for it. If you're not sure how to create a pull request, please follow [these instructions](https://help.github.com/articles/creating-a-pull-request/). In general we'd like to ask you to please target the `develop` branch with your pull requests.
 
 
 ## Reviewing Issues and Pull Requests
