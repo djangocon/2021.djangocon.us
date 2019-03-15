@@ -11,9 +11,10 @@ description: |
 
 {% comment %}
 Our opportunity grant application is now closed and all decision notifications have been sent.
+{% endcomment %}
 
 If you have any questions, feel free to reach out to the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
-{% endcomment %}
+
 
 <br>
 
