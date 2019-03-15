@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Gold'
 name: "TicketGuardian"
 logo: "/static/img/sponsors/ticketguardian.png"

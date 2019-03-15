@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Bronze'
 name: "Truthful Technology"
 logo: "/static/img/sponsors/truthful_technology_logo.svg"
