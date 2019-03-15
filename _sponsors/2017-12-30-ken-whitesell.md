@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Bronze'
 name: "Ken Whitesell"
 logo: "/static/img/sponsors/ken-whitesell.jpg"

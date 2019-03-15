@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Gold'
 name: "Guidebook"
 logo: "/static/img/sponsors/Guidebook640.png"

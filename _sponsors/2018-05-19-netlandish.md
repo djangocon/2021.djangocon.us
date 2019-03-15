@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Bronze'
 name: "Netlandish"
 logo: "/static/img/sponsors/netlandishlogo.png"
@@ -10,7 +11,7 @@ url_friendly: "www.netlandish.com"
 description: |
       We solve business problems with software solutions. We’ve used our
       decades of combined Python and Django experience to help
-      organizations of all sizes. From sales funnels to back offices, 
+      organizations of all sizes. From sales funnels to back offices,
       custom CMS to analytic dashboards, we’ve done it all. Our swollen
       testimonial file and ratings on sites like Clutch speak to our
       ability to not just hit the technical mark but also understand the

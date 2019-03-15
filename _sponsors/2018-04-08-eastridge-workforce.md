@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Bronze'
 name: "Eastridge Workforce Solutions"
 logo: "/static/img/sponsors/EastridgeWFSolutions.png"
