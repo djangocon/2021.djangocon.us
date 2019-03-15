@@ -19,7 +19,7 @@ If you have any questions, feel free to reach out to the opportunity grant team 
 
 ## Diversity Sponsorships
 
-Your organization can help increase diversity at DjangoCon US by contributing to the Opportunity Grant Fund. Please check out our [sponsorship information page](/sponsors/information/) for more information.
+Your organization can help increase diversity at DjangoCon US by contributing to the Opportunity Grant Fund. Please check out our [Sponsorship Information](/sponsors/information/) page for more information.
 
 <br>
 
