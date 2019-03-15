@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Silver'
 name: "JamBon Software"
 logo: "/static/img/sponsors/jambonlogo.png"

@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Gold'
 name: "Directangular"
 logo: "/static/img/sponsors/directangular-logo.png"

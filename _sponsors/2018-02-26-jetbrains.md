@@ -1,6 +1,7 @@
 ---
 layout: base
 
+hidden: true
 level: 'Gold'
 name: "JetBrains"
 logo: "/static/img/sponsors/jetbrains.png"
