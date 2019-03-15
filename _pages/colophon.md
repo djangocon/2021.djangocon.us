@@ -26,31 +26,33 @@ This website is based on free and open source software, and was designed by our 
 
 ## Image Credits
 
+- [DjangoCon US 2018 Group Photo](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
 - [Group visit to ENIAC](https://www.flickr.com/photos/144080672@N05/28810970252/in/album-72157672216515946/), Bartek Pawlik, CC BY-NC 2.0
-- [Spokane Crowd](https://www.flickr.com/photos/144080672@N05/36937531752/), Adam Fast, with permission
+- [San Diego Crowd]((https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
 - [San Diego Marriott Mission Valley](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), courtesy of the hotel
 
 <div class="partner-footer section-pad">
   <h3 class="v-pad-bottom text-left">Our Sponsors</h3>
-{% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
-{% for level in sponsors_by_level %}
-  <h4 class="lead min text-center swatch-color-teal">{{ level }}</h4>
-  <div class="row partner-list">
-    {% for sponsor in site.sponsors %}
-      {% if sponsor.level == level %}
+  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
+  {% for level in sponsors_by_level %}
+    {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
+    {% assign sponsors_count = sponsors_in_level | size %}
+    {% if sponsors_count != 0 %}
+    <h4 class="lead min text-center swatch-color-teal">{{ level }}</h4>
+    <div class="row partner-list">
+      {% for sponsor in sponsors_in_level %}
         {% unless sponsor.hidden %}
-          <div class="partner-block text-center">
-            <a href="{{ sponsor.url_target }}">
-              <img
-                class="partner-logo {{ sponsor.logo_orientation }}"
-                src="{{ sponsor.logo }}"
-                alt="{{ sponsor.name }} Logo" />
-            </a>
-          </div>
+        <div class="partner-block text-center">
+          <a href="{{ sponsor.url_target }}">
+            <img
+              class="partner-logo {{ sponsor.logo_orientation }}"
+              src="{{ sponsor.logo }}"
+              alt="{{ sponsor.name }} Logo" />
+          </a>
+        </div>
         {% endunless %}
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endfor %}
-
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endfor %}
 </div>
