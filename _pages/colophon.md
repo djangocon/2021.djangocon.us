@@ -28,7 +28,7 @@ This website is based on free and open source software, and was designed by our 
 
 - [DjangoCon US 2018 Group Photo](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
 - [Group visit to ENIAC](https://www.flickr.com/photos/144080672@N05/28810970252/in/album-72157672216515946/), Bartek Pawlik, CC BY-NC 2.0
-- [San Diego Crowd]((https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
+- [San Diego Crowd](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
 - [San Diego Marriott Mission Valley](https://www.marriott.com/hotels/travel/sanmv-san-diego-marriott-mission-valley/), courtesy of the hotel
 
 <div class="partner-footer section-pad">
