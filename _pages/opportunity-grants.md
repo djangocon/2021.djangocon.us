@@ -4,16 +4,17 @@ title: Opportunity Grants
 heading: Opportunity Grants
 permalink: /opportunity-grants/
 redirect_from:
-  - /about/opportunity-grants/
+  - /financial-aid/
 description: |
     As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
 ---
 
 {% comment %}
 Our opportunity grant application is now closed and all decision notifications have been sent.
+{% endcomment %}
 
 If you have any questions, feel free to reach out to the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
-{% endcomment %}
+
 
 <br>
 
