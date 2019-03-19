@@ -1,8 +1,8 @@
 ---
 layout: home
 title: DjangoCon US 2019 • September 22-27, 2019 • San Diego, CA United States
-# permalink: /homepage/
-permalink: /
+permalink: /homepage/
+# permalink: /
 description: |
     Six days of talks, sprints, and tutorials by the community for the community.
 testimonial_img: /static/img/home-testimonial.jpg
