@@ -2,7 +2,7 @@
 layout: base
 
 name: "Kenneth Love"
-role: "Organizer Emeritus"
+role: ":heart: Organizer Emeritus"
 photo_url: "/static/img/organizers/kenneth.jpg"
 github: "kennethlove"
 twitter: "kennethlove"
