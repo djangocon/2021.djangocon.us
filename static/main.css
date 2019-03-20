@@ -8374,7 +8374,7 @@ blockquote cite {
   }
 
   .title-bar .link-effect1 {
-    background-image: linear-gradient(to right bottom, #F37741, #703D76) !important;
+    background-image: linear-gradient(to right bottom, #FC8A3D, #A340B5) !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
     -webkit-background-clip: text !important;
@@ -8835,6 +8835,7 @@ blockquote cite {
   background-size: cover;
 }
 .header h1 {
+  margin-bottom: 2.25rem;
   color: #1E1E1E;
 }
 @media screen and (min-width: 45em) {
