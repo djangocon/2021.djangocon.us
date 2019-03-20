@@ -2,7 +2,7 @@
 layout: base
 
 name: 'Katherine "Kati" Michel'
-role: "Website Chair"
+role: "Website Co-Chair"
 photo_url: "/static/img/organizers/kati.jpg"
 github: "KatherineMichel"
 twitter: "KatiMichel"
