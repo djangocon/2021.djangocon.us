@@ -9,7 +9,7 @@
 
 ## Front Matter
 
-The front matter for pages like sponsors, blog posts, and organizers contains custom variables for each item, located between the triple-dashed lines. The values should be in quotes, example: `name: "Jeff Triplett"`. Here are a list of possibilities:
+The front matter for pages like sponsors, blog posts, and organizers contains custom variables for each item, located between the triple-dashed lines. The values should be in quotes, example: `name: "Bugs Bunny"`. Here are a list of possibilities:
 
 ### Organizers
 
@@ -162,5 +162,7 @@ The `{% for %}` tag also works very similarly to how it does in Django. To cycle
 ###  Other tags
 
 Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2019.djangocon.us/blob/develop/_includes/sponsor-footer.html#L3).
+
+_Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
 
 
