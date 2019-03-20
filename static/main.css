@@ -8599,6 +8599,10 @@ blockquote cite {
   margin-top: 2rem;
 }
 
+.recap-heading {
+  text-align: center;
+}
+
 /* This styles code blocks used for examples. */
 .highlight {
   background: #F7F8F9;
