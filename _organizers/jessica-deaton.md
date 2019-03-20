@@ -2,7 +2,7 @@
 layout: base
 
 name: 'Jessica "Deatz" Deaton'
-role: "Program Team"
+role: "Conference Chair"
 photo_url: "/static/img/organizers/deatz.jpg"
 github: "deatonjm"
 twitter: "__deatz__"

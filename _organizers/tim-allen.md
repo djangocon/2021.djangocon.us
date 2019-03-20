@@ -2,7 +2,7 @@
 layout: base
 
 name: "Tim Allen"
-role: "Program Team"
+role: "Automation Team"
 photo_url: "/static/img/organizers/tim.jpg"
 github: "FlipperPA"
 twitter: "FlipperPA"

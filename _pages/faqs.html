@@ -21,7 +21,7 @@ sitemap: false
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Tickets</h2>
-        <p><em>More information is on our <a href="/tickets/">Tickets</a> page. {% comment %}Conference tickets are sold out for 2019, but tutorial tickets may still be available.{% endcomment %}</em></p>
+        <p><em>More information is on our <a href="{% link _pages/tickets.html %}">Tickets</a> page. {% comment %}Conference tickets are sold out for 2019, but tutorial tickets may still be available.{% endcomment %}</em></p>
         <ul>
           <li>Are <a href="{{ site.ticket_link }}">tickets</a> still available?</li>
           {% comment %}
@@ -61,7 +61,7 @@ sitemap: false
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Speaking</h2>
-        <p><em>More information is on our <a href="/speaking/speaker-resources/">Speaker Resources</a> page.</em></p>
+        <p><em>More information is on our <a href="{% link _pages/speaking-resources.md %}">Speaker Resources</a> page.</em></p>
         <ul>
           <li>Are speaker mentors available to help me with my talk?</li>
           <li>Do I need to present from my own laptop?</li>
@@ -76,7 +76,7 @@ sitemap: false
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Accessibility</h2>
-        <p><em>More information is on our <a href="/venue/#accessibility">Venue</a> page.</em></p>
+        <p><em>More information is on our <a href="{% link _pages/venue.html %}#accessibility">Venue</a> page.</em></p>
         <ul>
           <li>Can I use a bathroom that corresponds with my gender identity?</li>
           <li>Is my service animal welcome, and is there a place nearby to walk my service animal?</li>
@@ -93,7 +93,7 @@ sitemap: false
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Opportunity Grants</h2>
-        <p><em>More information is on our <a href="/opportunity-grants/">Opportunity Grants</a> page.</em></p>
+        <p><em>More information is on our <a href="{% link _pages/opportunity-grants.md %}">Opportunity Grants</a> page.</em></p>
         <ul>
           <li>Do I need to provide receipts in order to be reimbursed for my opportunity grant?</li>
           <li>Will I be reimbursed promptly at or shortly after the conference?</li>
@@ -106,9 +106,10 @@ sitemap: false
     <div class="row column faq-list">
       <section class="faq-item">
         <h2 class="text-center">Sponsors</h2>
-        <p><em>More information is on our <a href="/sponsors/information/">Become a Sponsor</a> page. {% comment %}Sponsorship signups for 2019 are now closed.{% endcomment %}</em></p>
+        <p><em>More information is on our <a href="{% link _pages/sponsors-information.md %}">Become a Sponsor</a> page. {% comment %}Sponsorship signups for 2019 are now closed.{% endcomment %}</em></p>
         <ul>
           <li>Can I sign up as a sponsor for DjangoCon US 2019?</li>
+          <li>Can I sign up as a sponsor for <a href="{% link _pages/opportunity-grants.md %}#how-to-donate">Opportunity Grants</a>?</li>
         </ul>
       </section>
     </div>

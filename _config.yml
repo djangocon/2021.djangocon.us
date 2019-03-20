@@ -31,6 +31,7 @@ exclude:
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
+  - EDITORS_GUIDE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
