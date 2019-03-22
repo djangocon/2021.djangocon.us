@@ -5,6 +5,6 @@ name: "Jorge Gimeno"
 role: "Venue Team"
 photo_url: "/static/img/organizers/jorge.jpg"
 github: "jlgimeno"
-twitter: "jlgimeno8"
+twitter: "JorgeGimeno8"
 website: "https://www.gimeno.dev/"
 ---
