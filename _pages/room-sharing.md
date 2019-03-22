@@ -9,7 +9,7 @@ description: |
 
 Do you want to share a room at the [San Diego Marriott of Mission Valley](/venue/#welcome) with other attendees, or do you have local accommodation available? Do you want to drive to DjangoCon US from Los Angeles, Tucson, or other relatively nearby cities?
 
-We have a [Google sheet](https://docs.google.com/spreadsheets/d/1w75XSWKU5JDroRkOuNcf6HMfAWbOOG0k47FpdigLt7Y/edit?usp=sharing) just for you! There are tabs for people who already have room
+We have a [Google sheet](https://docs.google.com/spreadsheets/d/1-O7vSIeSls_xH9w9QVjVrVjgmEciKGduKQRMocCskkk/edit#gid=1494429576) just for you! There are tabs for people who already have room
 reservations and are looking for roommates, who haven't yet booked anything, who live locally and want to offer
 their homes as accommodation, and who will be driving to San Diego and need car buddies.
 
@@ -28,5 +28,5 @@ When reserving your room, be sure to specify the type and number of beds. Some r
 
 **Caution:** Room and ride sharing arrangements are the responsibilities of the individual parties involved. DEFNA, DSF, and DjangoCon US staff take no responsibility, and cannot be involved in any disputes.
 
-[Share a Room or Ride (spreadsheet information)](https://docs.google.com/spreadsheets/d/1w75XSWKU5JDroRkOuNcf6HMfAWbOOG0k47FpdigLt7Y/edit?usp=sharing
+[Share a Room or Ride (spreadsheet information)](https://docs.google.com/spreadsheets/d/1-O7vSIeSls_xH9w9QVjVrVjgmEciKGduKQRMocCskkk/edit#gid=1494429576
 ){: class="button center medium-centered" }
