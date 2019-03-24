@@ -23530,14 +23530,10 @@ $(document).foundation(); // toggle hamburger menu on offcanvas open
 $("[data-off-canvas-wrapper]").bind("opened.zf.offcanvas closed.zf.offcanvas", function (e) {
   $(".hamburger").toggleClass("is-active");
 });
-var $homeNode = $('body');
+var hour = new Date().getHours(); // If it's after 6pm or before 7am, set the Sunset effect.
 
-if ($homeNode.length > 0) {
-  var hour = new Date().getHours(); // If it's after 6pm or before 7am, set the Sunset effect.
-
-  if (hour > 18 || hour < 7) {
-    $homeNode.addClass('sunset');
-  }
+if (hour > 18 || hour < 7) {
+  $("body").addClass('sunset');
 }
 },{"./_scss/styles.scss":"_scss/styles.scss","jquery":"node_modules/jquery/dist/jquery.js","what-input":"node_modules/what-input/dist/what-input.js","foundation-sites":"node_modules/foundation-sites/dist/js/foundation.esm.js","headroom.js":"node_modules/headroom.js/dist/headroom.js"}],"../../../.nvm/versions/node/v10.11.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
