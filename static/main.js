@@ -23530,7 +23530,7 @@ $(document).foundation(); // toggle hamburger menu on offcanvas open
 $("[data-off-canvas-wrapper]").bind("opened.zf.offcanvas closed.zf.offcanvas", function (e) {
   $(".hamburger").toggleClass("is-active");
 });
-var $homeNode = $('body.home-page');
+var $homeNode = $('body');
 
 if ($homeNode.length > 0) {
   var hour = new Date().getHours(); // If it's after 6pm or before 7am, set the Sunset effect.

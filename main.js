@@ -27,7 +27,7 @@ $("[data-off-canvas-wrapper]")
     $(".hamburger").toggleClass("is-active");
 });
 
-let $homeNode = $('body.home-page');
+let $homeNode = $('body');
 if ($homeNode.length > 0) {
   let hour = (new Date()).getHours();
 
