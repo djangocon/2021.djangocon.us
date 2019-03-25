@@ -33,7 +33,7 @@ This website is based on free and open source software, and was designed by our 
 
 <div class="partner-footer section-pad">
   <h3 class="v-pad-bottom text-left">Our Sponsors</h3>
-  {% assign sponsors_by_level = "Platinum|Gold|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
+  {% assign sponsors_by_level = "Platinum|Gold|Lanyayrd|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}

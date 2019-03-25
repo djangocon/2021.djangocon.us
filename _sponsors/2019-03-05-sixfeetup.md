@@ -2,7 +2,7 @@
 layout: base
 
 hidden: false
-level: 'Bronze'
+level: 'Lanyard'
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SixFeetUpLogo.png"
 logo_orientation: "landscape"
