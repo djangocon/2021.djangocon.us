@@ -1,8 +1,8 @@
 ---
 layout: base
 
-name: "Frances"
-role: "Program"
+name: "Frances Liu"
+role: "Program Team"
 photo_url: "/static/img/organizers/frances.jpeg"
 github: "thepomeranian"
 twitter: "frances_codes"
