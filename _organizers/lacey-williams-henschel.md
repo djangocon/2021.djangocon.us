@@ -2,7 +2,7 @@
 layout: base
 
 name: "Lacey Williams Henschel"
-role: "Communications Team"
+role: "Adviser"
 photo_url: "/static/img/organizers/lacey.jpg"
 github: "williln"
 twitter: "laceynwilliams"

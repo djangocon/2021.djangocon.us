@@ -27,12 +27,9 @@ $("[data-off-canvas-wrapper]")
     $(".hamburger").toggleClass("is-active");
 });
 
-let $homeNode = $('body.home-page');
-if ($homeNode.length > 0) {
-  let hour = (new Date()).getHours();
 
-  // If it's after 6pm or before 7am, set the Sunset effect.
-  if (hour > 18 || hour < 7) {
-    $homeNode.addClass('sunset');
-  }
+const hour = (new Date()).getHours();
+// If it's after 6pm or before 7am, set the Sunset effect.
+if (hour > 18 || hour < 7) {
+  $("body").addClass('sunset');
 }

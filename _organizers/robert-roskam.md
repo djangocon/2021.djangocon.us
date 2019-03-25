@@ -2,7 +2,7 @@
 layout: base
 
 name: "Robert Roskam"
-role: "Financial Aid Chair"
+role: "Opportunity Grants Team"
 photo_url: "/static/img/organizers/roskam.jpg"
 github: "raiderrobert"
 twitter: "raiderrobert"

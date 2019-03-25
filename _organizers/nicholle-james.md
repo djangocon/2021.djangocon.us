@@ -1,8 +1,8 @@
 ---
 layout: base
 
-name: "Nicholle James"
-role: "Conference Co-Chair"
+name: "Nic James"
+role: "Sprints and Venue Team"
 photo_url: "/static/img/organizers/oboechick.jpg"
 github: "oboechick"
 twitter: ""
