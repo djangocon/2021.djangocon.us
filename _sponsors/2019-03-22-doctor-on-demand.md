@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: true
+hidden: false
 level: 'Gold'
 name: "Doctor on Demand"
 logo: "/static/img/sponsors/doctor-on-demand-logo-large.png"

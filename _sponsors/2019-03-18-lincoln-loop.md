@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: true
+hidden: false
 level: 'Gold'
 name: "Lincoln Loop"
 logo: "/static/img/sponsors/ll_logo_landscape_color.svg"
