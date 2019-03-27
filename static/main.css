@@ -8594,8 +8594,34 @@ blockquote cite {
   margin-top: 2rem;
 }
 
+.recap-header {
+  padding-top: 3rem;
+  background-image: url("sunrise-sky.477fe0a2.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recap-header h1 {
+  margin-bottom: 0;
+}
+.recap-header h1:after {
+  display: none;
+}
+@media print, screen and (min-width: 55.625em) {
+  .recap-header {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
 .recap-heading {
+  margin: 0 auto 2rem;
+  padding: 0.75rem;
+  max-width: 46rem;
+  background: #703D76;
+  font-size: 2rem;
   text-align: center;
+  color: #FFF;
 }
 
 /* This styles code blocks used for examples. */

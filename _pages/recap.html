@@ -5,7 +5,7 @@ heading: 2019 Recap
 permalink: /recap/
 ---
 
-<header class="subpage-header">
+<header class="subpage-header recap-header">
   <h1>{{ page.heading }}</h1>
 </header>
 
@@ -13,33 +13,87 @@ permalink: /recap/
 
 <section class="section-pad theme-light-gray">
   <div class="row column">
-    <h2 class="demp v-pad-bottom recap-heading">
+    <h2 class="demp recap-heading">
       More than 300 Django enthusiasts attended this year, marking our largest conference since 201X.
     </h2>
   </div>
 
   <div class="row">
-    <div class="column medium-7">
+    <div class="column medium-6">
       <img
         data-interchange="[{{ "/static/img/full-crowd-mobile.jpg" | relative_url }}, small], [{{ "/static/img/full-crowd.jpg" | relative_url }}, medium]"
         alt="The crowd of DjangoCon 2018 attendees" />
     </div>
 
-    <div class="column medium-5">
+    <div class="column medium-6">
       <p class="lead">
         Our community descended upon the San Diego Marriot from Sept XX to Sept YY, and shared their insights into using our beloved framework.
       </p>
 
       <p> Mauris id nunc augue. Aliquam dignissim diam vitae ex commodo, ac porta sapien auctor. Nunc maximus dolor ac neque mollis aliquet. Quisque porta ipsum et augue ornare pellentesque. Vivamus lacinia sagittis mauris cursus maximus.</p>
 
-      <p>Pellentesque ullamcorper consequat lacus, a iaculis orci placerat at. Phasellus id arcu sollicitudin dolor iaculis vehicula. Etiam molestie eu neque eu tincidunt. Duis at euismod eros.</p>
+      <p>Pellentesque ullamcorper consequat lacus, a iaculis orci placerat at. Nunc maximus dolor ac.</p>
     </div>
   </div>
 </section>
 
-
 {% include sponsor-footer.html %}
 
+<section class="section-pad theme-brand-color4">
+  <div class="row column">
+    <p class="lead">
+      There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!
+    </p>
+    <div
+      class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+    {% for organizer in site.organizers %}
+      {% unless organizer.hidden %}
+        <div
+          class="column column-block">
+          <div class="profile">
+            <img
+              class="thumbnail"
+              src="{{ organizer.photo_url }}"
+              alt="Photo of {{ organizer.name }}" />
+            <div class="profile-namecard">
+              <h3 class="profile-name">
+                {{ organizer.name }}
+                {% if organizer.pronouns != blank %}
+                  ({{ organizer.pronouns }})
+                {% endif %}
+              </h3>
+              {{ organizer.role }}
+            </div>
+            <ul class="social-icons">
+              {% if organizer.twitter != blank %}
+              <li>
+                <a class="twitter" href="https://twitter.com/{{ organizer.twitter }}" target="_blank">
+                  <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+                </a>
+              </li>
+              {% endif %}
+              {% if organizer.github != blank %}
+              <li>
+                <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank">
+                  <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+                </a>
+                </li>
+              {% endif %}
+              {% if organizer.website != blank %}
+              <li>
+                <a class="web" href="{{ organizer.website }}" target="_blank">
+                  <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+            </div><!--/.profile -->
+        </div><!--/.column -->
+      {% endunless %}
+    {% endfor %}
 
+    </div><!--/.row -->
+  </div>
+</section>
 
 </div> <!-- End .content -->
