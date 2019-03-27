@@ -7356,11 +7356,6 @@ a.thumbnail image {
 
 .theme-white {
   background-color: #FFFFFF;
-  color: #FFFFFF;
-}
-.theme-white a,
-.theme-white a:hover {
-  color: #FFFFFF;
 }
 .theme-white .theme-color {
   color: #FFFFFF;

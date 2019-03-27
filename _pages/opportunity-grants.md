@@ -26,6 +26,12 @@ Your organization can help increase diversity at DjangoCon US by contributing to
 
 ## Frequently Asked Questions
 
+### What are opportunity grants?
+They are grants to encourage and facilitate participation of those who otherwise might not be able to attend the conference. They can be used for conference related expenses like travel, lodging, etc.
+
+### Why did the name change to "opportunity grants"?
+We renamed "financial aid" to "opportunity grants" in an effort to become a more inclusive and diverse conference. We feel the wording "opportunity grants" makes a positive shift towards being a thriving, supportive and trusting community.
+
 {% comment %}
 ### When will I find out whether I've received an opportunity grant?
 
