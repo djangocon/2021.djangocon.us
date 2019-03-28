@@ -17,12 +17,12 @@
 
   {% if post.presenters %}
     {% for presenter in post.presenters %}
-    <p class="event-byline">
+    <p class="presenter-byline">
       {% if presenter.photo_url != blank %}
       <img
         class="avatar"
         src="{{ presenter.photo_url }}"
-        alt="Photo of {{ presenter.presenters }}" />
+        alt="Photo of {{ presenter.name }}" />
       {% endif %}
       {{ presenter.name }}
       {% if presenter.pronouns != blank %}

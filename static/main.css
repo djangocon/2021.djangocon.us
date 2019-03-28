@@ -8666,6 +8666,20 @@ blockquote cite {
   }
 }
 
+div.presenter-list-block .presenter-byline {
+  display: inline-flex;
+  margin: 0 1.5rem 2rem;
+}
+div.presenter-list-block .avatar {
+  max-width: 80px;
+}
+
+.presenter-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 /* This styles code blocks used for examples. */
 .highlight {
   background: #F7F8F9;
@@ -9316,7 +9330,7 @@ body.sunset .footer {
 .event a:hover .event-title {
   color: #703D76;
 }
-.event a:hover .event-byline {
+.event a:hover .byline {
   color: #1E1E1E;
 }
 .event .event-content {
@@ -9330,12 +9344,6 @@ body.sunset .footer {
 .event .label {
   align-self: flex-start;
   font-size: 0.75rem;
-}
-.event .avatar {
-  margin: 0 0.5em 0 0;
-  max-width: 60px;
-  border-radius: 50%;
-  vertical-align: middle;
 }
 .event .location {
   position: absolute;
@@ -9355,7 +9363,7 @@ body.sunset .footer {
 .event.boxed .event-content {
   display: block;
 }
-.event.boxed .event-byline {
+.event.boxed .byline {
   margin-top: 1rem;
   padding-top: 0;
 }
@@ -9392,15 +9400,22 @@ body.sunset .footer {
   padding: 1.75rem 1rem 1rem;
 }
 
-.event-byline {
+.presenter-byline {
   display: flex;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 0;
   line-height: 1.2;
+  text-decoration: none;
 }
-.event-byline + .event-byline {
+.presenter-byline + .presenter-byline {
   margin-top: 0.5rem;
+}
+.presenter-byline .avatar {
+  margin: 0 0.5em 0 0;
+  max-width: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
 @media print, screen and (min-width: 55.625em) {

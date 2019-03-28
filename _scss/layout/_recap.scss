@@ -78,3 +78,21 @@
     }
   }
 }
+
+div.presenter-list-block {
+  .presenter-byline {
+    display: inline-flex;
+    margin: 0 1.5rem 2rem;
+  }
+
+  .avatar {
+    max-width: 80px;
+  }
+}
+
+
+.presenter-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

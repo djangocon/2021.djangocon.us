@@ -88,7 +88,7 @@ permalink: /recap/
         Main graphic/icon for the year. e.g. for 2018, the crab. 2019, the boat.
       {% endcomment %}
       <img
-        src="/static/img/boat.svg"
+        src="/static/img/sail-circle.svg"
         alt="A little boat"
         width="360" />
     </div>
@@ -133,12 +133,12 @@ permalink: /recap/
 
           {% if post.presenters %}
             {% for presenter in post.presenters %}
-            <p class="event-byline">
+            <p class="presenter-byline">
               {% if presenter.photo_url != blank %}
               <img
                 class="avatar"
                 src="{{ presenter.photo_url }}"
-                alt="Photo of {{ presenter.presenters }}" />
+                alt="Photo of {{ presenter.name }}" />
               {% endif %}
               {{ presenter.name }}
               {% if presenter.pronouns != blank %}
@@ -158,16 +158,42 @@ permalink: /recap/
   </div>
 </div>
 
-<div class="section-pad theme-brand-color3">
+{% comment %}
+  SPEAKERS
+{% endcomment %}
+<div class="section-pad presenter-list-block theme-brand-color5">
   <div class="row">
     <div class="column small-12">
       <h2>All Sessions Performed by Amazing People</h2>
     </div>
-
-    <section class="event-byline">
-      <img class="avatar" src="/static/img/speakers/chloe-condon.jpg" alt="Photo of ">Chloe Condon
-    </section>
   </div>
+
+  <section class="presenter-list">
+    <div class="row">
+      {% for post in site.schedule %}
+        {% if post.presenters %}
+          {% for presenter in post.presenters %}
+            {% if presenter.name %}
+              <a
+                href="{{ post.permalink }}"
+                class="presenter-byline">
+                {% if presenter.photo_url != blank %}
+                <img
+                  class="avatar"
+                  src="{{ presenter.photo_url }}"
+                  alt="Photo of {{ presenter.name }}" />
+                {% endif %}
+                {{ presenter.name }}
+                {% if presenter.pronouns != blank %}
+                  ({{ presenter.pronouns }})
+                {% endif %}
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 </div>
 
 {% include sponsor-footer.html %}
