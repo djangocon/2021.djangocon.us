@@ -109,8 +109,8 @@ permalink: /recap/
       <p class="lead">We featured over <strong>60</strong> talks &amp; tutorials this year. Here's some crowd favorites!</p>
       <a href="/schedule/" class="button">See the full schedule</a>
     </header>
-    {% for post in site.schedule | limit:20 %}
-      {% if post.permalink && post.room != 'filler' %}
+    {% for post in site.schedule %}
+      {% if post.permalink and post.room != 'filler' %}
       <article
         class="event
         {% if post.room == "Salon A-E" %}loc-main
