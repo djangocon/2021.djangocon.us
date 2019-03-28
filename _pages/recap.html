@@ -11,41 +11,175 @@ permalink: /recap/
 
 <div class="content">
 
-<section class="section-pad theme-light-gray">
+<div class="section-pad theme-light-gray recap-intro">
   <div class="row column">
     <h2 class="demp recap-heading">
-      More than 300 Django enthusiasts attended this year, marking our largest conference since 201X.
+      2 lines (on desktop) that stress how important the conference is. Or just a fun headline.
     </h2>
   </div>
 
   <div class="row">
-    <div class="column medium-6">
+    <div class="column medium-7">
       <img
-        data-interchange="[{{ "/static/img/full-crowd-mobile.jpg" | relative_url }}, small], [{{ "/static/img/full-crowd.jpg" | relative_url }}, medium]"
+        src="/static/img/full-crowd.jpg"
         alt="The crowd of DjangoCon 2018 attendees" />
     </div>
 
-    <div class="column medium-6">
+    <div class="column medium-5">
       <p class="lead">
-        Our community descended upon the San Diego Marriot from Sept XX to Sept YY, and shared their insights into using our beloved framework.
+        Mention the conference location and dates in one or two lines. Speak to the audience type, e.g. "Django Fans".
       </p>
 
-      <p> Mauris id nunc augue. Aliquam dignissim diam vitae ex commodo, ac porta sapien auctor. Nunc maximus dolor ac neque mollis aliquet. Quisque porta ipsum et augue ornare pellentesque. Vivamus lacinia sagittis mauris cursus maximus.</p>
+      <p>Supportive copy speaking to the line up or topics discussed, generally setting the mood for a successful event. Basically the primary takeaway.</p>
 
-      <p>Pellentesque ullamcorper consequat lacus, a iaculis orci placerat at. Nunc maximus dolor ac.</p>
+      <p><strong>Fond memory from 2019?</strong> Share it with us:</p>
+
+      <ul class="social-icons highlight">
+        <li>
+          <a class="twitter" href="https://twitter.com/djangocon">
+            <svg class="social-icon">
+              <title>Twitter</title>
+              <use xlink:href="#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="github" href="https://github.com/djangocon/">
+            <svg class="social-icon">
+              <title>Github</title>
+              <use xlink:href="#github-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="facebook" href="https://www.facebook.com/djangoconus/">
+            <svg class="social-icon">
+              <title>Facebook</title>
+              <use xlink:href="#facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
-</section>
+</div>
+
+
+<div class="section-pad">
+  <div class="row">
+    <div class="column small-12 medium-8">
+      <p>This is a text+icon section, of sorts. It's a way to break up lengthy copy with either an image or icon to the right.</p>
+
+      <p>At this point on the page you should be outlining major points or features about the conference and really getting into the meat of the storytelling. Live, laugh, love, all that. Since this page shouldn't feature a ton of copy, this is really your chance to set things up.</p>
+
+      <p>This area can be quite long. No more than 3 paragraphs though, all about 3-5 sentences. Everything else after this is catered to a specific audience type. That could be:</p>
+
+      <ul>
+        <li>People who want pictures.</li>
+        <li>Folks getting a feel for conference topics.</li>
+        <li>Sponsors looking for themselves, competitors, or to get a feel for the caliber of sponsor.</li>
+      </ul>
+
+      <p>But generally you don't want to end on a list.</p>
+    </div>
+
+    <div class="column hide-for-mobile medium-4 text-center">
+      {% comment %}
+        Main graphic/icon for the year. e.g. for 2018, the crab. 2019, the boat.
+      {% endcomment %}
+      <img
+        src="/static/img/boat.svg"
+        alt="A little boat"
+        width="360" />
+    </div>
+  </div>
+</div>
+
+<div class="section-pad highlight-events theme-medium-gray">
+  {% comment %}
+    TODO: This could be not-bad.
+
+    NOTE: Limit applied for staging purposes only.
+
+    Uses an alternative grid to mix things up a bit.
+  {% endcomment %}
+  <div class="events">
+    <header class="highlight-events-header">
+      <h2>Awesome Talks and Tutorials</h2>
+      <p class="lead">We featured over <strong>60</strong> talks &amp; tutorials this year. Here's some crowd favorites!</p>
+      <a href="/schedule/" class="button">See the full schedule</a>
+    </header>
+    {% for post in site.schedule | limit:20 %}
+      {% if post.permalink && post.room != 'filler' %}
+      <article
+        class="event
+        {% if post.room == "Salon A-E" %}loc-main
+        {% elsif post.room == "Salon F-H" %}loc-alt-3
+        {% elsif post.room == "Rio Vista Pavilion" %}loc-alt
+        {% elsif post.room == "Balboa I & II" %}loc-main
+        {% elsif post.room == "Sierra 5" %}loc-alt-3
+        {% elsif post.room == "Cabrillo 1" %}loc-alt-2
+        {% else %}loc-main
+        {% endif %}
+        ">
+        {% unless post.room == 'filler' %}
+          {% if post.permalink %}
+            <a href="{{ post.permalink }}" class="event-content">
+          {% endif %}
+
+          {% if post.title %}
+            <h3 class="event-title">{{ post.title }}</h3>
+          {% endif %}
+
+          {% if post.presenters %}
+            {% for presenter in post.presenters %}
+            <p class="event-byline">
+              {% if presenter.photo_url != blank %}
+              <img
+                class="avatar"
+                src="{{ presenter.photo_url }}"
+                alt="Photo of {{ presenter.presenters }}" />
+              {% endif %}
+              {{ presenter.name }}
+              {% if presenter.pronouns != blank %}
+                ({{ presenter.pronouns }})
+              {% endif %}
+            </p>
+            {% endfor %}
+          {% endif %}
+
+          {% if post.permalink %}
+            </a>
+          {% endif %}
+        {% endunless %}
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section-pad theme-brand-color3">
+  <div class="row">
+    <div class="column small-12">
+      <h2>All Sessions Performed by Amazing People</h2>
+    </div>
+
+    <section class="event-byline">
+      <img class="avatar" src="/static/img/speakers/chloe-condon.jpg" alt="Photo of ">Chloe Condon
+    </section>
+  </div>
+</div>
 
 {% include sponsor-footer.html %}
 
-<section class="section-pad theme-brand-color4">
-  <div class="row column">
-    <p class="lead">
-      There is no "I" in DjangoCon US. Thank you to all our volunteers who make DjangoCon US happen!
-    </p>
-    <div
-      class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+<section class="section-pad organizer-block theme-brand-color4">
+  <div class="row">
+    <header class="organizer-block-header recap-heading">
+      <h2>DjangoCon 2019 is possible through lots of :heart:</h2>
+      <p class="lead">Sed convallis laoreet elit quis rutrum. Sed fringilla posuere posuere. Curabitur placerat et enim nec commodo. In vehicula nulla vitae odio mattis aliquet.</p>
+    </header>
+  </div>
+  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
     {% for organizer in site.organizers %}
       {% unless organizer.hidden %}
         <div
@@ -91,8 +225,6 @@ permalink: /recap/
         </div><!--/.column -->
       {% endunless %}
     {% endfor %}
-
-    </div><!--/.row -->
   </div>
 </section>
 

@@ -8595,9 +8595,10 @@ blockquote cite {
 }
 
 .recap-header {
-  padding-top: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
   background-image: url("sunrise-sky.477fe0a2.svg");
-  background-position: bottom center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8607,21 +8608,62 @@ blockquote cite {
 .recap-header h1:after {
   display: none;
 }
-@media print, screen and (min-width: 55.625em) {
-  .recap-header {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-}
 
 .recap-heading {
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
   padding: 0.75rem;
   max-width: 46rem;
   background: #703D76;
-  font-size: 2rem;
   text-align: center;
   color: #FFF;
+}
+.recap-heading .emoji {
+  width: 38px;
+  height: 38px;
+}
+@media print, screen and (min-width: 55.625em) {
+  .recap-heading {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.recap-intro .social-icons {
+  margin-top: 0.5rem;
+}
+
+.recap-intro img {
+  margin-bottom: 1rem;
+}
+
+.organizer-block .profile .social-icons a {
+  color: #FBAECD;
+}
+
+.highlight-events .events {
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 57.6923076923rem;
+}
+
+.highlight-events .event {
+  margin: 0 0.5rem 1rem;
+}
+
+.highlight-events-header {
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media print, screen and (min-width: 55.625em) {
+  .highlight-events .events .event,
+.highlight-events .events .event:first-child,
+.highlight-events .events .event:last-child {
+    width: calc(100% * 1/3 - 1rem);
+    flex-grow: 0;
+  }
 }
 
 /* This styles code blocks used for examples. */
@@ -9673,4 +9715,8 @@ body.sunset .footer {
 }
 .social-icons a.github:hover svg {
   fill: #4078c0;
+}
+
+.social-icons.highlight svg {
+  fill: #A257AA;
 }

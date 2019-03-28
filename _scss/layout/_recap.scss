@@ -1,7 +1,8 @@
 .recap-header {
-  padding-top: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
   background-image: url('/static/img/sunrise-sky.svg');
-  background-position: bottom center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -12,20 +13,68 @@
   h1:after {
     display: none;
   }
-
-  @include breakpoint(medium) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
 }
 
 
 .recap-heading {
-  margin: 0 auto 2rem;
+  margin: 0 auto $global-margin;
   padding: .75rem;
   max-width: 46rem;
   background: $brand-color2;
-  font-size: 2rem;
   text-align: center;
   color: #FFF;
+
+  .emoji {
+    width: 38px;
+    height: 38px;
+  }
+
+  @include breakpoint(medium) {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.recap-intro .social-icons {
+  margin-top: .5rem;
+}
+
+.recap-intro img {
+  margin-bottom: $global-margin;
+}
+
+.organizer-block .profile .social-icons a {
+  color: $brand-color7;
+}
+
+
+.highlight-events .events {
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: $global-width;
+}
+
+.highlight-events .event {
+  margin: 0 .5rem 1rem;
+}
+
+.highlight-events-header {
+  margin-bottom: $global-margin;
+  width: 100%;
+  text-align: center;
+}
+
+.highlight-events {
+  // Override from elsewhere
+  @include breakpoint(medium) {
+    .events {
+      .event,
+      .event:first-child,
+      .event:last-child {
+        width: calc(100% * 1/3 - 1rem);
+        flex-grow: 0;
+      }
+    }
+  }
 }
