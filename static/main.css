@@ -6128,8 +6128,8 @@ table {
 thead,
 tbody,
 tfoot {
-  border: 1px solid #ebebeb;
-  background-color: #FFF;
+  border: 1px solid #dbdfe4;
+  background-color: #e8ebee;
 }
 
 caption {
@@ -6138,12 +6138,12 @@ caption {
 }
 
 thead {
-  background: whitesmoke;
+  background: #e2e5e9;
   color: #1E1E1E;
 }
 
 tfoot {
-  background: #ebebeb;
+  background: #dbdfe4;
   color: #1E1E1E;
 }
 
@@ -6167,16 +6167,16 @@ tbody td {
 
 tbody tr:nth-child(even) {
   border-bottom: 0;
-  background-color: #ebebeb;
+  background-color: #dbdfe4;
 }
 
 table.unstriped tbody {
-  background-color: #FFF;
+  background-color: #e8ebee;
 }
 table.unstriped tbody tr {
   border-bottom: 0;
-  border-bottom: 1px solid #ebebeb;
-  background-color: #FFF;
+  border-bottom: 1px solid #dbdfe4;
+  background-color: #e8ebee;
 }
 
 @media screen and (max-width: 63.99875em) {
@@ -6203,16 +6203,16 @@ table.scroll {
 }
 
 table.hover thead tr:hover {
-  background-color: #f0f0f0;
+  background-color: #dce0e5;
 }
 table.hover tfoot tr:hover {
-  background-color: #e6e6e6;
+  background-color: #d5dae0;
 }
 table.hover tbody tr:hover {
-  background-color: #fafafa;
+  background-color: #e3e6ea;
 }
 table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #e6e6e6;
+  background-color: #d4d9df;
 }
 
 .table-scroll {
@@ -8592,136 +8592,6 @@ blockquote cite {
 
 .session-details-page .responsive-embed + .event-links {
   margin-top: 2rem;
-}
-
-.recap-header {
-  padding-top: 8rem;
-  padding-bottom: 5rem;
-  background-image: url("sunrise-sky.477fe0a2.svg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.recap-header h1 {
-  margin-bottom: 0;
-}
-.recap-header h1:after {
-  display: none;
-}
-
-.recap-heading {
-  margin: 0 auto 1rem;
-  padding: 0.75rem;
-  max-width: 46rem;
-  background: #703D76;
-  text-align: center;
-  color: #FFF;
-}
-.recap-heading .emoji {
-  width: 38px;
-  height: 38px;
-}
-@media print, screen and (min-width: 55.625em) {
-  .recap-heading {
-    margin-bottom: 3rem;
-    font-size: 2rem;
-  }
-}
-
-.recap-intro .social-icons {
-  margin-top: 0.5rem;
-}
-
-.recap-intro img {
-  margin-bottom: 1rem;
-}
-
-.organizer-block .profile .social-icons a {
-  color: #FBAECD;
-}
-
-.highlight-events .events {
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 57.6923076923rem;
-}
-
-.highlight-events .event {
-  margin: 0 0.5rem 1rem;
-}
-
-.highlight-events-header {
-  margin-bottom: 1rem;
-  width: 100%;
-  text-align: center;
-}
-
-@media print, screen and (min-width: 55.625em) {
-  .highlight-events .events .event,
-.highlight-events .events .event:first-child,
-.highlight-events .events .event:last-child {
-    width: calc(100% * 1/3 - 1rem);
-    flex-grow: 0;
-  }
-}
-
-.presenter-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.presenter-list-block {
-  padding-right: 0.4807692308rem;
-  padding-left: 0.4807692308rem;
-}
-.presenter-list-block .presenter-list .presenter-byline {
-  display: inline-flex;
-  margin: 0 1rem 2rem;
-}
-.presenter-list-block .presenter-list .avatar {
-  max-width: 60px;
-}
-@media print, screen and (min-width: 55.625em) {
-  .presenter-list-block .presenter-byline {
-    margin: 0 1.5rem 2rem;
-  }
-  .presenter-list-block .avatar {
-    max-width: 80px;
-  }
-}
-
-.photos-block {
-  display: flex;
-  flex-flow: row wrap;
-  background: #D19FDD;
-}
-.photos-block-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 2rem;
-  width: 100%;
-}
-.photos-block .photo {
-  flex: 1 0 auto;
-}
-@media print, screen and (min-width: 55.625em) {
-  .photos-block .photo {
-    flex: 1 0 33.33%;
-  }
-}
-@media print, screen and (min-width: 64em) {
-  .photos-block-header, .photos-block-header + .photo, .photos-block-header + .photo + .photo {
-    width: 33.33%;
-  }
-  .photos-block .photo {
-    flex: 1 0 25%;
-  }
 }
 
 /* This styles code blocks used for examples. */
