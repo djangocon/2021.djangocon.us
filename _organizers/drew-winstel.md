@@ -2,7 +2,7 @@
 layout: base
 
 name: "Drew Winstel"
-role: "Opportunity Grants Team"
+role: "Opportunity Grants Chair"
 photo_url: "/static/img/organizers/drew.jpg"
 github: "drewbrew"
 twitter: ""
