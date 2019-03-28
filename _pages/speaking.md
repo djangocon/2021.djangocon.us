@@ -34,9 +34,9 @@ Our Call for Proposals is now closed and all decision notifications have been se
 
 We’ll choose a selection of talks and tutorials that we feel add up to the most enjoyable and engaging program for our attendees. Volunteers from the Django community are invited to help us pick talks, and we rely heavily on them to help us select ones that are interesting and beneficial to our attendees. Community volunteers and conference organizers will review anonymized submissions and collectively decide which ones to accept.
 
-### Talks (September 23rd, 24th, &amp; 25th)
+### Talks (September 23rd &amp; 24th)
 
-Length: 20-25 minutes or 40-45 minutes
+Length: 25 minutes or 45 minutes
 
 We are looking for original and interesting talks that can benefit the diverse interests of our audience. Don’t feel boxed into Django-centric themes; we also love talks about community, web development, user experience, and more. If you’re a first timer - don’t fret! We would love to be remembered as the conference where you started your speaking career.
 
@@ -44,6 +44,10 @@ Here are some examples of what has been accepted over the last couple of years:
 
 * [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
 * [DjangoCon US 2017 Talks](https://2017.djangocon.us/talks/)
+
+### Deep Dive Talks (September 25th)
+
+This year, we will be curating a deep dive day to focus on exploring Django and Django-adjacent topics in detail. Deep dive day is meant to follow in the footsteps of [Django Under the Hood](https://djangounderthehood.com/) and will provide a range of topics presented in depth, targeting varying levels of Django experience. Talks of this nature will be a mix of community submissions and personal invitations. If you believe your talk is a good fit, please indicate so on your submission to our CFP by choosing the “deep dive” tag!
 
 ### Tutorials (September 22nd)
 
