@@ -6128,8 +6128,8 @@ table {
 thead,
 tbody,
 tfoot {
-  border: 1px solid #dbdfe4;
-  background-color: #e8ebee;
+  border: 1px solid #ebebeb;
+  background-color: #FFF;
 }
 
 caption {
@@ -6138,12 +6138,12 @@ caption {
 }
 
 thead {
-  background: #e2e5e9;
+  background: whitesmoke;
   color: #1E1E1E;
 }
 
 tfoot {
-  background: #dbdfe4;
+  background: #ebebeb;
   color: #1E1E1E;
 }
 
@@ -6167,16 +6167,16 @@ tbody td {
 
 tbody tr:nth-child(even) {
   border-bottom: 0;
-  background-color: #dbdfe4;
+  background-color: #ebebeb;
 }
 
 table.unstriped tbody {
-  background-color: #e8ebee;
+  background-color: #FFF;
 }
 table.unstriped tbody tr {
   border-bottom: 0;
-  border-bottom: 1px solid #dbdfe4;
-  background-color: #e8ebee;
+  border-bottom: 1px solid #ebebeb;
+  background-color: #FFF;
 }
 
 @media screen and (max-width: 63.99875em) {
@@ -6203,16 +6203,16 @@ table.scroll {
 }
 
 table.hover thead tr:hover {
-  background-color: #dce0e5;
+  background-color: #f0f0f0;
 }
 table.hover tfoot tr:hover {
-  background-color: #d5dae0;
+  background-color: #e6e6e6;
 }
 table.hover tbody tr:hover {
-  background-color: #e3e6ea;
+  background-color: #fafafa;
 }
 table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #d4d9df;
+  background-color: #e6e6e6;
 }
 
 .table-scroll {
@@ -8666,18 +8666,62 @@ blockquote cite {
   }
 }
 
-div.presenter-list-block .presenter-byline {
-  display: inline-flex;
-  margin: 0 1.5rem 2rem;
-}
-div.presenter-list-block .avatar {
-  max-width: 80px;
-}
-
 .presenter-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.presenter-list-block {
+  padding-right: 0.4807692308rem;
+  padding-left: 0.4807692308rem;
+}
+.presenter-list-block .presenter-list .presenter-byline {
+  display: inline-flex;
+  margin: 0 1rem 2rem;
+}
+.presenter-list-block .presenter-list .avatar {
+  max-width: 60px;
+}
+@media print, screen and (min-width: 55.625em) {
+  .presenter-list-block .presenter-byline {
+    margin: 0 1.5rem 2rem;
+  }
+  .presenter-list-block .avatar {
+    max-width: 80px;
+  }
+}
+
+.photos-block {
+  display: flex;
+  flex-flow: row wrap;
+  background: #D19FDD;
+}
+.photos-block-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.photos-block .photo {
+  flex: 1 0 auto;
+}
+@media print, screen and (min-width: 55.625em) {
+  .photos-block .photo {
+    flex: 1 0 33.33%;
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .photos-block-header, .photos-block-header + .photo, .photos-block-header + .photo + .photo {
+    width: 33.33%;
+  }
+  .photos-block .photo {
+    flex: 1 0 25%;
+  }
 }
 
 /* This styles code blocks used for examples. */

@@ -162,43 +162,196 @@ permalink: /recap/
   SPEAKERS
 {% endcomment %}
 <div class="section-pad presenter-list-block theme-brand-color5">
-  <div class="row">
-    <div class="column small-12">
-      <h2>All Sessions Performed by Amazing People</h2>
-    </div>
-  </div>
-
+  <h2 class="recap-heading">All Sessions Performed by Amazing People</h2>
   <section class="presenter-list">
-    <div class="row">
-      {% for post in site.schedule %}
-        {% if post.presenters %}
-          {% for presenter in post.presenters %}
-            {% if presenter.name %}
-              <a
-                href="{{ post.permalink }}"
-                class="presenter-byline">
-                {% if presenter.photo_url != blank %}
-                <img
-                  class="avatar"
-                  src="{{ presenter.photo_url }}"
-                  alt="Photo of {{ presenter.name }}" />
-                {% endif %}
-                {{ presenter.name }}
-                {% if presenter.pronouns != blank %}
-                  ({{ presenter.pronouns }})
-                {% endif %}
-              </a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
+    {% for post in site.schedule %}
+      {% if post.presenters %}
+        {% for presenter in post.presenters %}
+          {% if presenter.name %}
+            <a
+              href="{{ post.permalink }}"
+              class="presenter-byline">
+              {% if presenter.photo_url != blank %}
+              <img
+                class="avatar"
+                src="{{ presenter.photo_url }}"
+                alt="Photo of {{ presenter.name }}" />
+              {% endif %}
+              {{ presenter.name }}
+              {% if presenter.pronouns != blank %}
+                ({{ presenter.pronouns }})
+              {% endif %}
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
   </section>
 </div>
 
 {% include sponsor-footer.html %}
 
-<section class="section-pad organizer-block theme-brand-color4">
+<div class="section-pad theme-light-gray">
+  <div class="row">
+    <div class="column small-12 medium-5">
+      <h2>Stat Block</h2>
+      <p class="lead">It is very likely that we will want to feature some sort of table or data element. Perhaps this is survey results, or a pie chart of swag selection, etc.</p>
+    </div>
+
+    <div class="column hide-for-mobile medium-6">
+      <div class="table-scroll">
+        <table class="unstriped stacked">
+          <thead>
+            <tr>
+              <th>T-Shirts Eaten</th>
+              <th>OMG What?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small</td>
+              <td>Seriously</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>People</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>Ate...</td>
+            </tr>
+            <tr>
+              <td>X-Large</td>
+              <td>The shirts?</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>You could also put an image here, no problem!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <h3>And remember...</h3>
+      <p>Under the hood it's all just a grid system. So you can just add a new row if you want to associate more text with this block. Easy peasy, lemon squeezy.</p>
+    </div>
+  </div>
+</div>
+
+<div class="photos-block">
+  <header class="photos-block-header theme-brand-color4">
+    <h2>Lots of Photos</h2>
+    <p>We took a total over 300 photos this year. Here are some of our favorites. What were some of your favorite moments this year?</p>
+    <a href="#" class="button theme-brand-color3">View all photos</a>
+  </header>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+  <div class="photo">
+    <img
+      src="https://placeimg.com/840/680/animals" alt="" />
+  </div>
+</div>
+
+<div class="section-pad">
+  <div class="row">
+    <div class="column small-12 medium-5">
+      <h2>Stat Block</h2>
+      <p class="lead">It is very likely that we will want to feature some sort of table or data element. Perhaps this is survey results, or a pie chart of swag selection, etc.</p>
+    </div>
+
+    <div class="column hide-for-mobile medium-6">
+      <div class="table-scroll">
+        <table class="unstriped stacked">
+          <thead>
+            <tr>
+              <th>T-Shirts Eaten</th>
+              <th>OMG What?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small</td>
+              <td>Seriously</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>People</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>Ate...</td>
+            </tr>
+            <tr>
+              <td>X-Large</td>
+              <td>The shirts?</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>You could also put an image here, no problem!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <h3>And remember...</h3>
+      <p>Under the hood it's all just a grid system. So you can just add a new row if you want to associate more text with this block. Easy peasy, lemon squeezy.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-pad organizer-block theme-brand-color4">
   <div class="row">
     <header class="organizer-block-header recap-heading">
       <h2>DjangoCon 2019 is possible through lots of :heart:</h2>
@@ -252,6 +405,6 @@ permalink: /recap/
       {% endunless %}
     {% endfor %}
   </div>
-</section>
+</div>
 
 </div> <!-- End .content -->

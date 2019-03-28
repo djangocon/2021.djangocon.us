@@ -79,20 +79,75 @@
   }
 }
 
-div.presenter-list-block {
-  .presenter-byline {
-    display: inline-flex;
-    margin: 0 1.5rem 2rem;
-  }
-
-  .avatar {
-    max-width: 80px;
-  }
-}
-
-
 .presenter-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  // A little more padding than usual
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.presenter-list-block {
+  // TODO: Hacked padding
+  padding-right: 0.4807692308rem;
+  padding-left: 0.4807692308rem;
+
+  .presenter-list {
+    .presenter-byline {
+      display: inline-flex;
+      margin: 0 1rem 2rem;
+    }
+
+    .avatar {
+      max-width: 60px;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .presenter-byline {
+      margin: 0 1.5rem 2rem;
+    }
+
+    .avatar {
+      max-width: 80px;
+    }
+  }
+}
+
+.photos-block {
+  display: flex;
+  flex-flow: row wrap;
+  background: $brand-color6;
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .photo {
+    flex: 1 0 auto;
+  }
+
+  @include breakpoint(medium) {
+    .photo {
+      flex: 1 0 33.33%;
+    }
+  }
+
+  @include breakpoint(large) {
+    &-header,
+    &-header + .photo,
+    &-header + .photo + .photo {
+      width: 33.33%;
+    }
+
+    .photo {
+      flex: 1 0 25%;
+    }
+  }
 }
