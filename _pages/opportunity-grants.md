@@ -17,7 +17,7 @@ If you have any questions, feel free to reach out to the opportunity grant team 
 <br>
 {% endcomment %}
 
-Our [opportunity grant application](https://goo.gl/forms/8cosLkyP6Rw2fuBm1) is open until May 20th, 2019. All decision notifications will be sent by June 24th, 2019.
+Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 20th, 2019. All decision notifications will be sent by June 24th, 2019.
 
 ## Diversity Sponsorships
 
