@@ -92,7 +92,7 @@ visa_email: "visas@djangocon.us"
 # Our DjangoCon US links
 cfp_application: "https://www.papercall.io/djangocon-us-2019"
 hotel_reservation_link: "https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DjangoCon%20US%202019%5Esanmv%60DJADJAA%60179.00%60USD%60false%604%609/21/19%609/28/19%6008/21/19&app=resvlink&stop_mobi=yes"
-# opportunity_grant_application: "https://docs.google.com/forms/d/e/1FAIpQLSfqOQJNXDSftszH5Ar_LQT6Y0IcvuRUaXTC9ERS6h6PTKsvHg/viewform"
+opportunity_grant_application: "https://docs.google.com/forms/d/e/1FAIpQLScrtXuXGuqTJFcKh9MIb1JR7APz-k7fABi3qvrH8_Do3r5-lQ/viewform"
 # slack_link: ""
 sponsorship_prospectus: "https://drive.google.com/open?id=1itpb19QgzVSLSs_kR0ik4mQ3X03bSdbE"
 ticket_link: "https://ti.to/defna/djangocon-us-2019"
