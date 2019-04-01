@@ -65,5 +65,5 @@ This year, we have set aside up to $500 per speaker to help offset the cost of t
 
 If $500 will not cover your expenses, we encourage you to apply for an <a href="{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you. 
 
-<a href="{{site.opportunity_grant_application}}">opportunity grant</a> applications close May 20th, 2019, and we will send decision notifications by June 24th, 2019.
+<a href="{{site.opportunity_grant_application}}">Opportunity grant</a> applications close May 20th, 2019, and we will send decision notifications by June 24th, 2019.
 
