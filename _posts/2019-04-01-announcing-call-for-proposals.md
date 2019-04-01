@@ -10,7 +10,7 @@ title: "The Call for Proposals for DjangoCon US 2019 Is Now Open!"
 ---
 We are starting this Monday off with great news: our [call for proposals](https://www.papercall.io/djangocon-us-2019) is now open! The deadline for submissions is May 20th, 2019 [AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth). As long as it’s still May 20th anywhere on earth, you can submit your proposal.
 
-We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and non-technical subjects are welcome. You can look at our [talk schedule](https://2018.djangocon.us/talks/) from last year for reference.
+We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our [talk schedule](https://2018.djangocon.us/talks/) from last year for reference.
 
 First-time speakers are encouraged! Do you have an idea but don’t know how to submit it? We have experienced speaker mentors who can guide you through the process, from writing the proposal to preparing and presenting the talk. Please contact one of our amazing [speaker mentors](https://2019.djangocon.us/speaking/speaker-resources/) to help you on your way.
 
