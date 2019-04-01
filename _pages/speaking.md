@@ -6,13 +6,11 @@ permalink: /speaking/
 description: Information about submitting a proposal to speak at DjangoCon US
 ---
 
-Our Call for Proposals (CFP) will open soon!
+{% comment %} Our Call for Proposals (CFP) will open soon! {% endcomment %}
 
-{% comment %}
-Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open! Submit your talk or tutorial proposal by April 10 ([AoE](https://time.is/compare/0000_11_Apr_2017_in_Anywhere_on_Earth)), and encourage your friends and colleagues to do the same.
+Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open! Submit your talk or tutorial proposal by May 20th ([AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth)), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We’ve got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
-{% endcomment %}
 
 {% comment %}
 Our Call for Proposals is now closed and all decision notifications have been sent.
@@ -20,7 +18,7 @@ Our Call for Proposals is now closed and all decision notifications have been se
 
 ## Why Speak at DjangoCon US?
 
-- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers are encouraged to apply for an opportunity grant. {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %})
+- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers are encouraged to apply for an [opportunity grant](https://goo.gl/forms/8cosLkyP6Rw2fuBm1). {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %})
 - Professionally produced video of your talk published to our YouTube channel. (You may opt out of this.)
 - Professional photographer on hand to photograph your talk. (Also optional.)
 - Expose the Django community to new tools, practices, or ideas.
@@ -60,3 +58,12 @@ Still unsure if you should submit? Not only will we cover your DjangoCon US tick
 ### Lightning Talks :zap: (September 23rd, 24th, &amp; 25th)
 
 Not up for a full-on talk or tutorial? Looking to give your first talk at a conference? Lightning talks are talks under 5 minutes with or without slides on almost any topic you want! Even if you’re nervous or shy, remember: it’s a **maximum** of 5 minutes. Sign-ups will happen at the conference.
+
+### Speaker Travel Assistance
+
+This year, we have set aside up to $500 per speaker to help offset the cost of travel to the conference. In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement. Receipts for travel expenses will be required. 
+
+If $500 will not cover your expenses, we encourage you to apply for an [Opportunity Grant](https://goo.gl/forms/8cosLkyP6Rw2fuBm1), but we cannot guarantee it will be awarded to you. 
+
+[Opportunity Grant](https://goo.gl/forms/8cosLkyP6Rw2fuBm1) applications close May 20th, 2019, and we will send decision notifications by June 24th, 2019.
+
