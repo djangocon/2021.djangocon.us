@@ -15,6 +15,7 @@ description: Resources to support DjangoCon 2018 speakers
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
 
+* [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
 * [Frank Wiles](mailto:frank@revsys.com), President of the Board, Django Software Foundation, Founder, REVSYS.
 * [Josue Balandrano Coronel](mailto:josuebc@defna.org), DEFNA Board Member, and Software Engineer at the Texas Advanced Computing Center.
 * [Katia Lira](mailto:katialira@defna.org), Full-Stack Dev and DEFNA Board Member. Katia gave a tutorial last year overcoming her nerves and fear and you can too!
