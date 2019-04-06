@@ -14,6 +14,8 @@ We are grateful to the past organizers of DjangoCon US and of other events for t
 - [AlterConf](https://www.alterconf.com/speak), speaker slide guidelines
 - [DjangoCon Europe](https://2016.djangocon.eu), Code of Conduct Transparency Report
 - [DjangoCon Europe](https://2015.djangocon.eu), speaker mentorship program
+- [University of Bristol, LGBT+ Society](http://www.lgbtplusbristol.org.uk/), bathroom signage
+- [Django Under the Hood](https://djangounderthehood.com/), deep dive day
 
 ## Website Design
 
