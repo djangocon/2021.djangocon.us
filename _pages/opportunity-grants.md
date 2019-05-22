@@ -9,15 +9,17 @@ description: |
     As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
 ---
 
+Our opportunity grant application is now closed. All decision notifications will be sent by June 24th, 2019.
+
+If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+
+<br>
+
 {% comment %}
 Our opportunity grant application is now closed and all decision notifications have been sent.
 
-If you have any questions, feel free to reach out to the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
-
-<br>
-{% endcomment %}
-
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 20th, 2019. All decision notifications will be sent by June 24th, 2019.
+{% endcomment %}
 
 ## Diversity Sponsorships
 
