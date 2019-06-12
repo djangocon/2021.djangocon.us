@@ -1,8 +1,8 @@
 ---
 layout: base
 
-hidden: true
-level: 'Silver'
+hidden: false
+level: 'Gold'
 name: "JBS Solutions"
 logo: "/static/img/sponsors/jbslogo.png"
 logo_orientation: "landscape"
