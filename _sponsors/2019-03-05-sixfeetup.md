@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: 'Lanyard'
 name: "Six Feet Up"
-logo: "/static/img/sponsors/SixFeetUpLogo.png"
+logo: "/static/img/sponsors/SFUHorizontalLogo.png"
 logo_orientation: "landscape"
 url_target: "https://sixfeetup.com/"
 url_friendly: "www.sixfeetup.com"
