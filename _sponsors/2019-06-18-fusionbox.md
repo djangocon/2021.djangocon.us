@@ -2,7 +2,7 @@
 layout: base
 
 hidden: false
-level: 'Silver'
+level: 'Bronze'
 name: "Fusionbox"
 logo: "/static/img/sponsors/fusionboxlogo.png"
 logo_orientation: "landscape"
