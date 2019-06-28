@@ -32,8 +32,8 @@ tags:
 - django
 - cbv
 - deep dive
+talk_slot: full
 title: Generic View? What is that and why would I use it?
-track: t0
 video_url: ''
 ---
 

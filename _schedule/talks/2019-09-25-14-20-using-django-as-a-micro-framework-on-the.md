@@ -29,9 +29,9 @@ slides_url: ''
 summary: ''
 tags:
 - deep dive
+talk_slot: full
 title: 'Using Django as a Micro-Framework: Hacking on the HTTP handers and middleware
   (for fun and profit)'
-track: t0
 video_url: ''
 ---
 

@@ -40,8 +40,8 @@ tags:
 - SQL
 - RDB
 - data modeling
+talk_slot: full
 title: The Ins and Outs of Model Inheritance
-track: t0
 video_url: ''
 ---
 

@@ -29,8 +29,8 @@ tags:
 - deep dive
 - django
 - authentication
+talk_slot: full
 title: Understanding Django authentication
-track: t0
 video_url: ''
 ---
 

@@ -32,8 +32,8 @@ tags:
 - async
 - django
 - python
+talk_slot: full
 title: 'Just Add Await: Retrofitting Async Into Django'
-track: t0
 video_url: ''
 ---
 
