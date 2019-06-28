@@ -60,7 +60,7 @@ This first set of front matter elements applies to all sessions, including meals
 - **layout**: Which HTML layout from `_layouts/` this page should use. For schedule objects, most of the time this will be `session-details`.
 - **accepted**: `true` or `false` for whether this session has been accepted and should be displayed on the website
 - **category**: `talk` or `tutorial`
-- **date**: Start date and time of session with the UTC offset, example `2018-10-18 8:00:00 -0500` for October 18, 2018 at 8:00 in Pacific time
+- **date**: Start date and time of session with the UTC offset, example `2019-09-22 8:00:00 -0500` for September 18, 2019 at 8:00 in Pacific time
 - **end_date**: End date and time of session with the UTC offset
 - **permalink**: The URL path for this page. Leave blank if this session (like Quiet Room) should not link to its own page
 - **room**: The name of the room this session takes place in
