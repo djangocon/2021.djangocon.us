@@ -17,7 +17,7 @@ presenters:
   twitter: null
   website: null
 room: Salon E
-sitemap: false
+sitemap: true
 talk_slot: full
 title: Board Game Night
 video_url: null

@@ -26,7 +26,7 @@ presenters:
   twitter: Transition
   website: http://kojoidrissa.com/
 room: Salon A-E
-sitemap: false
+sitemap: true
 title: Lightning Talks
 track: t0
 ---

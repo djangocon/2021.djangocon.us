@@ -27,7 +27,7 @@ presenters:
   twitter: Transition
   website: http://kojoidrissa.com/
 room: Salon A-E
-sitemap: false
+sitemap: true
 talk_slot: full
 title: Orientation and Welcome
 video_url: null
