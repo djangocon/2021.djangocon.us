@@ -18,11 +18,11 @@ presenters:
   company: ''
   github: ''
   name: William S. Vincent
-  photo_url: '/static/img/speakers/william-s-vincent.jpg'
+  photo_url: /static/img/speakers/william-s-vincent.jpg
   twitter: wsv3000
   website: https://wsvincent.com/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

@@ -16,11 +16,11 @@ presenters:
   company: Canopy
   github: ''
   name: Nick Humrich
-  photo_url: '/static/img/speakers/nick-humrich.jpg'
+  photo_url: /static/img/speakers/nick-humrich.jpg
   twitter: nhumrich
   website: http://blog.humrich.us
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

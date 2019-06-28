@@ -1,24 +1,26 @@
 ---
-abstract: Bring your board games, card games, and/or a sense of whimsy to the annual DjangoCon US Board Game Night!
+abstract: Bring your board games, card games, and/or a sense of whimsy to the annual
+  DjangoCon US Board Game Night!
 accepted: true
 category: social event
 date: 2018-10-16 18:00:00 -0500
+difficulty: null
 end_date: 2018-10-16 22:00:00 -0500
-difficulty:
 layout: session-details
-permalink: /board-game-night/
+permalink: /social event/board-game-night/
 presenters:
-- bio:
-  company:
-  github:
-  name:
-  photo_url:
-  twitter:
-  website:
+- bio: null
+  company: null
+  github: null
+  name: null
+  photo_url: null
+  twitter: null
+  website: null
 room: Salon E
 sitemap: false
 talk_slot: full
 title: Board Game Night
 video_url: null
 ---
+
 Bring your board games, card games, and/or a sense of whimsy to the annual DjangoCon US Board Game Night!

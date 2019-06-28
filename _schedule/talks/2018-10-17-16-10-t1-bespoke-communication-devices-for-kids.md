@@ -19,11 +19,11 @@ presenters:
   company: ''
   github: ''
   name: Muriel Green
-  photo_url: '/static/img/speakers/muriel-green.jpg'
+  photo_url: /static/img/speakers/muriel-green.jpg
   twitter: ''
   website: https://www.patreon.com/thereisnotry
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

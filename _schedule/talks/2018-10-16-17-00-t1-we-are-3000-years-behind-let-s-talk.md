@@ -23,11 +23,11 @@ presenters:
   company: ''
   github: ''
   name: Hayley Denbraver
-  photo_url: '/static/img/speakers/hayley-denbraver.jpg'
+  photo_url: /static/img/speakers/hayley-denbraver.jpg
   twitter: hayleydenb
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

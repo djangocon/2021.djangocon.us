@@ -19,11 +19,11 @@ presenters:
   company: 'CandiDate '
   github: ''
   name: Amber Wanner
-  photo_url: '/static/img/speakers/amber-wanner.jpg'
+  photo_url: /static/img/speakers/amber-wanner.jpg
   twitter: candidatephilly
   website: http://www.candidatephilly.com/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

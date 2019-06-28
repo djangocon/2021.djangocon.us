@@ -10,15 +10,19 @@ difficulty: All
 layout: session-details
 permalink: /talk/code-review-skills-for-pythonistas/
 presenters:
-- bio: Nina Zakharenko is a Cloud Developer Advocate at Microsoft, focusing on Python. Before joining Microsoft, she was a software engineer with a decade of experience who honed her technical chops writing software for companies like Reddit, Meetup, and HBO. In her spare time, she enjoys snowboarding, hiking, and riding her bike in her home base in Portland, OR.
+- bio: Nina Zakharenko is a Cloud Developer Advocate at Microsoft, focusing on Python.
+    Before joining Microsoft, she was a software engineer with a decade of experience
+    who honed her technical chops writing software for companies like Reddit, Meetup,
+    and HBO. In her spare time, she enjoys snowboarding, hiking, and riding her bike
+    in her home base in Portland, OR.
   company: Microsoft
   github: nnja
   name: Nina Zakharenko
-  photo_url: '/static/img/speakers/nina-zakharenko.jpg'
+  photo_url: /static/img/speakers/nina-zakharenko.jpg
   twitter: nnja
   website: http://nnja.io
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

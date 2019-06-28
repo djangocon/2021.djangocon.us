@@ -18,11 +18,11 @@ presenters:
   company: Stitch Fix
   github: ''
   name: Jennifer Konikowski
-  photo_url: '/static/img/speakers/jennifer-konikowski.jpg'
+  photo_url: /static/img/speakers/jennifer-konikowski.jpg
   twitter: jenkoni
   website: http://www.jenniferkonikowski.com
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

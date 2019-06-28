@@ -7,13 +7,21 @@ difficulty: All
 layout: session-details
 permalink: /talk/keynote-with-mariatta-wijaya/
 presenters:
-- bio: |
-    Mariatta is a Python Core Developer, a software engineer at [Zapier](https://zapier.com/), [Vancouver PyLadies](https://twitter.com/pyladiesvan) co-organizer, and one of the founding members of the [PyCascades](https://2019.pycascades.com/) conference. She moved to Canada almost two decades ago, and now lives in Vancouver with her husband and two children. In her free time, she contributes to open source, builds GitHub bots, fixes typos, and likes to tell you about f-strings. She's been [credited](https://www.imdb.com/name/nm7641957/?ref_=nv_sr_1) in several movies, including __Spider Man: Homecoming__ and __The Emoji Movie__.
+- bio: 'Mariatta is a Python Core Developer, a software engineer at [Zapier](https://zapier.com/),
+    [Vancouver PyLadies](https://twitter.com/pyladiesvan) co-organizer, and one of
+    the founding members of the [PyCascades](https://2019.pycascades.com/) conference.
+    She moved to Canada almost two decades ago, and now lives in Vancouver with her
+    husband and two children. In her free time, she contributes to open source, builds
+    GitHub bots, fixes typos, and likes to tell you about f-strings. She''s been [credited](https://www.imdb.com/name/nm7641957/?ref_=nv_sr_1)
+    in several movies, including __Spider Man: Homecoming__ and __The Emoji Movie__.
+
     Her favorite emoji is :stuck_out_tongue_closed_eyes:.
+
+    '
   company: Zapier
   github: Mariatta
   name: Mariatta Wijaya
-  photo_url: "/static/img/speakers/mariatta-wijaya.jpg"
+  photo_url: /static/img/speakers/mariatta-wijaya.jpg
   twitter: mariatta
   website: https://mariatta.ca/
 room: Salon A-E

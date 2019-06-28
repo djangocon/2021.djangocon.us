@@ -10,18 +10,18 @@ difficulty: All
 layout: session-details
 permalink: /talk/when-your-wetware-has-too-many-threads/
 presenters:
-- bio: "I'm a senior software engineer _(15 years experience)_ turned developer advocate\
-    \ at [Nexmo](https://twitter.com/nexmodev). I'm a bit of a tinkerer, always creating\
-    \ new things with code or electronics. But generally, I make cool stuff and help\
-    \ other people make **unbelievably** cool stuff \U0001F525\U0001F525\U0001F389"
+- bio: "I'm a senior software engineer _(15 years experience)_ turned developer advocate
+    at [Nexmo](https://twitter.com/nexmodev). I'm a bit of a tinkerer, always creating
+    new things with code or electronics. But generally, I make cool stuff and help
+    other people make **unbelievably** cool stuff \U0001F525\U0001F525\U0001F389"
   company: Nexmo
   github: ''
   name: Aaron Bassett
-  photo_url: '/static/img/speakers/aaron-bassett.jpg'
+  photo_url: /static/img/speakers/aaron-bassett.jpg
   twitter: aaronbassett
   website: http://lookasquirrel.co/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

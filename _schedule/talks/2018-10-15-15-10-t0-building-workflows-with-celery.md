@@ -13,19 +13,18 @@ difficulty: Intermediate
 layout: session-details
 permalink: /talk/building-workflows-with-celery/
 presenters:
-- bio: "Josue Balandrano Coronel works at the Texas Advanced Computing Center as a\
-    \ Software Engineer helping build Science Gateways. Josue has been a\
-    \ DjangoCon US and PEARC speaker. He is also passionate about complexity and\
-    \ how to remove complexity from software development. Josue is a Celery core\
-    \ contributor."
+- bio: Josue Balandrano Coronel works at the Texas Advanced Computing Center as a
+    Software Engineer helping build Science Gateways. Josue has been a DjangoCon US
+    and PEARC speaker. He is also passionate about complexity and how to remove complexity
+    from software development. Josue is a Celery core contributor.
   company: Texas Advanced Computing Center
   github: ''
   name: Josue Balandrano Coronel
-  photo_url: '/static/img/speakers/josue-balandrano-coronel.jpg'
+  photo_url: /static/img/speakers/josue-balandrano-coronel.jpg
   twitter: rmcomplexity
   website: https://rmcomplexity.com
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

@@ -20,11 +20,11 @@ presenters:
   company: WSP
   github: ''
   name: Ken Whitesell
-  photo_url: '/static/img/speakers/ken-whitesell.jpg'
+  photo_url: /static/img/speakers/ken-whitesell.jpg
   twitter: KenWhitesell
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

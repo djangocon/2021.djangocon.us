@@ -18,11 +18,11 @@ presenters:
   company: '1990'
   github: ''
   name: Sara Heins
-  photo_url: '/static/img/speakers/sara-heins.jpg'
+  photo_url: /static/img/speakers/sara-heins.jpg
   twitter: Heins
   website: https://github.com/sheins
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

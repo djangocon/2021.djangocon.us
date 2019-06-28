@@ -1,7 +1,7 @@
 ---
 accepted: true
 category: talk
-date: 2018-10-17 12:50:00 -0500
+date: 2018-10-16 12:50:00 -0500
 difficulty: null
 layout: session-details
 permalink: /talk/lightning-talks/
@@ -34,4 +34,4 @@ Salon A-E
 
 Signup link is: [http://bit.ly/dcus2018lt](http://bit.ly/dcus2018lt)
 
-Wednesday sign ups go live Tuesday at 2:20pm and close Wednesday at 9am (please eat breakfast!) with speaker notifications by 11am Wednesday.
+Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday.

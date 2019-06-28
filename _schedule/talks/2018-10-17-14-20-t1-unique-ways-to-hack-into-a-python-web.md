@@ -1,8 +1,8 @@
 ---
-abstract: "Microservices are taking over the world. Rest-framework is accelerating\
-  \ this because of its ease and flexibility. \nDevelopers often use and develop REST-based\
-  \ applications because it's exciting to work with. But, they forget about security\
-  \ which leads to compromised and exploited applications."
+abstract: "Microservices are taking over the world. Rest-framework is accelerating
+  this because of its ease and flexibility. \nDevelopers often use and develop REST-based
+  applications because it's exciting to work with. But, they forget about security
+  which leads to compromised and exploited applications."
 accepted: true
 category: talk
 date: 2018-10-17 14:20:00 -0500
@@ -22,11 +22,11 @@ presenters:
   company: we45
   github: ''
   name: Tilak T
-  photo_url: '/static/img/speakers/tilak-t.jpg'
+  photo_url: /static/img/speakers/tilak-t.jpg
   twitter: ti1akt
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

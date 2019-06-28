@@ -18,11 +18,11 @@ presenters:
   company: Red Hat
   github: ''
   name: Graham Dumpleton
-  photo_url: '/static/img/speakers/graham-dumpleton.jpg'
+  photo_url: /static/img/speakers/graham-dumpleton.jpg
   twitter: GrahamDumpleton
   website: http://blog.dscpl.com.au
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

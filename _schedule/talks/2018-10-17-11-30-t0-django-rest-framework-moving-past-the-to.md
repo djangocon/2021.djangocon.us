@@ -11,19 +11,18 @@ layout: session-details
 permalink: /talk/django-rest-framework-moving-past-the-to/
 presenters:
 - bio: Drew is a software engineer currently residing in Huntsville, Alabama, USA.
-    He has experience working in various industries including IoT, defense,
-    advertising, and cloud hosting. He's built DRF APIs from scratch at two
-    separate jobs. When not coding, he spends time with his wife, daughter,
-    two dogs, and one cat as well as brewing beer, hiking, cooking, and
-    watching various sports.
+    He has experience working in various industries including IoT, defense, advertising,
+    and cloud hosting. He's built DRF APIs from scratch at two separate jobs. When
+    not coding, he spends time with his wife, daughter, two dogs, and one cat as well
+    as brewing beer, hiking, cooking, and watching various sports.
   company: Rackspace
   github: drewbrew
   name: Drew Winstel
-  photo_url: '/static/img/speakers/drew-winstel.jpg'
+  photo_url: /static/img/speakers/drew-winstel.jpg
   twitter: hops_and_smoke
   website: ''
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

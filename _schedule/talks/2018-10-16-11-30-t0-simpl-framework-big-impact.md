@@ -19,18 +19,18 @@ presenters:
   company: The Wharton School, University of Pennsylvania
   github: ''
   name: Joseph Lee
-  photo_url: '/static/img/speakers/joseph-lee.jpg'
+  photo_url: /static/img/speakers/joseph-lee.jpg
   twitter: skemojoe
   website: http://simulations.wharton.upenn.edu
 - bio: ''
   company: The Wharton School, University of Pennsylvania
   github: ''
   name: Jane Eisenstein
-  photo_url: '/static/img/speakers/jane-eisenstein.jpg'
+  photo_url: /static/img/speakers/jane-eisenstein.jpg
   twitter: JaneEisenstein
   website: http://simulations.wharton.upenn.edu
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

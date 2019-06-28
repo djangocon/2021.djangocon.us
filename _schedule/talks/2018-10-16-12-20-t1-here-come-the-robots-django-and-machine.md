@@ -15,11 +15,11 @@ presenters:
   company: Torchbox and Wagtail
   github: ''
   name: Tom Dyson
-  photo_url: '/static/img/speakers/tom-dyson.jpg'
+  photo_url: /static/img/speakers/tom-dyson.jpg
   twitter: tomd
   website: https://torchbox.com
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

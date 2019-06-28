@@ -16,12 +16,12 @@ presenters:
     board games. Ask me about Louis Armstrong and I won't shut up for days.
   company: ''
   github: ''
-  name: "\u017Dan Anderle"
-  photo_url: '/static/img/speakers/zan-anderle.jpg'
+  name: Žan Anderle
+  photo_url: /static/img/speakers/zan-anderle.jpg
   twitter: z_anderle
   website: http://zanderle.com
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

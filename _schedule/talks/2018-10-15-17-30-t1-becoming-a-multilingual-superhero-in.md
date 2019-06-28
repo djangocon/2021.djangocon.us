@@ -23,13 +23,13 @@ presenters:
   company: ''
   github: ''
   name: Sanyam Khurana
-  photo_url: '/static/img/speakers/sanyam-khurana.jpg'
+  photo_url: /static/img/speakers/sanyam-khurana.jpg
   twitter: ErSanyamKhurana
   website: http://www.SanyamKhurana.com/blog
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
-slides_url: 'https://speakerdeck.com/curiouslearner/becoming-a-mutltilingual-superhero-in-django-v2-dot-0'
+slides_url: https://speakerdeck.com/curiouslearner/becoming-a-mutltilingual-superhero-in-django-v2-dot-0
 summary: ''
 title: Becoming a Multilingual SuperHero in Django
 track: t1

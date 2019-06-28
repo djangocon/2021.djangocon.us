@@ -1,26 +1,30 @@
 ---
 abstract: TBD
-layout: session-details
-category: talk
-permalink: /talk/state-of-django-panel/
 accepted: true
-sitemap: false
+category: talk
+date: 2018-10-17 17:10:00 -0500
 difficulty: All
-
-title: '"State of Django" Panel'
-
+layout: session-details
+permalink: /talk/state-of-django-panel/
 presenters:
-- bio: |
-    Simon Willison is an engineering director at Eventbrite, a Bay Area ticketing company working to bring the world together through live experiences. Simon joined Eventbrite through their acquisition of Lanyrd, a Y Combinator funded company he co-founded in 2010. He is a co-creator of the Django Web Framework, and has been blogging about web development and programming since 2002 at https://simonwillison.net/
+- bio: 'Simon Willison is an engineering director at Eventbrite, a Bay Area ticketing
+    company working to bring the world together through live experiences. Simon joined
+    Eventbrite through their acquisition of Lanyrd, a Y Combinator funded company
+    he co-founded in 2010. He is a co-creator of the Django Web Framework, and has
+    been blogging about web development and programming since 2002 at https://simonwillison.net/
+
+    '
   github: simonw
   name: Simon Willison (moderator)
-  photo_url: "/static/img/speakers/simon-willison.jpg"
+  photo_url: /static/img/speakers/simon-willison.jpg
   twitter: simonw
   website: https://simonwillison.net/
-date: 2018-10-17 17:10:00 -0500
+room: Salon A-E
+sitemap: false
 talk_slot: full
-room: 'Salon A-E'
+title: '"State of Django" Panel'
 ---
+
 Join us for a panel on the State of Django: the state of the Django codebase, but also the state of the Django community as represented by organizations like the Django Software Foundation, Django Girls, and DEFNA.
 
 Moderated by Simon Willison, our panelists will discuss:

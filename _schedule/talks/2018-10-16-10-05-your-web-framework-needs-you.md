@@ -7,14 +7,13 @@ difficulty: All
 layout: session-details
 permalink: /talk/your-web-framework-needs-you/
 presenters:
-- bio: |
-    Husband and father of 4. I a Django Fellow, a maintainer Django REST
-    Framework, Django-Filter, Crispy Forms and more. When I'm not doing that,
-    I like cooking and hats 🌮.
+- bio: "Husband and father of 4. I a Django Fellow, a maintainer Django REST\nFramework,
+    Django-Filter, Crispy Forms and more. When I'm not doing that,\nI like cooking
+    and hats \U0001F32E.\n"
   company: null
   github: carltongibson
   name: Carlton Gibson
-  photo_url: "/static/img/speakers/carlton-gibson.jpg"
+  photo_url: /static/img/speakers/carlton-gibson.jpg
   twitter: carltongibson
   website: https://noumenal.es/
 room: Salon A-E

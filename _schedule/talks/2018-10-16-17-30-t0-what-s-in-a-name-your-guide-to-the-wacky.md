@@ -23,13 +23,13 @@ presenters:
   company: Django Girls KC Attendee Coordinator
   github: ''
   name: Ashley Sullins
-  photo_url: '/static/img/speakers/ashley-sullins.jpg'
+  photo_url: /static/img/speakers/ashley-sullins.jpg
   twitter: ''
   website: http://ashleysullins.github.io/
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
-slides_url: 'https://shorturl.at/prDV3'
+slides_url: https://shorturl.at/prDV3
 summary: ''
 title: What's in a Name? Your Guide to the Wacky World of DNS
 track: t0

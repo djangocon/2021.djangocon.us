@@ -14,11 +14,11 @@ presenters:
   company: ''
   github: ''
   name: 'Laura Hampton '
-  photo_url: '/static/img/speakers/laura-hampton.jpg'
+  photo_url: /static/img/speakers/laura-hampton.jpg
   twitter: 'incunabulista '
   website: http://www.laura-hampton.com
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

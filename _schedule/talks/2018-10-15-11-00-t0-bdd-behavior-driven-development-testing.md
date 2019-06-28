@@ -23,11 +23,11 @@ presenters:
   company: Alzheimer's Therapeutic Research Institute, University of Southern California
   github: ''
   name: Le Xiao
-  photo_url: '/static/img/speakers/le-xiao.jpg'
+  photo_url: /static/img/speakers/le-xiao.jpg
   twitter: ''
   website: ''
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''

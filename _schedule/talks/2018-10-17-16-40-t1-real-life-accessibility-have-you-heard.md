@@ -16,11 +16,11 @@ presenters:
   company: American Well
   github: ''
   name: Mike Herring
-  photo_url: '/static/img/speakers/mike-herring.jpg'
+  photo_url: /static/img/speakers/mike-herring.jpg
   twitter: ''
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: false
 slides_url: ''
 summary: ''

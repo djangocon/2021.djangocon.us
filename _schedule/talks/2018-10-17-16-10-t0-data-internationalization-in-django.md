@@ -17,11 +17,11 @@ presenters:
   company: rami.io Software development
   github: ''
   name: Raphael Michel
-  photo_url: '/static/img/speakers/raphael-michel.jpg'
+  photo_url: /static/img/speakers/raphael-michel.jpg
   twitter: _rami_
   website: https://www.raphaelmichel.de
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: false
 slides_url: ''
 summary: ''
