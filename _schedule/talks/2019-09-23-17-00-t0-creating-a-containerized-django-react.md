@@ -1,0 +1,39 @@
+---
+abstract: There are many reasons to develop with containers, but getting your developer
+  tools to work with containers can be a big challenge. In this talk we'll show how
+  you can easily set up a fully featured containerized Django development environment
+  using Visual Studio Code remote development extensions.
+accepted: true
+category: talks
+date: 2019-09-23 22:00
+difficulty: Intermediate
+layout: session-details
+permalink: /talks/creating-a-containerized-django-react/
+presenters:
+- bio: Dan is a Principal PM Manager for Python developer tools at Microsoft, focusing
+    on making Python great for developers across Microsoft's tools and services. His
+    team manages the Python extension for Visual Studio Code, the Python workload
+    in Visual Studio, and the Python developer experience in Azure. He has had a long
+    history working on developer tools and has previously spoken about Python in Visual
+    Studio Code at EuroPython and PyCon Canada.
+  company: Microsoft
+  github: ''
+  name: Dan Taylor
+  photo_url: ''
+  twitter: qubitron
+  website: ''
+published: true
+room: ''
+sitemap: true
+slides_url: ''
+summary: ''
+tags:
+- Visual Studio Code
+- Tooling
+- Django
+title: Creating a containerized Django + React + PostgreSQL development environment
+track: t0
+video_url: ''
+---
+
+Containerizing your development environment makes it easy to acquire dependencies and ramp up new developers quickly, but getting your tools to play nicely can be a big challenge to overcome. In this talk we will walk through how to quickly get up and running with a fully functional containerized development environment for a Django + React + PostgreSQL application using Visual Studio Code and the Remote-Containers extension. We'll cover how to edit, run, debug, format, and test code inside of the container and cover key differences between development and production configurations.
