@@ -6,8 +6,8 @@ abstract: As a leading digital country and a D9 member, Uruguay decided to build
 accepted: true
 category: talks
 date: 2019-09-24 16:10:00 -0500
-end_date: 2019-09-24 17:00:00 -0500
 difficulty: All
+end_date: 2019-09-24 17:00:00 -0500
 layout: session-details
 permalink: /talks/building-a-multi-factor-sso-for-a-whole/
 presenters:
@@ -21,7 +21,7 @@ presenters:
   twitter: elpaquete
   website: https://www.octobot.io
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

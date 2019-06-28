@@ -5,8 +5,8 @@ abstract: Have you ever used Django's `prefetch_related` system?  Do you know ho
 accepted: true
 category: talks
 date: 2019-09-24 11:30:00 -0500
-end_date: 2019-09-24 12:20:00 -0500
 difficulty: Advanced
+end_date: 2019-09-24 12:20:00 -0500
 layout: session-details
 permalink: /talks/prefetching-for-fun-and-profit/
 presenters:
@@ -18,7 +18,7 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

@@ -5,8 +5,8 @@ abstract: In this talk we'll learn about the properties of iterators, learn how 
 accepted: true
 category: talks
 date: 2019-09-24 15:10:00 -0500
-end_date: 2019-09-24 15:40:00 -0500
 difficulty: All
+end_date: 2019-09-24 15:40:00 -0500
 layout: session-details
 permalink: /talks/lazy-looping-the-next-iteration/
 presenters:
@@ -21,7 +21,7 @@ presenters:
   twitter: treyhunner
   website: http://treyhunner.com
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

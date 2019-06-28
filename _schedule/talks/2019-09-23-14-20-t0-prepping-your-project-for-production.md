@@ -11,8 +11,8 @@ abstract: 'Django does a great job following the Python aphorism:
 accepted: true
 category: talks
 date: 2019-09-23 14:20:00 -0500
-end_date: 2019-09-23 15:10:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-23 15:10:00 -0500
 layout: session-details
 permalink: /talks/prepping-your-project-for-production/
 presenters:
@@ -35,7 +35,7 @@ presenters:
   twitter: ipmb
   website: https://lincolnloop.com/team/peter-baumgartner/
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

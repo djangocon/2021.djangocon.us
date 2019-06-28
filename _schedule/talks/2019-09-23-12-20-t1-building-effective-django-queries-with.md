@@ -6,8 +6,8 @@ abstract: In Django, we have a powerful tool called ORM to manipulate databases.
 accepted: true
 category: talks
 date: 2019-09-23 12:20:00 -0500
-end_date: 2019-09-23 12:50:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-23 12:50:00 -0500
 layout: session-details
 permalink: /talks/building-effective-django-queries-with/
 presenters:
@@ -21,7 +21,7 @@ presenters:
   twitter: vcfbarreiros
   website: https://vinta.software/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

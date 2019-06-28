@@ -5,8 +5,8 @@ abstract: Django rest framework offers common solutions to make filters, manage 
 accepted: true
 category: talks
 date: 2019-09-24 17:00:00 -0500
-end_date: 2019-09-24 17:30:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-24 17:30:00 -0500
 layout: session-details
 permalink: /talks/django-rest-framework-taking-your-api-to/
 presenters:
@@ -21,7 +21,7 @@ presenters:
   twitter: carlosmart626
   website: https://carlosmart.co
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

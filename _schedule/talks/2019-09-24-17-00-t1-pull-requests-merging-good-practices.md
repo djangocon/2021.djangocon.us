@@ -6,8 +6,8 @@ abstract: On average, developers spend 45% of their time fixing bugs and technic
 accepted: true
 category: talks
 date: 2019-09-24 17:00:00 -0500
-end_date: 2019-09-24 17:30:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-24 17:30:00 -0500
 layout: session-details
 permalink: /talks/pull-requests-merging-good-practices/
 presenters:
@@ -31,7 +31,7 @@ presenters:
   twitter: lucabezerra_
   website: https://github.com/lucabezerra/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

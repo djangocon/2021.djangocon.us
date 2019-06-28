@@ -6,8 +6,8 @@ abstract: Getting sick of your daily commute? Wish you could spend more time get
 accepted: true
 category: talks
 date: 2019-09-23 16:10:00 -0500
-end_date: 2019-09-23 17:00:00 -0500
 difficulty: All
+end_date: 2019-09-23 17:00:00 -0500
 layout: session-details
 permalink: /talks/roll-your-own-tech-job-starting-a-or/
 presenters:
@@ -26,7 +26,7 @@ presenters:
   twitter: _erin_rachel
   website: https://www.erinrachelconsulting.com/
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

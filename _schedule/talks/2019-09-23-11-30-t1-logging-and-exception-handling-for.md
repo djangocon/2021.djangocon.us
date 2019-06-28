@@ -6,8 +6,8 @@ abstract: Logging is better than print(), but often the effort to set up and use
 accepted: true
 category: talks
 date: 2019-09-23 11:30:00 -0500
-end_date: 2019-09-23 12:20:00 -0500
 difficulty: All
+end_date: 2019-09-23 12:20:00 -0500
 layout: session-details
 permalink: /talks/logging-and-exception-handling-for/
 presenters:
@@ -24,7 +24,7 @@ presenters:
   twitter: rgs258
   website: https://www.linkedin.com/in/rgs258
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

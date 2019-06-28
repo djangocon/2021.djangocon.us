@@ -6,8 +6,8 @@ abstract: There’s something rich, beautiful and mysterious in the several kind
 accepted: true
 category: talks
 date: 2019-09-23 14:20:00 -0500
-end_date: 2019-09-23 15:10:00 -0500
 difficulty: All
+end_date: 2019-09-23 15:10:00 -0500
 layout: session-details
 permalink: /talks/nothingness-and-identity-in-python-and/
 presenters:
@@ -24,7 +24,7 @@ presenters:
   twitter: EvilDMP
   website: ''
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

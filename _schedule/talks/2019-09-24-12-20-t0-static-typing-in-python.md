@@ -5,8 +5,8 @@ abstract: In this talk, we'll discuss the advantages and disadvantages to a stat
 accepted: true
 category: talks
 date: 2019-09-24 12:20:00 -0500
-end_date: 2019-09-24 12:50:00 -0500
 difficulty: All
+end_date: 2019-09-24 12:50:00 -0500
 layout: session-details
 permalink: /talks/static-typing-in-python/
 presenters:
@@ -22,7 +22,7 @@ presenters:
   twitter: di_codes
   website: https://di.codes
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

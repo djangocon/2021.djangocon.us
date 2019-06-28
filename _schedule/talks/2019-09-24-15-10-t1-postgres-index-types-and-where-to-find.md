@@ -6,8 +6,8 @@ abstract: For a long time I only used the default btree to index data. As I was 
 accepted: true
 category: talks
 date: 2019-09-24 15:10:00 -0500
-end_date: 2019-09-24 15:40:00 -0500
 difficulty: All
+end_date: 2019-09-24 15:40:00 -0500
 layout: session-details
 permalink: /talks/postgres-index-types-and-where-to-find/
 presenters:
@@ -23,7 +23,7 @@ presenters:
   twitter: louisemeta
   website: http://louisemeta.com
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

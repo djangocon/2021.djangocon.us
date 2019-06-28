@@ -6,8 +6,8 @@ abstract: Technical Debt is one of the main reasons why software fails, we are u
 accepted: true
 category: talks
 date: 2019-09-24 14:20:00 -0500
-end_date: 2019-09-24 15:10:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-24 15:10:00 -0500
 layout: session-details
 permalink: /talks/technical-debt-why-it-ll-ruin-your/
 presenters:
@@ -19,7 +19,7 @@ presenters:
   twitter: luanfonceca
   website: ''
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

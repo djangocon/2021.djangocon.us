@@ -6,8 +6,8 @@ abstract: Everyone is talking about Kubernetes, but migrating existing applicati
 accepted: true
 category: talks
 date: 2019-09-23 15:10:00 -0500
-end_date: 2019-09-23 15:40:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-23 15:40:00 -0500
 layout: session-details
 permalink: /talks/forklifting-django-migrating-a-complex/
 presenters:
@@ -22,7 +22,7 @@ presenters:
   twitter: kantrn
   website: https://coderanger.net/
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

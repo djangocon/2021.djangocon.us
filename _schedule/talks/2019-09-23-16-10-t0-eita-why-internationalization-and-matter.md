@@ -6,8 +6,8 @@ abstract: Translation of terms is only one step in the whole Internationalizatio
 accepted: true
 category: talks
 date: 2019-09-23 16:10:00 -0500
-end_date: 2019-09-23 17:00:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-23 17:00:00 -0500
 layout: session-details
 permalink: /talks/eita-why-internationalization-and-matter/
 presenters:
@@ -21,7 +21,7 @@ presenters:
   twitter: nicysneiros
   website: ''
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

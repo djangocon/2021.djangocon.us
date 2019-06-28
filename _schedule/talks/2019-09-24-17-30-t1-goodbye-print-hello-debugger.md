@@ -5,8 +5,8 @@ abstract: Still debugging your code by using print? Learn how to level up your a
 accepted: true
 category: talks
 date: 2019-09-24 17:30:00 -0500
-end_date: 2019-09-24 18:00:00 -0500
 difficulty: All
+end_date: 2019-09-24 18:00:00 -0500
 layout: session-details
 permalink: /talks/goodbye-print-hello-debugger/
 presenters:
@@ -24,7 +24,7 @@ presenters:
   twitter: nnja
   website: https://nnja.io
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

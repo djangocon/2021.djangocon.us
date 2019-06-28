@@ -6,8 +6,8 @@ abstract: You know you're curious. How are data classes different from other Pyt
 accepted: true
 category: talks
 date: 2019-09-23 15:10:00 -0500
-end_date: 2019-09-23 15:40:00 -0500
 difficulty: Beginner
+end_date: 2019-09-23 15:40:00 -0500
 layout: session-details
 permalink: /talks/everything-you-need-to-know-but-were-to/
 presenters:
@@ -22,7 +22,7 @@ presenters:
   twitter: cfactoid
   website: https://heroku.com/python
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

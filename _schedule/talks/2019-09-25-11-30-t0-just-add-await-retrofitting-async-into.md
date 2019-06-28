@@ -6,8 +6,8 @@ abstract: Writing async code from scratch is hard; trying to add it into a large
 accepted: true
 category: talks
 date: 2019-09-25 11:30:00 -0500
-end_date: 2019-09-25 12:20:00 -0500
 difficulty: All
+end_date: 2019-09-25 12:20:00 -0500
 layout: session-details
 permalink: /talks/just-add-await-retrofitting-async-into/
 presenters:
@@ -23,7 +23,7 @@ presenters:
   twitter: andrewgodwin
   website: http://www.aeracode.org
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''
