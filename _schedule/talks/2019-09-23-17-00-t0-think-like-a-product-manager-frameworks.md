@@ -5,7 +5,8 @@ abstract: Product management is an integral part of any software development org
   connection to your company and customers.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 17:30:00 -0500
+end_date: 2019-09-23 18:00:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/think-like-a-product-manager-frameworks/
@@ -27,7 +28,7 @@ presenters:
   twitter: eleanorstrib
   website: http://eleanorstrib.com
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -40,7 +41,7 @@ tags:
 - management
 title: 'Think Like a Product Manager: Straightforward frameworks for building great
   products'
-track: t0
+track: t1
 video_url: ''
 ---
 

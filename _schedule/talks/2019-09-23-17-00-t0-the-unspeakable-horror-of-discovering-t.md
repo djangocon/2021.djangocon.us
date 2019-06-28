@@ -10,7 +10,8 @@ abstract: 'PSA: if you don''t write tests, you''ll instead write code for a time
   Because I didn''t write tests.'
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-22 12:20:00 -0500
+end_date: 2019-09-22 12:50:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/the-unspeakable-horror-of-discovering-t/
@@ -31,7 +32,7 @@ presenters:
   twitter: hellomelaniec
   website: https://melaniecrutchfield.com
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

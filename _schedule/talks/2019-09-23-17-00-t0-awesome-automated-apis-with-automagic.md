@@ -5,7 +5,8 @@ abstract: WRDS at The Wharton School runs an API service with over 60,000 indivi
   of it is open-sourced, and we're looking to improve them!
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 11:30:00 -0500
+end_date: 2019-09-23 12:20:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /talks/awesome-automated-apis-with-automagic/
@@ -27,7 +28,7 @@ presenters:
   twitter: FlipperPA
   website: https://PyPhilly.org
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

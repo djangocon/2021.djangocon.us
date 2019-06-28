@@ -4,7 +4,8 @@ abstract: In this talk, we'll discuss the advantages and disadvantages to a stat
   optional "type hints" and various tools to aid in adding types to Python code.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 12:20:00 -0500
+end_date: 2019-09-24 12:50:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/static-typing-in-python/
@@ -21,7 +22,7 @@ presenters:
   twitter: di_codes
   website: https://di.codes
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

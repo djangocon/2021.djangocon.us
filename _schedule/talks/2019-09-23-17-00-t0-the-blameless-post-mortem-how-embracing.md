@@ -4,7 +4,8 @@ abstract: In today’s world of developing services we tend to move fast and wit
   opportunities for improvement, instead of just an opportunity to assign blame.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 12:20:00 -500
+end_date: 2019-09-24 12:50:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/the-blameless-post-mortem-how-embracing/
@@ -21,14 +22,14 @@ presenters:
   twitter: chriswilcox47
   website: http://crwilcox.com
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
 tags:
 - community
 title: 'The blameless post mortem: how embracing failure makes us better'
-track: t0
+track: t1
 video_url: ''
 ---
 

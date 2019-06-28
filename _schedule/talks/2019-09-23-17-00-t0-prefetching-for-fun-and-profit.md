@@ -4,7 +4,8 @@ abstract: Have you ever used Django's `prefetch_related` system?  Do you know ho
   and look at ways we can build on top of this to improve our own code!
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 11:30:00 -0500
+end_date: 2019-09-24 12:20:00 -0500
 difficulty: Advanced
 layout: session-details
 permalink: /talks/prefetching-for-fun-and-profit/
@@ -17,14 +18,14 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
 tags:
 - deep dive
 title: Prefetching for Fun and Profit
-track: t0
+track: t2
 video_url: ''
 ---
 

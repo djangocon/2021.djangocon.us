@@ -5,7 +5,8 @@ abstract: On average, developers spend 45% of their time fixing bugs and technic
   from my experience and from big players (Django, Facebook, etc).
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 17:00:00 -0500
+end_date: 2019-09-24 17:30:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /talks/pull-requests-merging-good-practices/
@@ -30,7 +31,7 @@ presenters:
   twitter: lucabezerra_
   website: https://github.com/lucabezerra/
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -39,7 +40,7 @@ tags:
 - pull request
 - code management
 title: 'Pull Requests: Merging good practices into your project'
-track: t0
+track: t1
 video_url: ''
 ---
 

@@ -5,7 +5,8 @@ abstract: There are many reasons to develop with containers, but getting your de
   using Visual Studio Code remote development extensions.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 14:20:00 -0500
+end_date: 2019-09-24 15:10:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /talks/creating-a-containerized-django-react/
@@ -23,7 +24,7 @@ presenters:
   twitter: qubitron
   website: ''
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -32,7 +33,7 @@ tags:
 - Tooling
 - Django
 title: Creating a containerized Django + React + PostgreSQL development environment
-track: t0
+track: t1
 video_url: ''
 ---
 

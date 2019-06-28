@@ -5,7 +5,8 @@ abstract: "So you have a project that comes with legacy data from another platfo
   engines or just having having files to your Django project."
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 11:30:00 -0500
+end_date: 2019-09-24 12:20:00 -0500
 difficulty: Beginner
 layout: session-details
 permalink: /talks/migrating-legacy-data-to-your-django/
@@ -18,7 +19,7 @@ presenters:
   twitter: fitoria
   website: http://fitoria.net
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

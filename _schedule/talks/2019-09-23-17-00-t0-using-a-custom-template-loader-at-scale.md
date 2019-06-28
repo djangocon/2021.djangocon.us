@@ -4,7 +4,8 @@ abstract: You can reuse Django templates with the `{% include %}` tag. But what 
   template loader to ship template changes — all without deploying any code.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 17:30:00 -0500
+end_date: 2019-09-23 18:00:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /talks/using-a-custom-template-loader-at-scale/
@@ -22,7 +23,7 @@ presenters:
   twitter: easyaspython
   website: https://dane.engineering
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

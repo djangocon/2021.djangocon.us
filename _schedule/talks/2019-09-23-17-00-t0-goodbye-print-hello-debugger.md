@@ -4,7 +4,8 @@ abstract: Still debugging your code by using print? Learn how to level up your a
   in this talk aimed at all levels of programming ability.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 17:30:00 -0500
+end_date: 2019-09-24 18:00:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/goodbye-print-hello-debugger/
@@ -23,7 +24,7 @@ presenters:
   twitter: nnja
   website: https://nnja.io
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -32,7 +33,7 @@ tags:
 - Debugging
 - Best Practices
 title: Goodbye Print, Hello Debugger!
-track: t0
+track: t1
 video_url: ''
 ---
 

@@ -5,7 +5,8 @@ abstract: As a leading digital country and a D9 member, Uruguay decided to build
   flexible development of a secure and reliable solution.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 16:10:00 -0500
+end_date: 2019-09-24 17:00:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/building-a-multi-factor-sso-for-a-whole/
@@ -20,7 +21,7 @@ presenters:
   twitter: elpaquete
   website: https://www.octobot.io
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -33,7 +34,7 @@ tags:
 - Security
 - React
 title: Building a multi factor SSO for a whole country with Django
-track: t0
+track: t1
 video_url: ''
 ---
 

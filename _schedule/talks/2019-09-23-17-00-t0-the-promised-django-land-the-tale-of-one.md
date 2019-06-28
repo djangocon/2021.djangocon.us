@@ -5,7 +5,8 @@ abstract: Many orgs change frameworks mid-stream to more or less success; in thi
   and how they switched without stopping product work.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 17:00:00 -0500
+end_date: 2019-09-23 17:30:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/the-promised-django-land-the-tale-of-one/
@@ -23,7 +24,7 @@ presenters:
   twitter: zuckerpunch
   website: ''
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -33,7 +34,7 @@ tags:
 - python
 - port
 title: The promised Django Land; the tale of one team’s epic journey from Flask
-track: t0
+track: t2
 video_url: ''
 ---
 

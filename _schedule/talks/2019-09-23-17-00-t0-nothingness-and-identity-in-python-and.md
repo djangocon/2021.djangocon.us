@@ -5,7 +5,8 @@ abstract: There’s something rich, beautiful and mysterious in the several kind
   dimension to the joy of programming.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 14:20:00 -0500
+end_date: 2019-09-23 15:10:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/nothingness-and-identity-in-python-and/
@@ -23,13 +24,13 @@ presenters:
   twitter: EvilDMP
   website: ''
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
 tags: []
 title: Nothingness and identity in Python and Django
-track: t0
+track: t1
 video_url: ''
 ---
 

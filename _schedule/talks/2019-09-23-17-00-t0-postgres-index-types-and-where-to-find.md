@@ -5,7 +5,8 @@ abstract: For a long time I only used the default btree to index data. As I was 
   about btree, gin, gist… how, when and why use them, join me!
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-24 15:10:00 -0500
+end_date: 2019-09-24 15:40:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/postgres-index-types-and-where-to-find/
@@ -22,7 +23,7 @@ presenters:
   twitter: louisemeta
   website: http://louisemeta.com
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -34,7 +35,7 @@ tags:
 - data
 - performance
 title: Postgres Index types and where to find them
-track: t0
+track: t1
 video_url: ''
 ---
 

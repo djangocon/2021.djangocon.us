@@ -5,7 +5,8 @@ abstract: How can someone who is just learning find the commenting style that is
   mindset and empowers everyone.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 17:00:00 -0500
+end_date: 2019-09-23 17:30:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/to-comment-or-not-a-data-driven-look-at/
@@ -59,7 +60,7 @@ presenters:
   twitter: veronica_hanus
   website: https://vzhz.github.io/blog.html
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

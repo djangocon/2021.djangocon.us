@@ -5,7 +5,8 @@ abstract: Production applications increasingly need real-time updates and REST f
   how to avoid common gotchas in future real-time apps you build.
 accepted: true
 category: tutorials
-date: 2019-09-23 22:00
+date: 2019-09-22 9:00:00 -0500
+end_date: 2019-09-22 12:30:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /tutorials/django-real-time-chat-websockets-django/
@@ -21,7 +22,7 @@ presenters:
   twitter: caraborenstein
   website: ''
 published: true
-room: ''
+room: 'Sierra 5'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -34,7 +35,7 @@ tags:
 - react
 - javascript
 title: 'Django Real-time Chat: WebSockets, Django Channels, and Deploying to Production'
-track: t0
+track: t1
 video_url: ''
 ---
 

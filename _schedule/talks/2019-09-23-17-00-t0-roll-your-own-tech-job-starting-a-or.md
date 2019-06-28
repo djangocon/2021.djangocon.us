@@ -5,7 +5,8 @@ abstract: Getting sick of your daily commute? Wish you could spend more time get
   legally, keep your books, and find excited & exciting clients.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-23 16:10:00 -0500
+end_date: 2019-09-23 17:00:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/roll-your-own-tech-job-starting-a-or/
@@ -25,7 +26,7 @@ presenters:
   twitter: _erin_rachel
   website: https://www.erinrachelconsulting.com/
 published: true
-room: ''
+room: 'Salon F-H'
 sitemap: true
 slides_url: ''
 summary: ''
@@ -38,7 +39,7 @@ tags:
 - contracting
 - working for yourself
 title: 'Roll Your Own Tech Job: Starting a Business or Side Hustle from Scratch'
-track: t0
+track: t1
 video_url: ''
 ---
 

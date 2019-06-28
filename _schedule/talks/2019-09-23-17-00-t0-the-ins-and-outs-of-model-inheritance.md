@@ -5,7 +5,8 @@ abstract: Model Inheritance can be one of the more challenging ORM design patter
   overall understanding of the inner workings of Django models.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-25 12:20:00 -0500
+end_date: 2019-09-25 12:50:00 -0500
 difficulty: Intermediate
 layout: session-details
 permalink: /talks/the-ins-and-outs-of-model-inheritance/
@@ -25,7 +26,7 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''

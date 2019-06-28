@@ -5,7 +5,8 @@ abstract: Writing async code from scratch is hard; trying to add it into a large
   hybrid sync-and-async Python codebases in general.
 accepted: true
 category: talks
-date: 2019-09-23 22:00
+date: 2019-09-25 11:30:00 -0500
+end_date: 2019-09-25 12:20:00 -0500
 difficulty: All
 layout: session-details
 permalink: /talks/just-add-await-retrofitting-async-into/
@@ -22,7 +23,7 @@ presenters:
   twitter: andrewgodwin
   website: http://www.aeracode.org
 published: true
-room: ''
+room: 'Salon A-E'
 sitemap: true
 slides_url: ''
 summary: ''
