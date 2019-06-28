@@ -6,8 +6,8 @@ abstract: Model Inheritance can be one of the more challenging ORM design patter
 accepted: true
 category: talks
 date: 2019-09-25 12:20:00 -0500
-end_date: 2019-09-25 12:50:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-25 12:50:00 -0500
 layout: session-details
 permalink: /talks/the-ins-and-outs-of-model-inheritance/
 presenters:
@@ -26,7 +26,7 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

@@ -5,8 +5,8 @@ abstract: A step by step guide to setup a Django project with all the required t
 accepted: true
 category: tutorials
 date: 2019-09-22 13:30:00 -0500
-end_date: 2019-09-22 17:00:00 -0500
 difficulty: Beginner
+end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/django-bootstrapping-done-right/
 presenters:
@@ -19,7 +19,7 @@ presenters:
   twitter: poligarcia
   website: https://devartis.com/
 published: true
-room: 'Sierra 5'
+room: Sierra 5
 sitemap: true
 slides_url: ''
 summary: ''

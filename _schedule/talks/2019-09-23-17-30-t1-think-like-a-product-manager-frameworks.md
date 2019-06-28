@@ -6,8 +6,8 @@ abstract: Product management is an integral part of any software development org
 accepted: true
 category: talks
 date: 2019-09-23 17:30:00 -0500
-end_date: 2019-09-23 18:00:00 -0500
 difficulty: All
+end_date: 2019-09-23 18:00:00 -0500
 layout: session-details
 permalink: /talks/think-like-a-product-manager-frameworks/
 presenters:
@@ -28,7 +28,7 @@ presenters:
   twitter: eleanorstrib
   website: http://eleanorstrib.com
 published: true
-room: 'Salon F-H'
+room: Salon F-H
 sitemap: true
 slides_url: ''
 summary: ''

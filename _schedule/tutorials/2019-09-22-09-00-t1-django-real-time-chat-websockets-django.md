@@ -6,8 +6,8 @@ abstract: Production applications increasingly need real-time updates and REST f
 accepted: true
 category: tutorials
 date: 2019-09-22 9:00:00 -0500
-end_date: 2019-09-22 12:30:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-22 12:30:00 -0500
 layout: session-details
 permalink: /tutorials/django-real-time-chat-websockets-django/
 presenters:
@@ -22,7 +22,7 @@ presenters:
   twitter: caraborenstein
   website: ''
 published: true
-room: 'Sierra 5'
+room: Sierra 5
 sitemap: true
 slides_url: ''
 summary: ''

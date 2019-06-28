@@ -5,8 +5,8 @@ abstract: You can reuse Django templates with the `{% include %}` tag. But what 
 accepted: true
 category: talks
 date: 2019-09-23 17:30:00 -0500
-end_date: 2019-09-23 18:00:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-23 18:00:00 -0500
 layout: session-details
 permalink: /talks/using-a-custom-template-loader-at-scale/
 presenters:
@@ -23,7 +23,7 @@ presenters:
   twitter: easyaspython
   website: https://dane.engineering
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

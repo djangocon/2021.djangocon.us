@@ -6,8 +6,8 @@ abstract: Unit tests are great, but they don’t catch all bugs because they don
 accepted: true
 category: tutorials
 date: 2019-09-22 13:30:00 -0500
-end_date: 2019-09-22 17:00:00 -0500
 difficulty: All
+end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/hands-on-web-ui-testing/
 presenters:
@@ -23,7 +23,7 @@ presenters:
   twitter: AutomationPanda
   website: https://automationpanda.com/
 published: true
-room: 'Cabrillo 1'
+room: Cabrillo 1
 sitemap: true
 slides_url: ''
 summary: ''

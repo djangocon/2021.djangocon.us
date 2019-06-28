@@ -6,8 +6,8 @@ abstract: How can someone who is just learning find the commenting style that is
 accepted: true
 category: talks
 date: 2019-09-23 17:00:00 -0500
-end_date: 2019-09-23 17:30:00 -0500
 difficulty: All
+end_date: 2019-09-23 17:30:00 -0500
 layout: session-details
 permalink: /talks/to-comment-or-not-a-data-driven-look-at/
 presenters:
@@ -60,7 +60,7 @@ presenters:
   twitter: veronica_hanus
   website: https://vzhz.github.io/blog.html
 published: true
-room: 'Salon A-E'
+room: Salon A-E
 sitemap: true
 slides_url: ''
 summary: ''

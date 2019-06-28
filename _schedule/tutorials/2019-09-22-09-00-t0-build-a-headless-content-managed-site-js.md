@@ -6,8 +6,8 @@ abstract: Wagtail is the popular Django CMS used by Google, NASA and Mozilla. Vu
 accepted: true
 category: tutorials
 date: 2019-09-22 9:00:00 -0500
-end_date: 2019-09-22 12:30:00 -0500
 difficulty: All
+end_date: 2019-09-22 12:30:00 -0500
 layout: session-details
 permalink: /tutorials/build-a-headless-content-managed-site-js/
 presenters:
@@ -20,7 +20,7 @@ presenters:
   twitter: tomd
   website: https://torchbox.com
 published: true
-room: 'Balboa I & II'
+room: Balboa I & II
 sitemap: true
 slides_url: ''
 summary: ''

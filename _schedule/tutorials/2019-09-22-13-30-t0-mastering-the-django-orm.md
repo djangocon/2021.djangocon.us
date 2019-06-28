@@ -6,8 +6,8 @@ abstract: Django’s ORM is probably its most-used but also least-understood com
 accepted: true
 category: tutorials
 date: 2019-09-22 13:30:00 -0500
-end_date: 2019-09-22 17:00:00 -0500
 difficulty: Intermediate
+end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/mastering-the-django-orm/
 presenters:
@@ -24,7 +24,7 @@ presenters:
   twitter: ubernostrum
   website: http://www.b-list.org/
 published: true
-room: 'Balboa I & II'
+room: Balboa I & II
 sitemap: true
 slides_url: ''
 summary: ''
