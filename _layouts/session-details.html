@@ -48,8 +48,10 @@ layout: base
       </section>
       {% endif %}
 
-
-      <h2 style="text-transform:capitalize;">About This {{ page.category | capitalize }}</h2>
+      <h2 style="text-transform:capitalize;">About This
+        {% if page.category == "talks" %}Talk{% endif %}
+        {%if page.category == "tutorials" %}Tutorial{% endif %}
+    </h2>
       {{ content }}
     </div>
   </div><!-- end .row -->
