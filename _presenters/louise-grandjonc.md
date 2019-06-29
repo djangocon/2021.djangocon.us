@@ -6,7 +6,7 @@ name: Louise Grandjonc
 permalink: /presenters/louise-grandjonc/
 photo_url: ''
 slug: louise-grandjonc
-twitter: https://twitter.com/louisemeta
+twitter: louisemeta
 website: http://louisemeta.com
 ---
 
