@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: William S. Vincent
 permalink: /presenters/william-s-vincent/
 photo_url: ''

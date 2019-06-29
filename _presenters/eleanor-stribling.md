@@ -1,7 +1,7 @@
 ---
 company: Microsoft
 github: ''
-layout: base
+layout: speaker-template
 name: Eleanor Stribling
 permalink: /presenters/eleanor-stribling/
 photo_url: ''

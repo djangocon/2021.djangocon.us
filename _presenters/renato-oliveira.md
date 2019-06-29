@@ -1,7 +1,7 @@
 ---
 company: Labcodes Software Studio
 github: ''
-layout: base
+layout: speaker-template
 name: Renato Oliveira
 permalink: /presenters/renato-oliveira/
 photo_url: ''

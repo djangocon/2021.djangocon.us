@@ -1,7 +1,7 @@
 ---
 company: ITHAKA
 github: ''
-layout: base
+layout: speaker-template
 name: Dane Hillard
 permalink: /presenters/dane-hillard/
 photo_url: ''

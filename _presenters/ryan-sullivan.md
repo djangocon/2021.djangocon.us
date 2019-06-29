@@ -1,7 +1,7 @@
 ---
 company: Wharton Research Data Services (WRDS)
 github: ''
-layout: base
+layout: speaker-template
 name: Ryan Sullivan
 permalink: /presenters/ryan-sullivan/
 photo_url: ''

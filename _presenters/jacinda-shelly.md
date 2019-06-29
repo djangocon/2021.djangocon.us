@@ -1,7 +1,7 @@
 ---
 company: Apéro Health
 github: ''
-layout: base
+layout: speaker-template
 name: Jacinda Shelly
 permalink: /presenters/jacinda-shelly/
 photo_url: ''

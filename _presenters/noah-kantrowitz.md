@@ -1,7 +1,7 @@
 ---
 company: Ridecell
 github: ''
-layout: base
+layout: speaker-template
 name: Noah Kantrowitz
 permalink: /presenters/noah-kantrowitz/
 photo_url: ''

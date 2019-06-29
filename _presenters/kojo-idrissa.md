@@ -1,7 +1,7 @@
 ---
 company: Decisio Health
 github: ''
-layout: base
+layout: speaker-template
 name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg

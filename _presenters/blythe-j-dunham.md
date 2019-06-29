@@ -1,7 +1,7 @@
 ---
 company: Rover
 github: ''
-layout: base
+layout: speaker-template
 name: Blythe J Dunham
 permalink: /presenters/blythe-j-dunham/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: Andrew Godwin
 permalink: /presenters/andrew-godwin/
 photo_url: ''

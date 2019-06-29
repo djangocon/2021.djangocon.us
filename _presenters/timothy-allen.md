@@ -1,7 +1,7 @@
 ---
 company: The Wharton School
 github: ''
-layout: base
+layout: speaker-template
 name: Timothy Allen
 permalink: /presenters/timothy-allen/
 photo_url: ''

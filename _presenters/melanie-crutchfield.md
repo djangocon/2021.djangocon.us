@@ -1,7 +1,7 @@
 ---
 company: FiveUp
 github: ''
-layout: base
+layout: speaker-template
 name: Melanie Crutchfield
 permalink: /presenters/melanie-crutchfield/
 photo_url: ''

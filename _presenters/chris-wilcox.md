@@ -1,7 +1,7 @@
 ---
 company: Google
 github: ''
-layout: base
+layout: speaker-template
 name: Chris Wilcox
 permalink: /presenters/chris-wilcox/
 photo_url: ''

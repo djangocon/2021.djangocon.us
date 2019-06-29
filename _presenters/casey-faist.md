@@ -1,7 +1,7 @@
 ---
 company: Heroku
 github: ''
-layout: base
+layout: speaker-template
 name: Casey Faist
 permalink: /presenters/casey-faist/
 photo_url: ''

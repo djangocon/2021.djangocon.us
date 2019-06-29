@@ -1,7 +1,7 @@
 ---
 company: devartis
 github: ''
-layout: base
+layout: speaker-template
 name: Pablo García
 permalink: /presenters/pablo-garcia/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: Divio
 github: ''
-layout: base
+layout: speaker-template
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: Adolfo Fitoria
 permalink: /presenters/adolfo-fitoria/
 photo_url: ''

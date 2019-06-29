@@ -1,7 +1,7 @@
 ---
 company: Google
 github: ''
-layout: base
+layout: speaker-template
 name: Dustin Ingram
 permalink: /presenters/dustin-ingram/
 photo_url: ''

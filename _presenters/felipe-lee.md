@@ -1,7 +1,7 @@
 ---
 company: University of Texas at Austin
 github: ''
-layout: base
+layout: speaker-template
 name: Felipe Lee
 permalink: /presenters/felipe-lee/
 photo_url: ''

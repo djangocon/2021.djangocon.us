@@ -1,7 +1,7 @@
 ---
 company: Rover.com
 github: ''
-layout: base
+layout: speaker-template
 name: Mike Hansen
 permalink: /presenters/mike-hansen/
 photo_url: ''

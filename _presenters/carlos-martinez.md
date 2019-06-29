@@ -1,7 +1,7 @@
 ---
 company: UruIT
 github: ''
-layout: base
+layout: speaker-template
 name: Carlos Martinez
 permalink: /presenters/carlos-martinez/
 photo_url: ''

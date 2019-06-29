@@ -1,7 +1,7 @@
 ---
 company: Software Engineering Institute, Carnegie Mellon University
 github: ''
-layout: base
+layout: speaker-template
 name: Karen Miller
 permalink: /presenters/karen-miller/
 photo_url: ''

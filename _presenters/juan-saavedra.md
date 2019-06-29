@@ -1,7 +1,7 @@
 ---
 company: Octobot
 github: ''
-layout: base
+layout: speaker-template
 name: Juan Saavedra
 permalink: /presenters/juan-saavedra/
 photo_url: ''

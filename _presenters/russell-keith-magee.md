@@ -1,7 +1,7 @@
 ---
 company: BeeWare Project
 github: ''
-layout: base
+layout: speaker-template
 name: Russell Keith-Magee
 permalink: /presenters/russell-keith-magee/
 photo_url: ''

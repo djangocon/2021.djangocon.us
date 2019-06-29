@@ -1,7 +1,7 @@
 ---
 company: Lincoln Loop
 github: ''
-layout: base
+layout: speaker-template
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: Vinta Software
 github: ''
-layout: base
+layout: speaker-template
 name: Luca Bezerra
 permalink: /presenters/luca-bezerra/
 photo_url: ''

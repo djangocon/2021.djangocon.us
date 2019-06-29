@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: Veronica Hanus
 permalink: /presenters/veronica-hanus/
 photo_url: ''
@@ -19,7 +19,7 @@ Past speaking experience:
 * "To comment or not to comment? Conflicting attitudes towards commenting and beginner pain"    (this talk), Flatiron NYC (March, 2019)
 * "Git 'Hooked' on images in your version control and up your documentation game", Git Merge (Belgium, Feb. 2019), PyTennessee (Feb. 2019), PyCaribbean (Feb. 2019)
 * Workshop on "Git 'Hooked' on images in your version control and up your documentation", Flatiron NYC (Jan. 2019)
-* “Imagining Colors is Hard: Representing Visual Changes in Version Control”, Hacktoberfest NYC 2018 | [slides](https://bit.ly/2C7uNFI)   
+* “Imagining Colors is Hard: Representing Visual Changes in Version Control”, Hacktoberfest NYC 2018 | [slides](https://bit.ly/2C7uNFI)
 * Assisted in teaching “Lights Camera Action! Scrape, explore, and model to predict Oscar winners & box office hits” tutorial at PyCon 2018 | [description](https://us.pycon.org/2018/schedule/presentation/48/) | [bio](https://us.pycon.org/2018/speaker/profile/337/) | [video](https://www.youtube.com/watch?v=XMtygcrqHqo) | [materials](https://github.com/dhanus/oscars-tutorial/blob/master/Part1-Scraping-Box-Office-Hits.ipynb) |
 * “Using Unix to make your time in the terminal better” at NYC Women’s Work Jelly 2017 | [project page](https://github.com/vzhz/friendly_terminal) |
 * Assisted in teaching “Python for Data Science” tutorial at Boston Code Camp 27 (2016) | [description](https://www.bostoncodecamp.com/CC26/sessions/details/16421) | [materials](https://github.com/swzCuroverse/BostonCodeCamp26) |
@@ -36,6 +36,6 @@ Provided 1-on-1 and group instruction for 14 middle-school students in creating 
 
 **Research-related presentations/communication**
 
-* Presented findings of safety tests of malfunctioning equipment to lab at MIT Paleomagnetism Laboratory 2012 
+* Presented findings of safety tests of malfunctioning equipment to lab at MIT Paleomagnetism Laboratory 2012
 * Presented findings to internal committee / communicated intern project needs to software developer at NASA JPL 2009
 • Led student effort to find rock distributions of landing sites for Curiosity rover • Introduced three students to in-house software for QA element of our project, including reporting procedures, and software process and limitations

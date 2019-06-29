@@ -1,7 +1,7 @@
 ---
 company: Microsoft
 github: ''
-layout: base
+layout: speaker-template
 name: Dan Taylor
 permalink: /presenters/dan-taylor/
 photo_url: ''

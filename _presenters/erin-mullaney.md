@@ -1,7 +1,7 @@
 ---
 company: Erin Rachel Consulting LLC
 github: ''
-layout: base
+layout: speaker-template
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/
 photo_url: ''

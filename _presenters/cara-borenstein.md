@@ -1,7 +1,7 @@
 ---
 company: caeli.io
 github: ''
-layout: base
+layout: speaker-template
 name: Cara Borenstein
 permalink: /presenters/cara-borenstein/
 photo_url: ''

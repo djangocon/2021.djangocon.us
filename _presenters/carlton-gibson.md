@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
 photo_url: ''

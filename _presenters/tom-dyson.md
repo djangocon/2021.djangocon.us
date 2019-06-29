@@ -1,7 +1,7 @@
 ---
 company: Torchbox and Wagtail
 github: ''
-layout: base
+layout: speaker-template
 name: Tom Dyson
 permalink: /presenters/tom-dyson/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: Clover Health
 github: ''
-layout: base
+layout: speaker-template
 name: Nicole Zuckerman
 permalink: /presenters/nicole-zuckerman/
 photo_url: ''

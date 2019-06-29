@@ -1,7 +1,7 @@
 ---
 company: Labcodes
 github: ''
-layout: base
+layout: speaker-template
 name: Nicolle Cysneiros
 permalink: /presenters/nicolle-cysneiros/
 photo_url: ''

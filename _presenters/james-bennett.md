@@ -1,7 +1,7 @@
 ---
 company: ''
 github: ''
-layout: base
+layout: speaker-template
 name: James Bennett
 permalink: /presenters/james-bennett/
 photo_url: ''

@@ -1,7 +1,7 @@
 ---
 company: Truthful Technology, LLC
 github: ''
-layout: base
+layout: speaker-template
 name: Trey Hunner
 permalink: /presenters/trey-hunner/
 photo_url: ''

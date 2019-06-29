@@ -1,7 +1,7 @@
 ---
 company: Microsoft
 github: ''
-layout: base
+layout: speaker-template
 name: Nina Zakharenko
 permalink: /presenters/nina-zakharenko/
 photo_url: ''
