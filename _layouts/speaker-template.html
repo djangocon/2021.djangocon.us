@@ -15,13 +15,14 @@
         width="100%"
         alt="Speaker Template" />
 
+      {% if page.photo_url != blank %}
       <div class="speaker-template-photo">
         <img
           src="{{ page.photo_url }}"
           width="800"
-
           alt="{{ page.name }}" />
       </div>
+      {% endif %}
 
       <h1 class="speaker-template-name">{{ page.name }}</h1>
       <h2 class="speaker-template-session-title">
