@@ -26,8 +26,6 @@ track: t1
 video_url: ''
 ---
 
-# Django bootstrapping done right
-
 We have been working with Django for many years and we discovered we were always repeating the same things at the beginning of each project. `pycodestyle` checks, unit tests, automated deployment, we where doing all of them over and over again and occasionally we were missing important things that would make our lives easier.
 
 That's why we decided to create and maintain template repository with all the required tools to bootstrap a Django project. It has become very valuable for our company and that's why we want to share it with the community. The project is now open source and we will review all it in this talk.
