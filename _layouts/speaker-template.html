@@ -32,7 +32,6 @@
           {{ schedule.title }}
           {% if presentation_length > 1 %}<br>{% endif %}
         {% endfor %}
-        {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
       </h2>
 
     </div>
