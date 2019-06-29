@@ -5,6 +5,7 @@ layout: base
 name: Nicole Zuckerman
 permalink: /presenters/nicole-zuckerman/
 photo_url: ''
+slug: nicole-zuckerman
 twitter: zuckerpunch
 website: ''
 ---

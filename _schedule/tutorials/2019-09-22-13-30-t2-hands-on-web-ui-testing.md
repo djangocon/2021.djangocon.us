@@ -11,17 +11,7 @@ end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/hands-on-web-ui-testing/
 presenters:
-- bio: Andy Knight is the “Automation Panda” - an engineer, consultant, and international
-    speaker who loves all things software. He specializes in building robust test
-    automation solutions from the ground up. Andy loves Python and uses Django for
-    side projects. He currently works at PrecisionLender in Cary, NC. Read his tech
-    blog at AutomationPanda.com, and follow him on Twitter at @AutomationPanda.
-  company: ''
-  github: ''
-  name: Andrew Knight
-  photo_url: ''
-  twitter: AutomationPanda
-  website: https://automationpanda.com/
+- andrew-knight
 published: true
 room: Cabrillo 1
 sitemap: true

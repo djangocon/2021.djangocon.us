@@ -11,18 +11,7 @@ end_date: 2019-09-23 17:30:00 -0500
 layout: session-details
 permalink: /talks/the-promised-django-land-the-tale-of-one/
 presenters:
-- bio: Nicole attended Hackbright Academy in 2012, and has been in love with python
-    ever since. She can currently be found at Clover Health, tackling with glee data
-    pipelines and APIs and everything in between. In her free time, Nicole is an avid
-    dancer and teacher, sci-fi book fanatic, soul and jazz aficionado, and cheese
-    lover. She has an MA in English Literature and Women’s Studies from the University
-    of Liverpool.
-  company: Clover Health
-  github: ''
-  name: Nicole Zuckerman
-  photo_url: ''
-  twitter: zuckerpunch
-  website: ''
+- nicole-zuckerman
 published: true
 room: Salon F-H
 sitemap: true

@@ -11,13 +11,7 @@ end_date: 2019-09-24 12:20:00 -0500
 layout: session-details
 permalink: /talks/migrating-legacy-data-to-your-django/
 presenters:
-- bio: Django developer and enthusiast based in Managua, Nicaragua
-  company: ''
-  github: ''
-  name: Adolfo Fitoria
-  photo_url: ''
-  twitter: fitoria
-  website: http://fitoria.net
+- adolfo-fitoria
 published: true
 room: Salon A-E
 sitemap: true

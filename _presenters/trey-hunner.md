@@ -5,6 +5,7 @@ layout: base
 name: Trey Hunner
 permalink: /presenters/trey-hunner/
 photo_url: ''
+slug: trey-hunner
 twitter: treyhunner
 website: http://treyhunner.com
 ---

@@ -5,6 +5,7 @@ layout: base
 name: Russell Keith-Magee
 permalink: /presenters/russell-keith-magee/
 photo_url: ''
+slug: russell-keith-magee
 twitter: freakboy3742
 website: https://cecinestpasun.com
 ---

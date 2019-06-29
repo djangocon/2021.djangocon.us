@@ -5,6 +5,7 @@ layout: base
 name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
+slug: kojo-idrissa
 twitter: Transition
 website: http://kojoidrissa.com/
 ---

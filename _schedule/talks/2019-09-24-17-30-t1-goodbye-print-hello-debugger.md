@@ -10,19 +10,7 @@ end_date: 2019-09-24 18:00:00 -0500
 layout: session-details
 permalink: /talks/goodbye-print-hello-debugger/
 presenters:
-- bio: Nina Zakharenko is a software engineer with over a decade of experience. She
-    currently focuses on Python at Microsoft on the Cloud Developer Advocacy team.
-    In the past, she’s written software for satellite control computers at HBO, code
-    that's helped people connect over their passions at Meetup, and implemented time-wasting
-    features on Reddit. In her spare time, she enjoys snowboarding and hiking, drinking
-    scotch, and tinkering with hardware, LEDs, and wearable electronics from her home
-    base in Portland, OR.
-  company: Microsoft
-  github: ''
-  name: Nina Zakharenko
-  photo_url: ''
-  twitter: nnja
-  website: https://nnja.io
+- nina-zakharenko
 published: true
 room: Salon F-H
 sitemap: true

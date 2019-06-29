@@ -14,17 +14,7 @@ end_date: 2019-09-24 18:00:00 -0500
 layout: session-details
 permalink: /talks/search-from-the-ground-up/
 presenters:
-- bio: 'William Vincent is the author of three books: [Django for Beginners](https://djangoforbeginners.com/),
-    [Django for APIs](https://djangoforapis.com/), and [Django for Professionals](https://djangoforprofessionals.com/).
-    He was an early employee at Quizlet and since then has worked at multiple early-stage
-    startups as well as taught computer science at Williams College. He writes regularly
-    at wsvincent.com.'
-  company: ''
-  github: ''
-  name: William S. Vincent
-  photo_url: ''
-  twitter: wsv3000
-  website: https://wsvincent.com/
+- william-s-vincent
 published: true
 room: Salon A-E
 sitemap: true

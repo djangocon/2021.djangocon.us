@@ -5,6 +5,7 @@ layout: base
 name: James Bennett
 permalink: /presenters/james-bennett/
 photo_url: ''
+slug: james-bennett
 twitter: ubernostrum
 website: http://www.b-list.org/
 ---

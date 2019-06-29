@@ -5,6 +5,7 @@ layout: base
 name: Karen Miller
 permalink: /presenters/karen-miller/
 photo_url: ''
+slug: karen-miller
 twitter: kdangm
 website: https://www.hack-hub.com/
 ---

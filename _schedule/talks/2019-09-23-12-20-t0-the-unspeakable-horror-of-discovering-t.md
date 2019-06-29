@@ -16,21 +16,7 @@ end_date: 2019-09-23 12:50:00 -0500
 layout: session-details
 permalink: /talks/the-unspeakable-horror-of-discovering-t/
 presenters:
-- bio: "Melanie is a creator, tinkerer, and prisoner of hope (h/t Cornel West). She
-    peddles happiness at [FiveUpApp.com](http://fiveupapp.com) and has been known
-    to engage in high-fivery. (Especially windmill high-fives.)\r\n\r\nMelanie has
-    been learning Python and Django for a handful of years and doesn’t plan to stop.
-    She is an organizer with PyLadies San Diego, the San Diego Python User Group,
-    and Django Girls San Diego. She loves helping people get their feet wet in programming
-    and helping promote diversity in tech. She’s a mental health advocate, an anti-racism
-    activist, and a chocolate enthusiast.\r\n\r\nMelanie believes in kindness, Ben
-    and Jerry’s Salted Carmel Core ice cream, and spunk. And you."
-  company: FiveUp
-  github: ''
-  name: Melanie Crutchfield
-  photo_url: ''
-  twitter: hellomelaniec
-  website: https://melaniecrutchfield.com
+- melanie-crutchfield
 published: true
 room: Salon A-E
 sitemap: true

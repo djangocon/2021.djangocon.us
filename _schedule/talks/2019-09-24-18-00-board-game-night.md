@@ -8,14 +8,7 @@ difficulty: null
 end_date: 2019-09-24 22:00:00 -0500
 layout: session-details
 permalink: /social event/board-game-night/
-presenters:
-- bio: null
-  company: null
-  github: null
-  name: null
-  photo_url: null
-  twitter: null
-  website: null
+presenters: []
 room: Salon E
 sitemap: true
 talk_slot: full

@@ -11,14 +11,7 @@ end_date: 2019-09-22 12:30:00 -0500
 layout: session-details
 permalink: /tutorials/build-a-headless-content-managed-site-js/
 presenters:
-- bio: I'm the technical director at Torchbox, a UK web agency. I also run the Wagtail
-    CMS project. I wrote the theme tune to [Charlie and Lola](https://en.wikipedia.org/wiki/Charlie_and_Lola).
-  company: Torchbox and Wagtail
-  github: ''
-  name: Tom Dyson
-  photo_url: ''
-  twitter: tomd
-  website: https://torchbox.com
+- tom-dyson
 published: true
 room: Balboa I & II
 sitemap: true

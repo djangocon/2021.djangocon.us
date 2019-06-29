@@ -10,17 +10,7 @@ end_date: 2019-09-24 12:50:00 -0500
 layout: session-details
 permalink: /talks/the-blameless-post-mortem-how-embracing/
 presenters:
-- bio: 'Chris is a developer at Google, splitting time between Python and Node.js
-    communities with a focus on improving the Google Cloud Client Libraries. He has
-    spent his career working on developer tooling and libraries. In Chris'' spare
-    time he races motorcycles, volunteers with a motorcycle training organization,
-    hikes, and explores the Seattle brewing scene.  '
-  company: Google
-  github: ''
-  name: Chris Wilcox
-  photo_url: ''
-  twitter: chriswilcox47
-  website: http://crwilcox.com
+- chris-wilcox
 published: true
 room: Salon F-H
 sitemap: true

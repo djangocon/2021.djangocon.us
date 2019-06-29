@@ -10,14 +10,7 @@ end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/django-bootstrapping-done-right/
 presenters:
-- bio: Father / Husband / Founder at devartis / Beatles and Racing Club fan / Former
-    home-brewing enthusiast
-  company: devartis
-  github: ''
-  name: Pablo García
-  photo_url: ''
-  twitter: poligarcia
-  website: https://devartis.com/
+- pablo-garcia
 published: true
 room: Sierra 5
 sitemap: true

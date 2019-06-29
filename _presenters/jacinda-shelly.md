@@ -5,6 +5,7 @@ layout: base
 name: Jacinda Shelly
 permalink: /presenters/jacinda-shelly/
 photo_url: ''
+slug: jacinda-shelly
 twitter: jacindashelly
 website: ''
 ---

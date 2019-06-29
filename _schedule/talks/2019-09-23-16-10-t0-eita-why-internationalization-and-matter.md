@@ -11,15 +11,7 @@ end_date: 2019-09-23 17:00:00 -0500
 layout: session-details
 permalink: /talks/eita-why-internationalization-and-matter/
 presenters:
-- bio: Fullstack developer @ Labcodes, I work with Python and Django on a daily basis.
-    I’m part of Python User’s Group and PyLadies in Recife. I’m feminist and I believe
-    in women’s inclusion and empowerment through technology.
-  company: Labcodes
-  github: ''
-  name: Nicolle Cysneiros
-  photo_url: ''
-  twitter: nicysneiros
-  website: ''
+- nicolle-cysneiros
 published: true
 room: Salon A-E
 sitemap: true

@@ -11,20 +11,7 @@ end_date: 2019-09-23 17:00:00 -0500
 layout: session-details
 permalink: /talks/roll-your-own-tech-job-starting-a-or/
 presenters:
-- bio: "Erin has been a full time web developer for over seventeen years. She formed
-    her web consulting business, Erin Rachel Consulting, in 2017. Before that, she
-    worked as a web developer and data administrator at the University of Pennsylvania
-    for twelve years and at the Durham-based Django consulting firm Caktus Group for
-    two and a half years. She holds a BS in Computer Science from Philadelphia University.\r\n\r\nOutside
-    of work, Erin has served as a Django Girls coach and mentors other women in tech.
-    Erin has also been a volunteer organizer for DjangoCon US and the Bull City Vegan
-    Challenge in Durham."
-  company: Erin Rachel Consulting LLC
-  github: ''
-  name: Erin Mullaney
-  photo_url: ''
-  twitter: _erin_rachel
-  website: https://www.erinrachelconsulting.com/
+- erin-mullaney
 published: true
 room: Salon F-H
 sitemap: true

@@ -5,6 +5,7 @@ layout: base
 name: Chris Wilcox
 permalink: /presenters/chris-wilcox/
 photo_url: ''
+slug: chris-wilcox
 twitter: chriswilcox47
 website: http://crwilcox.com
 ---

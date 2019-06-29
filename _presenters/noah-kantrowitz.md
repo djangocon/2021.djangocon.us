@@ -5,6 +5,7 @@ layout: base
 name: Noah Kantrowitz
 permalink: /presenters/noah-kantrowitz/
 photo_url: ''
+slug: noah-kantrowitz
 twitter: kantrn
 website: https://coderanger.net/
 ---

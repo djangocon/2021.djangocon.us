@@ -5,6 +5,7 @@ layout: base
 name: Melanie Crutchfield
 permalink: /presenters/melanie-crutchfield/
 photo_url: ''
+slug: melanie-crutchfield
 twitter: hellomelaniec
 website: https://melaniecrutchfield.com
 ---

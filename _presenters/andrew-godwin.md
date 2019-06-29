@@ -5,6 +5,7 @@ layout: base
 name: Andrew Godwin
 permalink: /presenters/andrew-godwin/
 photo_url: ''
+slug: andrew-godwin
 twitter: andrewgodwin
 website: http://www.aeracode.org
 ---

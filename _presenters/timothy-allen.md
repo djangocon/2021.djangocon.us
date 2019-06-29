@@ -5,6 +5,7 @@ layout: base
 name: Timothy Allen
 permalink: /presenters/timothy-allen/
 photo_url: ''
+slug: timothy-allen
 twitter: FlipperPA
 website: https://PyPhilly.org
 ---

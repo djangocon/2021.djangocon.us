@@ -11,15 +11,7 @@ end_date: 2019-09-25 17:50:00 -0500
 layout: session-details
 permalink: /talks/understanding-django-authentication/
 presenters:
-- bio: Co-founder at Labcodes Software studio, a Brazilian based software development/consulting
-    firm. I'm passionate about communities and how they can change lives. I Organized
-    a few local python meetups and one Python Brasil (the Brazilian Pycon).
-  company: Labcodes Software Studio
-  github: ''
-  name: Renato Oliveira
-  photo_url: ''
-  twitter: _renatooliveira
-  website: http://www.labcodes.com.br
+- renato-oliveira
 published: true
 room: Salon A-E
 sitemap: true

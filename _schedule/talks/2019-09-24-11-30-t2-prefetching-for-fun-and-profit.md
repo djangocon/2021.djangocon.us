@@ -10,13 +10,7 @@ end_date: 2019-09-24 12:20:00 -0500
 layout: session-details
 permalink: /talks/prefetching-for-fun-and-profit/
 presenters:
-- bio: ''
-  company: Rover.com
-  github: ''
-  name: Mike Hansen
-  photo_url: ''
-  twitter: ''
-  website: ''
+- mike-hansen
 published: true
 room: Salon F-H
 sitemap: true

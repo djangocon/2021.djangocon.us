@@ -5,6 +5,7 @@ layout: base
 name: Dan Taylor
 permalink: /presenters/dan-taylor/
 photo_url: ''
+slug: dan-taylor
 twitter: qubitron
 website: ''
 ---

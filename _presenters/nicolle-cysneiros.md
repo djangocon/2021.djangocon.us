@@ -5,6 +5,7 @@ layout: base
 name: Nicolle Cysneiros
 permalink: /presenters/nicolle-cysneiros/
 photo_url: ''
+slug: nicolle-cysneiros
 twitter: nicysneiros
 website: ''
 ---

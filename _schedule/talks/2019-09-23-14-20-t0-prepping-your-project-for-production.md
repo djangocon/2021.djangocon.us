@@ -16,24 +16,7 @@ end_date: 2019-09-23 15:10:00 -0500
 layout: session-details
 permalink: /talks/prepping-your-project-for-production/
 presenters:
-- bio: "Peter is the founder of Lincoln Loop, one of the first companies to provide
-    professional services for Django. He is constantly learning and is well-versed
-    in many technical disciplines including devops, scaling, back-end, and front-end
-    development. Peter is a frequent speaker at DjangoCon and has given talks at PyCon
-    and SaltConf as well. In 2013 he co-authored the book High Performance Django,
-    detailing the techniques used at Lincoln Loop to build high-traffic, scalable
-    sites with Django. He has been interviewed about Lincoln Loop's remote work style
-    by Wired and 37signals and been published on Forbes, FastCompany and TechRepublic
-    among others.\r\n\r\nCurrently residing in Colorado, Peter enjoys a well balanced
-    life with his wife and two children. Beyond technology, his passions include skiing
-    and biking in the mountains near his home as well as the occasional surf trip
-    south of the border."
-  company: Lincoln Loop
-  github: ''
-  name: Peter Baumgartner
-  photo_url: ''
-  twitter: ipmb
-  website: https://lincolnloop.com/team/peter-baumgartner/
+- peter-baumgartner
 published: true
 room: Salon A-E
 sitemap: true

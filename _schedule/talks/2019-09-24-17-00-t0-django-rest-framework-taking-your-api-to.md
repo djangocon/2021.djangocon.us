@@ -10,16 +10,7 @@ end_date: 2019-09-24 17:30:00 -0500
 layout: session-details
 permalink: /talks/django-rest-framework-taking-your-api-to/
 presenters:
-- bio: 'I''m Python Developer with experience creating web applications with frameworks
-    like Angular, React, Django, Bootstrap, Semantic UI and more for about six years,
-    working in Django projects implementing GraphQL and React as part of frontend
-    stack. '
-  company: UruIT
-  github: ''
-  name: Carlos Martinez
-  photo_url: ''
-  twitter: carlosmart626
-  website: https://carlosmart.co
+- carlos-martinez
 published: true
 room: Salon A-E
 sitemap: true

@@ -5,6 +5,7 @@ layout: base
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
 photo_url: ''
+slug: carlton-gibson
 twitter: carltongibson
 website: ''
 ---

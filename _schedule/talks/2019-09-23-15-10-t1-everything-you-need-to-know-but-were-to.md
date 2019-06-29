@@ -11,16 +11,7 @@ end_date: 2019-09-23 15:40:00 -0500
 layout: session-details
 permalink: /talks/everything-you-need-to-know-but-were-to/
 presenters:
-- bio: Casey Faist is the Queen Snake of Heroku, where she builds the Python deployment
-    experience. She previously built dockerized sandbox environments for the browser,
-    parsed AST trees, and engineered data. She likes hugs, sharks, and thinks combining
-    those things would be awesome when done very carefully.
-  company: Heroku
-  github: ''
-  name: Casey Faist
-  photo_url: ''
-  twitter: cfactoid
-  website: https://heroku.com/python
+- casey-faist
 published: true
 room: Salon F-H
 sitemap: true

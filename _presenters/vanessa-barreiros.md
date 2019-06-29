@@ -5,6 +5,7 @@ layout: base
 name: Vanessa Barreiros
 permalink: /presenters/vanessa-barreiros/
 photo_url: ''
+slug: vanessa-barreiros
 twitter: vcfbarreiros
 website: https://vinta.software/
 ---

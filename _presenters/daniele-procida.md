@@ -5,6 +5,7 @@ layout: base
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
 photo_url: ''
+slug: daniele-procida
 twitter: EvilDMP
 website: ''
 ---

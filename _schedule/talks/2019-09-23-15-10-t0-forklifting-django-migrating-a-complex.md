@@ -11,16 +11,7 @@ end_date: 2019-09-23 15:40:00 -0500
 layout: session-details
 permalink: /talks/forklifting-django-migrating-a-complex/
 presenters:
-- bio: "Noah Kantrowitz is a web developer turned infrastructure automation enthusiast,
-    and all around engineering rabble-rouser. By day he runs an infrastructure team
-    at Ridecell and by night he makes candy and stickers. He is an active member of
-    the DevOps community, and enjoys merge commits, cat pictures, and beards.\r\n"
-  company: Ridecell
-  github: ''
-  name: Noah Kantrowitz
-  photo_url: ''
-  twitter: kantrn
-  website: https://coderanger.net/
+- noah-kantrowitz
 published: true
 room: Salon A-E
 sitemap: true

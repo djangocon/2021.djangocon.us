@@ -5,6 +5,7 @@ layout: base
 name: Juan Saavedra
 permalink: /presenters/juan-saavedra/
 photo_url: ''
+slug: juan-saavedra
 twitter: elpaquete
 website: https://www.octobot.io
 ---

@@ -10,16 +10,7 @@ end_date: 2019-09-24 15:40:00 -0500
 layout: session-details
 permalink: /talks/lazy-looping-the-next-iteration/
 presenters:
-- bio: Trey Hunner helps Python developers level-up their skills through his weekly
-    Python skill-building service, [Python Morsels](https://www.pythonmorsels.com/).
-    He also helps teams turn experienced developers into experienced Python developers
-    through on-site Python training workshops and courses.
-  company: Truthful Technology, LLC
-  github: ''
-  name: Trey Hunner
-  photo_url: ''
-  twitter: treyhunner
-  website: http://treyhunner.com
+- trey-hunner
 published: true
 room: Salon A-E
 sitemap: true

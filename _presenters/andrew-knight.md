@@ -5,6 +5,7 @@ layout: base
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
 photo_url: ''
+slug: andrew-knight
 twitter: AutomationPanda
 website: https://automationpanda.com/
 ---

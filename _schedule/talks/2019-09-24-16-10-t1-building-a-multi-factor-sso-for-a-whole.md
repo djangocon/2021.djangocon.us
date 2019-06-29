@@ -11,15 +11,7 @@ end_date: 2019-09-24 17:00:00 -0500
 layout: session-details
 permalink: /talks/building-a-multi-factor-sso-for-a-whole/
 presenters:
-- bio: Juan Saavedra is co-founder and VP of Technology at Octobot from Montevideo,
-    Uruguay. Before undertaking fatherhood of one, he used to (try to) teach about
-    Computer Architecture and Networks at a local university.
-  company: Octobot
-  github: ''
-  name: Juan Saavedra
-  photo_url: ''
-  twitter: elpaquete
-  website: https://www.octobot.io
+- juan-saavedra
 published: true
 room: Salon F-H
 sitemap: true

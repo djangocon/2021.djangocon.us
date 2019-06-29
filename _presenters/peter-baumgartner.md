@@ -5,6 +5,7 @@ layout: base
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/
 photo_url: ''
+slug: peter-baumgartner
 twitter: ipmb
 website: https://lincolnloop.com/team/peter-baumgartner/
 ---

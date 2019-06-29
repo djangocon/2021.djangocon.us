@@ -5,6 +5,7 @@ layout: base
 name: Nina Zakharenko
 permalink: /presenters/nina-zakharenko/
 photo_url: ''
+slug: nina-zakharenko
 twitter: nnja
 website: https://nnja.io
 ---

@@ -5,6 +5,7 @@ layout: base
 name: Tom Dyson
 permalink: /presenters/tom-dyson/
 photo_url: ''
+slug: tom-dyson
 twitter: tomd
 website: https://torchbox.com
 ---

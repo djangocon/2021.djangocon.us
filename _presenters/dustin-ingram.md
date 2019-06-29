@@ -5,6 +5,7 @@ layout: base
 name: Dustin Ingram
 permalink: /presenters/dustin-ingram/
 photo_url: ''
+slug: dustin-ingram
 twitter: di_codes
 website: https://di.codes
 ---

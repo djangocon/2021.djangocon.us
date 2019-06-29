@@ -5,6 +5,7 @@ layout: base
 name: Dane Hillard
 permalink: /presenters/dane-hillard/
 photo_url: ''
+slug: dane-hillard
 twitter: easyaspython
 website: https://dane.engineering
 ---

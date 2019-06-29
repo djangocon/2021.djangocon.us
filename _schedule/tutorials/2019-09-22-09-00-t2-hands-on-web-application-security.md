@@ -10,17 +10,7 @@ end_date: 2019-09-22 12:30:00 -0500
 layout: session-details
 permalink: /tutorials/hands-on-web-application-security/
 presenters:
-- bio: Jacinda Shelly is the CTO at Doctor On Demand and mother of an incredible little
-    girl named Ada.  She's been programming in Python for almost a decade now and
-    loves how special the Python and Django communities have always felt. In addition
-    to programming, Jacinda loves science fiction, staying fit, traveling the world
-    and sharing stories with others.
-  company: Apéro Health
-  github: ''
-  name: Jacinda Shelly
-  photo_url: ''
-  twitter: jacindashelly
-  website: ''
+- jacinda-shelly
 published: true
 room: Cabrillo 1
 sitemap: true

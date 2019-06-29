@@ -5,6 +5,7 @@ layout: base
 name: Casey Faist
 permalink: /presenters/casey-faist/
 photo_url: ''
+slug: casey-faist
 twitter: cfactoid
 website: https://heroku.com/python
 ---

@@ -5,6 +5,7 @@ layout: base
 name: Eleanor Stribling
 permalink: /presenters/eleanor-stribling/
 photo_url: ''
+slug: eleanor-stribling
 twitter: eleanorstrib
 website: http://eleanorstrib.com
 ---

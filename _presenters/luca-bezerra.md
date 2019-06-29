@@ -5,6 +5,7 @@ layout: base
 name: Luca Bezerra
 permalink: /presenters/luca-bezerra/
 photo_url: ''
+slug: luca-bezerra
 twitter: lucabezerra_
 website: https://github.com/lucabezerra/
 ---

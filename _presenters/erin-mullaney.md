@@ -5,6 +5,7 @@ layout: base
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/
 photo_url: ''
+slug: erin-mullaney
 twitter: _erin_rachel
 website: https://www.erinrachelconsulting.com/
 ---

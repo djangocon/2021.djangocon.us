@@ -5,6 +5,7 @@ layout: base
 name: Renato Oliveira
 permalink: /presenters/renato-oliveira/
 photo_url: ''
+slug: renato-oliveira
 twitter: _renatooliveira
 website: http://www.labcodes.com.br
 ---

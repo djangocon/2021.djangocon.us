@@ -5,6 +5,7 @@ layout: base
 name: Carlos Martinez
 permalink: /presenters/carlos-martinez/
 photo_url: ''
+slug: carlos-martinez
 twitter: carlosmart626
 website: https://carlosmart.co
 ---

@@ -11,18 +11,7 @@ end_date: 2019-09-22 17:00:00 -0500
 layout: session-details
 permalink: /tutorials/mastering-the-django-orm/
 presenters:
-- bio: James is a philosopher turned web geek who fell in love with Django very early
-    on. He picked up a commit bit while working at the Lawrence Journal-World and
-    was Django's release manager for several years. Now he serves on Django's security
-    team and the board of directors of the Django Software Foundation, and occasionally
-    rants about interviewing and other issues in the culture of the tech community.
-    He thinks you should be using Python 3.
-  company: ''
-  github: ''
-  name: James Bennett
-  photo_url: ''
-  twitter: ubernostrum
-  website: http://www.b-list.org/
+- james-bennett
 published: true
 room: Balboa I & II
 sitemap: true

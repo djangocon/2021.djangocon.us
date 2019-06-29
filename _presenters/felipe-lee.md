@@ -5,6 +5,7 @@ layout: base
 name: Felipe Lee
 permalink: /presenters/felipe-lee/
 photo_url: ''
+slug: felipe-lee
 twitter: felipeleeg
 website: ''
 ---

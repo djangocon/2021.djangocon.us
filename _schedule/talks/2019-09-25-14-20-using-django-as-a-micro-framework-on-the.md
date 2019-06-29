@@ -13,15 +13,7 @@ end_date: 2019-09-25 15:10:00 -0500
 layout: session-details
 permalink: /talks/using-django-as-a-micro-framework-on-the/
 presenters:
-- bio: 'Django Fellow. Long time Django user and maintainer on Django REST Framework,
-    Channels, Django Filter and more. I''m a husband and father of four. I like cooking
-    and philosophy. '
-  company: ''
-  github: ''
-  name: Carlton Gibson
-  photo_url: ''
-  twitter: carltongibson
-  website: ''
+- carlton-gibson
 published: true
 room: Salon A-E
 sitemap: true

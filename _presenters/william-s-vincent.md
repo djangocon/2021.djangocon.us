@@ -5,6 +5,7 @@ layout: base
 name: William S. Vincent
 permalink: /presenters/william-s-vincent/
 photo_url: ''
+slug: william-s-vincent
 twitter: wsv3000
 website: https://wsvincent.com/
 ---

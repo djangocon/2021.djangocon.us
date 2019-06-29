@@ -5,6 +5,7 @@ layout: base
 name: Veronica Hanus
 permalink: /presenters/veronica-hanus/
 photo_url: ''
+slug: veronica-hanus
 twitter: veronica_hanus
 website: https://vzhz.github.io/blog.html
 ---

@@ -11,13 +11,7 @@ end_date: 2019-09-24 15:10:00 -0500
 layout: session-details
 permalink: /talks/technical-debt-why-it-ll-ruin-your/
 presenters:
-- bio: ''
-  company: Labcodes Software Studio
-  github: ''
-  name: Luan Fonseca
-  photo_url: ''
-  twitter: luanfonceca
-  website: ''
+- luan-fonseca
 published: true
 room: Salon A-E
 sitemap: true

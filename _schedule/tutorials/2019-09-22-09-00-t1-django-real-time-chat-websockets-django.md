@@ -11,16 +11,7 @@ end_date: 2019-09-22 12:30:00 -0500
 layout: session-details
 permalink: /tutorials/django-real-time-chat-websockets-django/
 presenters:
-- bio: Hi, I’m Cara! I’m a full-stack web developer and I love taking ideas from prototype
-    to production - gnarly configs included. I’m passionate about empowering more
-    women to become software engineers and to advance in their careers in tech. I
-    currently serve as founder and CEO of Caeli - The Modular Notebook.
-  company: caeli.io
-  github: ''
-  name: Cara Borenstein
-  photo_url: ''
-  twitter: caraborenstein
-  website: ''
+- cara-borenstein
 published: true
 room: Sierra 5
 sitemap: true

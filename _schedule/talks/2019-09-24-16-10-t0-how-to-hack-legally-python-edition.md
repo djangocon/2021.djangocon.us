@@ -11,23 +11,7 @@ end_date: 2019-09-24 17:00:00 -0500
 layout: session-details
 permalink: /talks/how-to-hack-legally-python-edition/
 presenters:
-- bio: Karen D. Miller is a recent Carnegie Mellon University graduate from the Information
-    Security, M.S. program and currently works full-time as an Associate Cyber Security
-    Engineer at the Software Engineering Institute. Karen received a Bachelor of Science
-    degree in Computer Science from Southern Utah University where she frequently
-    participated in cyber defense and capture the flag competitions which sparked
-    her interest in penetration testing as a career. Because of her interest in security
-    and government work, Karen chose to pursue her Master's degree through the Scholarship
-    for Service program at CMU instead of moving into a full-time job after graduating
-    from SUU. Although still early in her career, Karen wishes to help people of all
-    backgrounds learn new skills and develop new goals which can be intimidating,
-    but fulfilling.
-  company: Software Engineering Institute, Carnegie Mellon University
-  github: ''
-  name: Karen Miller
-  photo_url: ''
-  twitter: kdangm
-  website: https://www.hack-hub.com/
+- karen-miller
 published: true
 room: Salon A-E
 sitemap: true

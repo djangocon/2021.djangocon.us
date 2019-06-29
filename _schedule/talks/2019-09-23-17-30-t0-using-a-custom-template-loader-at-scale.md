@@ -10,18 +10,7 @@ end_date: 2019-09-23 18:00:00 -0500
 layout: session-details
 permalink: /talks/using-a-custom-template-loader-at-scale/
 presenters:
-- bio: I like leveraging software development skills for good. During my short career
-    I've had a chance to work in the fields of counterterrorism, cancer research,
-    and education. I'm an unrepentant foodie—read more about the upcoming [Piquant](https://piquantmag.com/about)
-    if you like. [I made a music album](https://www.littleleviathan.com) once and
-    [I make fashion and portraiture photography](https://www.danehillard.com) here
-    and there.
-  company: ITHAKA
-  github: ''
-  name: Dane Hillard
-  photo_url: ''
-  twitter: easyaspython
-  website: https://dane.engineering
+- dane-hillard
 published: true
 room: Salon A-E
 sitemap: true

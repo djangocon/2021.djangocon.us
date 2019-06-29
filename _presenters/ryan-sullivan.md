@@ -5,6 +5,7 @@ layout: base
 name: Ryan Sullivan
 permalink: /presenters/ryan-sullivan/
 photo_url: ''
+slug: ryan-sullivan
 twitter: rgs258
 website: https://www.linkedin.com/in/rgs258
 ---

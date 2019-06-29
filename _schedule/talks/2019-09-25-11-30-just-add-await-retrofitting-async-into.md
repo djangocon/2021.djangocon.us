@@ -11,17 +11,7 @@ end_date: 2019-09-25 12:20:00 -0500
 layout: session-details
 permalink: /talks/just-add-await-retrofitting-async-into/
 presenters:
-- bio: "Andrew is a long-time Django contributor - author of South, Django Migrations,
-    and Channels - and a Principal Engineer at Eventbrite, leading the SRE team and
-    working on system architecture.\r\n\r\nIn his spare time, he enjoys piloting light
-    aircraft, archery, writing video games, and trying to see as many mountains and
-    as much snow as he possibly can.\r\n"
-  company: ''
-  github: ''
-  name: Andrew Godwin
-  photo_url: ''
-  twitter: andrewgodwin
-  website: http://www.aeracode.org
+- andrew-godwin
 published: true
 room: Salon A-E
 sitemap: true

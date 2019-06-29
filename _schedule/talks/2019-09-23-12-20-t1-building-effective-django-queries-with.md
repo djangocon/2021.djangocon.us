@@ -11,15 +11,7 @@ end_date: 2019-09-23 12:50:00 -0500
 layout: session-details
 permalink: /talks/building-effective-django-queries-with/
 presenters:
-- bio: I'm a full stack developer at Vinta Software (www.vinta.com.br), and Django
-    Girls organizer at my hometown, Recife. When not coding and working on personal
-    projects, I'm usually cooking and watching Grey's Anatomy.
-  company: Vinta Software
-  github: ''
-  name: Vanessa Barreiros
-  photo_url: ''
-  twitter: vcfbarreiros
-  website: https://vinta.software/
+- vanessa-barreiros
 published: true
 room: Salon F-H
 sitemap: true
