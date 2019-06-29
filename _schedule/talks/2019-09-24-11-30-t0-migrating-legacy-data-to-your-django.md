@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-24 11:30:00 -0500
 difficulty: Beginner
 end_date: 2019-09-24 12:20:00 -0500
+image: /static/img/social/presenters/adolfo-fitoria.png
 layout: session-details
 permalink: /talks/migrating-legacy-data-to-your-django/
 presenters:

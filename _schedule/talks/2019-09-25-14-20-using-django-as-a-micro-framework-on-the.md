@@ -10,6 +10,7 @@ category: talks
 date: 2019-09-25 14:20:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-25 15:10:00 -0500
+image: /static/img/social/presenters/carlton-gibson.png
 layout: session-details
 permalink: /talks/using-django-as-a-micro-framework-on-the/
 presenters:

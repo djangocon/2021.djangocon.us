@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 15:10:00 -0500
 difficulty: Beginner
 end_date: 2019-09-23 15:40:00 -0500
+image: /static/img/social/presenters/casey-faist.png
 layout: session-details
 permalink: /talks/everything-you-need-to-know-but-were-to/
 presenters:

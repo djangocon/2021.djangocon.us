@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 15:10:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-23 15:40:00 -0500
+image: /static/img/social/presenters/noah-kantrowitz.png
 layout: session-details
 permalink: /talks/forklifting-django-migrating-a-complex/
 presenters:

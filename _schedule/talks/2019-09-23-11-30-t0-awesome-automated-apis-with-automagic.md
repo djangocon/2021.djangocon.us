@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 11:30:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-23 12:20:00 -0500
+image: /static/img/social/presenters/timothy-allen.png
 layout: session-details
 permalink: /talks/awesome-automated-apis-with-automagic/
 presenters:

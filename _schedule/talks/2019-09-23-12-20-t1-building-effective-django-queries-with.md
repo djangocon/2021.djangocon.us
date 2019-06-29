@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 12:20:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-23 12:50:00 -0500
+image: /static/img/social/presenters/vanessa-barreiros.png
 layout: session-details
 permalink: /talks/building-effective-django-queries-with/
 presenters:

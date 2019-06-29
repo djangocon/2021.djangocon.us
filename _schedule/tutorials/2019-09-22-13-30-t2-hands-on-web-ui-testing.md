@@ -8,6 +8,7 @@ category: tutorials
 date: 2019-09-22 13:30:00 -0500
 difficulty: All
 end_date: 2019-09-22 17:00:00 -0500
+image: /static/img/social/presenters/andrew-knight.png
 layout: session-details
 permalink: /tutorials/hands-on-web-ui-testing/
 presenters:

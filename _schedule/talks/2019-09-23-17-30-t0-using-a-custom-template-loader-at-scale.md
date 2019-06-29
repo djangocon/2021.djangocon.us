@@ -7,6 +7,7 @@ category: talks
 date: 2019-09-23 17:30:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-23 18:00:00 -0500
+image: /static/img/social/presenters/dane-hillard.png
 layout: session-details
 permalink: /talks/using-a-custom-template-loader-at-scale/
 presenters:

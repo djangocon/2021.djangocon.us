@@ -7,6 +7,7 @@ category: tutorials
 date: 2019-09-22 13:30:00 -0500
 difficulty: Beginner
 end_date: 2019-09-22 17:00:00 -0500
+image: /static/img/social/presenters/pablo-garcia.png
 layout: session-details
 permalink: /tutorials/django-bootstrapping-done-right/
 presenters:

@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 16:10:00 -0500
 difficulty: All
 end_date: 2019-09-23 17:00:00 -0500
+image: /static/img/social/presenters/erin-mullaney.png
 layout: session-details
 permalink: /talks/roll-your-own-tech-job-starting-a-or/
 presenters:

@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 14:20:00 -0500
 difficulty: All
 end_date: 2019-09-23 15:10:00 -0500
+image: /static/img/social/presenters/daniele-procida.png
 layout: session-details
 permalink: /talks/nothingness-and-identity-in-python-and/
 presenters:

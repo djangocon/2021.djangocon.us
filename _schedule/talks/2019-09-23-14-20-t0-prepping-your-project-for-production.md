@@ -13,6 +13,7 @@ category: talks
 date: 2019-09-23 14:20:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-23 15:10:00 -0500
+image: /static/img/social/presenters/peter-baumgartner.png
 layout: session-details
 permalink: /talks/prepping-your-project-for-production/
 presenters:

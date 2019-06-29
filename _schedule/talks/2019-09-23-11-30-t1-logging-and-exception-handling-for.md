@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-23 11:30:00 -0500
 difficulty: All
 end_date: 2019-09-23 12:20:00 -0500
+image: /static/img/social/presenters/ryan-sullivan.png
 layout: session-details
 permalink: /talks/logging-and-exception-handling-for/
 presenters:

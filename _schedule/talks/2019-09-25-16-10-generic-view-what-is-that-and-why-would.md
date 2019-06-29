@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-25 16:10:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-25 17:00:00 -0500
+image: /static/img/social/presenters/felipe-lee.png
 layout: session-details
 permalink: /talks/generic-view-what-is-that-and-why-would/
 presenters:

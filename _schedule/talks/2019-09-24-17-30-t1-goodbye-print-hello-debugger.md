@@ -7,6 +7,7 @@ category: talks
 date: 2019-09-24 17:30:00 -0500
 difficulty: All
 end_date: 2019-09-24 18:00:00 -0500
+image: /static/img/social/presenters/nina-zakharenko.png
 layout: session-details
 permalink: /talks/goodbye-print-hello-debugger/
 presenters:

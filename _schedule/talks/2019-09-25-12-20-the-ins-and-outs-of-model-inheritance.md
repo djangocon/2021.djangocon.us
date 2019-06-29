@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-25 12:20:00 -0500
 difficulty: Intermediate
 end_date: 2019-09-25 12:50:00 -0500
+image: /static/img/social/presenters/blythe-j-dunham.png
 layout: session-details
 permalink: /talks/the-ins-and-outs-of-model-inheritance/
 presenters:

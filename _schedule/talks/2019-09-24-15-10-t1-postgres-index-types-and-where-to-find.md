@@ -8,6 +8,7 @@ category: talks
 date: 2019-09-24 15:10:00 -0500
 difficulty: All
 end_date: 2019-09-24 15:40:00 -0500
+image: /static/img/social/presenters/louise-grandjonc.png
 layout: session-details
 permalink: /talks/postgres-index-types-and-where-to-find/
 presenters:

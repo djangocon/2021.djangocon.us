@@ -11,6 +11,7 @@ category: talks
 date: 2019-09-24 17:30:00 -0500
 difficulty: Beginner
 end_date: 2019-09-24 18:00:00 -0500
+image: /static/img/social/presenters/william-s-vincent.png
 layout: session-details
 permalink: /talks/search-from-the-ground-up/
 presenters:
