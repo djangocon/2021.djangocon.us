@@ -1,5 +1,4 @@
 ---
-title:
 layout: base
 ---
 
@@ -8,8 +7,8 @@ layout: base
     {% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}
   </h1>
   <p class="lead">
-    {{ page.date | date: "%A %l:%M %P" }},
-    {{ page.room }}
+    {{ page.date | date: "%A %l:%M %P" }}{% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %},
+    in {{ page.room }}
     {% if page.difficulty %}
       <br>
       <span
