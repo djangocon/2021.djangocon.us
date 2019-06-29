@@ -5,12 +5,12 @@ link: /catering-menus/
 accepted: true
 sitemap: false
 
-title: Breakfast
+title: Continental Breakfast
 presenters:
 difficulty:
 
-date: 2019-09-24 9:00:00 -0500
-end_date: 2019-09-24 10:00:00 -0500
+date: 2019-09-26 08:30:00 -0500
+end_date: 2019-09-26 09:30:00 -0500
 room: full
 ---
 Rio Vista Pavilion
