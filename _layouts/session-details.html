@@ -48,9 +48,15 @@ layout: base
       {% endif %}
 
       <h2 style="text-transform:capitalize;">About This
-        {% if page.category == "talks" %}Talk{% endif %}
-        {%if page.category == "tutorials" %}Tutorial{% endif %}
-    </h2>
+        {% case page.category %}
+            {% when "talks" %}
+              Talk
+            {% when "tutorials" %}
+              Tutorial
+            {% else %}
+              {{ page.category|capitalize }}
+        {% endcase %}
+      </h2>
       {{ content }}
     </div>
   </div><!-- end .row -->
