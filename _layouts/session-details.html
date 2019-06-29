@@ -59,56 +59,58 @@ layout: base
     <div class="column medium-10 medium-offset-1"><h2>Presenters</h2></div>
   </div>
 
-  {% for presenter in page.presenters %}
-  <div class="row profile wide presenter">
-    <div class="column medium-4 medium-offset-1 large-3">
-      {% if presenter.photo_url != blank %}
-        <img
-          class="thumbnail"
-          src="{{ presenter.photo_url }}"
-          alt="Photo of {{ presenter.presenters }}" />
-      {% endif %}
-    </div>
-
-    <div class="column medium-7 large-7 end">
-      <h3 class="profile-name">
-        {{ presenter.name }}
-        {% if presenter.pronouns != blank %}
-          ({{ presenter.pronouns }})
+<ul>
+  {% for presenter_slug in page.presenters %}
+    {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+    <div class="row profile wide presenter">
+      <div class="column medium-4 medium-offset-1 large-3">
+        {% if presenter.photo_url != blank %}
+          <img
+            class="thumbnail"
+            src="{{ presenter.photo_url }}"
+            alt="Photo of {{ presenter.presenters }}" />
         {% endif %}
-      </h3>
+      </div>
 
-      {% if presenter.twitter or presenter.github or presenter.website %}
-        <ul class="social-icons">
-          {% if presenter.twitter != blank %}
-          <li>
-            <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
-              <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
-            </a>
-          </li>
+      <div class="column medium-7 large-7 end">
+        <h3 class="profile-name">
+          {{ presenter.name }}
+          {% if presenter.pronouns != blank %}
+            ({{ presenter.pronouns }})
           {% endif %}
-          {% if presenter.github != blank %}
-          <li>
-            <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
-              <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
-            </a>
+        </h3>
+
+        {% if presenter.twitter or presenter.github or presenter.website %}
+          <ul class="social-icons">
+            {% if presenter.twitter != blank %}
+            <li>
+              <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
+                <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+              </a>
             </li>
-          {% endif %}
-          {% if presenter.website != blank %}
-          <li>
-            <a class="web" href="{{ presenter.website }}" target="_blank">
-              <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      {% endif %}
+            {% endif %}
+            {% if presenter.github != blank %}
+            <li>
+              <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
+                <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+              </a>
+              </li>
+            {% endif %}
+            {% if presenter.website != blank %}
+            <li>
+              <a class="web" href="{{ presenter.website }}" target="_blank">
+                <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        {% endif %}
 
-      {% if presenter.bio != blank %}
-        {{ presenter.bio | markdownify }}
-      {% endif %}
+        {% if presenter.bio != blank %}
+          {{ presenter.bio | markdownify }}
+        {% endif %}
+      </div>
     </div>
-  </div>
   {% endfor %}
 </div>
 
