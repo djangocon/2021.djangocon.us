@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/
-photo_url: ''
+photo_url: /static/img/speakers/peter-baumgartner.jpg
 slug: peter-baumgartner
 twitter: ipmb
 website: https://lincolnloop.com/team/peter-baumgartner/

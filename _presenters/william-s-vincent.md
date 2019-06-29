@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: William S. Vincent
 permalink: /presenters/william-s-vincent/
-photo_url: ''
+photo_url: /static/img/speakers/william-s-vincent.jpg
 slug: william-s-vincent
 twitter: wsv3000
 website: https://wsvincent.com/

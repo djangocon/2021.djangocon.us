@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Nina Zakharenko
 permalink: /presenters/nina-zakharenko/
-photo_url: ''
+photo_url: /static/img/speakers/nina-zakharenko.jpg
 slug: nina-zakharenko
 twitter: nnja
 website: https://nnja.io

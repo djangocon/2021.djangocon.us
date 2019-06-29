@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Jacinda Shelly
 permalink: /presenters/jacinda-shelly/
-photo_url: ''
+photo_url: /static/img/speakers/jacinda-shelly.jpg
 slug: jacinda-shelly
 twitter: jacindashelly
 website: ''

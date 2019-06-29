@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Dane Hillard
 permalink: /presenters/dane-hillard/
-photo_url: ''
+photo_url: /static/img/speakers/dane-hillard.jpg
 slug: dane-hillard
 twitter: easyaspython
 website: https://dane.engineering

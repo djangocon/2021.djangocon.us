@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Tom Dyson
 permalink: /presenters/tom-dyson/
-photo_url: ''
+photo_url: /static/img/speakers/tom-dyson.jpg
 slug: tom-dyson
 twitter: tomd
 website: https://torchbox.com

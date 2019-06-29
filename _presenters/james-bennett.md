@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: James Bennett
 permalink: /presenters/james-bennett/
-photo_url: ''
+photo_url: /static/img/speakers/james-bennett.jpg
 slug: james-bennett
 twitter: ubernostrum
 website: http://www.b-list.org/

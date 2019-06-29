@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Trey Hunner
 permalink: /presenters/trey-hunner/
-photo_url: ''
+photo_url: /static/img/speakers/trey-hunner.jpg
 slug: trey-hunner
 twitter: treyhunner
 website: http://treyhunner.com

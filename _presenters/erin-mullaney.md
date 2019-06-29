@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/
-photo_url: ''
+photo_url: /static/img/organizers/erin.jpg
 slug: erin-mullaney
 twitter: _erin_rachel
 website: https://www.erinrachelconsulting.com/
