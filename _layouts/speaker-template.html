@@ -15,16 +15,25 @@
         width="100%"
         alt="Speaker Template" />
 
+      {% if page.photo_url != blank %}
       <div class="speaker-template-photo">
         <img
-          src="{{ page.speaker_photo }}"
+          src="{{ page.photo_url }}"
           width="800"
-
-          alt="{{ page.speaker_name }}" />
+          alt="{{ page.name }}" />
       </div>
+      {% endif %}
 
-      <h1 class="speaker-template-name">{{ page.speaker_name }}</h1>
-      <h2 class="speaker-template-session-title">{{ page.session_title }}</h2>
+      <h1 class="speaker-template-name">{{ page.name }}</h1>
+      <h2 class="speaker-template-session-title">
+        {% assign presentations = site.schedule | where: "presenters", page.slug %}
+        {% assign presentation_length = presentations|size %}
+        {% for schedule in presentations %}
+          {{ schedule.title }}
+          {% if presentation_length > 1 %}<br>{% endif %}
+        {% endfor %}
+      </h2>
+
     </div>
 
   </body>

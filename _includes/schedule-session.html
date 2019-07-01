@@ -30,19 +30,20 @@
       <p class="location">{{ post.room }}</p>
     {% endif %}
     {% if post.presenters %}
-      {% for presenter in post.presenters %}
-      <p class="event-byline">
-        {% if presenter.photo_url != blank %}
-        <img
-          class="avatar"
-          src="{{ presenter.photo_url }}"
-          alt="Photo of {{ presenter.presenters }}" />
-        {% endif %}
-        {{ presenter.name }}
-        {% if presenter.pronouns != blank %}
-          ({{ presenter.pronouns }})
-        {% endif %}
-      </p>
+      {% for presenter_slug in post.presenters %}
+        {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+        <p class="event-byline">
+          {% if presenter.photo_url != blank %}
+          <img
+            class="avatar"
+            src="{{ presenter.photo_url }}"
+            alt="Photo of {{ presenter.presenters }}" />
+          {% endif %}
+          {{ presenter.name }}
+          {% if presenter.pronouns != blank %}
+            ({{ presenter.pronouns }})
+          {% endif %}
+        </p>
       {% endfor %}
     {% endif %}
 

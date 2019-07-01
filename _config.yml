@@ -56,6 +56,9 @@ collections:  # process the _data folder
   organizers:
     output: false
     permalink: /:collection/
+  presenters:
+    output: true
+    permalink: /:collection/
   sponsors:
     output: false
     permalink: /:collection/
@@ -80,6 +83,11 @@ defaults:
       path: ""
     values:
       image: /static/img/social/avatar-main.png
+  - scope:
+      path: "_presenters"
+      type: presenters
+    values:
+      sitemap: false
 
 # Our DjangoCon US settings...
 conduct_email: "conduct@djangocon.us"
