@@ -6,7 +6,7 @@ name: Cara Borenstein
 permalink: /presenters/cara-borenstein/
 photo_url: ''
 slug: cara-borenstein
-twitter: caraborenstein
+twitter: ''
 website: ''
 ---
 
