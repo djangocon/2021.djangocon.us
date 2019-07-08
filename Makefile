@@ -111,7 +111,7 @@ social:
 		--filename=static/img/social/presenters/renato-oliveira
 	@pageres https://2019.djangocon.us/presenters/russell-keith-magee/ 1200x800 \
 		--overwrite \
-		--filename=static/img/social/presenters/keith-magee
+		--filename=static/img/social/presenters/russell-keith-magee
 	@pageres https://2019.djangocon.us/presenters/ryan-sullivan/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/ryan-sullivan
