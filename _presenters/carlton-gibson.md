@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
-photo_url: ''
+photo_url: /static/img/speakers/carlton-gibson.jpg
 slug: carlton-gibson
 twitter: carltongibson
 website: ''

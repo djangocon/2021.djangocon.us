@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Casey Faist
 permalink: /presenters/casey-faist/
-photo_url: ''
+photo_url: /static/img/speakers/casey-faist.jpg
 slug: casey-faist
 twitter: cfactoid
 website: https://heroku.com/python

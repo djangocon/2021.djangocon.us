@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Renato Oliveira
 permalink: /presenters/renato-oliveira/
-photo_url: ''
+photo_url: /static/img/speakers/renato-oliveira.jpg
 slug: renato-oliveira
 twitter: _renatooliveira
 website: http://www.labcodes.com.br

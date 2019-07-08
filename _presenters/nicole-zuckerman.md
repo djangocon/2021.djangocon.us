@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Nicole Zuckerman
 permalink: /presenters/nicole-zuckerman/
-photo_url: ''
+photo_url: /static/img/speakers/nicole-zuckerman.jpg
 slug: nicole-zuckerman
 twitter: zuckerpunch
 website: ''

@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Nicolle Cysneiros
 permalink: /presenters/nicolle-cysneiros/
-photo_url: ''
+photo_url: /static/img/speakers/nicolle-cysneiros.jpg
 slug: nicolle-cysneiros
 twitter: nicysneiros
 website: ''
