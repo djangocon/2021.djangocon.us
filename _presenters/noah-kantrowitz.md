@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Noah Kantrowitz
 permalink: /presenters/noah-kantrowitz/
-photo_url: ''
+photo_url: /static/img/speakers/noah-kantrowitz.jpg
 slug: noah-kantrowitz
 twitter: kantrn
 website: https://coderanger.net/

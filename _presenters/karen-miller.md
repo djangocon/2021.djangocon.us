@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Karen Miller
 permalink: /presenters/karen-miller/
-photo_url: ''
+photo_url: /static/img/speakers/karen-miller.jpg
 slug: karen-miller
 twitter: kdangm
 website: https://www.hack-hub.com/

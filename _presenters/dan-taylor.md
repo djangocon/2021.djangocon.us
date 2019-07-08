@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Dan Taylor
 permalink: /presenters/dan-taylor/
-photo_url: ''
+photo_url: /static/img/speakers/dan-taylor.jpg
 slug: dan-taylor
 twitter: qubitron
 website: ''

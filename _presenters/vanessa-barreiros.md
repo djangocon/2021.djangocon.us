@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Vanessa Barreiros
 permalink: /presenters/vanessa-barreiros/
-photo_url: ''
+photo_url: /static/img/speakers/vanessa-barreiros.jpg
 slug: vanessa-barreiros
 twitter: vcfbarreiros
 website: https://vinta.software/

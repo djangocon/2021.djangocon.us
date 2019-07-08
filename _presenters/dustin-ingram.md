@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Dustin Ingram
 permalink: /presenters/dustin-ingram/
-photo_url: ''
+photo_url: /static/img/speakers/dustin-ingram.jpg
 slug: dustin-ingram
 twitter: di_codes
 website: https://di.codes

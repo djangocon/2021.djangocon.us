@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
-photo_url: ''
+photo_url: /static/img/speakers/daniele-procida.jpg
 slug: daniele-procida
 twitter: EvilDMP
 website: ''

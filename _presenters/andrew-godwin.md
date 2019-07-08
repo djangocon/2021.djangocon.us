@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Andrew Godwin
 permalink: /presenters/andrew-godwin/
-photo_url: ''
+photo_url: /static/img/speakers/andrew-godwin.jpg
 slug: andrew-godwin
 twitter: andrewgodwin
 website: http://www.aeracode.org

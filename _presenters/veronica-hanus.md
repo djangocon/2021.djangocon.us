@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Veronica Hanus
 permalink: /presenters/veronica-hanus/
-photo_url: ''
+photo_url: /static/img/speakers/veronica-hanus.jpg
 slug: veronica-hanus
 twitter: veronica_hanus
 website: https://vzhz.github.io/blog.html
