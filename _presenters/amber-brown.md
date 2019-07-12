@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Amber Brown
 permalink: /presenters/amber-brown/
-photo_url: /static/img/speakers/amber-brown.jpg
+photo_url: /static/img/speakers/amber-brown.png
 slug: amber-brown
 twitter: hawkieowl
 website:

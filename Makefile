@@ -133,3 +133,12 @@ social:
 	@pageres https://2019.djangocon.us/presenters/william-s-vincent/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/s-vincent
+
+	@ # Keynotes
+	@pageres https://2019.djangocon.us/presenters/amber-brown/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/amber-brown
+	@pageres https://2019.djangocon.us/presenters/matt-mitchellt/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/matt-mitchell
+
