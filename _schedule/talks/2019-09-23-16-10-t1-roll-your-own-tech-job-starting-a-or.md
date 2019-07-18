@@ -31,36 +31,12 @@ track: t1
 video_url: ''
 ---
 
-I start the talk with an ice breaker about work engagement, go over my background in technology work and then move onto the main elements of the presentation:
+Getting sick of your daily commute? Wish you could spend more time getting things done and less time sitting in meetings? If this sounds like you, becoming your own boss might be for you. 
+
+This talk covers how to set up your own business legally, keep your books, and find excited & exciting clients. The main elements of the presentation:
 
 1. How did I become an independent consultant?
 2. Moving past fear and making decisions
 3. How to set up your business legally
 4. Finding clients
 5. Closing thoughts and materials
-
-How did I become an independent consultant?
---------------------------------------------------------------------
-
-For part one, I discuss the way a move to California for my partner’s job led me to consider striking out on my own for the first time in my career and how I made the decision to work for myself rather than apply to one of the many open Bay Area jobs.
-
-Moving past fear and making decisions
----------------------------------------------------------
-
-After I go over my story, I talk about how fear can play a part in decision making and go over an exercise I like to do in order to make decisions and think through fear without spiraling.
-
-How to set up your business legally
----------------------------------------------------
-
-The meat of the talk is next. This will be the nitty gritty of what forms you need to fill out, and how to find out what you need to do in your state in order to work for yourself legally and start your own small company. I also discuss why you might want to form a company (LLC) at this step. A common theme throughout this section is how to keep things simple while also keeping start up costs low.
-
-Finding clients
----------------------
-
-The fourth part of my talk is my favorite part because I talk about how I found clients and discuss ways to attract clients. It’s so much more than marketing strategies. I follow the guideline to "Always Be Giving" and I've followed it throughout my career. When I think about the person I'm working for first, when I think about how to make them happy, while always being completely genuinely myself, I've been able to keep myself in their minds long after the projects are over. I have a few stories about this that I will share during this section of the talk.
-
-
-Closing thoughts and materials
-----------------------------------------------
-
-Finally, I talk about all the benefits of working for yourself and go over some additional materials to listen to, read, and watch. I have a page on my website that I includes all of these materials so it will be easy to share at this step as well.
