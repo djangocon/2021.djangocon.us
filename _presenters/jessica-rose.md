@@ -6,7 +6,7 @@ name: Jessica Rose
 permalink: /presenters/jessica-rose/
 photo_url: /static/img/speakers/jessica-rose.jpg
 slug: jessica-rose
-twitter:
+twitter: jesslynnrose
 website:
 ---
 
