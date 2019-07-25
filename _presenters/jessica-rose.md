@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Jessica Rose
 permalink: /presenters/jessica-rose/
-photo_url: /static/img/speakers/jessica-rose.png
+photo_url: /static/img/speakers/jessica-rose.jpg
 slug: jessica-rose
 twitter:
 website:
