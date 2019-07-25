@@ -138,6 +138,11 @@ social:
 	@pageres https://2019.djangocon.us/presenters/amber-brown/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/amber-brown
+
+	@pageres https://2019.djangocon.us/presenters/jessica-rose/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/jessica-rose
+
 	@pageres https://2019.djangocon.us/presenters/matt-mitchell/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/matt-mitchell
