@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Chris Wilcox
 permalink: /presenters/chris-wilcox/
-photo_url: ''
+photo_url: /static/img/speakers/chris-wilcox.jpg
 slug: chris-wilcox
 twitter: chriswilcox47
 website: http://crwilcox.com

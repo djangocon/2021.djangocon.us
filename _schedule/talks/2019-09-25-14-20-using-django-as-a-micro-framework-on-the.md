@@ -23,7 +23,7 @@ summary: ''
 tags:
 - deep dive
 talk_slot: full
-title: 'Using Django as a Micro-Framework: Hacking on the HTTP handers and middleware
+title: 'Using Django as a Micro-Framework: Hacking on the HTTP handlers and middleware
   (for fun and profit)'
 video_url: ''
 ---

@@ -2,8 +2,8 @@
 layout: session-details
 category: talk
 permalink:
-accepted: true
-sitemap: true
+accepted: false
+sitemap: false
 
 title: Opening Reception
 presenters:

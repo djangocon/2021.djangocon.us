@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Melanie Crutchfield
 permalink: /presenters/melanie-crutchfield/
-photo_url: ''
+photo_url: /static/img/speakers/melanie-crutchfield.jpg
 slug: melanie-crutchfield
 twitter: hellomelaniec
 website: https://melaniecrutchfield.com

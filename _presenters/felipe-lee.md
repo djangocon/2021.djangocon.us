@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Felipe Lee
 permalink: /presenters/felipe-lee/
-photo_url: ''
+photo_url: /static/img/speakers/felipe-lee.jpg
 slug: felipe-lee
 twitter: felipeleeg
 website: ''

@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Carlos Martinez
 permalink: /presenters/carlos-martinez/
-photo_url: ''
+photo_url: /static/img/speakers/carlos-martinez.jpg
 slug: carlos-martinez
 twitter: carlosmart626
 website: https://carlosmart.co

@@ -4,7 +4,7 @@ github: https://github.com/louiseGrandjonc
 layout: speaker-template
 name: Louise Grandjonc
 permalink: /presenters/louise-grandjonc/
-photo_url: ''
+photo_url: /static/img/speakers/louise-grandjonc.jpg
 slug: louise-grandjonc
 twitter: louisemeta
 website: http://louisemeta.com

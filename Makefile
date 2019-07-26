@@ -111,7 +111,7 @@ social:
 		--filename=static/img/social/presenters/renato-oliveira
 	@pageres https://2019.djangocon.us/presenters/russell-keith-magee/ 1200x800 \
 		--overwrite \
-		--filename=static/img/social/presenters/keith-magee
+		--filename=static/img/social/presenters/russell-keith-magee
 	@pageres https://2019.djangocon.us/presenters/ryan-sullivan/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/ryan-sullivan
@@ -133,3 +133,16 @@ social:
 	@pageres https://2019.djangocon.us/presenters/william-s-vincent/ 1200x800 \
 		--overwrite \
 		--filename=static/img/social/presenters/s-vincent
+
+	@ # Keynotes
+	@pageres https://2019.djangocon.us/presenters/amber-brown/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/amber-brown
+
+	@pageres https://2019.djangocon.us/presenters/jessica-rose/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/jessica-rose
+
+	@pageres https://2019.djangocon.us/presenters/matt-mitchell/ 1200x800 \
+		--overwrite \
+		--filename=static/img/social/presenters/matt-mitchell

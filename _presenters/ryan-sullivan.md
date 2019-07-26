@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Ryan Sullivan
 permalink: /presenters/ryan-sullivan/
-photo_url: ''
+photo_url: /static/img/speakers/ryan-sullivan.jpg
 slug: ryan-sullivan
 twitter: rgs258
 website: https://www.linkedin.com/in/rgs258

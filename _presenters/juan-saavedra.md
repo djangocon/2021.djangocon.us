@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Juan Saavedra
 permalink: /presenters/juan-saavedra/
-photo_url: ''
+photo_url: /static/img/speakers/juan-saavedra.jpg
 slug: juan-saavedra
 twitter: elpaquete
 website: https://www.octobot.io
