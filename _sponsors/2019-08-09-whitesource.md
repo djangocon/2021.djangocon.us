@@ -1,8 +1,7 @@
 ---
 layout: base
 
-hidden: false
-level: 'Gold'
+level: Gold
 name: "WhiteSource Software"
 logo: "/static/img/sponsors/whitesource-logo-black.png"
 logo_orientation: "landscape"
