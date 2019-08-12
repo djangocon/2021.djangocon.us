@@ -4,7 +4,7 @@ layout: base
 hidden: false
 level: 'Bronze'
 name: "Fusionbox"
-logo: "/static/img/sponsors/fusionboxlogo.png"
+logo: "/static/img/sponsors/fusionbox-new-logo.png"
 logo_orientation: "landscape"
 url_target: "https://www.fusionbox.com/"
 url_friendly: "www.fusionbox.com"
