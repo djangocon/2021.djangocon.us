@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: true
+hidden: false
 level: 'Silver'
 name: "Microsoft's Cloud Developer Advocates"
 logo: "/static/img/sponsors/MS-Azure_logo_horiz_c-gray_rgb.png"
