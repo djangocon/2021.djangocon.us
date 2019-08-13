@@ -2,7 +2,7 @@
 layout: base
 
 hidden: false
-level: "Silver"
+level: "Gold"
 name: "Microsoft's Cloud Developer Advocates"
 logo: "/static/img/sponsors/MS-Azure_logo_horiz_c-gray_rgb.png"
 logo_orientation: portrait
