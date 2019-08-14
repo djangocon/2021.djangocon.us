@@ -7,7 +7,7 @@ image: /static/img/social/presenters/matt-mitchell.png
 title: "Announcing Our Keynotes: Matt Mitchell"
 ---
 
-We're excited to announce our final; keynote speaker for DjangoCon US 2019: Matt Mitchell!
+We're excited to announce our final keynote speaker for DjangoCon US 2019: Matt Mitchell!
 
 <img src="/static/img/speakers/matt-mitchell.jpg" alt="Photo of Matt Mitchell" style="width:45%; display:block; float:right;" />
 
