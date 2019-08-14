@@ -17,4 +17,4 @@ Matt is a well known security researcher, operational security trainer, and data
 
 Matt’s talk is called Building Community and Supporting Others. He will share his experiences supporting the growth of others, including traditionally underrepresented groups in tech, inside and outside the Django community. He will draw parallels to Django's template architecture.
 
-Don't miss Jessica's keynote! [Buy your ticket]({{site.ticket_link}}) today.
+Don't miss Matt's keynote! [Buy your ticket]({{site.ticket_link}}) today.
