@@ -1,7 +1,7 @@
 ---
 author: David Fischer
 category: General
-date: 2019-06-27 00:00:00
+date: 2019-08-20 00:00:00
 layout: post
 image: /static/img/blog/childcare-info.png
 title: "Childcare During Djangocon US"
