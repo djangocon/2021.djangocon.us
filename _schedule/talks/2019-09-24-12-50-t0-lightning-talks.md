@@ -16,6 +16,4 @@ track: t0
 
 Salon A-E
 
-Signup link is: [http://bit.ly/dcus2018lt](http://bit.ly/dcus2018lt)
-
 Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday.
