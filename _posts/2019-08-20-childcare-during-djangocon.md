@@ -4,7 +4,7 @@ category: General
 date: 2019-08-20 00:00:00
 layout: post
 image: /static/img/blog/childcare-info.png
-title: "Childcare During Djangocon US"
+title: "Childcare During DjangoCon US"
 ---
 
 Childcare at DjangoCon US and tech conferences more generally is an important factor that helps folks attend who otherwise may not be able to. We want to make sure that parents feel welcome bringing their children to DjangoCon US and that the availability of childcare is not a barrier to attending.
