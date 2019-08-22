@@ -13,11 +13,11 @@ Last year’s Caktus Mini Golf event was a blast! More than 30 Djangonauts putte
 
 Look out for the Caktus insert in your conference tote bag. On the back of the insert is a free pass to Tiki Town Adventure Golf for Wednesday, September 25, at 7:00 p.m. The first 15 people to [RSVP for the event](https://learn.caktusgroup.com/djangocon19?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019) will also receive a $10 credit for Lyft, which you can use from the conference hotel. Carpooling is strongly encouraged.
 
-<center>[RSVP Now for Mini Golf With Caktus](https://learn.caktusgroup.com/djangocon19?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019)</center>
+<p><center><a href="https://learn.caktusgroup.com/djangocon19?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019">RSVP Now for Mini Golf With Caktus</a></center></p>
 
 Not into mini golf? You can still [find a time](https://learn.caktusgroup.com/meetings/tscales/find-a-time-at-djangocon-2019?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019) to chat with a Caktus team member during DjangoCon US. Talk tech, learn about Caktus job openings, and more.
 
-##About Caktus Group
+### About Caktus Group
 
 The [Caktus Group](https://www.caktusgroup.com/?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019) grows sharp web apps and websites for businesses and social good. Located in downtown Durham, NC, Caktus offers a range of web services, including custom Django app development, team augmentation, and discovery workshops. They build scalable solutions for NGOs and other non-profits, health care, higher education, media groups, and entertainment.
 
