@@ -1,6 +1,6 @@
 ---
 author: Heather Luna
-category: Sponsors
+category: Sponsorship
 date: 2019-08-22 06:00:00
 layout: post
 image: /static/img/blog/caktus-blog-1.jpg
