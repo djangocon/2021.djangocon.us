@@ -29,4 +29,4 @@ The Caktus technical blog, [Developer Access](https://www.caktusgroup.com/blog/?
 
 You can follow Caktus and their work on [Facebook](https://www.facebook.com/CaktusGroup/?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019), [Twitter](https://twitter.com/CaktusGroup?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019), and [LinkedIn](https://www.linkedin.com/company/caktus-consulting-group-llc/?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019), or sign up for the [Caktus newsletter](https://learn.caktusgroup.com/newsletter?utm_source=djangoconsite&utm_medium=blog01&utm_campaign=djangocon2019), which is sent out quarterly.
 
-** *Caktus employees will play mini golf, but won’t be eligible for any prizes. **
+_*Caktus employees will play mini golf, but won’t be eligible for any prizes._
