@@ -1,7 +1,7 @@
 ---
 author: Heather Luna
-category: General
-date: 2019-08-22 00:00:00
+category: Sponsors
+date: 2019-08-22 06:00:00
 layout: post
 image: /static/img/blog/caktus-blog-1.jpg
 title: "Are You Game? Tee Off With the Caktus Team!"
