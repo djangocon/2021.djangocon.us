@@ -2,7 +2,7 @@
 abstract: TBD
 accepted: true
 category: talk
-date: 2019-09-23 09:00:00 -0500
+date: 2019-09-23 09:30:00 -0500
 difficulty: All
 image: /static/img/social/presenters/kojo-idrissa.png
 layout: session-details
