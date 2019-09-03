@@ -118,8 +118,8 @@ layout: base
           </ul>
         {% endif %}
 
-        {% if presenter.bio != blank %}
-          {{ presenter.bio | markdownify }}
+        {% if presenter.content != blank %}
+          {{ presenter.content | markdownify }}
         {% endif %}
       </div>
     </div>
