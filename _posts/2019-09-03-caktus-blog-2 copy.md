@@ -15,7 +15,7 @@ Staff benefits include a generous professional development budget that employees
 
 ### More About Caktus
 
-In addition to building sharp, custom web apps, Caktus also provides discovery workshops and team augmentation services, as well as end-to-end project management, quality assurance,user experience, and design services. Learn more about their [services](https://www.caktusgroup.com/services/?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019).
+In addition to building sharp, custom web apps, Caktus also provides discovery workshops and team augmentation services, as well as end-to-end project management, quality assurance, user experience, and design services. Learn more about their [services](https://www.caktusgroup.com/services/?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019).
 
 Follow Caktus and their work on [Facebook](https://www.facebook.com/CaktusGroup/?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019), [Twitter](https://twitter.com/CaktusGroup?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019), and [LinkedIn](https://www.linkedin.com/company/caktus-consulting-group-llc/?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019), or sign up for the [Caktus newsletter](https://learn.caktusgroup.com/newsletter?utm_source=djangoconsite&utm_medium=blog02&utm_campaign=djangocon2019), which is sent out quarterly.
 
