@@ -34,7 +34,7 @@ Why the team chose flask in the first place, what led to the decision to switch,
 
 ## Chapter 2: Making it a reality
 
-The plan, what support we neede to make it happen, the sweat and toil and technical challenges of actually doing it.
+The plan, what support we needed to make it happen, the sweat and toil and technical challenges of actually doing it.
 
 ## Chapter 3: Living in the new reality 
 How this is working out for us 2 years later, decisions that made our lives easier, struggles we still face
