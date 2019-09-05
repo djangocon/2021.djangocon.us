@@ -18,11 +18,12 @@ Sponsoring DjangoCon US can help you:
 
 Because the conference is organized by [DEFNA](https://www.defna.org/), a non-profit 501(c)(3) organization, your sponsorship is tax-deductible!
 
-{% comment %}
-**Sponsorship is closed for this year**. Want to know more about sponsorship for 2019?
-{% endcomment %}
+**Sponsorship is closed for this year**. Want to know more about sponsorship for 2020?
 
-Want to know more about sponsorship? 
+
+{% comment %}
+Want to know more about sponsorship?
+{% endcomment %}
 
 <a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>
 
@@ -78,11 +79,7 @@ Interested in another sponsorship opportunity? Get in touch and we’ll do our b
 
 ## Interested in Sponsoring?
 
-{% comment %}
-Sponsorship is closed for this year. But we're recruiting for DjangoCon US 2019! <strong><a href="mailto:{{site.sponsors_email}}
-{% endcomment %}
-
-<strong><a href="mailto:{{site.sponsors_email}}">Send us an email!</a></strong> We're here to help make the process of becoming a sponsor as easy as we can!
+Sponsorship is closed for this year. But we're recruiting for DjangoCon US 2020! <strong><a href="mailto:{{site.sponsors_email}}">Send us an email!</a></strong> We're here to help make the process of becoming a sponsor as easy as we can!
 
 {% comment %}
 #### Booth info
