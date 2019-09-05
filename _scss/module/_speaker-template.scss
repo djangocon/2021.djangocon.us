@@ -12,31 +12,34 @@
     z-index: 1;
   }
 
+  &-name,
+  &-session-title {
+    max-width: 600px;
+    left: 550px;
+  }
+
   &-name {
     position: absolute;
     top: 60px;
-    right: 180px;
     font-family: 'Lilita One', cursive;
-    font-size: 88px;
+    font-size: 68px;
     font-weight: normal;
   }
 
   &-session-title {
     position: absolute;
-    top: 230px;
-    right: 40px;
-    max-width: 680px;
-    font-size: 48px;
+    top: 210px;
+    font-size: 42px;
     font-weight: $global-weight-semibold;
   }
 
   &-photo {
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 100px;
     display: block;
-    width: 460px;
-    height: 460px;
+    width: 400px;
+    height: 400px;
     background: rgba(#F9A7A7, .3);
 
     &,

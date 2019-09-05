@@ -10,8 +10,8 @@
   "scripts": {
     "add": "all-contributors add",
     "generate": "all-contributors generate",
-    "build": "parcel build main.js -d static/ --no-source-maps",
-    "watch-fe-dev": "parcel watch main.js -d static/",
+    "build": "parcel build main.js -d static/ --no-source-maps --no-content-hash --public-url ./",
+    "watch-fe-dev": "parcel watch main.js -d static/ --public-url ./",
     "watch-jk-dev": "bundle exec jekyll serve --watch -l -H 0.0.0.0"
   },
   "repository": {
