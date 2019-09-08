@@ -7,7 +7,7 @@ date: 2019-09-24 18:00:00 -0500
 difficulty: null
 end_date: 2019-09-24 22:00:00 -0500
 layout: session-details
-permalink: /social event/board-game-night/
+permalink: /social-event/board-game-night/
 presenters: []
 room: Salon E
 sitemap: true
