@@ -6,6 +6,7 @@ layout: post
 image: /static/img/blog/orientation.png
 title: "DjangoCon US 2019 Orientation Event"
 ---
+![]({{ page.image }})
 
 We're a couple of weeks out from DjangoCon US 2019. As has become our tradition, we're pleased to have an Orientation event on the first day. But we promise it's not like those boring orientations you had to attend in school.
 
