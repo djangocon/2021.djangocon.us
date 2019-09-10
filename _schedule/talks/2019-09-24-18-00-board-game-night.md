@@ -8,8 +8,7 @@ difficulty: null
 end_date: 2019-09-24 22:00:00 -0500
 layout: session-details
 permalink: /social-event/board-game-night/
-presenters: []
-room: Salon E
+room: Rio Vista Ballroom Salons A-E
 sitemap: true
 talk_slot: full
 title: Board Game Night
