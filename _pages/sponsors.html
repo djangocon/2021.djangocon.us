@@ -40,12 +40,13 @@ description: DjangoCon US is only possible through the support of various organi
               <a href="{{ sponsor.url_target }}">
                 <img
                   class="partner-logo {{ sponsor.logo_orientation }}"
+                  rel="sponsored"
                   src="{{ sponsor.logo }}"
                   alt="{{ sponsor.name }} Logo" />
               </a>
             </div>
             <div class="column medium-8">
-              <h3 class="partner-name"><a href="{{ sponsor.url_target }}">{{ sponsor.name }}</a></h3>
+              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
               {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
               {{ sponsor_description | markdownify }}
             </div>
