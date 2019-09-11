@@ -37,10 +37,9 @@ description: DjangoCon US is only possible through the support of various organi
         {% unless sponsor.hidden %}
           <div class="row partner">
             <div class="column medium-4 text-center">
-              <a href="{{ sponsor.url_target }}">
+              <a href="{{ sponsor.url_target }}" rel="sponsored">
                 <img
                   class="partner-logo {{ sponsor.logo_orientation }}"
-                  rel="sponsored"
                   src="{{ sponsor.logo }}"
                   alt="{{ sponsor.name }} Logo" />
               </a>

@@ -10,10 +10,9 @@
       {% for sponsor in sponsors_in_level %}
         {% unless sponsor.hidden %}
         <div class="partner-block text-center">
-          <a href="{{ sponsor.url_target }}">
+          <a href="{{ sponsor.url_target }}" rel="sponsored">
             <img
               class="partner-logo {{ sponsor.logo_orientation }}"
-              rel="sponsored"
               src="{{ sponsor.logo }}"
               alt="{{ sponsor.name }} Logo" />
           </a>
