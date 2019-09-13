@@ -11,7 +11,8 @@ difficulty:
 
 date: 2019-09-23 18:30:00 -0500
 end_date: 2019-09-23 20:00:00 -0500
-room: full
+room: Our opening reception is on the West Lawn at the Marriott. Light appetizers and non-alcoholic drinks will be served.
+schedule-layout: full
 ---
 
 Our opening reception is on the West Lawn at the Marriott. Light appetizers and non-alcoholic drinks will be served.
