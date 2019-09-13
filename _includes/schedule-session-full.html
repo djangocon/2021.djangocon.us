@@ -13,7 +13,17 @@
     <h3 class="event-title">{{ post.title }}</h3>
   {% endif %}
 
-  {{ post.content }}
+  {% if post.link %}
+    </a>
+  {% else %}
+    {% if post.permalink %}
+      </a>
+    {% else %}
+      </span>
+    {% endif %}
+  {% endif %}
+
+  {{ post.room }}
 
   {% if post.presenters %}
     {% for presenter_slug in post.presenters %}
@@ -31,15 +41,5 @@
         {% endif %}
       </p>
     {% endfor %}
-  {% endif %}
-
-  {% if post.link %}
-    </a>
-  {% else %}
-    {% if post.permalink %}
-      </a>
-    {% else %}
-      </span>
-    {% endif %}
   {% endif %}
 </li>

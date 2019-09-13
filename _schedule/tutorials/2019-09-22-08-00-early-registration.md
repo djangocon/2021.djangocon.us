@@ -11,6 +11,7 @@ difficulty:
 
 date: 2019-09-22 8:00:00 -0500
 end_date: 2019-09-22 17:00:00 -0500
-room: full
+room: In front of Salon A
+schedule-layout: full
 ---
 In front of Salon A

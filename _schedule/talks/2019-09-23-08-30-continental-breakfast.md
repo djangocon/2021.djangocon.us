@@ -11,6 +11,7 @@ difficulty:
 
 date: 2019-09-23 08:30:00 -0500
 end_date: 2019-09-23 09:30:00 -0500
-room: full
+room: Rio Vista Pavilion
+schedule-layout: full
 ---
 Rio Vista Pavilion
