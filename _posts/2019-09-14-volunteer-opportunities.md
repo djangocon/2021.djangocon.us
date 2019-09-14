@@ -11,8 +11,6 @@ We have a wide variety of volunteer slots available! If you’d like to sign up 
 
 ## Session Chairs
 
-The organizing committee is looking for folks to serve as **session chairs**.
-
 **Session chairs** help foster a supportive environment by welcoming guests, introducing speakers, and making sure folks get to where they need to be. You are the moderator of the session. You’ll arrive in the room where the talks on your schedule take place 10 minutes before the talk starts. Meet your speaker and find out a few things: how do you pronounce your name? Do you want to take questions? How do you want us to count down time? There will be a handy questionnaire on your clipboard to assist with this. At showtime, you’ll introduce the speaker to the audience, keeping it simple — their name, where they’re from, and talk title. During the talk, watch the clock and let the speaker know how much time they have left before questions (show signs at the -15, -10 and -5 mark). Mediate questions (if any), and let the speaker and attendees know when it’s time to wrap it all up. After that, help the speaker disconnect the microphone and make any announcements. There will be a session manager checking in to support you throughout your shift.
 
 ## Swag Bag Stuffing
