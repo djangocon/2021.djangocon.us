@@ -37,5 +37,4 @@ Before or after a long day of conference talks, I like to at least get a brief w
 The hotel has a nice pool and hot tub in the courtyard. While outdoor temperatures may be a bit cool for most of us to enjoy the pool, the hot tub gets lots of use after a day of sitting in meeting room chairs. It’s open until 11 PM every night.
 
 ## Thanks
-
 Thanks to [@Obidecoque](https://twitter.com/Obidecoque) for [inspiring](https://twitter.com/Obidecoque/status/1172588365864218624) this post.
