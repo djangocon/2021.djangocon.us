@@ -3,6 +3,7 @@ author: Drew Winstel
 category: General
 date: 2019-09-14 06:00:00
 layout: post
+image: /static/img/blog/what-should-i-bring.png
 title: "It’s my first DjangoCon US. What should I bring?"
 ---
 
@@ -21,6 +22,8 @@ It’s pretty annoying getting thirsty in the middle of a conference talk. The M
 ## Comfortable clothes
 Everyone is welcome, and dress casually and comfortably, whether that's shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.
 
+Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy.
+
 ## Cell phone
 It’s practically essential for survival in suburban America. The mobile coverage is great in the venue area for all four major providers, so about any device will work.
 
@@ -31,7 +34,7 @@ It’s San Diego, California. It’s going to be warm and sunny. Preliminary for
 The Marriott will have breakfast, lunch, and snacks during the breaks (11:00 AM and 3:40 PM on main talk days) on all conference days as well as appetizers for the opening party on Monday. If you’re an early riser like me, you’ll probably want a snack before breakfast (8:30 AM on Monday, 9:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
 
 ## Exercise clothes
-Before or after a long day of conference talks, I like to at least get a brief workout in. The hotel has some exercise machines indoors and outside on the pool deck, which is a refreshing way to burn a few calories while catching up on my favorite podcasts.
+Before or after a long day of conference talks, I like to at least get a brief workout in. The hotel has some exercise machines indoors and outside on the pool deck, which is a refreshing way to unwind while catching up on my favorite podcasts.
 
 ## Swimsuit
 The hotel has a nice pool and hot tub in the courtyard. While outdoor temperatures may be a bit cool for most of us to enjoy the pool, the hot tub gets lots of use after a day of sitting in meeting room chairs. It’s open until 11 PM every night.
