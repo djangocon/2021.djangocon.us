@@ -6,5 +6,5 @@ role: "Program Team"
 photo_url: "/static/img/organizers/micah.jpg"
 github: "MicahLyle"
 twitter: ""
-website: ""
+website: "https://micahlyle.com"
 ---
