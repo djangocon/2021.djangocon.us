@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Virtual Job Board
-heading: Virtual Job Board
+title: Virtual Jobs Board
+heading: Virtual Jobs Board
 permalink: /job-board/
 testimonial_img: /static/img/about.jpg
 testimonial_img_mobile: /static/img/about-mobile.jpg
@@ -26,7 +26,7 @@ description: |
             <div class="card card-theme-brand-color1">
               <div class="card-section">
                 <h3 class="card-title" id="program">{{ job.name }}</h3>
-                <p>{{ job.description }}</p>
+                <p>{{ job.description | markdownify }}</p>
                 <p><a href="{{ job.website }}">{% if job.website_text %}{{ job.website_text }}{% else %}More information{% endif %}</a></p>
               </div>
             </div>
