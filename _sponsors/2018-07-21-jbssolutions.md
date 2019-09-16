@@ -16,4 +16,5 @@ description: |
   They work primarily in Django, but other technologies occasionally
   fit applications better (even Microsoft - a separate team is a
   Gold Application Development partner.)
+hiring: false
 ---

@@ -19,4 +19,5 @@ description: |
   understand the business impacts. Don’t listen to us
   though… Just ask for references. Our customers will
   sell our services way better than we ever could.
+hiring: false
 ---
