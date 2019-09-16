@@ -16,4 +16,5 @@ description: |
   components in your repository, build tools and CI servers to alert in real-time on
   vulnerable and problematic components, enforces policies automatically, provides
   remediation suggestions and generates comprehensive reports in one click.
+hiring: false
 ---
