@@ -18,12 +18,9 @@ description: DjangoCon US is only possible through the support of various organi
     </div>
     <div class="medium-5 large-4 column">
       <div class="callout text-center partner-cta-box">
-        <h2>Sponsor DjangoCon US</h2>
-        <p>By supporting the community who builds and supports the software you use, you help ensure its happiness, health, and productivity.</p>
-        {% comment %}
-        <p>Sponsorship for 2019 is now closed. But you can support the community who builds and supports the software you use by signing up as a 2019 conference sponsor!</p>
-        {% endcomment %}
-        <a href="/sponsors/information/" class="button">Become a Sponsor for 2019</a>
+        <h2>Looking for a job?</h2>
+        <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
+        <a href="/job-board/" class="button">Check out our jobs board</a>
       </div>
     </div>
   </div>
@@ -48,6 +45,7 @@ description: DjangoCon US is only possible through the support of various organi
               <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
               {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
               {{ sponsor_description | markdownify }}
+              {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
             </div>
           </div>
         {% endunless %}
