@@ -14,5 +14,5 @@ description: |
   maniacal about making the world amazing for developers of all
   backgrounds. Connect with us, write code with us, and let's meet
   up and talk cloud and all things developer!
-hiring: false
+hiring: true
 ---
