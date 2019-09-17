@@ -19,5 +19,5 @@ description: |
   clients include Mozilla, UChicago, PBS, Discovery Communications
   and others in media, travel, education, finance, and health
   research.
-hiring: false
+hiring: true
 ---

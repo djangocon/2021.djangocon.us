@@ -15,5 +15,5 @@ description: |
   using Django, Pyramid and Plone. We offer assistance with
   AWS deployments and Cloud performance optimization. We
   believe in automation and orchestration.
-hiring: false
+hiring: true
 ---

@@ -14,5 +14,5 @@ description: |
   skills required. Just choose from a gallery of mobile app
   templates, select your features, and fill it with content.
   Then publish in minutes to Google Play and the Apple App Store.
-hiring: false
+hiring: true
 ---
