@@ -3,11 +3,12 @@ layout: session-details
 accepted: true
 category: tutorial
 date: 2019-09-24 8:00:00 -0500
-end_date: 2019-09-24 18:00:00 -0500
+end_date: 2019-09-24 18:30:00 -0500
 permalink:
-room: Private Dining Room
+link: "/news/lactation-room/"
+room: Santa Fe 3
 schedule-layout: full
 sitemap: false
-title: Quiet Room
+title: Lactation Room
 ---
-Private Dining Room
+Santa Fe 3
