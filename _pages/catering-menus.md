@@ -23,7 +23,7 @@ description: |
 
 - Chilled Orange, Apple & Cranberry Juices
 - Seasonal Fresh Fruit
-- Freshly Baked Breakfast Breads, Pastries, Butter, & Fruit Preserves, Gluten - Free Options available
+- Freshly Baked Breakfast Breads, Pastries, Butter, & Fruit Preserves, Gluten-free Options available
 - Assorted Cereals, Yogurt and Granola
 - Freshly Brewed Coffee, Decaffeinated Coffee, & Selection of Teas
 
