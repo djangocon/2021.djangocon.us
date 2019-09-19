@@ -30,7 +30,7 @@ description: |
 ### Thursday - Friday Breakfasts
 - Chilled Orange, Apple & Cranberry Juices
 - Seasonal Fresh Fruit
-Freshly Baked Breakfast Breads, Pastries, Butter, & Fruit Preserves, Gluten - Free Option available
+- Freshly Baked Breakfast Breads, Pastries, Butter, & Fruit Preserves, Gluten-free Option available
 - Freshly Brewed Coffee, Decaffeinated Coffee, & Selection of Teas
 
 ----
