@@ -68,7 +68,7 @@ description: |
 - Minestrone Soup
   (vegan/vegetarian, dairy-free and gluten-free available)
 - Insalata Caprese - Field Greens, Roma Tomatoes, Fresh Mozzarella, Sea Salt, Basil Balsamic Vinaigrette
-- Classic Caesar Salad - Romaine Lettuce, Freshly Baked Croutons, Shaved Parmezan (non-dairy parmesan option, gluten-free croutons available)
+- Classic Caesar Salad - Romaine Lettuce, Freshly Baked Croutons, Shaved Parmesan (non-dairy Parmesan option, gluten-free croutons available)
 - Cavatappi, Roasted Vegetables, Spinach, House-made Tomato Sauce, Olives, Basil, Shaved Parmesan
   (non-dairy option for parmesan; gluten-free pasta option available)
 
