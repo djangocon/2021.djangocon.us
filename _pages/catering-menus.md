@@ -48,7 +48,7 @@ description: |
 - Garlic Croutons
   (gluten-free available)
 - Salad Bar
-    - Romaine Lettuce, Spinach, Cucumber, Tomatoes, Mushroom, Carrots, Kalamata Olives
+  - Romaine Lettuce, Spinach, Cucumber, Tomatoes, Mushroom, Carrots, Kalamata Olives
   - Smoked Bacon, Garbonzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
   (non-meat substitute for bacon available; non-dairy cheese available)
 - Oregano Vinaigrette and Raspberry Walnut Dressing
