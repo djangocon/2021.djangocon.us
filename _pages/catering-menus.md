@@ -70,7 +70,7 @@ description: |
 - Insalata Caprese - Field Greens, Roma Tomatoes, Fresh Mozzarella, Sea Salt, Basil Balsamic Vinaigrette
 - Classic Caesar Salad - Romaine Lettuce, Freshly Baked Croutons, Shaved Parmesan (non-dairy Parmesan option, gluten-free croutons available)
 - Cavatappi, Roasted Vegetables, Spinach, House-made Tomato Sauce, Olives, Basil, Shaved Parmesan
-  (non-dairy option for parmesan; gluten-free pasta option available)
+  (non-dairy option for Parmesan; gluten-free pasta option available)
 
 - Balsamic Glazed Chicken, Braised Fennel, Goat Cheese Marsala Sauce
   (non-meat option for chicken with dairy-free sauce available; gluten-free chicken option available)
