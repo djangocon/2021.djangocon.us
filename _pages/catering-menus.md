@@ -139,7 +139,7 @@ description: |
 - Soup of the Day, Vegan and Gluten Free available
 - Baby Spinach Salad: Goat Cheese, Walnuts, Dried Cherries, and Balsamic Vinaigrette
 - Seasonal Fresh Fruit
-- Baja Chicken Wrap: Flour Tortilla, Peppers, Onions, Guacamole, Pepperjack, Shredded Lettuce, - Chipotle Aioli
+- Baja Chicken Wrap: Flour Tortilla, Peppers, Onions, Guacamole, Pepper Jack, Shredded Lettuce, - Chipotle Aioli
 - Italiano: Salami, Ham, Capicola, Provolone, Olives, Pepperoncini, Tomatoes, Lettuce, Italian Vinaigrette, Hoagie
 - Smoked Turkey Breast: Brie, Green Apple, Arugula, Tomato, Dijon Mayo, Brioche
 - Caprese Wrap: Flour Tortilla, Heirloom Tomato, Fresh Mozzarella, Arugula, Balsamic Basil - Aioli
