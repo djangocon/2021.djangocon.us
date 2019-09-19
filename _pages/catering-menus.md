@@ -50,7 +50,7 @@ description: |
 - Salad Bar
   - Romaine Lettuce, Spinach, Cucumber, Tomatoes, Mushroom, Carrots, Kalamata Olives
   - Smoked Bacon, Garbonzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
-  (non-meat substitute for bacon available; non-dairy cheese available)
+    (non-meat substitute for bacon available; non-dairy cheese available)
 - Oregano Vinaigrette and Raspberry Walnut Dressing
   (gluten-free dressing available)
 - Herb Garlic Roasted Chicken
