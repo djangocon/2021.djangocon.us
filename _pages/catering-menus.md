@@ -49,7 +49,7 @@ description: |
   (gluten-free available)
 - Salad Bar
   - Romaine Lettuce, Spinach, Cucumber, Tomatoes, Mushroom, Carrots, Kalamata Olives
-  - Smoked Bacon, Garbonzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
+  - Smoked Bacon, Garbanzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
     (non-meat substitute for bacon available; non-dairy cheese available)
 - Oregano Vinaigrette and Raspberry Walnut Dressing
   (gluten-free dressing available)
@@ -77,7 +77,7 @@ description: |
 - Herbed Garden Vegetables
   (use olive oil, not butter available)
 
-- Foccacia Bread, Extra Virgin Olive Oil, Balsamic
+- Focaccia Bread, Extra Virgin Olive Oil, Balsamic
   (gluten-free option available)
 
 - Chef's Selection of Desserts
@@ -121,7 +121,7 @@ description: |
   (gluten-free option available)
 - Salad Bar
   - Romaine Lettuce, Spinach, Cucumber, Tomatoes, Mushroom, Carrots, Kalamata Olives
-  - Smoked Bacon, Garbonzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
+  - Smoked Bacon, Garbanzo Beans, Gorgonzola, Parmesan, Hard Boiled Eggs, Artichokes
     (non-meat substitute for bacon available; non-dairy cheese available)
 - Oregano Vinaigrette and Raspberry Walnut Dressing
   (gluten-free dressing available)
@@ -136,13 +136,13 @@ description: |
 ### Sprints: Thursday, September 26
 
 #### Sandwich Shoppe Lunch Buffet
-- Soup of the Day, Vegan and Gluten Free available
+- Soup of the Day, Vegan and Gluten-free available
 - Baby Spinach Salad: Goat Cheese, Walnuts, Dried Cherries, and Balsamic Vinaigrette
 - Seasonal Fresh Fruit
-- Baja Chicken Wrap: Flour Tortilla, Peppers, Onions, Guacamole, Pepper Jack, Shredded Lettuce, - Chipotle Aioli
+- Baja Chicken Wrap: Flour Tortilla, Peppers, Onions, Guacamole, Pepper Jack, Shredded Lettuce, Chipotle Aioli
 - Italiano: Salami, Ham, Capicola, Provolone, Olives, Pepperoncini, Tomatoes, Lettuce, Italian Vinaigrette, Hoagie
 - Smoked Turkey Breast: Brie, Green Apple, Arugula, Tomato, Dijon Mayo, Brioche
-- Caprese Wrap: Flour Tortilla, Heirloom Tomato, Fresh Mozzarella, Arugula, Balsamic Basil - Aioli
+- Caprese Wrap: Flour Tortilla, Heirloom Tomato, Fresh Mozzarella, Arugula, Balsamic Basil, Aioli
 - Chef's Selection of Desserts
 - Iced Tea with Lemon Wedges Coffee, Decaffeinated Coffee, Hot Tea
 
