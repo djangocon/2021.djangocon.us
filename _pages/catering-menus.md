@@ -107,10 +107,6 @@ Freshly Baked Breakfast Breads, Pastries, Butter, & Fruit Preserves, Gluten - Fr
 - Iced Tea with Lemon Wedges
 - Coffee, Decaffeinated Coffee, Hot Tea
 
-### Women & Non-Binary Table Talks Luncheon
-
-Same menu as above.
-
 ----
 
 ### Talks: Wednesday, September 25 - Lunch
