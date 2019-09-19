@@ -93,7 +93,7 @@ description: |
 
 - Tortilla Soup
   (dairy-free and meat-free option; gluten-free option available)
-- Southwestern Salad - Romaine Lettuce, Pepperjack, Black Beans, Roasted Corn, Tortilla Strips, Honey Chipotle Ranch (dairy-free cheese available)
+- Southwestern Salad - Romaine Lettuce, Pepper Jack, Black Beans, Roasted Corn, Tortilla Strips, Honey Chipotle Ranch (dairy-free cheese available)
 - Street Tacos - Choice of 2: Citrus Braised Chicken, Carne Asada
   (Grilled Veggies available)
 - Limes, Queso, House Made Salsa, Cabbage, Pico de Gallo
