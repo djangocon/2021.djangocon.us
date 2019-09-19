@@ -10,7 +10,7 @@ description: |
 ## Afternoon Breaks
 
 - Assorted Granola Bars, GF Options available
-- Assorted Freshly Baked Cookies & Brownies, GF Options available
+- Assorted Freshly Baked Cookies & Brownies, Gluten-free Options available
 - Seasonal Fresh Fruit
 - Assorted Pepsi Soft Drinks
 - Freshly Brewed Coffee, Decaffeinated Coffee, & Selection of Teas
