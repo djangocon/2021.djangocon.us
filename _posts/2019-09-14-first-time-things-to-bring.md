@@ -16,8 +16,10 @@ Perhaps you like your notes a bit more analog? A notepad is exactly what you nee
 
 If you can't live without your laptop, make sure you bring your charging cable. There’s ample Wi-Fi at the conference provided by the Marriott, so you’ll have the internet at your disposal. Many attendees will have their laptops open to take notes, follow along with slides, and/or test out the concepts being presented during talks. Plus, it’s much easier to live-tweet talks from your computer than your phone if you’re into that sort of thing.
 
-## Refillable water bottle
+## Refillable water bottle and/or coffee cup
 It’s pretty annoying getting thirsty in the middle of a conference talk. The Marriott provides water dispensers in the hotel lobby, each of the conference rooms, the green room, and the Rio Vista Pavilion, so there are ample opportunities to keep yourself hydrated. Plus, you can be greener by reusing your own vessel instead of single-use disposable cups.
+
+There are coffee and tea in the Rio Vista Pavilion as well, so if you're a coffee/tea drinker, bring your own tumbler if you want extra for the talks.
 
 ## Comfortable clothes
 Everyone is welcome, and dress casually and comfortably, whether that's shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.
@@ -40,4 +42,4 @@ Before or after a long day of conference talks, I like to at least get a brief w
 The hotel has a nice pool and hot tub in the courtyard. While outdoor temperatures may be a bit cool for most of us to enjoy the pool, the hot tub gets lots of use after a day of sitting in meeting room chairs. It’s open until 11 PM every night.
 
 ## Thanks
-Thanks to [@Obidecoque](https://twitter.com/Obidecoque) for [inspiring](https://twitter.com/Obidecoque/status/1172588365864218624) this post.
+Thanks to [@Obidecoque](https://twitter.com/Obidecoque) for [inspiring](https://twitter.com/Obidecoque/status/1172588365864218624) this post and [@Rachell_Calhoun](https://twitter.com/Rachell_Calhoun) for [suggesting](https://twitter.com/Rachell_Calhoun/status/1175117174509375488) refillable coffee mugs.
