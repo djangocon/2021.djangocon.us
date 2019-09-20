@@ -107,11 +107,11 @@
         h4,
         h5,
         h6,
-        a {
+        a:not(.button) {
           color: $color;
         }
 
-        a:hover {
+        a:not(.button):hover {
           color: mix(black, $color, 30%);
         }
 
