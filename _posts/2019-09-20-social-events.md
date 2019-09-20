@@ -1,7 +1,7 @@
 ---
 author: Lacey Williams Henschel
 category: General
-date: 2019-09-19 06:00:00
+date: 2019-09-20 06:00:00
 layout: post
 image: /static/img/blog/opening_reception.png
 title: "Social Events at DjangoCon US"
