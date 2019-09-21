@@ -28,7 +28,7 @@ This website is based on free and open source software, and was designed by our 
 
 ## Code of Conduct
 
-- [Conduct Hotline](ConductHotline.com) by [The Flowers](https://thea.codes/)
+- [Conduct Hotline](https://conducthotline.com) by [The Flowers](https://thea.codes/)
 
 ## Image Credits
 
