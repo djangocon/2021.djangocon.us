@@ -26,6 +26,10 @@ This website is based on free and open source software, and was designed by our 
 - [PyCon Australia](https://2018.pycon-au.org/colophon/), for this colophon
 - [Styleguide](/styleguide/), to see the fonts and colors used in this website
 
+## Code of Conduct
+
+- [Conduct Hotline](ConductHotline.com) by [The Flowers](https://thea.codes/)
+
 ## Image Credits
 
 - [DjangoCon US 2018 Group Photo](https://www.flickr.com/photos/144080672@N05/albums/72157702995974445), Bartek Pawlik, CC BY-NC 2.0
