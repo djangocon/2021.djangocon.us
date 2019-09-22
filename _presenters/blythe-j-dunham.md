@@ -1,6 +1,6 @@
 ---
 company: Rover and Freelance
-github: https://github.com/blythedunham
+github: blythedunham
 layout: speaker-template
 name: Blythe J Dunham
 permalink: /presenters/blythe-j-dunham/
