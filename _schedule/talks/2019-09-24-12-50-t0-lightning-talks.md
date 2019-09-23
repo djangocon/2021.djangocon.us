@@ -16,4 +16,4 @@ track: t0
 
 Salon A-E
 
-Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday.
+Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday. [Register here!](http://bit.ly/dcus2019lt) 
