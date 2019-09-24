@@ -16,4 +16,4 @@ Every piece of software we make is thoroughly tested. We understand that these t
 
 But our job isn't done when the feature is delivered. We establish metrics to evaluate how these features are being used, and we have an efficient analysis of all our delivery pipeline. This way, we generate more data, empowering our future decisions, whether about what is the next feature we should work on, or about the value said feature would have for the user.
 
-What do you think about the way we make software? Do not hesitate in sending us an e-mail[contact@labcodes.com.br](mailto:contact@labcodes.com.br), or talking to us anywhere in the event. We'll be having three different talks throughout DjangoCon and we're always open to sharing knowledge. We hope to see you soon and thanks for the attention!
+What do you think about the way we make software? Do not hesitate in sending us an e-mail [contact@labcodes.com.br](mailto:contact@labcodes.com.br), or talking to us anywhere in the event. We'll be having three different talks throughout DjangoCon and we're always open to sharing knowledge. We hope to see you soon and thanks for the attention!
