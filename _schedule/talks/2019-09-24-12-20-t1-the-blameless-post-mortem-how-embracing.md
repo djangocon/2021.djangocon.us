@@ -36,8 +36,8 @@ In my career I have worked in a blameless post-mortem and a blame-full post mort
   - Medicine
 - How changing blame and failure association opens new doors
 - The structure of a post mortem
-- An example incident and post mortem.
+- An example incident and post mortem
 - An example for why we don't blame
 - Cultivating the right culture
 - Testing for blamelessness
-- What to do when you seem to have no failures?
+- What to do when you seem to have no failures
