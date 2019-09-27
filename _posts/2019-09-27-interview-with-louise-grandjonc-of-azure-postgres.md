@@ -10,5 +10,3 @@ The week before DjangoCon US, Python developer and [Azure Postgres engineer](htt
 
 **What DjangoCon has to do with Postgres and Crocodiles. An interview with Louise Grandjonc from Microsoft**
 [https://www.citusdata.com/blog/2019/09/26/what-djangocon-has-to-do-with-postgres-and-crocodiles/](https://www.citusdata.com/blog/2019/09/26/what-djangocon-has-to-do-with-postgres-and-crocodiles/)
-
----
