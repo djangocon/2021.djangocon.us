@@ -9,5 +9,3 @@ title: "Come Meet Microsoft at DjangoCon US 2019"
 Check out Microsoft's blog post and stop by their booth!
 
 [https://devblogs.microsoft.com/python/come-meet-microsoft-at-djangocon-2019/](https://devblogs.microsoft.com/python/come-meet-microsoft-at-djangocon-2019/)
-
----
