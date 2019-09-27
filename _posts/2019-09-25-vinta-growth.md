@@ -8,4 +8,4 @@ title: "Vinta - Managing Growth"
 
 Check out another Vinta blog post about how they have dealt with team growth!
 
-[https://www.vinta.com.br/blog/2019/managing-growing-team/](https://www.vinta.com.br/blog/2019/managing-growing-team/)
+[https://www.vinta.com.br/blog/2019/managing-growing-team/](https://www.vinta.com.br/blog/2019/managing-growing-team/){:rel="sponsored"}

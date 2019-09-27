@@ -20,4 +20,4 @@ Stop by the REVSYS booth while you're at DjangoCon US to see how they can help y
 
 REVSYS are performance tuners, Django and Python experts, and infrastructure and scaling architects. Whether you're a small startup or an established institution, REVSYS can help you build your app, deploy it, monitor it, and improve and upgrade it over time. Find out more about [their services](https://www.revsys.com/).
 
-Follow REVSYS on [Twitter](https://twitter.com/revsys), [Facebook](https://www.facebook.com/revsysllc/), and [GitHub](https://github.com/revsys/), and check out their [blog](https://www.revsys.com/tidbits/), to see what they've been up to lately.
+Follow REVSYS on [Twitter](https://twitter.com/revsys), [Facebook](https://www.facebook.com/revsysllc/){:rel="sponsored"}, and [GitHub](https://github.com/revsys/), and check out their [blog](https://www.revsys.com/tidbits/){:rel="sponsored"}, to see what they've been up to lately.
