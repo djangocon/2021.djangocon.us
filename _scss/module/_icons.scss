@@ -1,0 +1,39 @@
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon.float-left {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.icon.float-right {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.icon-small {
+  width: 24px;
+  height: 24;
+}
+
+.icon-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-large {
+  width: 64px;
+  height: 64px;
+}
+
+.icon-xlarge {
+  width: 128px;
+  height: 128px;
+}
+
+.icon-jumbo {
+  width: 256px;
+  height: 256px;
+}
