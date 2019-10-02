@@ -36,7 +36,7 @@ permalink: /recap/
       <p><strong>Fond memory from 2019?</strong> Share it with us:</p>
 
       <!-- TODO: Icons are white and don't have sufficient contrast on screen -->
-      <ul class="social-icons">
+      <ul class="social-icons highlight">
         <li>
           <a class="twitter" href="https://twitter.com/djangocon">
             <svg class="social-icon">
@@ -102,7 +102,7 @@ permalink: /recap/
       <p class="lead">We featured over <strong>40</strong> talks &amp; tutorials this year. Here are some crowd favorites!</p>
       <a href="/schedule/" class="button">See the full schedule</a>
     </header>
-    {% for post in site.schedule limit:10 %}
+    {% for post in site.schedule limit:20 %}
       {% if post.permalink and post.room != 'filler' %}
       <article
         class="event
@@ -134,7 +134,7 @@ permalink: /recap/
                 src="{{ presenter.photo_url }}"
                 alt="Photo of {{ presenter.name }}" />
               {% endif %}
-              <div>{{ presenter.name }}</div>
+              {{ presenter.name }}
             </p>
             {% endfor %}
           {% endif %}
@@ -150,50 +150,26 @@ permalink: /recap/
 </div>
 
 <div class="section-pad mini-profile-block theme-brand-color5">
-  <h2 class="recap-heading text-center">Our Presenters are :sparkles: Amazing :sparkles:</h2>
-  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+  <h2 class="recap-heading">Our Presenters are :sparkles: Amazing :sparkles:</h2>
+  <section class="mini-profile">
     {% for presenter in site.presenters %}
       {% unless presenter.hidden %}
-        <div
-          class="column column-block">
-          <div class="profile">
-            <img
-              class="thumbnail"
-              src="{% if presenter.photo_url %}{{ presenter.photo_url }}{% else %}/static/img/social/avatar-main.png{% endif %}"
-              alt="Photo of {{ presenter.name }}" />
-            <div class="profile-namecard">
-              <h3 class="profile-name">
-                {{ presenter.name }}
-              </h3>
-            </div>
-            <ul class="social-icons">
-              {% if presenter.twitter != blank %}
-              <li>
-                <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
-                  <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
-                </a>
-              </li>
-              {% endif %}
-              {% if presenter.github != blank %}
-              <li>
-                <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
-                  <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
-                </a>
-                </li>
-              {% endif %}
-              {% if presenter.website != blank %}
-              <li>
-                <a class="web" href="{{ presenter.website }}" target="_blank">
-                  <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-            </div><!--/.profile -->
-        </div><!--/.column -->
+        {% if presenter.name %}
+          <a
+            href="{{ presenter.permalink }}"
+            class="mini-profile-byline">
+            {% if presenter.photo_url != blank %}
+              <img
+                class="avatar"
+                src="{{ presenter.photo_url }}"
+                alt="Photo of {{ presenter.name }}" />
+            {% endif %}
+            {{ presenter.name }}
+          </a>
+        {% endif %}
       {% endunless %}
     {% endfor %}
-  </div>
+  </section>
 </div>
 
 {% include sponsor-footer.html %}
