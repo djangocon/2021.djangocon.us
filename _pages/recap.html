@@ -27,10 +27,9 @@ permalink: /recap/
     </div>
 
     <div class="column medium-5">
-      <p class="lead"><!-- TODO: Update number attendees -->
-        DjangoCon US 2019 was in San Diego for the second year and hosted NNN attendees from all over the world!
+      <p class="lead">
+        DjangoCon US 2019 was in San Diego for the second year and hosted 425 attendees from all over the world!
       </p>
-      <!-- TODO: Update copy -->
       <p>Supportive copy speaking to the line up or topics discussed, generally setting the mood for a successful event. Basically the primary takeaway.</p>
 
       <p><strong>Fond memory from 2019?</strong> Share it with us:</p>
@@ -102,48 +101,50 @@ permalink: /recap/
       <p class="lead">We featured over <strong>40</strong> talks &amp; tutorials this year. Here are some crowd favorites!</p>
       <a href="/schedule/" class="button">See the full schedule</a>
     </header>
-    {% for post in site.schedule limit:20 %}
-      {% if post.permalink and post.room != 'filler' %}
-      <article
-        class="event
-        {% if post.room == "Salon A-E" %}loc-main
-        {% elsif post.room == "Salon F-H" %}loc-alt-3
-        {% elsif post.room == "Rio Vista Pavilion" %}loc-alt
-        {% elsif post.room == "Balboa I & II" %}loc-main
-        {% elsif post.room == "Sierra 5" %}loc-alt-3
-        {% elsif post.room == "Cabrillo 1" %}loc-alt-2
-        {% else %}loc-main
+    {% for post in site.schedule %}
+      {% if post.featured %}
+        {% if post.permalink and post.room != 'filler' %}
+        <article
+          class="event
+          {% if post.room == "Salon A-E" %}loc-main
+          {% elsif post.room == "Salon F-H" %}loc-alt-3
+          {% elsif post.room == "Rio Vista Pavilion" %}loc-alt
+          {% elsif post.room == "Balboa I & II" %}loc-main
+          {% elsif post.room == "Sierra 5" %}loc-alt-3
+          {% elsif post.room == "Cabrillo 1" %}loc-alt-2
+          {% else %}loc-main
+          {% endif %}
+          ">
+          {% unless post.room == 'filler' %}
+            {% if post.permalink %}
+              <a href="{{ post.permalink }}" class="event-content">
+            {% endif %}
+
+            {% if post.title %}
+              <h3 class="event-title">{{ post.title }}</h3>
+            {% endif %}
+
+            {% if post.presenters %}
+              {% for presenter_slug in post.presenters %}
+                {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+              <p class="mini-profile-byline">
+                {% if presenter.photo_url != blank %}
+                <img
+                  class="avatar"
+                  src="{{ presenter.photo_url }}"
+                  alt="Photo of {{ presenter.name }}" />
+                {% endif %}
+                {{ presenter.name }}
+              </p>
+              {% endfor %}
+            {% endif %}
+
+            {% if post.permalink %}
+              </a>
+            {% endif %}
+          {% endunless %}
+        </article>
         {% endif %}
-        ">
-        {% unless post.room == 'filler' %}
-          {% if post.permalink %}
-            <a href="{{ post.permalink }}" class="event-content">
-          {% endif %}
-
-          {% if post.title %}
-            <h3 class="event-title">{{ post.title }}</h3>
-          {% endif %}
-
-          {% if post.presenters %}
-            {% for presenter_slug in post.presenters %}
-              {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
-            <p class="mini-profile-byline">
-              {% if presenter.photo_url != blank %}
-              <img
-                class="avatar"
-                src="{{ presenter.photo_url }}"
-                alt="Photo of {{ presenter.name }}" />
-              {% endif %}
-              {{ presenter.name }}
-            </p>
-            {% endfor %}
-          {% endif %}
-
-          {% if post.permalink %}
-            </a>
-          {% endif %}
-        {% endunless %}
-      </article>
       {% endif %}
     {% endfor %}
   </div>
@@ -177,9 +178,9 @@ permalink: /recap/
 <div class="section-pad theme-light-gray">
   <div class="row">
     <div class="column small-12 medium-5">
-      <h2>Stat Block</h2>
-      <p class="lead">It is very likely that we will want to feature some sort of table or data element. Perhaps this is survey results, or a pie chart of swag selection, etc.</p>
-      <p>On mobile this will stack. You will want two paragraphs here, even if the second one is sort of short. The <code>lead</code> class is optional, too.</p>
+      <h2>:chart_with_upwards_trend: 2019 By the Numbers</h2>
+      <p class="lead">2019 was an amazing year for attendance, sponsorship, talks, food, really everything that goes into making a conference great.</p>
+      <p>The buzz we heard on Twitter was that it was a lot of people's favorite DjangoCon US ever!</p>
     </div>
 
     <div class="column hide-for-mobile medium-6">
@@ -187,46 +188,47 @@ permalink: /recap/
         <table class="unstriped stacked">
           <thead>
             <tr>
-              <th>T-Shirts Eaten</th>
-              <th>OMG What?</th>
+              <th>What?</th>
+              <th>Tell me about it.</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Small</td>
-              <td>Seriously</td>
+              <td>Attendees</td>
+              <td>425</td>
             </tr>
             <tr>
-              <td>Medium</td>
-              <td>People</td>
+              <td>Tutorials</td>
+              <td>6</td>
             </tr>
             <tr>
-              <td>Large</td>
-              <td>Ate...</td>
+              <td>Talks</td>
+              <td>38</td>
             </tr>
             <tr>
-              <td>X-Large</td>
-              <td>The shirts?</td>
+              <td>Favorite food</td>
+              <td>Mac and cheese bar at the opening reception</td>
             </tr>
           </tbody>
         </table>
-        <p>You could also put an image here, no problem!</p>
       </div>
     </div>
   </div>
 
+  {% comment %}
   <div class="row">
     <div class="column small-12 medium-6">
       <h3>And remember...</h3>
       <p>Under the hood it's all just a grid system. So you can just add a new row if you want to associate more text with this block. Easy peasy, lemon squeezy.</p>
     </div>
   </div>
+  {% endcomment %}
 </div>
 
 <div class="photos-block">
   <header class="photos-block-header theme-brand-color4">
-    <h2>Lots of Photos</h2>
-    <p>We took a total over 300 photos this year. Here are some of our favorites. What were some of your favorite moments this year?</p>
+    <h2>Picture Perfect</h2>
+    <p>We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/">Bartek Pawlik</a> for being our official conference photographer and saving these memories for us.</p>
     <!-- TODO: Update link to flickr album -->
     <a href="#" class="button theme-brand-color3">View all photos</a>
   </header>
@@ -245,7 +247,7 @@ permalink: /recap/
 <div class="section-pad organizer-block theme-brand-color4">
   <div class="row">
     <header class="organizer-block-header recap-heading">
-      <h2>DjangoCon 2019 is possible through lots of :heart:</h2>
+      <h2>DjangoCon 2019 was possible through lots of :heart:</h2>
       <p class="lead">Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!</p>
     </header>
   </div>

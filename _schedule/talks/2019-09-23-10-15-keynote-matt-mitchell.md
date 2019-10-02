@@ -15,6 +15,7 @@ sitemap: true
 talk_slot: full
 title: "Keynote: Building Community & Supporting Others"
 video_url: null
+featured: true
 ---
 
 Matt’s talk is called Building Community and Supporting Others. He will share his experiences supporting the growth of others, including traditionally underrepresented groups in tech, inside and outside the Django community. He will draw parallels to Django’s template architecture.

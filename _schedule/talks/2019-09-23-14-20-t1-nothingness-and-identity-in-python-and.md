@@ -22,6 +22,7 @@ tags: []
 title: Nothingness and identity in Python and Django
 track: t1
 video_url: ''
+featured: true
 ---
 
 As Python/Django programmers, we’re blessed - we have several kinds of nothingness and identity at our fingertips. There’s something rich, beautiful and mysterious in them, and in their variety and relation. For the programmer, the discovery of them is an opening into Python’s power and expressiveness.
