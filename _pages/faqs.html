@@ -23,13 +23,12 @@ sitemap: false
         <h2 class="text-center">Tickets</h2>
         <p><em>More information is on our <a href="{% link _pages/tickets.html %}">Tickets</a> page. {% comment %}Conference tickets are sold out for 2019, but tutorial tickets may still be available.{% endcomment %}</em></p>
         <ul>
-          <li>Are <a href="{{ site.ticket_link }}">tickets</a> still available?</li>
-          {% comment %}
-          <li>Are conference tickets sold out?</li>
-          {% endcomment %}
+          <li>Is the conference over?</li>
           <li>Do <a href="{{ site.ticket_link }}">tutorials</a> cost extra?</li>
+          {% comment %}
           <li>I cannot attend DjangoCon US after all. Can I get a refund, or transfer my ticket to someone else?</li>
           <li>Can I switch the tutorial I registered for, as long as there is still space available in the tutorial I would like to take instead?</li>
+          {% endcomment %}
           <li>Do I have to register for sprints?</li>
           <li>Can I come to sprints even if I forgot to register?</li>
           <li>Can I register for a tutorial without registering for the whole conference?</li>
