@@ -5,6 +5,7 @@ layout: speaker-template
 name: Nina Zakharenko
 permalink: /presenters/nina-zakharenko/
 photo_url: /static/img/speakers/nina-zakharenko.jpg
+slides_url: 'https://www.nnja.io/post/2019/djangocon-2019-goodbye-print-hello-debugger/'
 slug: nina-zakharenko
 twitter: nnja
 website: https://nnja.io

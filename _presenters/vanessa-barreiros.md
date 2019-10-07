@@ -5,6 +5,7 @@ layout: speaker-template
 name: Vanessa Barreiros
 permalink: /presenters/vanessa-barreiros/
 photo_url: /static/img/speakers/vanessa-barreiros.jpg
+slides_url: 'https://docs.google.com/presentation/d/1HhISje4VyaQcjElRDsrKkZpIMuJQy9uLbGhfkuVswDI/edit'
 slug: vanessa-barreiros
 twitter: vcfbarreiros
 website: https://vinta.software/
