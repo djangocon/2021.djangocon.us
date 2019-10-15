@@ -8,6 +8,8 @@ description: Our Speaking Template for YouTube Videos (this should not be in our
 ---
 
 {% for post in site.schedule %}
+{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+{% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
 {% if post.presenters %}
 {% for presenter_slug in post.presenters %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
@@ -28,6 +30,10 @@ Follow {{ presenter.name }} 👇
 Follow DjangCon US 👇
 https://twitter.com/djangocon
 
+Follow DEFNA 👇
+https://twitter.com/defnado
+https://www.defna.org/
+
 Intro music: "This Is How We Quirk It" by Avocado Junkie.
 Video production by Confreaks TV.
 Captions by White Coat Captioning.
@@ -40,6 +46,7 @@ Captions by White Coat Captioning.
 
 <hr>
 {% endfor %}
+{% endif %}
 {% endif %}
 {% endfor %}
 
