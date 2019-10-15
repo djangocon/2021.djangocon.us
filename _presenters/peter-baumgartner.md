@@ -5,6 +5,7 @@ layout: speaker-template
 name: Peter Baumgartner
 permalink: /presenters/peter-baumgartner/
 photo_url: /static/img/speakers/peter-baumgartner.jpg
+slides_url: 'https://speakerdeck.com/ipmb/prepping-your-project-for-production'
 slug: peter-baumgartner
 twitter: ipmb
 website: https://lincolnloop.com/team/peter-baumgartner/

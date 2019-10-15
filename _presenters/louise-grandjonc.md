@@ -1,10 +1,11 @@
 ---
 company: Citus Data / Microsoft
-github: https://github.com/louiseGrandjonc
+github: louiseGrandjonc
 layout: speaker-template
 name: Louise Grandjonc
 permalink: /presenters/louise-grandjonc/
 photo_url: /static/img/speakers/louise-grandjonc.jpg
+slides_url: 'https://www.slideshare.net/LouiseGrandjonc/postgres-index-types'
 slug: louise-grandjonc
 twitter: louisemeta
 website: http://louisemeta.com
