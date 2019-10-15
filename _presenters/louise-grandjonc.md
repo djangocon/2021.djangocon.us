@@ -1,6 +1,6 @@
 ---
 company: Citus Data / Microsoft
-github: https://github.com/louiseGrandjonc
+github: louiseGrandjonc
 layout: speaker-template
 name: Louise Grandjonc
 permalink: /presenters/louise-grandjonc/
