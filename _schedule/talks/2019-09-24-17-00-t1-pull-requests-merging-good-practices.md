@@ -24,7 +24,7 @@ tags:
 - code management
 title: 'Pull Requests: Merging good practices into your project'
 track: t1
-video_url: Uf-JzdYellc
+video_url: https://youtu.be/Uf-JzdYellc
 ---
 
 ## Abstract

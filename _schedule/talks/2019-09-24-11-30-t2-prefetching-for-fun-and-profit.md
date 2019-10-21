@@ -21,7 +21,7 @@ tags:
 - deep dive
 title: Prefetching for Fun and Profit
 track: t2
-video_url: QYDixnGetTI
+video_url: https://youtu.be/QYDixnGetTI
 ---
 
 Django's `prefetch_related` system is great and makes it simple to fetch the data you need in an efficient manner.  Taking a look at how Django implements this can actually help improve your own code!

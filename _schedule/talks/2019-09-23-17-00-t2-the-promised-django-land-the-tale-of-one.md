@@ -25,7 +25,7 @@ tags:
 - port
 title: The promised Django Land; the tale of one team’s epic journey from Flask
 track: t2
-video_url: EPlITGkRmA0
+video_url: https://youtu.be/EPlITGkRmA0
 ---
 
 ## Chapter 1: A fairytale Journey

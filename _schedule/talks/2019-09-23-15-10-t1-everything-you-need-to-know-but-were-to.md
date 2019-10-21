@@ -23,7 +23,7 @@ tags:
 - python
 title: Everything you need to know but were afraid to ask about Data Classes
 track: t1
-video_url: mm9qAe6u-00
+video_url: https://youtu.be/mm9qAe6u-00
 ---
 
 What makes this better than using a normal object or dictionary? Are they actually more memory efficient? Why shouldn't I just write my own dunder methods for this? Come explore the ins, outs, and whys of Data Classes by looking at them from lenses both inside and outside of Python! Comparing language features might be pitting apples against oranges, but sometimes, it's just as important to know what a feature is not to use it effectively. So let's throw some comparative color onto the pep - we may just find the perfect spot in your developer toolbox for the data class to live. Join me for this can't miss deep dive into data classiness.

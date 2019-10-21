@@ -27,7 +27,7 @@ tags:
 - data-driven
 title: To comment or not? A data-driven look at attitudes toward code comments
 track: t0
-video_url: GpC5VCwW3zk
+video_url: https://youtu.be/GpC5VCwW3zk
 ---
 
 Every programmer has asked themselves “how many comments are too many?” To the newest programmers, comments may seem magical--a way of documenting without giving instructions to the computer. But commenting engages the same vulnerability as more advanced challenges (i.e. pair programming & code review) and is likely to pique the insecurity of many programmers (especially the copy-and-paste or tutorial-level programmer)!
