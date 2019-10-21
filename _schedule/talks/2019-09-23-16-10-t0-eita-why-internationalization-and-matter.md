@@ -24,7 +24,7 @@ tags:
 - Translation
 title: Eita! Why Internationalization and Localization matter
 track: t0
-video_url: ''
+video_url: https://www.youtube.com/watch?v=2WvNszxjaFE
 ---
 
 According to the always trustworthy Wikipedia, there are approximately 360 million native English speakers in the world. We, as developers, are so used to write code and documentation in English that we may not realize that this number only represents 4.67% of the world population. It is very useful to have a common language for the communication between developers, but this doesn’t mean that the user shouldn’t feel a little bit more comfortable when using your product.

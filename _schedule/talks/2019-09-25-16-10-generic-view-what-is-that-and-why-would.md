@@ -24,7 +24,7 @@ tags:
 - deep dive
 talk_slot: full
 title: Generic View? What is that and why would I use it?
-video_url: ''
+video_url: https://www.youtube.com/watch?v=qmKowZNmkCo
 ---
 
 ## What is a Generic Class-Based View (CBV)?

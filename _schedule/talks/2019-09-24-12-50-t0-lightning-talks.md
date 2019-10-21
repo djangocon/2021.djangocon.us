@@ -12,8 +12,15 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
+video_url: https://www.youtube.com/watch?v=5j9JIUuA_cM
 ---
 
-Salon A-E
-
-Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday. [Register here!](http://bit.ly/dcus2019lt) 
+- Adem Gaygusuz - 00:00
+- Laura Lorenz - 5:24
+- Micah Lyle - 10:23
+- Vince Salvino - 15:14
+- Russell Keith-Magee - 20:24
+- Brad Martsberger - 25:19
+- Jeremy Gatens - 30:21
+- Dane Hillard - 35:31
+- Caleb Collins-Parks - 40:27

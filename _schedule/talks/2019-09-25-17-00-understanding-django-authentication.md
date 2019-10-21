@@ -24,7 +24,7 @@ tags:
 - authentication
 talk_slot: full
 title: Understanding Django authentication
-video_url: ''
+video_url: https://www.youtube.com/watch?v=zb_riMIp2Sw
 ---
 
 Django provides us a great built-in authentication system. Although it is an awesome asset for doing web development strictly with Django, when you try to do something a bit out of the box, you’ll need to integrate with other options.

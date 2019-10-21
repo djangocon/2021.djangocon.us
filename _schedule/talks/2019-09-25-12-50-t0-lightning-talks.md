@@ -12,8 +12,15 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
+video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 ---
 
-Salon A-E
-
-Wednesday sign ups go live Tuesday at 2:20pm and close Wednesday at 9am (please eat breakfast!) with speaker notifications by 11am Wednesday. [Register here!](http://bit.ly/dcus2019lt)
+- Adam Fast - 00:00
+- Marshall Sutton - 4:24
+- Daniele Procida - 9:29
+- Rodrigo Suarez - 14:17
+- Nicolle Cysneiros - 19:07
+- Griffith Rees - 23:57
+- David Vaz - 28:39
+- Elizabeth Uselton - 32:52
+- Ed Rivas - 36:46

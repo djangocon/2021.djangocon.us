@@ -28,10 +28,10 @@ tags:
 - working for yourself
 title: 'Roll Your Own Tech Job: Starting a Business or Side Hustle from Scratch'
 track: t1
-video_url: ''
+video_url: https://www.youtube.com/watch?v=ASYD7qwZCJU
 ---
 
-Getting sick of your daily commute? Wish you could spend more time getting things done and less time sitting in meetings? If this sounds like you, becoming your own boss might be for you. 
+Getting sick of your daily commute? Wish you could spend more time getting things done and less time sitting in meetings? If this sounds like you, becoming your own boss might be for you.
 
 This talk covers how to set up your own business legally, keep your books, and find excited & exciting clients. The main elements of the presentation:
 

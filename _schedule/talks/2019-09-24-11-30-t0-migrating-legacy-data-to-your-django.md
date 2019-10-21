@@ -25,7 +25,7 @@ tags:
 - data migration
 title: Migrating legacy data to your Django project.
 track: t0
-video_url: ''
+video_url: https://www.youtube.com/watch?v=2jVlPkOgjMs
 ---
 
 To have legacy data for a new project is a common scenario that can be found in the wild, data sources can vary and having them ready for production without losing any old data is a priority. This talk will guide you on how to achieve this goal by sharing past experiences and gotchas that can be found on legacy data migration projects.
