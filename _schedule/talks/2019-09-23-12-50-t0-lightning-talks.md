@@ -15,7 +15,7 @@ track: t0
 video_url: https://www.youtube.com/watch?v=b5jS4mLR1N0
 ---
 
-- Wayne Merry - 00:00
+- Wayne Merry - [00:00](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=0)
 - Ayaz Amlani - 5:24
 - Tyler Rudie - 9:37
 - Pandy Knight - 14:30
