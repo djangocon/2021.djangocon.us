@@ -16,7 +16,7 @@ video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 ---
 
 - Adam Fast - [00:00](https://www.youtube.com/watch?v=EwEVAs900aE&t=0)
-- Marshall Sutton - 4:24
+- Marshall Sutton - [4:24](https://www.youtube.com/watch?v=EwEVAs900aE&t=264)
 - Daniele Procida - 9:29
 - Rodrigo Suarez - 14:17
 - Nicolle Cysneiros - [19:07](https://www.youtube.com/watch?v=EwEVAs900aE&t=1147)
