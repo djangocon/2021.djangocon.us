@@ -21,6 +21,6 @@ video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 - Rodrigo Suarez - 14:17
 - Nicolle Cysneiros - [19:07](https://www.youtube.com/watch?v=EwEVAs900aE&t=1147)
 - Griffith Rees - [23:57](https://www.youtube.com/watch?v=EwEVAs900aE&t=1437)
-- David Vaz - 28:39
+- David Vaz - [28:39](https://www.youtube.com/watch?v=EwEVAs900aE&t=1719)
 - Elizabeth Uselton - 32:52
 - Ed Rivas - 36:46
