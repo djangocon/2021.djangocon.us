@@ -23,7 +23,7 @@ tags:
 - Best Practices
 title: Goodbye Print, Hello Debugger!
 track: t1
-video_url: ''
+video_url: https://youtu.be/y_dCT9TQtyQ
 ---
 
 Still debugging your code by using print? Learn how to level up your ability to troubleshoot complex code situations by using the power of a fully-featured debugger in this talk aimed at all levels of programming ability.

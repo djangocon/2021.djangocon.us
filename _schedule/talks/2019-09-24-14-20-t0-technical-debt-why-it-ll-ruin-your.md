@@ -24,7 +24,7 @@ tags:
 - Django
 title: 'Technical Debt: Why it''ll ruin your software'
 track: t0
-video_url: ''
+video_url: https://youtu.be/9VSk-RATgBY
 ---
 
 ## Abstract

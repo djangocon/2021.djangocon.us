@@ -25,7 +25,7 @@ tags:
 - port
 title: The promised Django Land; the tale of one team’s epic journey from Flask
 track: t2
-video_url: ''
+video_url: https://youtu.be/EPlITGkRmA0
 ---
 
 ## Chapter 1: A fairytale Journey
@@ -36,5 +36,5 @@ Why the team chose flask in the first place, what led to the decision to switch,
 
 The plan, what support we needed to make it happen, the sweat and toil and technical challenges of actually doing it.
 
-## Chapter 3: Living in the new reality 
+## Chapter 3: Living in the new reality
 How this is working out for us 2 years later, decisions that made our lives easier, struggles we still face

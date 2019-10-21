@@ -24,7 +24,7 @@ summary: ''
 tags: []
 title: Search From the Ground Up
 track: t0
-video_url: ''
+video_url: https://youtu.be/is3R8d420D4
 ---
 
 This is a step-by-step guide to adding--and then improving--search in any Django project.

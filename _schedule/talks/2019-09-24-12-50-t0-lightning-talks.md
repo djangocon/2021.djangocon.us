@@ -12,8 +12,15 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
+video_url: https://youtu.be/5j9JIUuA_cM
 ---
 
-Salon A-E
-
-Tuesday sign ups go live Monday at 2:20pm and close Tuesday at 9am (please eat breakfast!) with speaker notifications by 11am Tuesday. [Register here!](http://bit.ly/dcus2019lt) 
+- Adem Gaygusuz - [00:00](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=0)
+- Laura Lorenz - [5:24](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=324)
+- Micah Lyle - [10:23](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=623)
+- Vince Salvino - [15:14](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=914)
+- Russell Keith-Magee - [20:24](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=1224)
+- Brad Martsberger - [25:19](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=1519)
+- Jeremy Gatens - [30:21](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=1821)
+- Dane Hillard - [35:31](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=2131)
+- Caleb Collins-Parks - [40:27](https://www.youtube.com/watch?v=5j9JIUuA_cM&t=2427)

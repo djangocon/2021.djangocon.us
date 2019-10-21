@@ -31,7 +31,7 @@ tags:
 - best practices
 title: The Unspeakable Horror of Discovering You Didn't Write Tests
 track: t0
-video_url: ''
+video_url: https://youtu.be/wvrr9-UUBn0
 ---
 
 This talk is for the blissfully ignorant or for those whose hubris threatens to burn them up in the sun. That is, it's for people who are new to Django and see testing as a thing they'll get around to eventually, and/or people who have been using Django for a while but have yet to believe in the magic of testing.

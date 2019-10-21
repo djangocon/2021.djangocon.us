@@ -20,7 +20,7 @@ summary: ''
 tags: []
 title: Static Typing in Python
 track: t0
-video_url: ''
+video_url: https://youtu.be/5pluSWgTa6I
 ---
 
 Python is well-known as a programming language without static types. This means that you don't need to say what a given variable will hold, or whether your function will return a string or an integer (or sometimes one, and sometimes another!). This has historically made Python a very flexible and beginner-friendly language.

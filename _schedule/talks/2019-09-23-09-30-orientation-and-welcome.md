@@ -13,7 +13,7 @@ room: Salon A-E
 sitemap: true
 talk_slot: full
 title: Orientation and Welcome
-video_url: null
+video_url: https://youtu.be/LH5Hd5EWTvU
 ---
 
 Are you:
