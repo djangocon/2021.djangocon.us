@@ -23,4 +23,4 @@ video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 - Griffith Rees - [23:57](https://www.youtube.com/watch?v=EwEVAs900aE&t=1437)
 - David Vaz - [28:39](https://www.youtube.com/watch?v=EwEVAs900aE&t=1719)
 - Elizabeth Uselton - [32:52](https://www.youtube.com/watch?v=EwEVAs900aE&t=1972)
-- Ed Rivas - 36:46
+- Ed Rivas - [36:46](https://www.youtube.com/watch?v=EwEVAs900aE&t=2206)
