@@ -16,7 +16,7 @@ video_url: https://www.youtube.com/watch?v=b5jS4mLR1N0
 ---
 
 - Wayne Merry - [00:00](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=0)
-- Ayaz Amlani - 5:24
+- Ayaz Amlani - [5:24](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=324)
 - Tyler Rudie - 9:37
 - Pandy Knight - 14:30
 - Dustin Ingram - 18:32
