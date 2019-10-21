@@ -21,4 +21,4 @@ video_url: https://www.youtube.com/watch?v=b5jS4mLR1N0
 - Pandy Knight - [14:30](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=870)
 - Dustin Ingram - [18:32](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=1112
 - Paul Stieber - [22:23](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=1343)
-- Dawn Wages - 26:16
+- Dawn Wages - [26:16](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=1576)
