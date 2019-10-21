@@ -15,7 +15,7 @@ track: t0
 video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 ---
 
-- Adam Fast - 00:00
+- Adam Fast - [00:00](https://www.youtube.com/watch?v=EwEVAs900aE&t=0)
 - Marshall Sutton - 4:24
 - Daniele Procida - 9:29
 - Rodrigo Suarez - 14:17
