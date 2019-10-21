@@ -14,6 +14,7 @@ description: Our Speaking Status for YouTube catching missing links
       <th>photo_url</th>
       <th>video_url</th>
       <th>github</th>
+      <th>slides</th>
       <th>twitter</th>
       <th>website</th>
     </tr>
@@ -31,6 +32,7 @@ description: Our Speaking Status for YouTube catching missing links
   <td>{% if presenter.photo_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if post.video_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.github != blank %}✅{% else %}❌{% endif %}</td>
+  <td>{% if presenter.slides_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.twitter != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.website != blank %}✅{% else %}❌{% endif %}</td>
 </tr>
