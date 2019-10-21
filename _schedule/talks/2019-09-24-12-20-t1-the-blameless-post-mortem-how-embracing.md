@@ -21,7 +21,7 @@ tags:
 - community
 title: 'The blameless post mortem: how embracing failure makes us better'
 track: t1
-video_url: https://www.youtube.com/watch?v=JmHRSoPdmUM
+video_url: JmHRSoPdmUM
 ---
 
 While developing software, bugs and mistakes are inevitable. Come to hear how we can improve the approaches we often take as software developers to work better with one another in heated moments of failure and the aftermath of incidents. Through better interactions we can build better teams and create better services.

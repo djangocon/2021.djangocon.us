@@ -12,7 +12,7 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
-video_url: https://www.youtube.com/watch?v=EwEVAs900aE
+video_url: EwEVAs900aE
 ---
 
 - Adam Fast - [00:00](https://www.youtube.com/watch?v=EwEVAs900aE&t=0)

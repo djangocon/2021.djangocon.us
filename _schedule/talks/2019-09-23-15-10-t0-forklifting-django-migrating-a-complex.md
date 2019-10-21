@@ -25,7 +25,7 @@ tags:
 - containers
 title: 'Forklifting Django: Migrating A Complex Django App To Kubernetes'
 track: t0
-video_url: https://www.youtube.com/watch?v=Dr_U8tjghwc
+video_url: Dr_U8tjghwc
 ---
 
 Kubernetes has rapidly become an omnipresent tool in the infrastructure world, running everything from the biggest monolith to the slightest microservices. But with power comes complexity, and Kubernetes has never been accused of being too simple or having too few moving pieces. Over about 9 months, we've moved [companyname]'s primary Django application from AWS and Ansible to Kubernetes, encountering many pitfalls along the way. This talk will show the approaches we tried, the worst of the issues we encountered, and lay out a path for migrating other Python web applications more effectively!

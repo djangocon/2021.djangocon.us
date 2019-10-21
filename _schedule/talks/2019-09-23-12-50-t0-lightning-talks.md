@@ -12,7 +12,7 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
-video_url: https://www.youtube.com/watch?v=b5jS4mLR1N0
+video_url: b5jS4mLR1N0
 ---
 
 - Wayne Merry - [00:00](https://www.youtube.com/watch?v=b5jS4mLR1N0&t=0)

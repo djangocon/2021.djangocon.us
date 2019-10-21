@@ -12,7 +12,7 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
-video_url: https://www.youtube.com/watch?v=5j9JIUuA_cM
+video_url: 5j9JIUuA_cM
 ---
 
 - Adem Gaygusuz - 00:00

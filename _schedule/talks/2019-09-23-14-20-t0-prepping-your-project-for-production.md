@@ -28,7 +28,7 @@ tags:
 - deployment
 title: Prepping Your Project for Production
 track: t0
-video_url: https://www.youtube.com/watch?v=tssYpA6WiQM
+video_url: tssYpA6WiQM
 ---
 
 Django makes it easy to run a project locally in development where you are the only user and `manage.py runserver` "just works". When you start thinking about moving that project to production and running it on the internet; it's a bit more difficult. You'll need to consider the following:

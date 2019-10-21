@@ -24,7 +24,7 @@ tags:
 - Django
 title: Creating a containerized Django + React + PostgreSQL development environment
 track: t1
-video_url: https://www.youtube.com/watch?v=hwHRI59iGlw
+video_url: hwHRI59iGlw
 ---
 
 Containerizing your development environment makes it easy to acquire dependencies and ramp up new developers quickly, but getting your tools to play nicely can be a big challenge to overcome. In this talk we will walk through how to quickly get up and running with a fully functional containerized development environment for a Django + React + PostgreSQL application using Visual Studio Code and the Remote-Containers extension. We'll cover how to edit, run, debug, format, and test code inside of the container and cover key differences between development and production configurations.

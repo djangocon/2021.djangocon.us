@@ -25,7 +25,7 @@ tags:
 talk_slot: full
 title: 'Using Django as a Micro-Framework: Hacking on the HTTP handlers and middleware
   (for fun and profit)'
-video_url: https://www.youtube.com/watch?v=w9cYEovduWI
+video_url: w9cYEovduWI
 ---
 
 Django, being batteries included and all, is meant to big, clumsy, slow. I'm going to show you how use it as a micro-framework.
