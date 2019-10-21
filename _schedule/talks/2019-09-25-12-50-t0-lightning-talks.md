@@ -19,7 +19,7 @@ video_url: https://www.youtube.com/watch?v=EwEVAs900aE
 - Marshall Sutton - 4:24
 - Daniele Procida - 9:29
 - Rodrigo Suarez - 14:17
-- Nicolle Cysneiros - 19:07
+- Nicolle Cysneiros - [19:07](https://www.youtube.com/watch?v=EwEVAs900aE&t=1147)
 - Griffith Rees - 23:57
 - David Vaz - 28:39
 - Elizabeth Uselton - 32:52
