@@ -21,7 +21,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/ipmb/prepping-your-project-for-production
 summary: ''
 tags:
 - django
