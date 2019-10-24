@@ -151,7 +151,7 @@ permalink: /recap/
 </div>
 
 <div class="section-pad mini-profile-block theme-brand-color5">
-  <h2 class="recap-heading">Our Presenters are :sparkles: Amazing :sparkles:</h2>
+  <h2 class="recap-heading">{{ "Our Presenters are :sparkles: Amazing :sparkles:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
   <section class="mini-profile">
     {% for presenter in site.presenters %}
       {% unless presenter.hidden %}
@@ -178,7 +178,7 @@ permalink: /recap/
 <div class="section-pad theme-light-gray">
   <div class="row">
     <div class="column small-12 medium-5">
-      <h2>:chart_with_upwards_trend: 2019 By the Numbers</h2>
+      <h2>{{ ":chart_with_upwards_trend: 2019 By the Numbers" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
       <p class="lead">2019 was an amazing year for attendance, sponsorship, talks, food, really everything that goes into making a conference great.</p>
       <p>The buzz we heard on Twitter was that it was a lot of people's favorite DjangoCon US ever!</p>
     </div>
@@ -247,7 +247,7 @@ permalink: /recap/
 <div class="section-pad organizer-block theme-brand-color4">
   <div class="row">
     <header class="organizer-block-header recap-heading">
-      <h2>DjangoCon 2019 was possible through lots of :heart:</h2>
+      <h2>{{ "DjangoCon 2019 was possible through lots of :heart:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
       <p class="lead">Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!</p>
     </header>
   </div>
