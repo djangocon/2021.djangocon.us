@@ -17,7 +17,7 @@ talk_slot: full
 title: "Your Web Framework Needs You: An Update"
 twitter:
   card: player
-video_url: https://www.youtube.com/watch?v=LjTRSH0pNBo
+video_url: https://youtu.be/LjTRSH0pNBo
 ---
 
 A quick update on all things “Contributing to Django”. How we’re getting on, the changes we’re making to make contributing easier, and, consequently, a few fresh ideas on how you can get involved!
