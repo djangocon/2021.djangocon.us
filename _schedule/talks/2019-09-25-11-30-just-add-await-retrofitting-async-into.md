@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/andrewgodwin/just-add-await-retrofitting-async-into-django
 summary: ''
 tags:
 - deep dive

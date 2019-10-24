@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/flipperpa/djangocon-us-absolutely-awesome-automated-apis
 summary: ''
 tags:
 - django

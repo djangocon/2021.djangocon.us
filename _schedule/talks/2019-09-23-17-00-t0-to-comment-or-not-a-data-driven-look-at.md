@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://pt.slideshare.net/VeronicaHanus/to-comment-or-not-to-comment-141339406
 summary: ''
 tags:
 - documentation

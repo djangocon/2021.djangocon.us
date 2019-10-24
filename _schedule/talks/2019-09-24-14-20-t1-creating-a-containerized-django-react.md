@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://onedrive.live.com/view.aspx?resid=95D27E8163B4FA4D!8140&ithint=file%2cpptx&authkey=!AERNnu9ppkYTJ-E
 summary: ''
 tags:
 - Visual Studio Code

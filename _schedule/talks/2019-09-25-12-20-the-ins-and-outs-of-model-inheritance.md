@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/blythedunham/dmi/blob/master/TheInsAndOutsOfModelInheritance.pdf
 summary: ''
 tags:
 - ORM
