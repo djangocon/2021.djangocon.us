@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: 'https://www.slideshare.net/LouiseGrandjonc/postgres-index-types'
+slides_url: https://www.slideshare.net/LouiseGrandjonc/postgres-index-types
 summary: ''
 tags:
 - postgresql
