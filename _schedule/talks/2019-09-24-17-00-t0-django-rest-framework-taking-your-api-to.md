@@ -25,7 +25,9 @@ tags:
 - performance
 title: 'Django REST Framework: Taking your API to the next level.'
 track: t0
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/695y8rdHsA4
 ---
 
 This talk is I'll share some tips and tricks for Django REST Framework to manage permissions like using DRYPermissions, cache using Django cache or cacheops, Dynamic Serializers, Validators and Filtersets.

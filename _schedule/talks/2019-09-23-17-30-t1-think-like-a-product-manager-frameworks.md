@@ -28,7 +28,9 @@ tags:
 title: 'Think Like a Product Manager: Straightforward frameworks for building great
   products'
 track: t1
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/87lgHN2ocX4
 ---
 
 <p>Ever been working on a project without a strong Product Manager (or no Product Manager) and wondered if you're building the right thing?  Or considered Product Management as your next career move?  </p>

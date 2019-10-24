@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://www.slideshare.net/LouiseGrandjonc/postgres-index-types
 summary: ''
 tags:
 - postgresql
@@ -27,7 +27,9 @@ tags:
 - performance
 title: Postgres Index types and where to find them
 track: t1
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/ncwqtsjlSBE
 ---
 
 As developers we use indexes a lot, some by explicitly asking our ORM, some because of primary keys, unique constraint… But indexes go further than the default btree. And by the way, what is a btree?

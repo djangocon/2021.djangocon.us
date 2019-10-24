@@ -10,5 +10,5 @@ sitemap: false
 slides_url: null
 talk_slot: full
 title: Opening Comments
-video_url: null
+video_url: ''
 ---

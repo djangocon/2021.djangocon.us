@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/treyhunner/lazy-looping
 summary: ''
 tags:
 - python
@@ -24,7 +24,9 @@ tags:
 - laziness
 title: 'Lazy Looping: The Next Iteration'
 track: t0
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/q8czHnhcVGE
 ---
 
 Embracing Python's iterators and generators often allow us to drastically restructure our code for the better. They allow for writing code more like a recipe of descriptive steps, which often improves code readability.

@@ -7,4 +7,6 @@ heading: Slack Redirect
 sitemap: false
 ---
 
-<meta http-equiv="refresh" content="0; url=https://djangoconus2017.herokuapp.com">
+{% if site.slack_link != empty %}
+<meta http-equiv="refresh" content="0; url={{ site.slack_link }}">
+{% endif %}

@@ -26,8 +26,10 @@ tags:
 - finance
 title: Awesome Automated APIs with Automagic REST
 track: t0
-video_url: ''
 featured: true
+twitter:
+  card: player
+video_url: https://youtu.be/O6-PbTPAFXw
 ---
 
 When you have 60,000 tables and views across hundreds of schemata sitting on top of a 3 petabyte storage footprint, automation and access privileges are key if you want to expose these data through a RESTful API. Wharton Research Data Services (WRDS) leverages Python, Django, Django REST Framework, and PostgreSQL to accomplish this. We are continuing to open source the tools we have built to make this possible!

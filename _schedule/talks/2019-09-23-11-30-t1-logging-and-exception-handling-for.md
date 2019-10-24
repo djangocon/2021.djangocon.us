@@ -25,7 +25,9 @@ tags:
 - django
 title: Logging and Exception Handling for Django
 track: t1
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/ziegOuE7M4A
 ---
 
 Logging is better than print(), but often the effort to set up and use the Python logging is perceived to be impractical. In this session we'll review Python's logging API, explore handling exceptions using logging, and discuss various configurations available in Django.

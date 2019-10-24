@@ -8,6 +8,6 @@ room: Salon A-E
 sitemap: false
 talk_slot: full
 title: Opening Comments
-video_url: null
+video_url: ''
 ---
 Welcome to DjangoCon US!

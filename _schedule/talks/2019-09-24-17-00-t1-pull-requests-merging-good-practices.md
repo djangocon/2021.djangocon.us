@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://drive.google.com/file/d/1qHMsrpsGzi-N9XhIKKTRXMmq2jiXIffc/view
 summary: ''
 tags:
 - code review
@@ -24,7 +24,9 @@ tags:
 - code management
 title: 'Pull Requests: Merging good practices into your project'
 track: t1
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/Uf-JzdYellc
 ---
 
 ## Abstract

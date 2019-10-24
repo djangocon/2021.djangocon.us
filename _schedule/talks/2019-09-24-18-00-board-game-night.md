@@ -12,7 +12,7 @@ room: Rio Vista Ballroom Salons A-E
 sitemap: true
 talk_slot: full
 title: Board Game Night
-video_url: null
+video_url: ''
 ---
 
 Bring your board games, card games, and/or a sense of whimsy to the annual DjangoCon US Board Game Night!

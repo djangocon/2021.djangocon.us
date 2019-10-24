@@ -28,8 +28,10 @@ tags:
 - working for yourself
 title: 'Roll Your Own Tech Job: Starting a Business or Side Hustle from Scratch'
 track: t1
-video_url: ''
 featured: true
+twitter:
+  card: player
+video_url: https://youtu.be/ASYD7qwZCJU
 ---
 
 Getting sick of your daily commute? Wish you could spend more time getting things done and less time sitting in meetings? If this sounds like you, becoming your own boss might be for you.

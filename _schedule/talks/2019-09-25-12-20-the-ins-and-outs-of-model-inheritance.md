@@ -30,7 +30,9 @@ tags:
 - data modeling
 talk_slot: full
 title: The Ins and Outs of Model Inheritance
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/BEHM210eR50
 ---
 
 Have you ever used model inheritance and been surprised by the resulting database schema and queries that were generated? Or perhaps you have lived by the age-old Object Oriented design mantra suggesting that one must “favor composition over inheritance” and wondered why the Django Object Relational Mapping (ORM) provides not just one but, three different styles of model inheritance!

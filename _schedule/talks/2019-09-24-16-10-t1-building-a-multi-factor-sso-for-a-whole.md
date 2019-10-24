@@ -28,7 +28,9 @@ tags:
 - React
 title: Building a multi factor SSO for a whole country with Django
 track: t1
-video_url: ''
+twitter:
+  card: player
+video_url: https://youtu.be/GJ_PWH3OKZY
 ---
 
 One of the main challenges facing e-government initiatives is to safely perform an accessible authentication of _users_ as _citizens_, that can provide both public and private entities with the necessary personal and security information in an open and standard fashion to enable more digital interactions.

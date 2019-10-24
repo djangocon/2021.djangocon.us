@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://docs.google.com/presentation/d/1HhISje4VyaQcjElRDsrKkZpIMuJQy9uLbGhfkuVswDI/edit?usp=sharing
 summary: ''
 tags:
 - django
@@ -25,8 +25,10 @@ tags:
 - expressions
 title: Building effective Django queries with expressions
 track: t1
-video_url: ''
 featured: true
+twitter:
+  card: player
+video_url: https://youtu.be/a-sfr6y_hY8
 ---
 
 It's known that ORMs are a powerful tool to manipulate databases with ease. In Django, there are a set of out-of-the-box abstractions to help perform queries and shape them through annotations, aggregations, order by, and so on, hence saving one's time. A common solution to filtering when models grow larger over time is creating redundant fields; a better solution is using Django built-in resources called query expressions.

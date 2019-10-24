@@ -25,8 +25,10 @@ tags:
 - python
 talk_slot: full
 title: 'Just Add Await: Retrofitting Async Into Django'
-video_url: ''
 featured: true
+twitter:
+  card: player
+video_url: https://youtu.be/d9BAUBEyFgM
 ---
 
 The world of Python async has come a long way in recent years - networking, database connections, testing and many of the other classes of libraries now have async versions available.
