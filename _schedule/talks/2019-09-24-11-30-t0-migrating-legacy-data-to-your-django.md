@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://docs.google.com/presentation/d/1REKXjX8izJhJ4k4eSuOoNJEYi-P5BhRcpcy6-cSF-x8/edit#slide=id.p
 summary: ''
 tags:
 - database
