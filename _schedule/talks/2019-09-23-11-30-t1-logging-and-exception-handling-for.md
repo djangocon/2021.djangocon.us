@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/rgs258/logging_in_django/blob/master/Logging%20and%20Exception%20Handling%20for%20Django%20V2-20190923.pdf
 summary: ''
 tags:
 - python
