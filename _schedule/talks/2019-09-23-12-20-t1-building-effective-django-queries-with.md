@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://docs.google.com/presentation/d/1HhISje4VyaQcjElRDsrKkZpIMuJQy9uLbGhfkuVswDI/edit?usp=sharing
 summary: ''
 tags:
 - django

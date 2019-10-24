@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://drive.google.com/file/d/1qHMsrpsGzi-N9XhIKKTRXMmq2jiXIffc/view
 summary: ''
 tags:
 - code review
