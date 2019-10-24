@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/daneah/using-a-custom-template-loader-at-scale
 summary: ''
 tags:
 - Django
