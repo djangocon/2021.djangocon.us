@@ -25,6 +25,8 @@ tags:
 - big-data
 - finance
 title: Awesome Automated APIs with Automagic REST
+twitter:
+  card: player
 track: t0
 video_url: https://youtu.be/O6-PbTPAFXw
 ---
