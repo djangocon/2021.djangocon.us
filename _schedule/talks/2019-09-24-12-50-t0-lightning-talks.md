@@ -12,6 +12,8 @@ room: Salon A-E
 sitemap: true
 title: Lightning Talks
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/5j9JIUuA_cM
 ---
 

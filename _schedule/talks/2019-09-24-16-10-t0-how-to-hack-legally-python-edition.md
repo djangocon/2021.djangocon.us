@@ -26,6 +26,8 @@ tags:
 - Pen testing
 title: 'How to Hack (Legally): Python Edition'
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/s1hF2UXc9kM
 ---
 

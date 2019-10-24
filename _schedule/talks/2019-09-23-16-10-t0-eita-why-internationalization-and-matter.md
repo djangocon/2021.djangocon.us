@@ -24,6 +24,8 @@ tags:
 - Translation
 title: Eita! Why Internationalization and Localization matter
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/2WvNszxjaFE
 ---
 

@@ -21,6 +21,8 @@ tags:
 - deep dive
 title: Prefetching for Fun and Profit
 track: t2
+twitter:
+  card: player
 video_url: https://youtu.be/QYDixnGetTI
 ---
 

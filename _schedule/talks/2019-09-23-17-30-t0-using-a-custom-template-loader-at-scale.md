@@ -23,6 +23,8 @@ tags:
 - deep dive
 title: Using a custom template loader at scale
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/pocIpg1FZ3c
 ---
 

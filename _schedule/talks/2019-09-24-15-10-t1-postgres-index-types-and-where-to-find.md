@@ -27,6 +27,8 @@ tags:
 - performance
 title: Postgres Index types and where to find them
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/ncwqtsjlSBE
 ---
 

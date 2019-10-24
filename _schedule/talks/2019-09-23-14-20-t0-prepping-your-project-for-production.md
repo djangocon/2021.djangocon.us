@@ -28,6 +28,8 @@ tags:
 - deployment
 title: Prepping Your Project for Production
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/tssYpA6WiQM
 ---
 

@@ -25,6 +25,8 @@ tags:
 - data migration
 title: Migrating legacy data to your Django project.
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/2jVlPkOgjMs
 ---
 

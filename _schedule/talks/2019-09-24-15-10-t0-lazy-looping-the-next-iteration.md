@@ -24,6 +24,8 @@ tags:
 - laziness
 title: 'Lazy Looping: The Next Iteration'
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/q8czHnhcVGE
 ---
 

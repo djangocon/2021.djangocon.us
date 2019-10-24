@@ -25,6 +25,8 @@ tags:
 - django
 title: Logging and Exception Handling for Django
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/ziegOuE7M4A
 ---
 

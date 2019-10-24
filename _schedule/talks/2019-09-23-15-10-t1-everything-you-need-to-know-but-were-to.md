@@ -23,6 +23,8 @@ tags:
 - python
 title: Everything you need to know but were afraid to ask about Data Classes
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/mm9qAe6u-00
 ---
 

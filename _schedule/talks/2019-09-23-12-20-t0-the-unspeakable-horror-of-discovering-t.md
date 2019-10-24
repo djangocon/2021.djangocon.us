@@ -31,6 +31,8 @@ tags:
 - best practices
 title: The Unspeakable Horror of Discovering You Didn't Write Tests
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/wvrr9-UUBn0
 ---
 

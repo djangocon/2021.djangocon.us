@@ -23,6 +23,8 @@ tags:
 - Best Practices
 title: Goodbye Print, Hello Debugger!
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/y_dCT9TQtyQ
 ---
 

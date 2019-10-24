@@ -21,6 +21,8 @@ tags:
 - community
 title: 'The blameless post mortem: how embracing failure makes us better'
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/JmHRSoPdmUM
 ---
 

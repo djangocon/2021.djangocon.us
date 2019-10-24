@@ -28,6 +28,8 @@ tags:
 title: 'Think Like a Product Manager: Straightforward frameworks for building great
   products'
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/87lgHN2ocX4
 ---
 

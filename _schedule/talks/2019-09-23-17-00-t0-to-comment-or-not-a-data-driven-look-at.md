@@ -27,6 +27,8 @@ tags:
 - data-driven
 title: To comment or not? A data-driven look at attitudes toward code comments
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/GpC5VCwW3zk
 ---
 

@@ -30,6 +30,8 @@ tags:
 - data modeling
 talk_slot: full
 title: The Ins and Outs of Model Inheritance
+twitter:
+  card: player
 video_url: https://youtu.be/BEHM210eR50
 ---
 

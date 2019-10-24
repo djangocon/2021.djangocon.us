@@ -25,6 +25,8 @@ tags:
 - performance
 title: 'Django REST Framework: Taking your API to the next level.'
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/695y8rdHsA4
 ---
 

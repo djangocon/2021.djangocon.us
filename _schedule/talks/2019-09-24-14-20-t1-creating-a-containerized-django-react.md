@@ -24,6 +24,8 @@ tags:
 - Django
 title: Creating a containerized Django + React + PostgreSQL development environment
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/hwHRI59iGlw
 ---
 

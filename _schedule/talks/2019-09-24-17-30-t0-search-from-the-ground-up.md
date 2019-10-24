@@ -24,6 +24,8 @@ summary: ''
 tags: []
 title: Search From the Ground Up
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/is3R8d420D4
 ---
 

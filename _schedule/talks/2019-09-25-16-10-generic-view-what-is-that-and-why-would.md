@@ -24,6 +24,8 @@ tags:
 - deep dive
 talk_slot: full
 title: Generic View? What is that and why would I use it?
+twitter:
+  card: player
 video_url: https://youtu.be/qmKowZNmkCo
 ---
 

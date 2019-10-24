@@ -13,6 +13,8 @@ room: Salon A-E
 sitemap: true
 talk_slot: full
 title: Orientation and Welcome
+twitter:
+  card: player
 video_url: https://youtu.be/LH5Hd5EWTvU
 ---
 

@@ -28,6 +28,8 @@ tags:
 - React
 title: Building a multi factor SSO for a whole country with Django
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/GJ_PWH3OKZY
 ---
 

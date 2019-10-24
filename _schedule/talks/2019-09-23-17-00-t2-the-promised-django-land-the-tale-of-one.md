@@ -25,6 +25,8 @@ tags:
 - port
 title: The promised Django Land; the tale of one team’s epic journey from Flask
 track: t2
+twitter:
+  card: player
 video_url: https://youtu.be/EPlITGkRmA0
 ---
 

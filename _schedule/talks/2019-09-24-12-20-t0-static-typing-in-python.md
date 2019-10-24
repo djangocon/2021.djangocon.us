@@ -20,6 +20,8 @@ summary: ''
 tags: []
 title: Static Typing in Python
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/5pluSWgTa6I
 ---
 

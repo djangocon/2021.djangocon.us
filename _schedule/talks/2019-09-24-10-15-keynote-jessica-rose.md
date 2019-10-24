@@ -15,6 +15,8 @@ sitemap: true
 slides_url: null
 talk_slot: full
 title: "Keynote: Burnout and Balance"
+twitter:
+  card: player
 video_url: https://youtu.be/FYrhgCh0XV4
 ---
 

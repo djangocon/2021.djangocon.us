@@ -25,6 +25,8 @@ tags:
 - containers
 title: 'Forklifting Django: Migrating A Complex Django App To Kubernetes'
 track: t0
+twitter:
+  card: player
 video_url: https://youtu.be/Dr_U8tjghwc
 ---
 

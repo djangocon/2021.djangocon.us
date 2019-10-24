@@ -24,6 +24,8 @@ tags:
 - authentication
 talk_slot: full
 title: Understanding Django authentication
+twitter:
+  card: player
 video_url: https://youtu.be/zb_riMIp2Sw
 ---
 

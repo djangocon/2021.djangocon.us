@@ -14,6 +14,10 @@ room: Salon A-E
 sitemap: true
 talk_slot: full
 title: "Keynote: Building Community & Supporting Others"
+twitter:
+  card: player
+twitter:
+  card: player
 video_url: https://youtu.be/MJ4hFtM2qYc
 ---
 

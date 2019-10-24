@@ -28,6 +28,8 @@ tags:
 - working for yourself
 title: 'Roll Your Own Tech Job: Starting a Business or Side Hustle from Scratch'
 track: t1
+twitter:
+  card: player
 video_url: https://youtu.be/ASYD7qwZCJU
 ---
 
