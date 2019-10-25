@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://docs.google.com/presentation/d/1iNI3chBueP-AWCiY7t6vamfDUr-vQ8wjJd3owKfg9C8/edit
 summary: ''
 tags:
 - django
