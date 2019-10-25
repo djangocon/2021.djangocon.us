@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://www.erinrachelconsulting.com/rollyourown
 summary: ''
 tags:
 - small business
