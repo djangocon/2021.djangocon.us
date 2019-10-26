@@ -5,7 +5,6 @@ layout: speaker-template
 name: Luca Bezerra
 permalink: /presenters/luca-bezerra/
 photo_url: /static/img/speakers/luca-bezerra.jpg
-slides_url: 'https://drive.google.com/file/d/1qHMsrpsGzi-N9XhIKKTRXMmq2jiXIffc/view'
 slug: luca-bezerra
 twitter: lucabezerra_
 website: https://github.com/lucabezerra/

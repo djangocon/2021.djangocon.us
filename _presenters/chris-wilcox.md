@@ -5,7 +5,6 @@ layout: speaker-template
 name: Chris Wilcox
 permalink: /presenters/chris-wilcox/
 photo_url: /static/img/speakers/chris-wilcox.jpg
-slides_url: 'https://speakerdeck.com/crwilcox/djangocon-2019-the-blameless-post-mortem-how-embracing-failure-makes-us-better'
 slug: chris-wilcox
 twitter: chriswilcox47
 website: http://crwilcox.com
