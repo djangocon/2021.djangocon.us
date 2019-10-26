@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/nnja/goodbye-print-hello-debugger-nina-zakharenko-djangocon-2019
 summary: ''
 tags:
 - Python
