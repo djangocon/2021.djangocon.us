@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/crwilcox/djangocon-2019-the-blameless-post-mortem-how-embracing-failure-makes-us-better
 summary: ''
 tags:
 - community
