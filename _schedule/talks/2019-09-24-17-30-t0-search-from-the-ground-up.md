@@ -19,7 +19,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://speakerdeck.com/wsvincent/search-from-the-ground-up
 summary: ''
 tags: []
 title: Search From the Ground Up
