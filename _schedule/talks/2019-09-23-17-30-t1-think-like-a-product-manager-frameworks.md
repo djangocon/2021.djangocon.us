@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: ''
+slides_url: https://medium.com/productized-io/thinking-like-a-product-manager-49af840f6477
 summary: ''
 tags:
 - software development
