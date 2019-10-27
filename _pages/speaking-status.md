@@ -32,7 +32,7 @@ description: Our Speaking Status for YouTube catching missing links
   <td>{% if presenter.photo_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if post.video_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.github != blank %}✅{% else %}❌{% endif %}</td>
-  <td>{% if presenter.slides_url != blank %}✅{% else %}❌{% endif %}</td>
+  <td>{% if post.slides_url != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.twitter != blank %}✅{% else %}❌{% endif %}</td>
   <td>{% if presenter.website != blank %}✅{% else %}❌{% endif %}</td>
 </tr>
