@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://insights.sei.cmu.edu/insider-threat/2019/09/7-guidelines-for-being-a-trusted-penetration-tester.html
 summary: ''
 tags:
 - Python
