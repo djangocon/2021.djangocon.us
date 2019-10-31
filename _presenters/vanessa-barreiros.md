@@ -1,6 +1,6 @@
 ---
 company: Vinta Software
-github: ''
+github: vanessa
 layout: speaker-template
 name: Vanessa Barreiros
 permalink: /presenters/vanessa-barreiros/

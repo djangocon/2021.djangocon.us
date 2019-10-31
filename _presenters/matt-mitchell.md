@@ -1,6 +1,6 @@
 ---
 company: Tactical Tech
-github: ''
+github: geminiimatt
 layout: speaker-template
 name: Matt Mitchell
 permalink: /presenters/matt-mitchell/
