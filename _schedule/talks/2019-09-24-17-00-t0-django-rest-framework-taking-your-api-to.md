@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: ''
+slides_url: https://s3.amazonaws.com/carlosmart.co/talks/slides/full-taking-your-api-to-next-level.pdf
 summary: ''
 tags:
 - Django.
