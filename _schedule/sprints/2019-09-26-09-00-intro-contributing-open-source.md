@@ -3,7 +3,7 @@ layout: session-details
 category: workshop
 permalink: /intro-contributing-open-source/
 accepted: true
-sitemap: false
+sitemap: true
 
 title: Introduction to Contributing to Open Source
 presenters:

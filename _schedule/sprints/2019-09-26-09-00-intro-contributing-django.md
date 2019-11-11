@@ -3,7 +3,7 @@ layout: session-details
 category: workshop
 permalink: /how-to-contribute-django/
 accepted: true
-sitemap: false
+sitemap: true
 
 title: How To Start Contributing to Django
 presenters:

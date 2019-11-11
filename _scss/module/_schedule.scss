@@ -52,7 +52,7 @@
     color: $secondary-color;
   }
 
-  a:hover .event-byline {
+  a:hover .mini-profile-byline {
     color: $body-font-color;
   }
 
@@ -97,7 +97,7 @@
     display: block;
   }
 
-  .event-byline {
+  .mini-profile-byline {
     margin-top: $global-margin;
     padding-top: 0;
   }
@@ -140,7 +140,7 @@
   padding: ($global-margin * 1.75) $global-margin $global-margin;
 }
 
-.event-byline {
+.mini-profile-byline {
   display: flex;
   align-items: center;
 
@@ -148,9 +148,17 @@
   margin-bottom: 0;
 
   line-height: 1.2;
+  text-decoration: none;
 
   & + & {
     margin-top: $global-margin / 2;
+  }
+
+  .avatar {
+    margin: 0 .5em 0 0;
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
   }
 }
 

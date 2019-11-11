@@ -25,6 +25,7 @@ tags:
 talk_slot: full
 title: 'Using Django as a Micro-Framework: Hacking on the HTTP handlers and middleware
   (for fun and profit)'
+featured: true
 twitter:
   card: player
 video_url: https://youtu.be/w9cYEovduWI

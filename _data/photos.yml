@@ -1,0 +1,37 @@
+photos:
+
+  # First Row
+
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48901261227_cf74b0d848_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48901261227/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48899454613_c45abfb302_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48899454613/in/album-72157711339647298/"
+
+  # Second Row
+
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48899978896_96c9c2a5fe_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48899978896/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48901009341_e64f8b66c5_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48901009341/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48900154482_1248dfdc4b_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48900154482/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48899439763_481204a45d_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48899439763/in/album-72157711339647298/"
+
+  # Third Row
+
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48900972046_30b2149c11_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48900972046/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48900106547_50e83e8a82_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48900106547/in/album-72157711339647298/"
+  - title: The crowd of DjangoCon 2019 attendees
+    image: "https://live.staticflickr.com/65535/48899409558_f798cb1f9c_w.jpg"
+    src: "https://www.flickr.com/photos/djangocon/48899409558/in/album-72157711339647298/"

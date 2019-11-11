@@ -1,0 +1,303 @@
+---
+heading: 2019 DjangoCon US Recap
+layout: base
+# permalink: /recap/
+permalink: /
+title: 2019 DjangoCon US Recap
+---
+<header class="subpage-header recap-header">
+  <h1>{{ page.heading }}</h1>
+</header>
+
+<div class="content">
+
+<div class="section-pad theme-light-gray recap-intro">
+  <div class="row column">
+    <h2 class="demp recap-heading">
+      The 2019 DjangoCon US Conference is a wrap! Thanks for another amazing year!
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="column medium-7">
+      <!-- TODO: Update this photo -->
+      <img
+        src="https://live.staticflickr.com/65535/48901263497_723e49a542_b.jpg"
+        alt="The crowd of DjangoCon 2019 attendees" />
+    </div>
+
+    <div class="column medium-5">
+      <p class="lead">
+        DjangoCon US 2019 was in San Diego for the second year and hosted 425 attendees from all over the world!
+      </p>
+      <p>Supportive copy speaking to the line up or topics discussed, generally setting the mood for a successful event. Basically the primary takeaway.</p>
+
+      <p><strong>Fond memory from 2019?</strong> Share it with us:</p>
+
+      <!-- TODO: Icons are white and don't have sufficient contrast on screen -->
+      <ul class="social-icons highlight">
+        <li>
+          <a class="twitter" href="https://twitter.com/djangocon">
+            <svg class="social-icon">
+              <title>Twitter</title>
+              <use xlink:href="#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="github" href="https://github.com/djangocon/">
+            <svg class="social-icon">
+              <title>Github</title>
+              <use xlink:href="#github-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="facebook" href="https://www.facebook.com/djangoconus/">
+            <svg class="social-icon">
+              <title>Facebook</title>
+              <use xlink:href="#facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="section-pad">
+  <div class="row">
+    <div class="column small-12 medium-8">
+      <p>From tutorials on APIs and testing to talks about burnout and async to hallway tracks where we made buttons and planned our sprint contributions, 2019 was DjangoCon US's best year ever!</p>
+
+      <p>This was an innovative year for DjangoCon US! Every year, DjangoCon US works hard to make our program better and more accessible, and this year we're super proud of the features we were able to add:</p>
+
+      <ul>
+        <li><strong>Deep Dive Day</strong>, a single-track conference day dedicated to talks that go into more detail on Django topics</li>
+        <li>Accessibility wins: In addition to subsidized child care and captioned conference videos, this year we had a <strong>dedicated lactation room</strong> and <strong>live captioning</strong> for all talks</li>
+        <li><strong>Travel stipends</strong> for all speakers</li>
+      </ul>
+
+      <p>Thanks to our generous sponsors, who helped make these conference dreams a reality.</p>
+    </div>
+
+    <div class="column hide-for-mobile medium-4 text-center">
+      {% comment %}
+        Main graphic/icon for the year. e.g. for 2018, the crab. 2019, the boat.
+      {% endcomment %}
+      <img
+        src="/static/img/sail-circle.svg"
+        alt="A little boat"
+        width="360" />
+    </div>
+  </div>
+</div>
+
+<div class="section-pad highlight-events theme-medium-gray">
+  <div class="events">
+    <header class="highlight-events-header">
+      <h2>Awesome Talks and Tutorials</h2>
+      <p class="lead">We featured over <strong>40</strong> talks &amp; tutorials this year. Here are some crowd favorites!</p>
+      <a href="/schedule/" class="button">See the full schedule</a>
+    </header>
+    {% for post in site.schedule %}
+      {% if post.featured %}
+        {% if post.permalink and post.room != 'filler' %}
+        <article
+          class="event
+          {% if post.room == "Salon A-E" %}loc-main
+          {% elsif post.room == "Salon F-H" %}loc-alt-3
+          {% elsif post.room == "Rio Vista Pavilion" %}loc-alt
+          {% elsif post.room == "Balboa I & II" %}loc-main
+          {% elsif post.room == "Sierra 5" %}loc-alt-3
+          {% elsif post.room == "Cabrillo 1" %}loc-alt-2
+          {% else %}loc-main
+          {% endif %}
+          ">
+          {% unless post.room == 'filler' %}
+            {% if post.permalink %}
+              <a href="{{ post.permalink }}" class="event-content">
+            {% endif %}
+
+            {% if post.title %}
+              <h3 class="event-title">{{ post.title }}</h3>
+            {% endif %}
+
+            {% if post.presenters %}
+              {% for presenter_slug in post.presenters %}
+                {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+              <p class="mini-profile-byline">
+                {% if presenter.photo_url != blank %}
+                <img
+                  class="avatar"
+                  src="{{ presenter.photo_url }}"
+                  alt="Photo of {{ presenter.name }}" />
+                {% endif %}
+                {{ presenter.name }}
+              </p>
+              {% endfor %}
+            {% endif %}
+
+            {% if post.permalink %}
+              </a>
+            {% endif %}
+          {% endunless %}
+        </article>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section-pad mini-profile-block theme-brand-color5">
+  <h2 class="recap-heading">{{ "Our Presenters are :sparkles: Amazing :sparkles:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+  <section class="mini-profile">
+    {% for presenter in site.presenters %}
+      {% unless presenter.hidden %}
+        {% if presenter.name %}
+          <a
+            href="{{ presenter.permalink }}"
+            class="mini-profile-byline">
+            {% if presenter.photo_url != blank %}
+              <img
+                class="avatar"
+                src="{{ presenter.photo_url }}"
+                alt="Photo of {{ presenter.name }}" />
+            {% endif %}
+            {{ presenter.name }}
+          </a>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  </section>
+</div>
+
+{% include sponsor-footer.html %}
+
+<div class="section-pad theme-light-gray">
+  <div class="row">
+    <div class="column small-12 medium-5">
+      <h2>{{ ":chart_with_upwards_trend: 2019 By the Numbers" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+      <p class="lead">2019 was an amazing year for attendance, sponsorship, talks, food, really everything that goes into making a conference great.</p>
+      <p>The buzz we heard on Twitter was that it was a lot of people's favorite DjangoCon US ever!</p>
+    </div>
+
+    <div class="column hide-for-mobile medium-6">
+      <div class="table-scroll">
+        <table class="unstriped stacked">
+          <thead>
+            <tr>
+              <th>What?</th>
+              <th>Tell me about it.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Attendees</td>
+              <td>425</td>
+            </tr>
+            <tr>
+              <td>Tutorials</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Talks</td>
+              <td>38</td>
+            </tr>
+            <tr>
+              <td>Favorite food</td>
+              <td>Mac and cheese bar at the opening reception</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  {% comment %}
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <h3>And remember...</h3>
+      <p>Under the hood it's all just a grid system. So you can just add a new row if you want to associate more text with this block. Easy peasy, lemon squeezy.</p>
+    </div>
+  </div>
+  {% endcomment %}
+</div>
+
+<div class="photos-block">
+  <header class="photos-block-header theme-brand-color4">
+    <h2>Picture Perfect</h2>
+    <p>We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/">Bartek Pawlik</a> for being our official conference photographer and saving these memories for us.</p>
+    <a href="https://flickr.com/photos/djangocon/albums/72157711339647298" class="button theme-brand-color3">View all photos</a>
+  </header>
+
+  {% for photo in site.data.photos.photos %}
+    <div
+      class="photo"
+      style="background-image: url({{ photo.image }})">
+      <img
+        src="{{ photo.image }}"
+        alt="{{ photo.title }}" />
+    </div>
+  {% endfor %}
+</div>
+
+
+<div class="section-pad organizer-block theme-brand-color4">
+  <div class="row">
+    <header class="organizer-block-header recap-heading">
+      <h2>{{ "DjangoCon 2019 was possible through lots of :heart:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+      <p class="lead">Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!</p>
+    </header>
+  </div>
+  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+    {% for organizer in site.organizers %}
+      {% unless organizer.hidden %}
+        <div
+          class="column column-block">
+          <div class="profile">
+            <img
+              class="thumbnail"
+              src="{{ organizer.photo_url }}"
+              alt="Photo of {{ organizer.name }}" />
+            <div class="profile-namecard">
+              <h3 class="profile-name">
+                {{ organizer.name }}
+                {% if organizer.pronouns != blank %}
+                  ({{ organizer.pronouns }})
+                {% endif %}
+              </h3>
+              {{ organizer.role }}
+            </div>
+            <ul class="social-icons">
+              {% if organizer.twitter != blank %}
+              <li>
+                <a class="twitter" href="https://twitter.com/{{ organizer.twitter }}" target="_blank">
+                  <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+                </a>
+              </li>
+              {% endif %}
+              {% if organizer.github != blank %}
+              <li>
+                <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank">
+                  <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+                </a>
+                </li>
+              {% endif %}
+              {% if organizer.website != blank %}
+              <li>
+                <a class="web" href="{{ organizer.website }}" target="_blank">
+                  <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+            </div><!--/.profile -->
+        </div><!--/.column -->
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+</div> <!-- End .content -->

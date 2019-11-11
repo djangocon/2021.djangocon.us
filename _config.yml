@@ -108,6 +108,7 @@ opportunity_grant_application: "https://docs.google.com/forms/d/e/1FAIpQLScrtXuX
 slack_link: ""
 sponsorship_prospectus: "https://drive.google.com/open?id=1itpb19QgzVSLSs_kR0ik4mQ3X03bSdbE"
 ticket_link: "https://ti.to/defna/djangocon-us-2019"
+# youtube_link: ""
 
 github: [metadata]
 facebook:

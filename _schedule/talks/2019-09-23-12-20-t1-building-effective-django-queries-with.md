@@ -25,6 +25,7 @@ tags:
 - expressions
 title: Building effective Django queries with expressions
 track: t1
+featured: true
 twitter:
   card: player
 video_url: https://youtu.be/a-sfr6y_hY8

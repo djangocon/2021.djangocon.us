@@ -26,6 +26,7 @@ tags:
 - finance
 title: Awesome Automated APIs with Automagic REST
 track: t0
+featured: true
 twitter:
   card: player
 video_url: https://youtu.be/O6-PbTPAFXw

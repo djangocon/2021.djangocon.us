@@ -15,6 +15,7 @@ sitemap: true
 slides_url: null
 talk_slot: full
 title: "Keynote: The Natural State of Computers"
+featured: true
 twitter:
   card: player
 video_url: https://youtu.be/YxP1I-tm_2c
