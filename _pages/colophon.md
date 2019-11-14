@@ -24,6 +24,7 @@ This website is based on free and open source software, and was designed by our 
 - [Jekyll](https://jekyllrb.com/)
 - [Foundation](https://foundation.zurb.com/sites/docs/)
 - [PyCon Australia](https://2018.pycon-au.org/colophon/), for this colophon
+- [Ela Conf](https://elaconf.github.io/), for the Recap page inspiration
 - [Styleguide](/styleguide/), to see the fonts and colors used in this website
 
 ## Code of Conduct
