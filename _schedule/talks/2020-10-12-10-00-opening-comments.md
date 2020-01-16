@@ -10,4 +10,5 @@ talk_slot: full
 title: Opening Comments
 video_url: ''
 ---
+
 Welcome to DjangoCon US!

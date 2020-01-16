@@ -1,18 +1,18 @@
 ---
-layout: session-details
-category: talk
-permalink:
 accepted: true
-sitemap: true
-
-title: Django Software Foundation Update
-presenters: Frank Wiles
-difficulty:
-
+category: talk
 date: 2020-10-14 17:50:00 -0500
-room: Salon A-E
+difficulty: null
 end_date: 2020-10-14 18:00:00 -0500
+image: /static/img/social/presenters/F.png
+layout: session-details
+permalink: null
+presenters: Frank Wiles
+room: Salon A-E
 schedule-layout: full
+sitemap: true
 talk_slot: full
+title: Django Software Foundation Update
 ---
+
 Salon A-E

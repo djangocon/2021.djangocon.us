@@ -1,17 +1,16 @@
 ---
-layout: session-details
-category: talk
-link: /catering-menus/
 accepted: true
-sitemap: false
-
-title: Continental Breakfast
-presenters:
-difficulty:
-
+category: talk
 date: 2020-10-14 9:00:00 -0500
+difficulty: null
 end_date: 2020-10-14 10:00:00 -0500
+layout: session-details
+link: /catering-menus/
+presenters: null
 room: Rio Vista Pavilion
 schedule-layout: full
+sitemap: false
+title: Continental Breakfast
 ---
+
 Rio Vista Pavilion

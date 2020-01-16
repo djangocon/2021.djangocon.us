@@ -1,17 +1,15 @@
 ---
-layout: session-details
-category: tutorial
-permalink:
 accepted: true
-sitemap: false
-
-title: Afternoon break
-
-presenters:
-difficulty:
-
+category: tutorial
 date: 2020-10-11 15:00:00 -0500
+difficulty: null
+layout: session-details
+permalink: null
+presenters: null
 room: Rio Vista Pavilion
 schedule-layout: full
+sitemap: false
+title: Afternoon break
 ---
+
 Rio Vista Pavilion
