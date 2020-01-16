@@ -5,9 +5,9 @@ abstract: Translation of terms is only one step in the whole Internationalizatio
   and regional related preferences in their application.
 accepted: true
 category: talks
-date: 2019-09-23 16:10:00 -0500
+date: 2020-10-12 16:10:00 -0500
 difficulty: Intermediate
-end_date: 2019-09-23 17:00:00 -0500
+end_date: 2020-10-12 17:00:00 -0500
 image: /static/img/social/presenters/nicolle-cysneiros.png
 layout: session-details
 permalink: /talks/eita-why-internationalization-and-matter/

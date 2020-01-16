@@ -2,8 +2,8 @@
 layout: session-details
 accepted: true
 category: tutorial
-date: 2019-09-26 8:00:00 -0500
-end_date: 2019-09-26 18:00:00 -0500
+date: 2020-10-15 8:00:00 -0500
+end_date: 2020-10-15 18:00:00 -0500
 permalink:
 room: Private Dining Room
 schedule-layout: full

@@ -5,9 +5,9 @@ abstract: Wagtail is the popular Django CMS used by Google, NASA and Mozilla. Vu
   editor UI.
 accepted: true
 category: tutorials
-date: 2019-09-22 9:00:00 -0500
+date: 2020-10-11 9:00:00 -0500
 difficulty: All
-end_date: 2019-09-22 12:30:00 -0500
+end_date: 2020-10-11 12:30:00 -0500
 image: /static/img/social/presenters/tom-dyson.png
 layout: session-details
 permalink: /tutorials/build-a-headless-content-managed-site-js/

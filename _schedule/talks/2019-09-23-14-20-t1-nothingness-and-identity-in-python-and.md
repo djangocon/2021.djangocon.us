@@ -5,9 +5,9 @@ abstract: There’s something rich, beautiful and mysterious in the several kind
   dimension to the joy of programming.
 accepted: true
 category: talks
-date: 2019-09-23 14:20:00 -0500
+date: 2020-10-12 14:20:00 -0500
 difficulty: All
-end_date: 2019-09-23 15:10:00 -0500
+end_date: 2020-10-12 15:10:00 -0500
 image: /static/img/social/presenters/daniele-procida.png
 layout: session-details
 permalink: /talks/nothingness-and-identity-in-python-and/

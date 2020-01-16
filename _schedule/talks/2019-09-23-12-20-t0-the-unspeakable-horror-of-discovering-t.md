@@ -10,9 +10,9 @@ abstract: 'PSA: if you don''t write tests, you''ll instead write code for a time
   Because I didn''t write tests.'
 accepted: true
 category: talks
-date: 2019-09-23 12:20:00 -0500
+date: 2020-10-12 12:20:00 -0500
 difficulty: All
-end_date: 2019-09-23 12:50:00 -0500
+end_date: 2020-10-12 12:50:00 -0500
 image: /static/img/social/presenters/melanie-crutchfield.png
 layout: session-details
 permalink: /talks/the-unspeakable-horror-of-discovering-t/

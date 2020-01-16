@@ -9,8 +9,8 @@ title: Continental Breakfast
 presenters:
 difficulty:
 
-date: 2019-09-24 9:00:00 -0500
-end_date: 2019-09-24 10:00:00 -0500
+date: 2020-10-13 9:00:00 -0500
+end_date: 2020-10-13 10:00:00 -0500
 room: Rio Vista Pavilion
 schedule-layout: full
 ---

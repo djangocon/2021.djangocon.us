@@ -4,9 +4,9 @@ abstract: Still debugging your code by using print? Learn how to level up your a
   in this talk aimed at all levels of programming ability.
 accepted: true
 category: talks
-date: 2019-09-24 17:30:00 -0500
+date: 2020-10-13 17:30:00 -0500
 difficulty: All
-end_date: 2019-09-24 18:00:00 -0500
+end_date: 2020-10-13 18:00:00 -0500
 image: /static/img/social/presenters/nina-zakharenko.png
 layout: session-details
 permalink: /talks/goodbye-print-hello-debugger/
@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: https://speakerdeck.com/nnja/goodbye-print-hello-debugger-nina-zakharenko-djangocon-2019
+slides_url: https://speakerdeck.com/nnja/goodbye-print-hello-debugger-nina-zakharenko-djangocon-2020
 summary: ''
 tags:
 - Python

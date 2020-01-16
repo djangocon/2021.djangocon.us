@@ -5,9 +5,9 @@ abstract: WRDS at The Wharton School runs an API service with over 60,000 indivi
   of it is open-sourced, and we're looking to improve them!
 accepted: true
 category: talks
-date: 2019-09-23 11:30:00 -0500
+date: 2020-10-12 11:30:00 -0500
 difficulty: Intermediate
-end_date: 2019-09-23 12:20:00 -0500
+end_date: 2020-10-12 12:20:00 -0500
 image: /static/img/social/presenters/timothy-allen.png
 layout: session-details
 permalink: /talks/awesome-automated-apis-with-automagic/

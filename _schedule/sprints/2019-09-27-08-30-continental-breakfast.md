@@ -9,8 +9,8 @@ title: Continental Breakfast
 presenters:
 difficulty:
 
-date: 2019-09-27 08:30:00 -0500
-end_date: 2019-09-27 09:30:00 -0500
+date: 2020-10-16 08:30:00 -0500
+end_date: 2020-10-16 09:30:00 -0500
 room: West Lawn at the Marriott
 schedule-layout: full
 ---

@@ -5,9 +5,9 @@ abstract: On average, developers spend 45% of their time fixing bugs and technic
   from my experience and from big players (Django, Facebook, etc).
 accepted: true
 category: talks
-date: 2019-09-24 17:00:00 -0500
+date: 2020-10-13 17:00:00 -0500
 difficulty: Intermediate
-end_date: 2019-09-24 17:30:00 -0500
+end_date: 2020-10-13 17:30:00 -0500
 image: /static/img/social/presenters/luca-bezerra.png
 layout: session-details
 permalink: /talks/pull-requests-merging-good-practices/

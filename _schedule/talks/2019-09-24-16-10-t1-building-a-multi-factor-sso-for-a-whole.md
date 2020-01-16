@@ -5,9 +5,9 @@ abstract: As a leading digital country and a D9 member, Uruguay decided to build
   flexible development of a secure and reliable solution.
 accepted: true
 category: talks
-date: 2019-09-24 16:10:00 -0500
+date: 2020-10-13 16:10:00 -0500
 difficulty: All
-end_date: 2019-09-24 17:00:00 -0500
+end_date: 2020-10-13 17:00:00 -0500
 image: /static/img/social/presenters/juan-saavedra.png
 layout: session-details
 permalink: /talks/building-a-multi-factor-sso-for-a-whole/

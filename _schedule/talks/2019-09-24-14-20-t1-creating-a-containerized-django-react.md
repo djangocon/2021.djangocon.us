@@ -5,9 +5,9 @@ abstract: There are many reasons to develop with containers, but getting your de
   using Visual Studio Code remote development extensions.
 accepted: true
 category: talks
-date: 2019-09-24 14:20:00 -0500
+date: 2020-10-13 14:20:00 -0500
 difficulty: Intermediate
-end_date: 2019-09-24 15:10:00 -0500
+end_date: 2020-10-13 15:10:00 -0500
 image: /static/img/social/presenters/dan-taylor.png
 layout: session-details
 permalink: /talks/creating-a-containerized-django-react/

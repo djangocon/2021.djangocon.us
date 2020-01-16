@@ -5,9 +5,9 @@ abstract: When it comes to hacking, trainees are at risk of legal implications a
   skills safely, with an emphasis on Python.
 accepted: true
 category: talks
-date: 2019-09-24 16:10:00 -0500
+date: 2020-10-13 16:10:00 -0500
 difficulty: All
-end_date: 2019-09-24 17:00:00 -0500
+end_date: 2020-10-13 17:00:00 -0500
 image: /static/img/social/presenters/karen-miller.png
 layout: session-details
 permalink: /talks/how-to-hack-legally-python-edition/
@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon A-E
 sitemap: true
-slides_url: https://insights.sei.cmu.edu/insider-threat/2019/09/7-guidelines-for-being-a-trusted-penetration-tester.html
+slides_url: https://insights.sei.cmu.edu/insider-threat/2020/09/7-guidelines-for-being-a-trusted-penetration-tester.html
 summary: ''
 tags:
 - Python

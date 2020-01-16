@@ -11,8 +11,8 @@ title: Opening Reception
 presenters:
 difficulty:
 
-date: 2019-09-23 18:30:00 -0500
-end_date: 2019-09-23 20:00:00 -0500
+date: 2020-10-12 18:30:00 -0500
+end_date: 2020-10-12 20:00:00 -0500
 room: West Lawn at the Marriott
 schedule_layout: full
 

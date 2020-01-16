@@ -2,8 +2,8 @@
 layout: session-details
 accepted: true
 category: tutorial
-date: 2019-09-24 8:00:00 -0500
-end_date: 2019-09-24 18:30:00 -0500
+date: 2020-10-13 8:00:00 -0500
+end_date: 2020-10-13 18:30:00 -0500
 permalink:
 link: "/news/lactation-room/"
 room: Santa Fe 3

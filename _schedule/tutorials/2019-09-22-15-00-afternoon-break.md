@@ -10,7 +10,7 @@ title: Afternoon break
 presenters:
 difficulty:
 
-date: 2019-09-22 15:00:00 -0500
+date: 2020-10-11 15:00:00 -0500
 room: Rio Vista Pavilion
 schedule-layout: full
 ---

@@ -10,8 +10,8 @@ presenters:
 - carlton-gibson
 difficulty:
 
-date: 2019-09-26 09:00:00 -0500
-end_date: 2019-09-26 12:00:00 -0500
+date: 2020-10-15 09:00:00 -0500
+end_date: 2020-10-15 12:00:00 -0500
 room: Cabrillo 2
 schedule-layout: full
 ---

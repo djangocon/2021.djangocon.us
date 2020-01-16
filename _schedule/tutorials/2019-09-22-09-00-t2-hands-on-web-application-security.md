@@ -4,9 +4,9 @@ abstract: In this tutorial, we will exploit live Django instances hosted on Hero
   learn how to prevent these issues in our own applications.
 accepted: true
 category: tutorials
-date: 2019-09-22 9:00:00 -0500
+date: 2020-10-11 9:00:00 -0500
 difficulty: Intermediate
-end_date: 2019-09-22 12:30:00 -0500
+end_date: 2020-10-11 12:30:00 -0500
 image: /static/img/social/presenters/jacinda-shelly.png
 layout: session-details
 permalink: /tutorials/hands-on-web-application-security/

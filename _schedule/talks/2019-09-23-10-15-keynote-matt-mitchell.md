@@ -2,7 +2,7 @@
 abstract: TBD
 accepted: true
 category: talk
-date: 2019-09-23 10:15:00 -0500
+date: 2020-10-12 10:15:00 -0500
 difficulty: All
 hidden: false
 image: /static/img/social/presenters/matt-mitchell.png

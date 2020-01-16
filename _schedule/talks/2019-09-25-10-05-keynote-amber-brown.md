@@ -2,7 +2,7 @@
 abstract: TBD
 accepted: true
 category: talk
-date: 2019-09-25 10:05:00 -0500
+date: 2020-10-14 10:05:00 -0500
 difficulty: All
 hidden: false
 image: /static/img/social/presenters/amber-brown.png

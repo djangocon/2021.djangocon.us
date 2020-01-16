@@ -8,9 +8,9 @@ abstract: 'Search is notoriously hard. Even a basic implementation trips up many
   it all.'
 accepted: true
 category: talks
-date: 2019-09-24 17:30:00 -0500
+date: 2020-10-13 17:30:00 -0500
 difficulty: Beginner
-end_date: 2019-09-24 18:00:00 -0500
+end_date: 2020-10-13 18:00:00 -0500
 image: /static/img/social/presenters/william-s-vincent.png
 layout: session-details
 permalink: /talks/search-from-the-ground-up/

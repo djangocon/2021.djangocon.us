@@ -5,9 +5,9 @@ abstract: Many orgs change frameworks mid-stream to more or less success; in thi
   and how they switched without stopping product work.
 accepted: true
 category: talks
-date: 2019-09-23 17:00:00 -0500
+date: 2020-10-12 17:00:00 -0500
 difficulty: All
-end_date: 2019-09-23 17:30:00 -0500
+end_date: 2020-10-12 17:30:00 -0500
 image: /static/img/social/presenters/nicole-zuckerman.png
 layout: session-details
 permalink: /talks/the-promised-django-land-the-tale-of-one/
