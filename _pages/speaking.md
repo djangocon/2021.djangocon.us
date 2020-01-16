@@ -6,15 +6,15 @@ permalink: /speaking/
 description: Information about submitting a proposal to speak at DjangoCon US
 ---
 
-Our Call for Proposals is now closed. Decision notifications will be sent by June 24th, 2019.
+Our Call for Proposals is now closed. Decision notifications will be sent by June 24th, 2020.
 
-{% comment %} 
+{% comment %}
 
 Our Call for Proposals is now closed and all decision notifications have been sent.
 
 Our Call for Proposals (CFP) will open soon!
 
-Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open! Submit your talk or tutorial proposal by May 20th ([AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth)), and encourage your friends and colleagues to do the same.
+Our <a href="{{ site.cfp_application }}/">Call for Proposals (CFP)</a> is now open! Submit your talk or tutorial proposal by May 20th ([AoE](https://time.is/compare/0000_21_May_2020_in_Anywhere_on_Earth)), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We’ve got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
@@ -65,14 +65,14 @@ Not up for a full-on talk or tutorial? Looking to give your first talk at a conf
 
 ### Speaker Travel Assistance
 
-This year, we have set aside up to $500 per speaker to help offset the cost of travel to the conference. In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement. Receipts for travel expenses will be required. 
+This year, we have set aside up to $500 per speaker to help offset the cost of travel to the conference. In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement. Receipts for travel expenses will be required.
 
-If $500 will not cover your expenses, and you applied for an opportunity grant, we cannot guarantee it will be awarded to you. 
+If $500 will not cover your expenses, and you applied for an opportunity grant, we cannot guarantee it will be awarded to you.
 
-Opportunity grant applications closed May 20th, 2019. We will send decision notifications by June 24th, 2019.
+Opportunity grant applications closed May 20th, 2020. We will send decision notifications by June 24th, 2020.
 
-{% comment %} 
-If $500 will not cover your expenses, we encourage you to apply for an <a href="{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you. 
+{% comment %}
+If $500 will not cover your expenses, we encourage you to apply for an <a href="{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
-<a href="{{site.opportunity_grant_application}}">Opportunity grant</a> applications close May 20th, 2019, and we will send decision notifications by June 24th, 2019.
-{% endcomment %} 
+<a href="{{site.opportunity_grant_application}}">Opportunity grant</a> applications close May 20th, 2020, and we will send decision notifications by June 24th, 2020.
+{% endcomment %}

@@ -73,7 +73,7 @@ or otherwise create a sexualized environment.
 
 ## Photography
 
-In order to make DjangoCon US 2019 a great experience for everyone, do not
+In order to make DjangoCon US 2020 a great experience for everyone, do not
 photograph, video, or audio record anyone at DjangoCon without their express
 permission, sought in advance. If someone does not want to be photographed,
 video or audio recorded, please respect their wishes.
@@ -93,6 +93,6 @@ harassment/Policy), created by the Ada Initiative and other volunteers. which
 is under a Creative Commons Zero license.
 
 Conference Code of Conduct by
-[2019.djangocon.us/coc/](https://2019.djangocon.us/coc/) is licensed under a
+[2020.djangocon.us/coc/](https://2020.djangocon.us/coc/) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).
