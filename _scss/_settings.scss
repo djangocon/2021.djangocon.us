@@ -99,21 +99,21 @@ $white: #FFFFFF;
 
 
 $djangocon-palette: (
-  brand-color1: $brand-color1,
-  brand-color2: $brand-color2,
-  brand-color3: $brand-color3,
-  brand-color4: $brand-color4,
+  'brand-color1': $brand-color1,
+  'brand-color2': $brand-color2,
+  'brand-color3': $brand-color3,
+  'brand-color4': $brand-color4,
 
-  brand-color5: $brand-color5,
-  brand-color6: $brand-color6,
-  brand-color7: $brand-color7,
-  brand-color8: $brand-color8,
+  'brand-color5': $brand-color5,
+  'brand-color6': $brand-color6,
+  'brand-color7': $brand-color7,
+  'brand-color8': $brand-color8,
 
-  white: $white,
-  light-gray: $light-gray,
-  medium-gray: $medium-gray,
-  dark-gray: $dark-gray,
-  black: $black
+  'white': $white,
+  'light-gray': $light-gray,
+  'medium-gray': $medium-gray,
+  'dark-gray': $dark-gray,
+  'black': $black
 );
 
 
