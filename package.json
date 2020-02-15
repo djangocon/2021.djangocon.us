@@ -5,12 +5,12 @@
   "devDependencies": {
     "all-contributors-cli": "^4.11.2",
     "cssnano": "^4.1.10",
-    "sass": "^1.23.1"
+    "sass": "^1.25.0"
   },
   "scripts": {
     "add": "all-contributors add",
     "generate": "all-contributors generate",
-    "build": "parcel build main.js -d static/ --no-source-maps --no-content-hash --public-url ./",
+    "build": "parcel build main.js --no-source-maps --no-content-hash -d static/ --public-url ./",
     "watch-fe-dev": "parcel watch main.js -d static/ --public-url ./",
     "watch-jk-dev": "bundle exec jekyll serve --watch -l -H 0.0.0.0"
   },
