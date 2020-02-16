@@ -5,7 +5,8 @@
 .header {
   margin: 0 auto;
   padding: 6rem 0 3rem;
-  background-image: url('/static/img/sunrise.svg');
+  // TODO: Remove
+  //background-image: url('/static/img/sunrise.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +35,8 @@
 
 body.sunset {
   .header {
-    background-image: url('/static/img/sunset.svg');
+    // TODO: Remove
+    //background-image: url('/static/img/sunset.svg');
 
     h1 {
       color: $white;
@@ -48,6 +50,8 @@ body.sunset {
 
 @include breakpoint(medium) {
   .header {
+    // TODO: Remove
+    /*
     background-image: url('/static/img/birds-sunrise.svg'),
       url('/static/img/boat.svg'),
       url('/static/img/sunrise.svg');
@@ -60,6 +64,7 @@ body.sunset {
     background-size: 200px 90px,
       110px 110px,
       cover;
+    */
   }
 
   .header .header-text {
@@ -68,7 +73,8 @@ body.sunset {
   }
 
   body.sunset .header {
-    background-image: url('/static/img/birds-sunset.svg'), url('/static/img/boat.svg'), url('/static/img/sunset.svg');
+    // TODO: Remove
+    //background-image: url('/static/img/birds-sunset.svg'), url('/static/img/boat.svg'), url('/static/img/sunset.svg');
   }
 }
 

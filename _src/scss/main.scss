@@ -8,9 +8,9 @@
 	http://cssguidelin.es/
 */
 
-@import '../node_modules/foundation-sites/scss/foundation';
+@import '../../node_modules/foundation-sites/scss/foundation';
 @import 'settings';
-@import '../node_modules/motion-ui/motion-ui';
+@import '../../node_modules/motion-ui/motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -72,7 +72,6 @@
 @import 'layout/footer';
 @import 'layout/layouts';
 @import 'layout/styleguide';
-
 
 
 @import 'module/attraction';

@@ -17,12 +17,14 @@
 
   &:before {
     top: -4vw;
-    background-image: url('/static/img/full-crowd-top.svg');
+    // TODO: Remove
+    //background-image: url('/static/img/full-crowd-top.svg');
   }
 
   &:after {
     bottom: -4vw;
-    background-image: url('/static/img/full-crowd-bottom.svg');
+    // TODO: Remove
+    //background-image: url('/static/img/full-crowd-bottom.svg');
     background-position: bottom left -10px;
     background-size: 70% auto;
   }

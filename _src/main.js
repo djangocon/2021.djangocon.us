@@ -1,6 +1,3 @@
-// SCSS
-import './_scss/styles.scss';
-
 // JS
 import jQuery from 'jquery';
 import 'what-input';
@@ -10,9 +7,9 @@ import Headroom from 'headroom.js';
 window.$ = window.jQuery = jQuery;
 
 // Setup header
-var headroomElem = document.querySelector(".headroom");
+const headroomElem = document.querySelector(".headroom");
 // construct an instance of Headroom, passing the element
-var headroom  = new Headroom(headroomElem);
+const headroom  = new Headroom(headroomElem);
 // initialise
 headroom.init({
   offset : 200,
