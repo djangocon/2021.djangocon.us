@@ -56,10 +56,6 @@
   text-align: left;
 }
 
-.title-bar {
-  border-bottom: 8px solid $brand-color8;
-}
-
 .headroom--top .menu .navbar-button,
 .navbar-button {
   text-align: center;
@@ -127,7 +123,6 @@
   }
 
   .title-bar {
-    border-bottom-width: 12px;
     background: $body-background !important;
 
     .logo {
