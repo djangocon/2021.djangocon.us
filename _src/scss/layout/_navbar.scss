@@ -4,10 +4,9 @@
 
 
 // title bar text overrides
-.off-canvas .menu a,
 .title-bar .menu a {
   text-decoration: none;
-  color: $black;
+  color: $white;
 }
 
 .title-bar .menu {
@@ -102,7 +101,7 @@
 }
 
 .drilldown .is-drilldown-submenu {
-  background: $brand-color1; // Fix overlap issue
+  background: $brand-color2; // Fix overlap issue
 }
 
 // tightening drop-down arrows on navigaiton parent elements

@@ -29,7 +29,7 @@
     .theme-#{$name} {
       background-color: $color;
 
-      @if not index(($light-gray, $medium-gray, $white), $color) {
+      @if not index(($light-gray, $medium-gray, $white, $brand-color4), $color) {
         color: $white;
 
         a,
