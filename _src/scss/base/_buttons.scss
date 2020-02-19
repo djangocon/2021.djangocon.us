@@ -5,10 +5,6 @@
   font-weight: $global-weight-bold;
   text-decoration: none;
   color: $white;
-
-  & + & {
-    margin-left: 0.5em;
-  }
 }
 
 @each $name, $color in $djangocon-palette {

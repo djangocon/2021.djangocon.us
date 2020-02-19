@@ -56,7 +56,7 @@ $brand-color4: #A9CAD0;
 
 // Secondary colors
 $brand-color5: #C73B3D;
-$brand-color6: #D19FDD;
+$brand-color6: #5F082B;
 $brand-color7: #FBAECD;
 $brand-color8: #F7B07C;
 
@@ -119,7 +119,7 @@ $djangocon-palette: (
 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Source Sans Pro', Helvetica, sans-serif;
+$body-font-family: 'Karla', Helvetica, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -162,8 +162,8 @@ $block-grid-max: 8;
 // ------------------
 
 //$header-font-family: 'Lilita One', Helvetica, sans-serif;
-$header-font-family: $body-font-family;
-$header-font-weight: $global-weight-bold;
+$header-font-family: 'Rubik', Helvetica, sans-serif;
+$header-font-weight: 500;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
@@ -199,7 +199,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: rgba(255,255,255,0.2);
 $code-border: 1px solid rgba(255,255,255,0.4);
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: $secondary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: underline;
 $anchor-text-decoration-hover: none;
@@ -407,12 +407,12 @@ $dropdown-sizes: (
 // -----------------
 
 $dropdownmenu-arrows: true;
-$dropdownmenu-arrow-color: $black;
+$dropdownmenu-arrow-color: $white;
 $dropdownmenu-arrow-size: 6px;
 $dropdownmenu-min-width: 260px;
 $dropdownmenu-background: transparent;
 $dropdownmenu-border: none;
-$dropdownmenu-submenu-background: $brand-color2;
+$dropdownmenu-submenu-background: $brand-color3;
 
 // 19. Forms
 // ---------
