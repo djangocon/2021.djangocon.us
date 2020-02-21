@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   padding-top: 2rem;
   padding-bottom: 2rem;
   background: $brand-color6;
@@ -21,11 +22,28 @@
   .legal {
     display: block;
   }
+
+  > * {
+    position: relative;
+    z-index: 3;
+  }
+
+  &:before {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 240px;
+    background-image: url(/static/img/footer-curve.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    content: "";
+  }
 }
 
 .footer-logo {
-  position: relative;
-  z-index: 2;
   display: block;
   margin: 0 auto 1.5em;
   width: 140px;
