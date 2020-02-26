@@ -133,3 +133,27 @@
 }
 
 @include generate-palette-helpers($djangocon-palette);
+
+
+.curve1 {
+  position: relative;
+
+  & > * {
+    z-index: 2;
+  }
+
+  &:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(/static/img/curve1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+    content: "";
+  }
+}
