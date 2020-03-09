@@ -42,38 +42,33 @@
         color: $color;
       }
     }
+  }
+}
 
-    .tint-#{$name} {
-      position: relative;
+[class*="tint-brand"] {
+  position: relative;
 
-      @include breakpoint(medium) {
-        @if not index(($light-gray, $medium-gray), $color) {
-          &,
-          & blockquote,
-          & blockquote p,
-          & cite {
-            color: $white;
-          }
+  &,
+  blockquote,
+  blockquote p,
+  cite {
+    color: $white;
+  }
 
-          a,
-          a:hover {
-            color: $white;
-          }
-        }
+  a,
+  a:hover {
+    color: $white;
+  }
 
-        &:after {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background-color: darken($color, 20%);
-          content: "";
-          opacity: 0.8;
-        }
-      }
-
-    }
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(94.94deg, #430632 1.88%, #B5313D 41.15%);
+    content: "";
+    opacity: 0.65;
   }
 }
 

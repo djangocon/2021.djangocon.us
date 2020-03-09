@@ -39,7 +39,7 @@ li {
 }
 
 .demp {
-  font-weight: $global-weight-semibold;
+  font-weight: $global-weight-normal;
 }
 
 .label {
@@ -57,7 +57,7 @@ hr {
   margin-right: auto;
   margin-left: auto;
   padding: .35em;
-  background: get-color(primary);
+  background: get-color(secondary);
 }
 
 iframe,

@@ -9,24 +9,7 @@
   @include bottomless;
 }
 
-.v-pad-bottom {
-  padding-bottom: 1rem;
-
-  @include breakpoint(medium) {
-    padding-bottom: 2rem;
-  }
-}
-
-.v-pad-top {
-  padding-top: 1rem;
-
-  @include breakpoint(medium) {
-    padding-top: 2rem;
-  }
-}
-
 .section-pad {
-  // TODO: Makes hollow buttons work
   position: relative;
   z-index: 0;
 
@@ -36,6 +19,30 @@
   @include breakpoint(medium) {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+}
+
+.v-pad-bottom {
+  padding-bottom: 1rem;
+
+  @include breakpoint(medium) {
+    padding-bottom: 2rem;
+  }
+}
+
+.v-pad-bottom-extra {
+  padding-bottom: 4rem;
+
+  @include breakpoint(medium) {
+    padding-bottom: 8rem;
+  }
+}
+
+.v-pad-top {
+  padding-top: 1rem;
+
+  @include breakpoint(medium) {
+    padding-top: 2rem;
   }
 }
 

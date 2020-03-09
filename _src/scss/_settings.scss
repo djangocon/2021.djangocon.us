@@ -215,11 +215,11 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $primary-color;
+$blockquote-color: $secondary-color;
 $blockquote-padding: rem-calc(9 20 0 19);
 $blockquote-border: 1px solid $medium-gray;
-$cite-font-size: rem-calc(13);
-$cite-color: $primary-color;
+$cite-font-size: rem-calc(15);
+$cite-color: $secondary-color;
 $cite-pseudo-content: '\2014 \0020';
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
@@ -257,7 +257,7 @@ $input-error-font-weight: $global-weight-bold;
 $accordion-background: $white;
 $accordion-plusminus: true;
 $accordion-title-font-size: rem-calc(12);
-$accordion-item-color: $primary-color;
+$accordion-item-color: $secondary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
 $accordion-content-background: $white;
@@ -269,13 +269,13 @@ $accordion-content-padding: 1rem;
 // -----------------
 
 $accordionmenu-arrows: true;
-$accordionmenu-arrow-color: $primary-color;
+$accordionmenu-arrow-color: $secondary-color;
 $accordionmenu-arrow-size: 6px;
 
 // 9. Badge
 // --------
 
-$badge-background: $primary-color;
+$badge-background: $secondary-color;
 $badge-color: $white;
 $badge-color-alt: $black;
 $badge-palette: $foundation-palette;
@@ -288,7 +288,7 @@ $badge-font-size: 0.6rem;
 
 $breadcrumbs-margin: 0 0 $global-margin 0;
 $breadcrumbs-item-font-size: rem-calc(11);
-$breadcrumbs-item-color: $primary-color;
+$breadcrumbs-item-color: $secondary-color;
 $breadcrumbs-item-color-current: $black;
 $breadcrumbs-item-color-disabled: $medium-gray;
 $breadcrumbs-item-margin: 0.75rem;
@@ -539,7 +539,7 @@ $pagination-item-padding: rem-calc(3 10);
 $pagination-item-spacing: rem-calc(1);
 $pagination-radius: $global-radius;
 $pagination-item-background-hover: $light-gray;
-$pagination-item-background-current: $primary-color;
+$pagination-item-background-current: $secondary-color;
 $pagination-item-color-current: $white;
 $pagination-item-color-disabled: $medium-gray;
 $pagination-ellipsis-color: $black;
@@ -553,7 +553,7 @@ $pagination-arrows: true;
 $progress-height: 1rem;
 $progress-background: $medium-gray;
 $progress-margin-bottom: $global-margin;
-$progress-meter-background: $primary-color;
+$progress-meter-background: $secondary-color;
 $progress-radius: $global-radius;
 
 // 28. Responsive Embed
@@ -595,7 +595,7 @@ $slider-radius: $global-radius;
 // ----------
 
 $switch-background: $medium-gray;
-$switch-background-active: $primary-color;
+$switch-background-active: $secondary-color;
 $switch-height: 2rem;
 $switch-height-tiny: 1.5rem;
 $switch-height-small: 1.75rem;
@@ -633,7 +633,7 @@ $show-header-for-stacked: false;
 
 $tab-margin: 0;
 $tab-background: rgba(255,255,255,0.3);
-$tab-color: get-color(primary);
+$tab-color: get-color(secondary);
 $tab-background-active: get-color(secondary);
 $tab-active-color: $white;
 $tab-item-font-size: rem-calc(20);

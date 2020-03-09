@@ -1,8 +1,12 @@
 .footer {
   position: relative;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background: $brand-color6;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+  background-color: $brand-color6;
+  background-image: url(/static/img/crab-arm.svg);
+  background-position: left bottom 160px;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
 
   p,
   a,
@@ -30,7 +34,7 @@
 
   &:before {
     position: absolute;
-    top: -10vw;
+    top: -8vw;
     left: 0;
     z-index: 2;
     display: block;

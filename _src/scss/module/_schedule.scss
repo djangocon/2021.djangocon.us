@@ -82,6 +82,18 @@
     font-size: 0.8em;
   }
 
+  &-links .button {
+    margin-right: .5rem;
+  }
+
+  &-links .button:last-child {
+    margin-right: 0;
+  }
+
+  &-byline {
+    margin-top: 1rem;
+  }
+
   & & {
     position: static;
   }
