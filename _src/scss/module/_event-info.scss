@@ -5,9 +5,6 @@
 
   &-date {
     display: block;
-  }
-
-  @include breakpoint(medium) {
-
+    font-size: 1.3rem;
   }
 }

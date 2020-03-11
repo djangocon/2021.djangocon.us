@@ -1,8 +1,18 @@
 .button {
   border: 4px solid $brand-color1;
-  background-image: linear-gradient(110.56deg, $brand-color5 7.55%, $brand-color2 73.21%);
+  background-color: $brand-color5;
 
   font-weight: $global-weight-bold;
   text-decoration: none;
   color: $white;
+
+  &:hover {
+    background-color: darken($brand-color5, 15%);
+  }
+}
+
+.button.hollow:hover {
+  border-color: $white;
+  background-color: $white;
+  color: $brand-color2;
 }
