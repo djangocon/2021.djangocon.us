@@ -70,6 +70,11 @@
     content: "";
     opacity: 0.65;
   }
+
+  .column {
+    padding: 1.5rem 1rem;
+    background: rgba(#B5313D, .6);
+  }
 }
 
 @include generate-block-themes($djangocon-palette);
