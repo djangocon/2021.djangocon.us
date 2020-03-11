@@ -32,3 +32,27 @@
     }
   }
 }
+
+.photo-hero-inline {
+  position: relative;
+
+  &.curve-top:before {
+    position: absolute;
+    left: -2px;
+    z-index: 1;
+    display: block;
+    width: 101.5%;
+    height: 28vw;
+    background-image: url(/static/img/curve1-white.svg);
+    background-repeat: no-repeat;
+    background-size: 106% auto;
+    background-position: -1px -14vw;
+    content: "";
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
