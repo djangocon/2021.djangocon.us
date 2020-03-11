@@ -1,6 +1,24 @@
 .full-crowd {
   position: relative;
 
+  &:before {
+    position: absolute;
+    left: -2px;
+    z-index: 1;
+    display: block;
+    width: 101.5%;
+    height: 28vw;
+    background-image: url(/static/img/curve1-white.svg);
+    background-repeat: no-repeat;
+    background-size: 106% auto;
+    background-position: -1px -14vw;
+    content: "";
+  }
+
+  & + * {
+    padding-top: 14vw;
+  }
+
   img {
     display: block;
     width: 100%;
