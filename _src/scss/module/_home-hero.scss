@@ -43,6 +43,11 @@
     z-index: 2;
   }
 
+  .header-text {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
   h1 {
     margin-bottom: 2.25rem;
   }
@@ -56,11 +61,6 @@
   }
 
   @include breakpoint(720px) {
-    .header-text {
-      padding-right: 1.5rem;
-      padding-left: 1.5rem;
-    }
-
     h1 {
       max-width: 27rem;
     }
