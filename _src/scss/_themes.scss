@@ -134,8 +134,8 @@
 
 @include generate-palette-helpers($djangocon-palette);
 
-div .curve1,
-div .curve2 {
+.curve1.curve1,
+.curve2.curve2 {
   position: relative;
 
   & > * {
@@ -161,7 +161,7 @@ div .curve2 {
   }
 }
 
-div .curve1:after {
+.curve1.curve1:after {
   bottom: -10vw;
   background-image: url(/static/img/curve1.svg);
 }
