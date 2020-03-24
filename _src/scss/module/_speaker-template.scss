@@ -1,68 +1,58 @@
 .speaker-template {
   position: relative;
-  max-width: 1200px;
+  padding: 70px 30px 0 500px;
+  width: 1024px;
+  height: 512px;
 
-  text-align: left;
-  color: $brand-color2;
+  background-color: $brand-color2;
+  background-image: url(/static/img/speaker-template-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  &-name,
-  &-photo,
-  &-session-title {
-    position: absolute;
-    z-index: 1;
-  }
+  text-align: right;
+  color: $white;
 
-  &-name,
-  &-session-title {
-    max-width: 600px;
-    left: 550px;
-  }
-
-  &-name {
-    position: absolute;
-    top: 60px;
-    font-family: 'Lilita One', cursive;
-    font-size: 68px;
-    font-weight: normal;
-  }
-
-  &-session-title {
-    position: absolute;
-    top: 210px;
-    font-size: 42px;
-    font-weight: $global-weight-semibold;
-  }
+  overflow: hidden;
 
   &-photo {
     position: absolute;
-    top: 50px;
-    left: 100px;
+    top: -10px;
+    left: -40px;
+    border-radius: 0 50% 50% 0;
+    width: 520px;
+  }
+
+  &-name {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  &-name:after {
+    position: relative;
     display: block;
-    width: 400px;
-    height: 400px;
-    background: rgba(#F9A7A7, .3);
+    margin: 10px 0 10px auto;
+    height: 10px;
+    width: 80px;
+    background: #290724;
+    content: "";
+  }
 
-    &,
-    &:after,
-    img {
-      border-radius: 100%;
-    }
+  &-session-title {
+    font-family: $body-font-family;
+    font-size: 1.85rem;
+  }
 
-    img,
-    &:after {
-      position: absolute;
-      top: 14px;
-      left: 14px;
-      display: block;
-      width: 90%;
-      height: 90%;
-    }
-
-    &:after {
-      z-index: 2;
-      display: block;
-      background: linear-gradient(to left top, rgba(#F9A7A7, .3), rgba(#FCD077, .3));
-      content: "";
-    }
+  &:after {
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url(/static/img/hero-curve.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    content: "";
   }
 }
