@@ -1,6 +1,6 @@
 ---
 layout: home
-title: DjangoCon US 2020 • October 11-17, 2020 • San Diego, CA United States
+title: DjangoCon US 2020 • October 11-16, 2020 • San Diego, CA United States
 # permalink: /
 permalink: /homepage/
 description: |
