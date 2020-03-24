@@ -1,14 +1,14 @@
 title: DjangoCon US
-url: "https://2019.djangocon.us"
+url: "https://2020.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2019 conference will take place in San Diego
-  from September 22-27, 2019!
-enforce_ssl: "2019.djangocon.us"
+  DjangoCon US 2020 conference will take place in San Diego, California
+  from October 11-16, 2020!
+enforce_ssl: "2020.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
 timezone: America/Chicago
-conf_year: 2019
+conf_year: 2020
 
 include:
   - _pages
@@ -43,6 +43,7 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+  - webpack.config.js
 
 # We need `future` to allow our schedule to work :/
 future: true
@@ -75,7 +76,7 @@ twitter:
   username: djangocon
 
 # This is the default logo that people see with opengraph
-# logo: /static/2019-logos/squares-and-social/djangocon-square.png
+# logo: /static/2020-logos/squares-and-social/djangocon-square.png
 logo: /static/img/social/og.png
 
 
@@ -101,13 +102,13 @@ sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
-cfp_application: "https://www.papercall.io/djangocon-us-2019"
+cfp_application: "https://www.papercall.io/djangocon-us-2020"
 hotel_reservation_link: "https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DjangoCon%20US%202019%5Esanmv%60DJADJAA%60179.00%60USD%60false%604%609/21/19%609/28/19%6008/21/19&app=resvlink&stop_mobi=yes"
 opportunity_grant_application: "https://docs.google.com/forms/d/e/1FAIpQLScrtXuXGuqTJFcKh9MIb1JR7APz-k7fABi3qvrH8_Do3r5-lQ/viewform"
 # slack_link: "https://djangoconus2019.herokuapp.com"
 slack_link: ""
 sponsorship_prospectus: "https://drive.google.com/open?id=1itpb19QgzVSLSs_kR0ik4mQ3X03bSdbE"
-ticket_link: "https://ti.to/defna/djangocon-us-2019"
+ticket_link: "https://ti.to/defna/djangocon-us-2020"
 # youtube_link: ""
 
 github: [metadata]
