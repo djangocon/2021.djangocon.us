@@ -76,7 +76,7 @@ twitter:
 
 # This is the default logo that people see with opengraph
 # logo: /static/2019-logos/squares-and-social/djangocon-square.png
-logo: /static/img/social/avatar-main.png
+logo: /static/img/social/og.png
 
 
 # Frontmatter fallback settings
