@@ -5,9 +5,9 @@ abstract: Writing async code from scratch is hard; trying to add it into a large
   hybrid sync-and-async Python codebases in general.
 accepted: true
 category: talks
-date: 2020-10-14 11:30:00 -0500
+date: 2021-10-14 11:30:00 -0500
 difficulty: All
-end_date: 2020-10-14 12:20:00 -0500
+end_date: 2021-10-14 12:20:00 -0500
 featured: true
 image: /static/img/social/presenters/andrew-godwin.png
 layout: session-details

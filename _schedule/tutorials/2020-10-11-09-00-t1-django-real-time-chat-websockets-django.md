@@ -5,9 +5,9 @@ abstract: Production applications increasingly need real-time updates and REST f
   how to avoid common gotchas in future real-time apps you build.
 accepted: true
 category: tutorials
-date: 2020-10-11 9:00:00 -0500
+date: 2021-10-11 9:00:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-11 12:30:00 -0500
+end_date: 2021-10-11 12:30:00 -0500
 image: /static/img/social/presenters/cara-borenstein.png
 layout: session-details
 permalink: /tutorials/django-real-time-chat-websockets-django/

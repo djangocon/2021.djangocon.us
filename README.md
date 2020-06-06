@@ -1,8 +1,8 @@
-# 2020.djangocon.us Website
+# 2021.djangocon.us Website
 
-[![Build Status](https://travis-ci.org/djangocon/2020.djangocon.us.svg?branch=master)](https://travis-ci.org/djangocon/2020.djangocon.us) [![Contributors](https://img.shields.io/github/contributors/djangocon/2020.djangocon.us.svg)](https://github.com/djangocon/2020.djangocon.us/graphs/contributors)
+[![Build Status](https://travis-ci.org/djangocon/2021.djangocon.us.svg?branch=master)](https://travis-ci.org/djangocon/2021.djangocon.us) [![Contributors](https://img.shields.io/github/contributors/djangocon/2021.djangocon.us.svg)](https://github.com/djangocon/2021.djangocon.us/graphs/contributors)
 
-The 2020 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
+The 2021 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
 
 ## Code of Conduct
 
@@ -15,7 +15,7 @@ Get started contributing by reading our [Contributing](CONTRIBUTING.md) guidelin
 
 ### Contributing via Browser
 
-1. Navigate to the [DjangoCon U.S. website repo](https://github.com/djangocon/2020.djangocon.us) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
+1. Navigate to the [DjangoCon U.S. website repo](https://github.com/djangocon/2021.djangocon.us) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
 
 2. Head over to your GitHub account, where you will find the forked repo. This is a copy of the official code. Your changes to this forked code will not affect the official code, unless you submit a pull request and an admin merges your pull request.
 
@@ -44,13 +44,13 @@ For changes that require cloning/running the code locally, follow the above inst
 Clone your forked repo locally via the terminal, replacing the username in the URL with your own (note: not all operating systems will use a `$` as a terminal prompt).
 
 ```bash
-$ git clone https://github.com/<your-username>/2020.djangocon.us
+$ git clone https://github.com/<your-username>/2021.djangocon.us
 ```
 
 Change directory into the folder
 
 ```bash
-$ cd 2020.djangocon.us
+$ cd 2021.djangocon.us
 ```
 
 Verify that you are on the `master` branch

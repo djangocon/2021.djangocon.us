@@ -5,9 +5,9 @@ abstract: You know you're curious. How are data classes different from other Pyt
   are, and how best to use, Python 3.7's classiest new feature.
 accepted: true
 category: talks
-date: 2020-10-12 15:10:00 -0500
+date: 2021-10-12 15:10:00 -0500
 difficulty: Beginner
-end_date: 2020-10-12 15:40:00 -0500
+end_date: 2021-10-12 15:40:00 -0500
 image: /static/img/social/presenters/casey-faist.png
 layout: session-details
 permalink: /talks/everything-you-need-to-know-but-were-to/

@@ -4,9 +4,9 @@ abstract: Django rest framework offers common solutions to make filters, manage 
   for current or future projects.
 accepted: true
 category: talks
-date: 2020-10-13 17:00:00 -0500
+date: 2021-10-13 17:00:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-13 17:30:00 -0500
+end_date: 2021-10-13 17:30:00 -0500
 image: /static/img/social/presenters/carlos-martinez.png
 layout: session-details
 permalink: /talks/django-rest-framework-taking-your-api-to/

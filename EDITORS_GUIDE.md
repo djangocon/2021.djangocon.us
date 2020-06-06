@@ -31,10 +31,10 @@ Pages are stored in `_pages/` and correspond to the different HTML pages on the 
 - **title**: Title of the page. Appears in the browser window.
 - **heading**: Title of the page. Appears at the top of the body of the page.
 - **permalink**: The URL path
-- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://2020.djangocon.us/styleguide/#photo-hero-section)
+- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://2021.djangocon.us/styleguide/#photo-hero-section)
 - **testimonial_img_mobile**: Same as **testimonial_img**, but for mobile
 - **hero_text_align**: How you want the text in the photo hero to be aligned
-- **hero-theme**: The [brand color](https://2020.djangocon.us/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
+- **hero-theme**: The [brand color](https://2021.djangocon.us/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
 - **description**: A description of this page
 
 ### Places
@@ -53,14 +53,14 @@ Places refer to the restaurants and merchants we recommend on the Venue page and
 
 ### Schedule
 
-Each session in the schedule (each talk, each breakfast slot, etc.) is stored as its own file in `_schedule/` and in the relevant subdirectory `sprints/`, `talks/`, `tutorials/`. The filename of each file follows this format: `YYYY-MM-DD-HH-II-description.md`, so breakfast on September 19, 2020 at 8:00 AM would be `2020-09-19-08-00-breakfast.md`.
+Each session in the schedule (each talk, each breakfast slot, etc.) is stored as its own file in `_schedule/` and in the relevant subdirectory `sprints/`, `talks/`, `tutorials/`. The filename of each file follows this format: `YYYY-MM-DD-HH-II-description.md`, so breakfast on September 19, 2021 at 8:00 AM would be `2021-09-19-08-00-breakfast.md`.
 
 This first set of front matter elements applies to all sessions, including meals and quiet rooms.
 
 - **layout**: Which HTML layout from `_layouts/` this page should use. For schedule objects, most of the time this will be `session-details`.
 - **accepted**: `true` or `false` for whether this session has been accepted and should be displayed on the website
 - **category**: `talk` or `tutorial`
-- **date**: Start date and time of session with the UTC offset, example `2020-09-22 8:00:00 -0500` for September 18, 2020 at 8:00 in Pacific time
+- **date**: Start date and time of session with the UTC offset, example `2021-09-22 8:00:00 -0500` for September 18, 2021 at 8:00 in Pacific time
 - **end_date**: End date and time of session with the UTC offset
 - **permalink**: The URL path for this page. Leave blank if this session (like Quiet Room) should not link to its own page
 - **room**: The name of the room this session takes place in
@@ -109,7 +109,7 @@ Below are some examples of commonly-used Markdown syntax. If you want to dive de
 
 ### Links
 
-[DjangoCon US 2020](https::2020.djangocon.us) - `[DjangoCon US 2020](https::2020.djangocon.us)`
+[DjangoCon US 2021](https::2021.djangocon.us) - `[DjangoCon US 2021](https::2021.djangocon.us)`
 
 ### Inline Images
 
@@ -161,7 +161,7 @@ The `{% for %}` tag also works very similarly to how it does in Django. To cycle
 
 ###  Other tags
 
-Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2020.djangocon.us/blob/develop/_includes/sponsor-footer.html#L3).
+Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2021.djangocon.us/blob/develop/_includes/sponsor-footer.html#L3).
 
 _Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
 

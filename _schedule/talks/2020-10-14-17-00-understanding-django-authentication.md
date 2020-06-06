@@ -5,9 +5,9 @@ abstract: Django gives us a built-in authentication system. It's an awesome asse
   makes more advanced authentication systems easier to implement.
 accepted: true
 category: talks
-date: 2020-10-14 17:00:00 -0500
+date: 2021-10-14 17:00:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-14 17:50:00 -0500
+end_date: 2021-10-14 17:50:00 -0500
 image: /static/img/social/presenters/renato-oliveira.png
 layout: session-details
 permalink: /talks/understanding-django-authentication/

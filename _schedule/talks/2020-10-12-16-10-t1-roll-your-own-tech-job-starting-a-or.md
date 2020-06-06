@@ -5,9 +5,9 @@ abstract: Getting sick of your daily commute? Wish you could spend more time get
   legally, keep your books, and find excited & exciting clients.
 accepted: true
 category: talks
-date: 2020-10-12 16:10:00 -0500
+date: 2021-10-12 16:10:00 -0500
 difficulty: All
-end_date: 2020-10-12 17:00:00 -0500
+end_date: 2021-10-12 17:00:00 -0500
 featured: true
 image: /static/img/social/presenters/erin-mullaney.png
 layout: session-details

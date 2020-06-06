@@ -5,9 +5,9 @@ abstract: Product management is an integral part of any software development org
   connection to your company and customers.
 accepted: true
 category: talks
-date: 2020-10-12 17:30:00 -0500
+date: 2021-10-12 17:30:00 -0500
 difficulty: All
-end_date: 2020-10-12 18:00:00 -0500
+end_date: 2021-10-12 18:00:00 -0500
 image: /static/img/social/presenters/eleanor-stribling.png
 layout: session-details
 permalink: /talks/think-like-a-product-manager-frameworks/

@@ -14,7 +14,7 @@ description: Our Speaking Template for YouTube Videos (this should not be in our
 {% for presenter_slug in post.presenters %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
 <p class="event-byline">
-<h4>{{ presenter.name }}, {{ post.title }} - DjangoCon US (2020)</h4>
+<h4>{{ presenter.name }}, {{ post.title }} - DjangoCon US (2021)</h4>
 
 <textarea rows="10" id="copy{{ post.slug | replace: "-", "_" }}">
 {% if presenter.twitter != blank %}{{ post.abstract }}

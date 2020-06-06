@@ -7,9 +7,9 @@ abstract: 'Django, being batteries included and all, is meant to big, clumsy, sl
   anything.'
 accepted: true
 category: talks
-date: 2020-10-14 14:20:00 -0500
+date: 2021-10-14 14:20:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-14 15:10:00 -0500
+end_date: 2021-10-14 15:10:00 -0500
 featured: true
 image: /static/img/social/presenters/carlton-gibson.png
 layout: session-details

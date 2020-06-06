@@ -4,9 +4,9 @@ abstract: In this talk we'll learn about the properties of iterators, learn how 
   allow us to write our looping code in a fundamentally different way.
 accepted: true
 category: talks
-date: 2020-10-13 15:10:00 -0500
+date: 2021-10-13 15:10:00 -0500
 difficulty: All
-end_date: 2020-10-13 15:40:00 -0500
+end_date: 2021-10-13 15:40:00 -0500
 image: /static/img/social/presenters/trey-hunner.png
 layout: session-details
 permalink: /talks/lazy-looping-the-next-iteration/

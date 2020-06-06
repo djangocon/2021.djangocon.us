@@ -1,9 +1,9 @@
 ---
 accepted: true
 category: workshop
-date: 2020-10-15 09:00:00 -0500
+date: 2021-10-15 09:00:00 -0500
 difficulty: null
-end_date: 2020-10-15 12:00:00 -0500
+end_date: 2021-10-15 12:00:00 -0500
 image: /static/img/social/presenters/jeffrey-eliasen.png
 layout: session-details
 permalink: /workshop/introduction-to-contributing-to-open/

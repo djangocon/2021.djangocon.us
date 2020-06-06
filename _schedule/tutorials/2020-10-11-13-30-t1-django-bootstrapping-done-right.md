@@ -4,9 +4,9 @@ abstract: A step by step guide to setup a Django project with all the required t
   environment with Docker to automated deployment with Pipelines.
 accepted: true
 category: tutorials
-date: 2020-10-11 13:30:00 -0500
+date: 2021-10-11 13:30:00 -0500
 difficulty: Beginner
-end_date: 2020-10-11 17:00:00 -0500
+end_date: 2021-10-11 17:00:00 -0500
 image: /static/img/social/presenters/pablo-garcia.png
 layout: session-details
 permalink: /tutorials/django-bootstrapping-done-right/

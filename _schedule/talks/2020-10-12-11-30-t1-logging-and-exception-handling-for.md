@@ -5,9 +5,9 @@ abstract: Logging is better than print(), but often the effort to set up and use
   available in Django.
 accepted: true
 category: talks
-date: 2020-10-12 11:30:00 -0500
+date: 2021-10-12 11:30:00 -0500
 difficulty: All
-end_date: 2020-10-12 12:20:00 -0500
+end_date: 2021-10-12 12:20:00 -0500
 image: /static/img/social/presenters/ryan-sullivan.png
 layout: session-details
 permalink: /talks/logging-and-exception-handling-for/
@@ -16,7 +16,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: https://github.com/rgs258/logging_in_django/blob/master/Logging%20and%20Exception%20Handling%20for%20Django%20V2-20200923.pdf
+slides_url: https://github.com/rgs258/logging_in_django/blob/master/Logging%20and%20Exception%20Handling%20for%20Django%20V2-20210923.pdf
 summary: ''
 tags:
 - python

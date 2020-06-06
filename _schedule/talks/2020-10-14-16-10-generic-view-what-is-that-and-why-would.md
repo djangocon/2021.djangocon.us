@@ -5,9 +5,9 @@ abstract: In this talk I'll discuss Django's generic class-based views (CBVs). I
   of the internals of how django defines them.
 accepted: true
 category: talks
-date: 2020-10-14 16:10:00 -0500
+date: 2021-10-14 16:10:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-14 17:00:00 -0500
+end_date: 2021-10-14 17:00:00 -0500
 image: /static/img/social/presenters/felipe-lee.png
 layout: session-details
 permalink: /talks/generic-view-what-is-that-and-why-would/

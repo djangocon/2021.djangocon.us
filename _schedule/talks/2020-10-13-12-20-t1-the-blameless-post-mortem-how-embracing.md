@@ -4,9 +4,9 @@ abstract: In today’s world of developing services we tend to move fast and wit
   opportunities for improvement, instead of just an opportunity to assign blame.
 accepted: true
 category: talks
-date: 2020-10-13 12:20:00 -0500
+date: 2021-10-13 12:20:00 -0500
 difficulty: All
-end_date: 2020-10-13 12:50:00 -0500
+end_date: 2021-10-13 12:50:00 -0500
 image: /static/img/social/presenters/chris-wilcox.png
 layout: session-details
 permalink: /talks/the-blameless-post-mortem-how-embracing/
@@ -15,7 +15,7 @@ presenters:
 published: true
 room: Salon F-H
 sitemap: true
-slides_url: https://speakerdeck.com/crwilcox/djangocon-2020-the-blameless-post-mortem-how-embracing-failure-makes-us-better
+slides_url: https://speakerdeck.com/crwilcox/djangocon-2021-the-blameless-post-mortem-how-embracing-failure-makes-us-better
 summary: ''
 tags:
 - community

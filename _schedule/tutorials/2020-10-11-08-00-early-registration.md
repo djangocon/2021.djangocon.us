@@ -1,9 +1,9 @@
 ---
 accepted: true
 category: tutorial
-date: 2020-10-11 8:00:00 -0500
+date: 2021-10-11 8:00:00 -0500
 difficulty: null
-end_date: 2020-10-11 17:00:00 -0500
+end_date: 2021-10-11 17:00:00 -0500
 layout: session-details
 permalink: null
 presenters: null

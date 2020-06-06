@@ -5,9 +5,9 @@ abstract: "So you have a project that comes with legacy data from another platfo
   engines or just having having files to your Django project."
 accepted: true
 category: talks
-date: 2020-10-13 11:30:00 -0500
+date: 2021-10-13 11:30:00 -0500
 difficulty: Beginner
-end_date: 2020-10-13 12:20:00 -0500
+end_date: 2021-10-13 12:20:00 -0500
 image: /static/img/social/presenters/adolfo-fitoria.png
 layout: session-details
 permalink: /talks/migrating-legacy-data-to-your-django/

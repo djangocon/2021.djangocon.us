@@ -5,9 +5,9 @@ abstract: Everyone is talking about Kubernetes, but migrating existing applicati
   along the way.
 accepted: true
 category: talks
-date: 2020-10-12 15:10:00 -0500
+date: 2021-10-12 15:10:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-12 15:40:00 -0500
+end_date: 2021-10-12 15:40:00 -0500
 image: /static/img/social/presenters/noah-kantrowitz.png
 layout: session-details
 permalink: /talks/forklifting-django-migrating-a-complex/

@@ -5,9 +5,9 @@ abstract: In Django, we have a powerful tool called ORM to manipulate databases.
   In this talk, we'll learn how to power-up queries effectively.
 accepted: true
 category: talks
-date: 2020-10-12 12:20:00 -0500
+date: 2021-10-12 12:20:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-12 12:50:00 -0500
+end_date: 2021-10-12 12:50:00 -0500
 featured: true
 image: /static/img/social/presenters/vanessa-barreiros.png
 layout: session-details

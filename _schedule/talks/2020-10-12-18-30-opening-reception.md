@@ -3,9 +3,9 @@ abstract: Join us for some food and non-alcoholic drinks to relax after the firs
   day of talks!
 accepted: true
 category: social event
-date: 2020-10-12 18:30:00 -0500
+date: 2021-10-12 18:30:00 -0500
 difficulty: null
-end_date: 2020-10-12 20:00:00 -0500
+end_date: 2021-10-12 20:00:00 -0500
 layout: session-details
 permalink: /social event/opening-reception/
 presenters: null

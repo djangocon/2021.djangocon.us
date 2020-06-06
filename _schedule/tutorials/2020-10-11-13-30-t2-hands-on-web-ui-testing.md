@@ -5,9 +5,9 @@ abstract: Unit tests are great, but they don’t catch all bugs because they don
   for any Web app.
 accepted: true
 category: tutorials
-date: 2020-10-11 13:30:00 -0500
+date: 2021-10-11 13:30:00 -0500
 difficulty: All
-end_date: 2020-10-11 17:00:00 -0500
+end_date: 2021-10-11 17:00:00 -0500
 image: /static/img/social/presenters/andrew-knight.png
 layout: session-details
 permalink: /tutorials/hands-on-web-ui-testing/

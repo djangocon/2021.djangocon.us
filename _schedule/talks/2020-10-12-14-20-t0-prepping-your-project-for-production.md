@@ -10,9 +10,9 @@ abstract: 'Django does a great job following the Python aphorism:
   maintain.'
 accepted: true
 category: talks
-date: 2020-10-12 14:20:00 -0500
+date: 2021-10-12 14:20:00 -0500
 difficulty: Intermediate
-end_date: 2020-10-12 15:10:00 -0500
+end_date: 2021-10-12 15:10:00 -0500
 image: /static/img/social/presenters/peter-baumgartner.png
 layout: session-details
 permalink: /talks/prepping-your-project-for-production/
