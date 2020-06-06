@@ -1,0 +1,168 @@
+
+// This file creates classes to manipulate colors. The color options can be found
+// in the $djangocon-palette sass map in _settings.scss. Here are the available
+// classes and what they do (where 'n' is the name of the color):
+// ```
+// `.theme-n` // Adds a background color to the block it's applied to. For darker
+// colors, text and links default to white. A generic class of `.theme-color`
+// can be applied to elements within the theme  to inherit that color as well,
+// so themes can be applied quickly to parent elements to change the colors
+// further down the cascade.
+//
+// `.swatch-color-n` can be applied to any element to change that element's text
+// color.
+//
+// `.card-theme-n` can be applied to Foundation's 'card' element to add a colored
+// top border, and change the color of any headlines or SVG icons inside the
+// container. `.theme-color` and `.theme-bg` can also be used generically
+// inside these containers.
+
+
+
+/// Sets up basic background/foreground and link theme support for block
+/// (page-wide) elements.
+/// @param {Map} $colors The map of colors to run through
+@mixin generate-block-themes($colors: $djangocon-palette) {
+  @each $name, $color in $djangocon-palette {
+    $foreground-color: $white;
+
+    .theme-#{$name} {
+      background-color: $color;
+
+      @if not index(($light-gray, $medium-gray, $white, $brand-color4), $color) {
+        color: $white;
+
+        a,
+        a:hover {
+          color: $white;
+        }
+      }
+
+      .theme-color {
+        color: $color;
+      }
+    }
+  }
+}
+
+[class*="tint-brand"] {
+  position: relative;
+
+  &,
+  blockquote,
+  blockquote p,
+  cite {
+    color: $white;
+  }
+
+  a,
+  a:hover {
+    color: $white;
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(94.94deg, #430632 1.88%, #B5313D 41.15%);
+    content: "";
+    opacity: 0.65;
+  }
+
+  .column {
+    padding: 1.5rem 1rem;
+    background: rgba(#B5313D, .6);
+  }
+}
+
+@include generate-block-themes($djangocon-palette);
+
+/// Take a map of colors and generates helpful classes to use them
+/// as color properties.
+/// @param {Map} $map A map of names with colors
+@mixin generate-palette-helpers($map: $palette) {
+  $params-ok: false;
+
+  @if type-of($map) != "map" {
+    @error "Parameter `#{$map}` must be a map.";
+  } @else {
+    $params-ok: true;
+  }
+
+  @if $params-ok {
+    @each $name, $color in $map {
+      .swatch-color-#{$name} {
+        color: $color;
+      }
+
+      .card-theme-#{$name} {
+        border: none;
+        border-top: 8px solid $color;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a:not(.button) {
+          color: $color;
+        }
+
+        a:not(.button):hover {
+          color: mix(black, $color, 30%);
+        }
+
+        .theme-color {
+          color: $color;
+        }
+
+        .theme-bg {
+          background-color: $color;
+          color: $white;
+        }
+
+        path {
+          fill: $color;
+        }
+      }
+    }
+  }
+}
+
+@include generate-palette-helpers($djangocon-palette);
+
+.curve1.curve1,
+.curve2.curve2 {
+  position: relative;
+
+  & > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    position: absolute;
+    left: -2px;
+    z-index: 1;
+    display: block;
+    width: 101.5%;
+    height: 28vw;
+    background-repeat: no-repeat;
+    background-size: 106% auto;
+    background-position: 0 0;
+    content: "";
+  }
+
+  & + * {
+    padding-top: 14vw;
+  }
+}
+
+.curve1.curve1:after {
+  bottom: -10vw;
+  background-image: url(/static/img/curve1.svg);
+}
+

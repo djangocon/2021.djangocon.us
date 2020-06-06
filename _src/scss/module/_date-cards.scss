@@ -1,0 +1,50 @@
+.date-card {
+  margin-bottom: 2rem;
+
+  a {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .date-card-title {
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: .85rem;
+    line-height: 1.25;
+  }
+
+  .dates {
+    flex: 0 0 120px;
+    margin-right: 20px;
+    font-weight: $global-weight-bold;
+    text-align: center;
+  }
+
+  .month {
+    display: block;
+    padding: .3em .2em;
+    background-color: $brand-color2;
+    font-size: .82rem;
+    font-weight: $global-weight-bold;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  .days {
+    display: block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    // border: 4px solid $brand-color8;
+    background-color: $white;
+    font-size: 1.4rem;
+    color: $body-font-color;
+  }
+
+  @include breakpoint(large) {
+    margin-bottom: 0;
+  }
+}

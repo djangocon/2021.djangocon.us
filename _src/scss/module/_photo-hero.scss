@@ -1,0 +1,58 @@
+.photo-hero {
+  background-size: cover;
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding-top: rem-calc(10);
+    background: $body-background;
+
+    .column {
+      @include bottomless;
+    }
+  }
+
+  blockquote {
+    padding: 0;
+    border: none;
+    font-size: rem-calc(26);
+  }
+
+  cite {
+    font-size: rem-calc(20);
+  }
+
+  @include breakpoint(medium) {
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+
+    .hero-content {
+      padding-top: 0;
+      background: transparent;
+    }
+  }
+}
+
+.photo-hero-inline {
+  position: relative;
+
+  &.curve-top:before {
+    position: absolute;
+    left: -2px;
+    z-index: 1;
+    display: block;
+    width: 101.5%;
+    height: 28vw;
+    background-image: url(/static/img/curve1-white.svg);
+    background-repeat: no-repeat;
+    background-size: 106% auto;
+    background-position: -1px -14vw;
+    content: "";
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+

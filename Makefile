@@ -1,7 +1,7 @@
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
-DOMAIN = https://2019.djangocon.us
-IMAGE_SIZE = 1200x628
+DOMAIN = https://djangocon.us
+IMAGE_SIZE = 1024x512
 # IMAGE_SIZE = 1400x700
 
 .PHONY: build

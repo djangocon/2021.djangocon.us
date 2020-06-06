@@ -1,0 +1,301 @@
+%has-bg {
+  background: $light-gray;
+}
+
+.schedule {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  list-style: none;
+
+  .day {
+    font-weight: $global-weight-normal;
+  }
+}
+
+[id*='Day-']:target {
+  padding-top: 4rem;
+}
+
+.time {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: $global-weight-semibold;
+}
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.event {
+  @include clearfix;
+  @include bottomless;
+
+  position: relative;
+  margin: 0 0 1em;
+  padding: 0;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  .location,
+  a:hover {
+    color: $black;
+  }
+
+  a:hover .event-title {
+    color: $secondary-color;
+  }
+
+  a:hover .mini-profile-byline {
+    color: $body-font-color;
+  }
+
+  .event-content {
+    @include bottomless;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .label {
+    align-self: flex-start;
+    font-size: .75rem;
+  }
+
+  .avatar {
+    margin: 0 .5em 0 0;
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  .location {
+    position: absolute;
+    top:6px;
+    right: 12px;
+    font-size: 0.8em;
+  }
+
+  &-links .button {
+    margin-right: .5rem;
+  }
+
+  &-links .button:last-child {
+    margin-right: 0;
+  }
+
+  &-byline {
+    margin-top: 1rem;
+  }
+
+  & & {
+    position: static;
+  }
+}
+
+// Fallback style, mostly used on Why DjangoCon US?
+.event.boxed {
+  padding: $global-margin;
+  border: 1px solid $medium-gray;
+  background: $white;
+
+  .event-content {
+    display: block;
+  }
+
+  .mini-profile-byline {
+    margin-top: $global-margin;
+    padding-top: 0;
+  }
+}
+
+.event-title {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+// Handle variations
+.event.loc-main {
+  @extend %has-bg;
+  border-top: 8px solid $brand-color6;
+}
+
+.event.loc-main .location {
+  background: $light-gray;
+}
+
+.event.loc-alt {
+  @extend %has-bg;
+  border-top: 8px solid $brand-color3;
+}
+
+.event.loc-alt-2 {
+  @extend %has-bg;
+  border-top: 8px solid $brand-color2;
+}
+
+.event.loc-alt-3 {
+  @extend %has-bg;
+  border-top: 8px solid $brand-color8;
+}
+
+.event.loc-main,
+.event.loc-alt,
+.event.loc-alt-2,
+.event.loc-alt-3 {
+  padding: ($global-margin * 1.75) $global-margin $global-margin;
+}
+
+.mini-profile-byline {
+  display: flex;
+  align-items: center;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  line-height: 1.2;
+  text-decoration: none;
+
+  & + & {
+    margin-top: $global-margin / 2;
+  }
+
+  .avatar {
+    margin: 0 .5em 0 0;
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}
+
+@include breakpoint(medium) {
+  .hour-row {
+    padding: $global-margin 0;
+  }
+
+  .events {
+    display: flex;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    margin: 0 $global-margin / 2;
+    text-align: left;
+    flex-grow: 1;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .event .label {
+    display: inline-block;
+    align-self: flex-start;
+    margin-left: 0;
+  }
+
+  .time {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    text-align: right;
+
+    .muted {
+      display: block;
+      font-weight: $global-weight-normal;
+      opacity: 0.6;
+    }
+  }
+
+  .schedule {
+    .day,
+    .lead {
+      text-align: center;
+    }
+  }
+}
+
+
+.schedule-nav {
+  margin-bottom: $global-margin;
+
+  &-title {
+    display: block;
+    margin-bottom: $global-margin;
+    padding: .3em 1em;
+    background: $brand-color2;
+    font-weight: $global-weight-bold;
+    text-align: center;
+    color: $white;
+  }
+
+  &-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 0;
+    list-style: none;
+    width: 50%;
+  }
+
+  a {
+    display: block;
+    padding: .5rem 1rem;
+    font-weight: $global-weight-semibold;
+    text-align: center;
+  }
+
+  @include breakpoint(720px) {
+    li {
+      width: 33.33%;
+    }
+  }
+
+  @include breakpoint(920px) {
+    display: flex;
+
+    &-title {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
+    &-list {
+      flex: 1;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+
+    li {
+      flex: 1;
+      width: auto;
+    }
+
+    li,
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+    }
+
+    a {
+      padding-right: .5rem;
+      padding-left: .5rem;
+    }
+  }
+}

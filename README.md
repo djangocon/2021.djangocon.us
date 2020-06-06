@@ -72,14 +72,9 @@ $ bundle install
 
 #### Install Node Dependencies
 
-You will need Node v10.0 or greater to compile frontend assets. We're using [Parcel JS](https://github.com/sass/dart-sass) to compile Scss and JavaScript. Parcel JS needs to be installed globally.
+You will need Node v10.0 or greater to compile frontend assets. We're using [Webpack](https://webpack.js.org/) to compile Scss and JavaScript.
 
-```bash
-$ npm install -g parcel-bundler
-# Installs Parcel JS globally
-```
-
-Next you'll need to install all the other JS dependencies.
+You'll need to install all the JS dependencies.
 
 ```bash
 $ npm install .
@@ -92,8 +87,6 @@ $ npm install .
 $ npm run build
 # Builds production-ready assets
 ```
-
-If you are working locally use `npm run watch-fe-dev` instead to get source maps.
 
 #### Run Jekyll
 

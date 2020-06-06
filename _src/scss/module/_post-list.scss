@@ -1,0 +1,18 @@
+.post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $dark-gray;
+  @include bottomless;
+}
+
+.post-title a {
+  color: $secondary-color;
+
+  &:hover {
+    color: $brand-color5;
+  }
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}

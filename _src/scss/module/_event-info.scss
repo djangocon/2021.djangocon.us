@@ -1,0 +1,10 @@
+.event-info {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  &-date {
+    display: block;
+    font-size: 1.3rem;
+  }
+}

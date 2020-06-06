@@ -1,0 +1,32 @@
+.profile {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 360px;
+
+  font-size: .9rem;
+  line-height: 1.5;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.profile.wide {
+  padding: 0;
+  max-width: $global-width;
+}
+
+.profile-name {
+  font-size: rem-calc(30);
+  font-weight: $global-weight-semibold;
+}
+
+.profile .social-icons a {
+  color: $brand-color3;
+
+  svg {
+    width: 34px;
+    height: 34px;
+    fill: currentColor;
+  }
+}
