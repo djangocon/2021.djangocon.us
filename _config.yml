@@ -3,7 +3,7 @@ url: "https://2021.djangocon.us"
 author : DjangoCon US
 description: |
   DjangoCon US 2021 conference will take place in San Diego, California
-  from October 11-16, 2021!
+  from October 17-22, 2021!
 enforce_ssl: "2021.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
