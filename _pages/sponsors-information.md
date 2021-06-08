@@ -42,7 +42,7 @@ The following a la carte offerings are available to increase visibility on site.
 | Profile in conference app<br> (Logo & text description)                            | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Tote bag insert<br> (Provided by Sponsor)                                          | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Logo in video rotation                                                             | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
-| Name in press release and                                                          | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
+| Name in press release                                                              | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Sponsor link on website                                                            | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Social Media<br> Twitter & Facebook posts                                          | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: |                    |
 | Logo on a banner carousel in conference app                                        | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: |                    |
@@ -51,6 +51,7 @@ The following a la carte offerings are available to increase visibility on site.
 | 10-minute speaking slot (after keynote)                                            | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | Ability to hold a special workshop                                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | 1 push notification to attendees during conference                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
+| Post on our news page                                                              | :heavy_check_mark:  |                     |                                                         |                    |                    |
 
 {% comment %}
 #### Lanyard $2,500 (Limit 1)
