@@ -5,6 +5,7 @@ title: Room and Ride Sharing
 permalink: /room-sharing/
 description: |
   Do you want to share a room at the venue with other attendees, have accommodation available, or want to share a ride from nearby cities?
+published: false
 ---
 
 Do you want to share a room at the [San Diego Marriott of Mission Valley](/venue/#welcome) with other attendees, or do you have local accommodation available? Do you want to drive to DjangoCon US from Los Angeles, Tucson, or other relatively nearby cities?
