@@ -7,6 +7,7 @@ redirect_from:
   - /financial-aid/
 description: |
     As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
+published: false
 ---
 
 Our opportunity grant application is now closed. All decision notifications will be sent by June 24th, 2021.
