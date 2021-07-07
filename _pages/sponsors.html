@@ -11,11 +11,12 @@ description: DjangoCon US is only possible through the support of various organi
 
 <div class="content">
   <div class="row column v-pad-bottom">
-    <div class="medium-6 large-7 column">
+    <div class="row column">
       <p class="lead">
-        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for six days. Thank you for your support!
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, stream and record all talks, add captioning to talks, and so much more. Thank you for your support!
       </p>
     </div>
+    {% comment %}
     <div class="medium-5 large-4 column">
       <div class="callout text-center partner-cta-box">
         <h2>Looking for a job?</h2>
@@ -23,35 +24,39 @@ description: DjangoCon US is only possible through the support of various organi
         <a href="/job-board/" class="button">Check out our jobs board</a>
       </div>
     </div>
+    {% endcomment %}
   </div>
+  <div class="row column v-pad-bottom"></div>
 
-{% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
-{% for level in sponsors_by_level %}
-  <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
-    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
-    {% for sponsor in site.sponsors %}
-      {% if sponsor.level == level %}
-        {% unless sponsor.hidden %}
-          <div class="row partner">
-            <div class="column medium-4 text-center">
-              <a href="{{ sponsor.url_target }}" rel="sponsored">
-                <img
-                  class="partner-logo {{ sponsor.logo_orientation }}"
-                  src="{{ sponsor.logo }}"
-                  alt="{{ sponsor.name }} Logo" />
-              </a>
-            </div>
-            <div class="column medium-8">
-              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
-              {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
-              {{ sponsor_description | markdownify }}
-              {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
-            </div>
-          </div>
-        {% endunless %}
-      {% endif %}
+  {% if site.sponsors.count > 0 %}
+    {% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
+    {% for level in sponsors_by_level %}
+      <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+        <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+        {% for sponsor in site.sponsors %}
+          {% if sponsor.level == level %}
+            {% unless sponsor.hidden %}
+              <div class="row partner">
+                <div class="column medium-4 text-center">
+                  <a href="{{ sponsor.url_target }}" rel="sponsored">
+                    <img
+                      class="partner-logo {{ sponsor.logo_orientation }}"
+                      src="{{ sponsor.logo }}"
+                      alt="{{ sponsor.name }} Logo" />
+                  </a>
+                </div>
+                <div class="column medium-8">
+                  <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+                  {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
+                  {{ sponsor_description | markdownify }}
+                  {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
+                </div>
+              </div>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
     {% endfor %}
-  </div>
-{% endfor %}
+  {% endif %}
 
 </div>
