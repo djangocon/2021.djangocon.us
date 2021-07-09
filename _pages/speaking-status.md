@@ -5,6 +5,7 @@ heading: Speaking Status
 permalink: /speaking/status/
 sitemap: false
 description: Our Speaking Status for YouTube catching missing links
+published: false
 ---
 <table>
   <thead>

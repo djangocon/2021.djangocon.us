@@ -11,11 +11,12 @@ description: DjangoCon US is only possible through the support of various organi
 
 <div class="content">
   <div class="row column v-pad-bottom">
-    <div class="medium-6 large-7 column">
+    <div class="row column">
       <p class="lead">
-        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for six days. Thank you for your support!
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, stream and record all talks, add captioning to talks, and so much more. Thank you for your support!
       </p>
     </div>
+    {% comment %}
     <div class="medium-5 large-4 column">
       <div class="callout text-center partner-cta-box">
         <h2>Looking for a job?</h2>
@@ -23,7 +24,9 @@ description: DjangoCon US is only possible through the support of various organi
         <a href="" class="button disabled black">Jobs Board Coming Soon</a>
       </div>
     </div>
+    {% endcomment %}
   </div>
+
     <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
   <div class="row partner text-center">
       <div class="column medium-12">
@@ -42,7 +45,7 @@ description: DjangoCon US is only possible through the support of various organi
   </div>
   <!-- end spacer -->
 
-  <!--
+<!--
 {% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
 {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
@@ -69,8 +72,7 @@ description: DjangoCon US is only possible through the support of various organi
         {% endunless %}
       {% endif %}
     {% endfor %}
-  </div>
-{% endfor %}
+  {% endfor %}
 
 </div>
 -->
