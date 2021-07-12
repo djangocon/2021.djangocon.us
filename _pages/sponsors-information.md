@@ -66,7 +66,7 @@ Conference organizers will recognize refreshment sponsors prior to each break an
 
 #### Choose Your Own Sponsorship Adventure
 
-Interested in another sponsorship opportunity? Get in touch and we’ll do our best to make it happen. Here’s a few ideas or pitch us something new!
+Interested in another sponsorship opportunity? Get in touch and we’ll do our best to make it happen. Here are a few ideas or pitch us something new!
 
 {% comment %}
 - Add online examples
