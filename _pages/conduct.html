@@ -16,77 +16,37 @@ redirect_from:
 </header>
 
 <div class="content subpage-content">
-  <section class="section-pad">
-    <div class="row column">
-        <h2 class="demp">
-        DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
-        </h2>
-    </div>
-  </section>
-
   <section class="section-pad theme-light-gray">
     <div class="row card-row">
-        <div class="medium-6 column">
-            <p>Be kind to others. Do not insult or put down other attendees. Behave professionally.
-                <br />
-                <br />
-                Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US.
-                <br />
-                <br />
-                Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
-                <br />
-                <br />
-                Thank you for helping make this a welcoming, friendly event for all.
-            </p>
+      <div class="medium-6 column">
+        <p>DjangoCon US is an international conference made up of a mixture of professionals and volunteers from all over the world. To support a welcoming environment for all, regardless of individual differences, we have a few ground rules that we ask people to adhere to when they participate in these community activities. These rules apply equally to organizers, moderators, presenters, sponsors, affiliates, and all participants.
+        <br />
+        <br />
+        Be kind to others. Do not insult or put down other attendees. Behave professionally.
+        <br />
+        <br />
+        Thank you for helping make this a welcoming, friendly event for all.
+        </p>
+      </div>
+      <div class="medium-6 column">
+        <div class="card card-theme-brand-color2 icon-right">
+          <img
+            src="{{ "/static/img/megaphone-line.svg" | relative_url }}"
+            alt="A megaphone"
+            class="card-icon"
+            />
+            <div class="card-section">
+              <h3 class="card-title" id="program">Need help?</h3>
+              <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the conference Code of Conduct committee at <a href="mailto:{{site.conduct_email}}">{{site.conduct_email}}</a>{% comment %} or <a href="tel:201-899-4189">201-899-4189</a>{% endcomment %}.</p>
+            </div>
         </div>
-        <div class="medium-6 column">
-          <div class="card card-theme-brand-color2 icon-right">
-            <img
-              src="{{ "/static/img/megaphone-line.svg" | relative_url }}"
-              alt="A megaphone"
-              class="card-icon"
-              />
-              <div class="card-section">
-                  <h3 class="card-title" id="program">Need help?</h3>
-                  <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the conference Code of Conduct committee at <a href="mailto:{{site.conduct_email}}">{{site.conduct_email}}</a>{% comment %} or <a href="tel:201-899-4189">201-899-4189</a>{% endcomment %}.</p>
-              </div>
-          </div>
-        </div>
+      </div>
     </div>
   </section>
 
   <section class="section-pad">
     <div class="row column">
         <h2 class="demp">
-
-        <h2>Important Numbers</h2>
-
-        <p>Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
-
-        <p>If your physical safety or the physical safety of others is at risk, please dial 911. If you are outside of San Diego, or on a cell phone, and need to access San Diego's 911 services, dial <a href="tel:619-531-2065">(619) 531-2065</a>. For other needs, contact the relevant authorities below.</p>
-
-        <ul>
-          <li>Code of Conduct team:
-            <ul>
-              <li>Adam Fast</li>
-              <li>Catherine Holmes</li>
-              <li>Jeff Triplett</li>
-              <li>Jessica "Deatz" Deaton</li>
-              <li>Jorge Gimeno</li>
-            </ul>
-          </li>
-          <li>Emergency: 911</li>
-
-          <li>San Diego Police Helpline: <a href="tel:619-531-2000">(619) 531-2000</a></li>
-
-          <li>San Diego Police Tipline: <a href="tel:888-580-8477">(888) 580-8477</a></li>
-
-          <li>Crime Check (to report Non-Emergency incidents): <a href="tel:619-531-2000">(619) 531-2000</a></li>
-
-          <li>Sexual Assault Crisis Line/Victims Crisis Line (24 hours): <a href="tel:888-385-4657">(888) 385-4657</a></li>
-
-          <li>Nearest Hospital: <a href="https://www.sharp.com/hospitals/memorial/">Sharp Memorial Hospital</a>, 7901 Frost St. San Diego, CA 92123: <a href="tel:858-939-3400">(858) 939-3400</a></li>
-        </ul>
 
         <h2>Full Code of Conduct</h2>
 
@@ -96,7 +56,7 @@ redirect_from:
 
         <p>DjangoCon US is a community conference intended for networking and collaboration in the developer community.</p>
 
-        <p>We value the participation of each member of the Django community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference, at all conference events, and in all conference online spaces (such as Slack), whether officially sponsored by DjangoCon US or not.</p>
+        <p>We value the participation of each member of the Django community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference, at all conference events, and in all conference online spaces (such as Slack and our online conference platform), whether officially sponsored by DjangoCon US or not.</p>
 
         <h3>Be Kind To Others</h3>
 
@@ -108,7 +68,7 @@ redirect_from:
 
         <p>Harassment includes: offensive verbal comments related to gender, gender identity, sexual orientation, disability, physical appearance, body size, race, religion; sexual images in public spaces; deliberate intimidation, stalking, or following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention.</p>
 
-        <h2>Choose Your Words</h2>
+        <h3>Choose Your Words</h3>
 
         <p>Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Excessive swearing and offensive jokes are not appropriate for DjangoCon US. We are all adults, capable of having adult conversations. Preface your presentation with appropriate Trigger/Content Warnings, if necessary.</p>
 
@@ -118,18 +78,20 @@ redirect_from:
 
         <p>Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
 
+        <h3>Photography</h3>
 
-        <h2>Photography</h2>
-
-        <p>In order to make DjangoCon US 2021 a great experience for everyone, do not photograph, video, or audio record anyone at DjangoCon without their express permission, sought in advance. If someone does not want to be photographed, video or audio recorded, please respect their wishes.</p>
+        <p>In order to make DjangoCon US 2021 a great experience for everyone, do not photograph, video, or audio record anyone at DjangoCon without their express permission, sought in advance. If someone does not want to be photographed, video or audio recorded, please respect their wishes. Do not take screenshots or screen recordings of anyone, including presenters, without their permission.</p>
 
         <p>Crowd shots are permitted, but when only the faces of a few people are visible, permission should be sought from all of those individuals.</p>
 
         <p><em>If a participant engages in behavior that violates this code of conduct, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</em></p>
 
-        <h2>License</h2>
+        <h3>Video Backgrounds</h3>
+        <p>For those intending to use their webcams, any virtual backgrounds or items on display within the field of view of the webcam must also conform with the code of conduct. Speakers and participants should not have or use any items depicting sexualization, objectification, weaponry, or imagery that represents or espouses hateful rhetoric.</p>
 
-        <p>This Code of Conduct was forked from the example policy from the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">Geek Feminism wiki</a>, created by the Ada Initiative and other volunteers. which is under a Creative Commons Zero license.</p>
+        <h2>License and Thanks</h2>
+
+        <p>This Code of Conduct was forked from the example policy from the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">Geek Feminism wiki</a>, created by the Ada Initiative and other volunteers. which is under a Creative Commons Zero license. We have also based some sections on the <a href="https://2021.pycascades.com/about/code-of-conduct/">PyCascades 2021</a> Code of Conduct.</p>
 
         <p>DjangoCon US <a href="/conduct/">Conference Code of Conduct</a> is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
     </div>
