@@ -21,42 +21,58 @@ description: DjangoCon US is only possible through the support of various organi
       <div class="callout text-center partner-cta-box">
         <h2>Looking for a job?</h2>
         <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
-        <a href="/job-board/" class="button">Check out our jobs board</a>
+        <a href="" class="button disabled black">Jobs Board Coming Soon</a>
       </div>
     </div>
     {% endcomment %}
   </div>
-  <div class="row column v-pad-bottom"></div>
 
-  {% if site.sponsors.count > 0 %}
-    {% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
-    {% for level in sponsors_by_level %}
-      <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
-        <h2 class="text-center v-pad-bottom">{{ level }}</h2>
-        {% for sponsor in site.sponsors %}
-          {% if sponsor.level == level %}
-            {% unless sponsor.hidden %}
-              <div class="row partner">
-                <div class="column medium-4 text-center">
-                  <a href="{{ sponsor.url_target }}" rel="sponsored">
-                    <img
-                      class="partner-logo {{ sponsor.logo_orientation }}"
-                      src="{{ sponsor.logo }}"
-                      alt="{{ sponsor.name }} Logo" />
-                  </a>
-                </div>
-                <div class="column medium-8">
-                  <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
-                  {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
-                  {{ sponsor_description | markdownify }}
-                  {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
-                </div>
-              </div>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+  <div class="row partner text-center">
+      <div class="column medium-12">
+        <h3><a href="{{ sponsor.url_target }}" rel="sponsored">We will be announcing our sponsors soon!</a></h3>
+        <p>Interested in becoming a sponsor? There's still time!</p>
+        <a href="/sponsors/information/" class="button">Become a Sponsor</a>
       </div>
+    </div>
+        </div>
+  <!--start spacer -->
+    <div class="row column v-pad-bottom">
+      <div class="col-12">
+
+      </div>
+    </div>
+  </div>
+  <!-- end spacer -->
+
+<!--
+{% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
+{% for level in sponsors_by_level %}
+  <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+    {% for sponsor in site.sponsors %}
+      {% if sponsor.level == level %}
+        {% unless sponsor.hidden %}
+          <div class="row partner">
+            <div class="column medium-4 text-center">
+              <a href="{{ sponsor.url_target }}" rel="sponsored">
+                <img
+                  class="partner-logo {{ sponsor.logo_orientation }}"
+                  src="{{ sponsor.logo }}"
+                  alt="{{ sponsor.name }} Logo" />
+              </a>
+            </div>
+            <div class="column medium-8">
+              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+              {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
+              {{ sponsor_description | markdownify }}
+              {% if sponsor.hiring %}<a href="/job-board/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
+            </div>
+          </div>
+        {% endunless %}
+      {% endif %}
     {% endfor %}
-  {% endif %}
+  {% endfor %}
 
 </div>
+-->
