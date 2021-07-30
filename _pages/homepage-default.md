@@ -1,8 +1,8 @@
 ---
 layout: home
 title: DjangoCon US 2021 • October 21-23, 2021 • Online
-# permalink: /
-permalink: /homepage/
+permalink: /
+# permalink: /homepage/
 description: |
     Three days of inspiration, education, and networking opportunities.
 testimonial_img: /static/img/home-testimonial.jpg
