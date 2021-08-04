@@ -8,7 +8,7 @@ description: Become a Sponsor
 
 ## What Is DjangoCon US?
 
-This October, more than 500 people from the Django community will join us online for three days of talks and tutorials{% comment %}, and code sprints {% endcomment %}. There is no better place to recruit Django developers than at DjangoCon US!
+This October, the Django community will gather together online for two days of talks{% comment %}more than 500 people from the Django community will join us online for two days of talks and tutorials, and code sprints {% endcomment %}. There is no better place to recruit Django developers than at DjangoCon US!
 
 Sponsoring DjangoCon US can help you:
 
