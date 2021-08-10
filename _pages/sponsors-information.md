@@ -26,21 +26,11 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 
 ## Sponsorship Levels
 
-### Diversity Sponsorships
-
-Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
-
-### Other Sponsorship Opportunities
-
-The following a la carte offerings are available to increase visibility on site.
-
-|                                                                                    | Diamond<br> $18,000 | Platinum<br> $9,000 | Gold<br> $4,500                                         | Silver<br> $2,250  | Bronze<br> $1,125  |
+|                                                                                    | Diamond<br> $12,000 | Platinum<br> $6,000 | Gold<br> $2,500                                         | Silver<br> $1,250  | Bronze<br> $925  |
 | ---------------------------------------------------------------------------------- | :-----------------: | :-----------------: | :-----------------------------------------------------: | :----------------: | :----------------: |
 | Free Sponsor Registrations                                                         |          8          |          8          |                            4                            |         2          |         1          |
 | 10% Discount on extra conference tickets (corporate rate)                          |          8          |          8          |                            4                            |         2          |         1          |
 | Diversity<br> (Can be added to any tier)                                           |     :moneybag:      |     :moneybag:      |                       :moneybag:                        |     :moneybag:     |     :moneybag:     |
-| Profile in conference app<br> (Logo & text description)                            | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
-| Tote bag insert<br> (Provided by Sponsor)                                          | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Logo in video rotation                                                             | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Name in press release                                                              | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Sponsor link on website                                                            | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
@@ -52,6 +42,32 @@ The following a la carte offerings are available to increase visibility on site.
 | Ability to hold a special workshop                                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | 1 push notification to attendees during conference                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | Post on our news page                                                              | :heavy_check_mark:  |                     |                                                         |                    |                    |
+
+### Other Sponsorship Opportunities
+
+The following a la carte offerings are available to increase visibility on site.
+
+#### Recruitment Sponsor
+
+|                                                                                    | Enterprise<br> $1,500 | Business<br> $500 | Start-Up<br> $100  |
+| ---------------------------------------------------------------------------------- | :-----------------: | :-----------------: | :----------------: |
+| Online Job Board                                                                   |       Unlimited     |         Up to  8    |         1          |
+| Exclusive Access to Recruiting Channel                                             | :heavy_check_mark:  | :heavy_check_mark:  |                    |
+| Social Media<br> Twitter & Facebook posts                                          | :heavy_check_mark:  | :heavy_check_mark:  |                    |
+| Sponsor link on website                                                            | :heavy_check_mark:  |                     |                    |
+| Logo featured in post conference videos                                            | :heavy_check_mark:  |                     |                    |
+
+#### Speech-to-Text Sponsor $2,500 (Limit 1)
+
+In order to prioritize a comfortable and accessible conference, we transcribe all presentations to ensure all potential viewers can visually access audio information through in-sync captioning. Your name and logo will be mentioned in social media posts, as a sponsor link on website, and featured in conference videos.
+
+#### Virtual Conference Hall Sponsorships $2,500 (Limit 1)
+
+Due to the fully remote conference this year, we'll be working with [spatial.chat](Spatial.chat) to imitate the real conference experience for the one day of talks. Your name and logo will be mentioned in social media posts, as a sponsor link on website, and featured in conference videos.
+
+#### Diversity Sponsorships
+
+Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
 
 {% comment %}
 #### Lanyard $2,500 (Limit 1)
@@ -66,7 +82,7 @@ Conference organizers will recognize refreshment sponsors prior to each break an
 
 #### Choose Your Own Sponsorship Adventure
 
-Interested in another sponsorship opportunity? Get in touch and we’ll do our best to make it happen.     
+Interested in another sponsorship opportunity? Get in touch and we’ll do our best to make it happen.
 
 {% comment %}
 Here are a few ideas or pitch us something new!
