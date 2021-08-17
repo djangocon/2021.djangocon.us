@@ -34,10 +34,9 @@ Because the conference is organized by [DEFNA](https://www.defna.org/), a non-pr
 | Sponsor link on website                                                            | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: | :heavy_check_mark: |
 | Social Media<br> Twitter & Facebook posts                                          | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: |                    |
 | Logo on welcome message in Discord Server                                        | :heavy_check_mark:  | :heavy_check_mark:  |                   :heavy_check_mark:                    | :heavy_check_mark: |                    |
-| Logo on conference stream                                                        | :heavy_check_mark:  | :heavy_check_mark:  |                                                         |                    |                    |
-| Logo featured in post conference videos                                            | :heavy_check_mark:  | :heavy_check_mark:  |                         $1,000                          |      $1,000        |      $1,000        |
-| 10-minute speaking slot (after keynote)                                            | :heavy_check_mark:  |                     |                                                         |                    |                    |
-| Ability to hold a special workshop                                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
+| Logo featured in conference stream and post-conference videos                      | :heavy_check_mark:  | :heavy_check_mark:  |                         $1,000                          |      $1,000        |      $1,000        |
+| 10-minute speaking slot (after opening remarks)                                    | :heavy_check_mark:  |                     |                                                         |                    |                    |
+| Ability to hold a special workshop (October 22nd)                                  | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | 1 push notification to attendees during conference                                 | :heavy_check_mark:  |                     |                                                         |                    |                    |
 | Post on our news page                                                              | :heavy_check_mark:  |                     |                                                         |                    |                    |
 
@@ -50,20 +49,28 @@ The following a la carte offerings are available to increase visibility on site.
 |                                                                                    | Enterprise<br> $1,500 | Business<br> $500 | Start-Up<br> $100  |
 | ---------------------------------------------------------------------------------- | :-----------------: | :-----------------: | :----------------: |
 | Online Job Board                                                                   |       Unlimited     |         Up to  8    |         1          |
-| Exclusive Access to Recruiting Channel                                             | :heavy_check_mark:  | :heavy_check_mark:  |                    |
+| Exclusive Access to Recruiting Channel on Discord Server                           | :heavy_check_mark:  | :heavy_check_mark:  |                    |
 | Social Media<br> Twitter & Facebook posts                                          | :heavy_check_mark:  | :heavy_check_mark:  |                    |
 | Sponsor link on website                                                            | :heavy_check_mark:  |                     |                    |
-| Logo featured in post conference videos                                            | :heavy_check_mark:  |                     |                    |
 
-#### Speech-to-Text Sponsor $2,500 (Limit 1)
+#### Speech-to-Text Sponsor $3,500 (Limit 1)
 
 In order to prioritize a comfortable and accessible conference, we transcribe all presentations to ensure all potential viewers can visually access audio information through in-sync captioning. Your name and logo will be mentioned in social media posts, as a sponsor link on website, and featured in conference videos.
 
-#### Virtual Conference Hall Sponsorships $2,500 (Limit 1)
 
-Due to the fully remote conference this year, we'll be working with [spatial.chat](Spatial.chat) to imitate the real conference experience for the one day of talks. Your name and logo will be mentioned in social media posts, as a sponsor link on website, and featured in conference videos.
+#### Virtual Conference Hall Sponsor $2,500 (Limit 1)
 
-#### Diversity Sponsorships
+Due to the fully remote conference this year, we'll be working with [spatial.chat](Spatial.chat) to imitate the real conference experience for the one day of talks. Your name and logo will be mentioned in social media posts, as a sponsor link on website, and featured in conference videos. If you're familiar with the Pycascades 2021 conference, it's the same platform! [See spacial chat demo >>](https://www.youtube.com/watch?v=EVo1REyNa3Y)
+
+#### Invitation Sponsor $2,000 (Limit 1)
+
+All registrants receive an invitation to join the conference platform, directing them how to sign up for the Discord and thanking them for their attendance. Your logo will be featured at the bottom of this email, welcoming attendees to the event! You will receive name and logo on video stream interstitial, sponsor link on website, and your name and logo on the email to participants to register.
+
+#### Speaker Equipment Sponsor $1,500 (Limit 3)
+
+All speakers who request help with equipment will receive assistance from our Audio Visual team. Sometimes this equipment can be costly. With your contribution, you will help our team provide top tier content without burdening the resources of our amazing speakers. You will receive name and logo on video stream interstitial, sponsor link on website and your name and logo on social media post, thanking you for your contribution.
+
+#### Diversity Sponsor
 
 Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
 
