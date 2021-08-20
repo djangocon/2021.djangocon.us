@@ -1,11 +1,11 @@
 <div class="partner-footer section-pad">
   <h3 class="v-pad-bottom text-center">Sponsors</h3>
-      <div class="row v-pad-top">
-        <div class="medium-6 column medium-centered text-center">
+    <div class="row v-pad-top">
+      <div class="medium-6 column medium-centered text-center">
         <p>Interested in becoming a sponsor? There's still time!</p>
         <a href="/sponsors/information/" class="button">Become a Sponsor</a>
       </div>
-        </div>
+    </div>
   {% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
