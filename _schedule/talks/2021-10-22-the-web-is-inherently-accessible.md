@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/rachele-ditullio.png
 layout: session-details
 permalink: /talks/the-web-is-inherently-accessible/
+presenter_slugs:
+- rachele-ditullio
 presenters:
 - bio: "Rachele is gender non-binary and uses the pronouns she/her.\r\n\r\nRachele
     believes in information integrity and accessibility for all through inclusive

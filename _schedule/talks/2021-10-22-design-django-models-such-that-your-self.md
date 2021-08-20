@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/tarun-garg.png
 layout: session-details
-permalink: /talks/design-django-models-such-that-your-future-self-will-thank-you/
+permalink: /talks/design-django-models-such-that-your-self/
+presenter_slugs:
+- tarun-garg
 presenters:
 - bio: "I'm currently working as Engineering Manager at SquadStack, I've been here
     for the past 5 years and have seen the team and processes grow from 3 member engineering

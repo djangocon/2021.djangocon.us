@@ -6,8 +6,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Beginner
+image: /static/img/social/presenters/markus-holtermann.png
 layout: session-details
 permalink: /talks/an-introduction-to-kubernetes/
+presenter_slugs:
+- markus-holtermann
 presenters:
 - bio: Markus Holtermann works as a back-end and infrastructure engineer at micro-biolytics.
     He has been a Django core contributor since early 2015. He is a member of the

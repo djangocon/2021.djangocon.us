@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/thibaud-colas.png
 layout: session-details
-permalink: /talks/kontrasto-improving-accessibility-with-python/
+permalink: /talks/kontrasto-improving-accessibility-with/
+presenter_slugs:
+- thibaud-colas
 presenters:
 - bio: I’m a developer interested in all things accessibility. I’m a core contributor
     to Wagtail, and part of Django’s accessibility team.

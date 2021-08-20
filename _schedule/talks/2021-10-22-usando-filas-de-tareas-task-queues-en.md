@@ -10,8 +10,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/josue-balandrano-coronel.png
 layout: session-details
-permalink: /talks/usando-filas-de-tareas-task-queues-en-aplicaciones-web/
+permalink: /talks/usando-filas-de-tareas-task-queues-en/
+presenter_slugs:
+- josue-balandrano-coronel
 presenters:
 - bio: "Josue Balandrano Coronel trabaja en el Texas Advanced Computing Center como
     Ingeniero en Software ayudando a desarrollar Science Gateways.\r\nEstas Science

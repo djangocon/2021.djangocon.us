@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/jeremy-bowman.png
 layout: session-details
-permalink: /talks/herding-ponies-coordinating-and-automating-django-upgrades-across-100-repositories/
+permalink: /talks/herding-ponies-coordinating-and-django/
+presenter_slugs:
+- jeremy-bowman
 presenters:
 - bio: Jeremy has been writing code professionally using Django since 2010 and currently
     manages the Architecture team at edX.  He has been a regular at the Boston Python

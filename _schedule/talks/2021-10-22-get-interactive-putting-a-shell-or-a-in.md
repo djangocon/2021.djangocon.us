@@ -5,8 +5,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/maari-tamm.png
 layout: session-details
-permalink: /talks/get-interactive-putting-a-shell-or-a-desktop-in-your-django-app/
+permalink: /talks/get-interactive-putting-a-shell-or-a-in/
+presenter_slugs:
+- maari-tamm
 presenters:
 - bio: "I am a Python developer, working in the Education team in City Network. I
     still consider myself new in this industry as I changed my career in late 2018,

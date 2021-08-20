@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/andrew-knight.png
 layout: session-details
 permalink: /talks/managing-the-test-data-nightmare/
+presenter_slugs:
+- andrew-knight
 presenters:
 - bio: Andrew Knight is the "Automation Panda" - a software engineering leader who
     builds solutions for software testing problems. Over the past decade, he has designed

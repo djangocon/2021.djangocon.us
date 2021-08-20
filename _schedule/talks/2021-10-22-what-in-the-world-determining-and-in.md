@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/tyrel-denison.png
 layout: session-details
-permalink: /talks/what-in-the-world-determining-and-demonstrating-meaning-in-geospatial-data/
+permalink: /talks/what-in-the-world-determining-and-in/
+presenter_slugs:
+- tyrel-denison
 presenters:
 - bio: "Over the past 12 years, having fought his way out of the caves of CMS building,
     through the salt mines of PHP, and over the poppy fields of Ruby, Tyrel now lives

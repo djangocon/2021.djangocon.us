@@ -10,8 +10,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/thomas-guttler.png
 layout: session-details
 permalink: /talks/htmx-frontend-revolution/
+presenter_slugs:
+- thomas-guttler
 presenters:
 - bio: "I am Thomas Güttler. Born 1976 in Germany. I like web development and try
     to avoid JS as much as possible.\r\n\r\nInventor of the term [Frow (Fragments

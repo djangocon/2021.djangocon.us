@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/carson-gross.png
 layout: session-details
-permalink: /talks/rest-hateoas-django-it-s-ok-to-not-use-json-or-javascript/
+permalink: /talks/rest-hateoas-django-it-s-ok-to-not-use/
+presenter_slugs:
+- carson-gross
 presenters:
 - bio: At Big Sky Software we look for hot new industry trends and then build the
     opposite of that...

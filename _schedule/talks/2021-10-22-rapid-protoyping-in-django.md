@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/benjamin-zags-zagorsky.png
 layout: session-details
 permalink: /talks/rapid-protoyping-in-django/
+presenter_slugs:
+- benjamin-zags-zagorsky
 presenters:
 - bio: Zags is the CTO of Zagaran, Inc., a contract software company.  He has led
     dozens of full-stack software development projects between both the private and

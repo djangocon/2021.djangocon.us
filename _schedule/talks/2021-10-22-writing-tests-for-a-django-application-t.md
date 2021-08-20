@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/alan-una-larisa.png
 layout: session-details
-permalink: /talks/writing-tests-for-a-django-application-doesn-t-have-to-suck-the-simplest-way-to-write-short-fast-and-maintainable-tests/
+permalink: /talks/writing-tests-for-a-django-application-t/
+presenter_slugs:
+- alan-una-larisa
 presenters:
 - bio: I am a Python enthusiast with a focus on the web backend and automation. Despite
     my youth I have worked in several different mostly non-tech positions before switching

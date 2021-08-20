@@ -6,17 +6,20 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/madelaine-boyd.png
 layout: session-details
-permalink: /talks/the-pit-of-success-for-per-object-permissions-in-django/
+permalink: /talks/the-pit-of-success-for-per-object-in/
+presenter_slugs:
+- madelaine-boyd
 presenters:
-- bio: "Madelaine is at bit.io building an immediately productive, shareable cloud
+- bio: Madelaine is at bit.io building an immediately productive, shareable cloud
     database. Previously, she led a team to improve the end-to-end containerization,
     deployment, and orchestration of Facebook’s private cloud. She’s worked on everything
     from mobile infrastructure and compilers, to front-end product, even building
     software to tune, fit, and program hearing aids. Madelaine's technical accomplishment
     of which she is most proud was when she changed her job title to zalgo text and
     broke Facebook HR's data pipelines. She once won a rap battle by rhyming with
-    \"vim.\""
+    "vim."
   company: bit.io
   github: ''
   name: Madelaine Boyd

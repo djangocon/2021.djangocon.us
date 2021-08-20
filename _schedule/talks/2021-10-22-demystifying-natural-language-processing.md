@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/jyotika-singh.png
 layout: session-details
-permalink: /talks/demystifying-natural-language-processing-across-several-industry-verticals/
+permalink: /talks/demystifying-natural-language-processing/
+presenter_slugs:
+- jyotika-singh
 presenters:
 - bio: "Jyotika Singh is the Director of Data Science at ICX Media, where she manages
     and mentors her team as they work on NLP, feature engineering, machine learning,

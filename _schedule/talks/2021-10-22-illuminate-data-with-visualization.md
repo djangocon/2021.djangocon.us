@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/drishti-jain.png
 layout: session-details
 permalink: /talks/illuminate-data-with-visualization/
+presenter_slugs:
+- drishti-jain
 presenters:
 - bio: "Drishti is a Computer Engineer and a technology enthusiast. She loves to use
     technology to help the less fortunate. She believes in democratizing opportunities

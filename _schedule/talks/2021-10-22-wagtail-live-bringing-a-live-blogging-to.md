@@ -4,8 +4,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/tidjani-dia.png
 layout: session-details
-permalink: /talks/wagtail-live-bringing-a-live-blogging-tool-to-the-django-ecosystem/
+permalink: /talks/wagtail-live-bringing-a-live-blogging-to/
+presenter_slugs:
+- tidjani-dia
 presenters:
 - bio: "I’m Tidjani Dia. I come from Senegal in West Africa and I’m currently a student
     in Lille (France). I have been using Python for 5 years and I have been learning

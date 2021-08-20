@@ -6,8 +6,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/dan-palmer.png
 layout: session-details
 permalink: /talks/scaling-django-to-500-apps/
+presenter_slugs:
+- dan-palmer
 presenters:
 - bio: "I’m a software engineer living in London. I enjoy writing software to solve
     interesting problems and improving engineering culture and processes.\r\n\r\nSince

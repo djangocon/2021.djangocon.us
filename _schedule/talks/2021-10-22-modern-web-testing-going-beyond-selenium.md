@@ -6,11 +6,14 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/dmitry-vinnik.png
 layout: session-details
 permalink: /talks/modern-web-testing-going-beyond-selenium/
+presenter_slugs:
+- dmitry-vinnik
 presenters:
-- bio: 'Dmitry Vinnik is an Open Source Developer Advocate at Facebook.'
-  company: 'Facebook'
+- bio: Dmitry Vinnik is an Open Source Developer Advocate at Facebook.
+  company: Facebook
   github: ''
   name: Dmitry Vinnik
   photo_url: ''

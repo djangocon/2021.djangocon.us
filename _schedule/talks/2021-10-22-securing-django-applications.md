@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/gajendra-deshpande.png
 layout: session-details
 permalink: /talks/securing-django-applications/
+presenter_slugs:
+- gajendra-deshpande
 presenters:
 - bio: I hold M.Tech. in Computer Science and Engineering and PG Diploma in  Cyber
     Law and Cyber Forensics from National Law School of India University, Bengaluru

@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/cagil-ulusahin.png
 layout: session-details
-permalink: /talks/how-we-built-a-mobile-application-backend-with-django-in-10-weeks/
+permalink: /talks/how-we-built-a-mobile-application-with/
+presenter_slugs:
+- cagil-ulusahin
 presenters:
 - bio: " I am a software engineer based in London. I mostly do backend engineering
     for web based applications. Python and Django are what I have been mostly working

@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/calvin-hendryx-parker.png
 layout: session-details
-permalink: /talks/bootstrapping-your-local-python-environment/
+permalink: /talks/bootstrapping-your-local-python/
+presenter_slugs:
+- calvin-hendryx-parker
 presenters:
 - bio: "Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, a software
     company that helps organizations build apps faster, innovate with AI, simplify

@@ -9,8 +9,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/dane-hillard.png
 layout: session-details
-permalink: /talks/graphene-django-or-how-i-learned-to-stop-resting-and-love-the-graph/
+permalink: /talks/graphene-django-or-how-i-learned-to-stop/
+presenter_slugs:
+- dane-hillard
 presenters:
 - bio: I like leveraging software development skills for good. During my short career
     I've had a chance to work in the fields of counterterrorism, cancer research,

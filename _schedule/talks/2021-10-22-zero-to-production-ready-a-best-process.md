@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/itamar-turner-trauring.png
 layout: session-details
-permalink: /talks/zero-to-production-ready-a-best-practices-process-for-docker-packaging/
+permalink: /talks/zero-to-production-ready-a-best-process/
+presenter_slugs:
+- itamar-turner-trauring
 presenters:
 - bio: "Itamar helps teams using Python ship faster code. He has been using Python
     since 1999, and worked on web applications, scientific computing, distributed

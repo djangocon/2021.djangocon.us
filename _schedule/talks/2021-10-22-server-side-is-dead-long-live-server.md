@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Beginner
+image: /static/img/social/presenters/jack-linke.png
 layout: session-details
-permalink: /talks/server-side-is-dead-long-live-server-side-htmx/
+permalink: /talks/server-side-is-dead-long-live-server/
+presenter_slugs:
+- jack-linke
 presenters:
 - bio: "Jack Linke tends to learn the hard way - and shares the lessons from those
     experiences with others through blogging, tweets, and speaking engagements. He

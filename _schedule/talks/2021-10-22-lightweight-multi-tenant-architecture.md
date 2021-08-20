@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/brendan-wee.png
 layout: session-details
-permalink: /talks/lightweight-multi-tenant-architecture-for-django-applications/
+permalink: /talks/lightweight-multi-tenant-architecture/
+presenter_slugs:
+- brendan-wee
 presenters:
 - bio: Brendan is a Senior Engineer at Second Genome
   company: Second Genome

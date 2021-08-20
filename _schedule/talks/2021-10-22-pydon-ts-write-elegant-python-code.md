@@ -8,8 +8,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/rodrigo-girao-serrao.png
 layout: session-details
 permalink: /talks/pydon-ts-write-elegant-python-code/
+presenter_slugs:
+- rodrigo-girao-serrao
 presenters:
 - bio: "[Rodrigo](https://linkedin.com/in/rodrigo-girão-serrão) has always been fascinated
     by problem solving and that is why he picked up programming – so that he could

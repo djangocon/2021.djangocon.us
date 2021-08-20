@@ -8,8 +8,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
+image: /static/img/social/presenters/ramon-huidobro.png
 layout: session-details
 permalink: /talks/una-serie-de-relatos-de-mentoring/
+presenter_slugs:
+- ramon-huidobro
 presenters:
 - bio: "Ramón es un developer advocate viviendo en Viena, Austria. Lleva diez años
     ayudando a startups y compañias realizar sus apps o mantenerlos.\r\n\r\nSu motivador

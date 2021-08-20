@@ -9,8 +9,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Beginner
+image: /static/img/social/presenters/katie-mclaughlin.png
 layout: session-details
 permalink: /talks/what-is-deployment-anyway/
+presenter_slugs:
+- katie-mclaughlin
 presenters:
 - bio: "Katie has worn many different hats over the years. She has been a software
     developer for many languages, systems administrator for multiple operating systems,

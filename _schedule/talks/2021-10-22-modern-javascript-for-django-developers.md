@@ -10,8 +10,11 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
+image: /static/img/social/presenters/cory-zue.png
 layout: session-details
 permalink: /talks/modern-javascript-for-django-developers/
+presenter_slugs:
+- cory-zue
 presenters:
 - bio: I'm a CTO-turned-solopreneur. Once the leader of a team of 30 people and the
     lead architect of the largest open-source Django project in the world, I now run
