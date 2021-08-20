@@ -6,7 +6,7 @@ name: Jeremy Stretch
 permalink: /presenters/jeremy-stretch/
 photo_url: ''
 slug: jeremy-stretch
-twitter: 'jstretch85'
+twitter: jstretch85
 website: ''
 ---
 

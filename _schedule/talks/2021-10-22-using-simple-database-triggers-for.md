@@ -1,18 +1,29 @@
 ---
-abstract: "Django has evolved over the years to have first-class support for many advanced database features. Database triggers, however, are a common and powerful database feature with no built-in Django support, and they can actually solve a wide array of many complex Django problems very reliably and succinctly.
+abstract: 'Django has evolved over the years to have first-class support for many
+  advanced database features. Database triggers, however, are a common and powerful
+  database feature with no built-in Django support, and they can actually solve a
+  wide array of many complex Django problems very reliably and succinctly.
 
-In this talk, you will learn what database triggers are and what types of problems they solve. You will also learn how to easily integrate triggers into your Django project using a new open-source library and interactive tutorial. We will solve problems like creating append-only models, versioning models, soft-deleting models, and snapshotting historical changes to your models. You will leave wondering why on earth you never used triggers in the first place."
+  In this talk, you will learn what database triggers are and what types of problems
+  they solve. You will also learn how to easily integrate triggers into your Django
+  project using a new open-source library and interactive tutorial. We will solve
+  problems like creating append-only models, versioning models, soft-deleting models,
+  and snapshotting historical changes to your models. You will leave wondering why
+  on earth you never used triggers in the first place.'
 accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: Intermediate
 image: /static/img/social/presenters/wes-kendall.png
 layout: session-details
-permalink: /talks/using-simple-database-triggers-complex-django-problems/
+permalink: /talks/using-simple-database-triggers-for/
 presenter_slugs:
 - wes-kendall
 presenters:
-- bio: Wes Kendall is the founder and CEO of LeapYear. He started the [Opus10 software group](https://github.com/Opus10), which maintains several open-source Django apps primarily centered around advanced usage of Postgres. Wes has used Django extensively since 2012 and loves finding ways to push the boundaries of the framework.
+- bio: Wes Kendall is the founder and CEO of LeapYear. He started the [Opus10 software
+    group](https://github.com/Opus10), which maintains several open-source Django
+    apps primarily centered around advanced usage of Postgres. Wes has used Django
+    extensively since 2012 and loves finding ways to push the boundaries of the framework.
   company: LeapYear
   github: ''
   name: Wes Kendall
