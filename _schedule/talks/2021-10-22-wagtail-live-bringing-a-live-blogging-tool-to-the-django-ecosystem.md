@@ -13,7 +13,7 @@ presenters:
     stuff and solving problems.\r\n"
   company: Wagtail
   github: ''
-  name: atdia97@gmail.com
+  name: Tidjani Dia
   photo_url: ''
   twitter: ''
   website: https://www.therookiecoder.com/

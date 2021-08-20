@@ -45,7 +45,7 @@ En esta plática expondré los conceptos básicos de las filas de trabajo, cuand
 
 Este será el formato:
 
-- Introducción: ¿Qué son las filas de trabajo
+- Introducción: ¿Qué son las filas de trabajo?
 - Implementaciones populares
   - Redis and popular libraries.
   - AMQP and popular libraries.

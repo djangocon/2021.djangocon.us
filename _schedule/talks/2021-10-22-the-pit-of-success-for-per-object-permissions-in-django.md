@@ -16,7 +16,7 @@ presenters:
     software to tune, fit, and program hearing aids. Madelaine's technical accomplishment
     of which she is most proud was when she changed her job title to zalgo text and
     broke Facebook HR's data pipelines. She once won a rap battle by rhyming with
-    \"vim.\"\r\n"
+    \"vim.\""
   company: bit.io
   github: ''
   name: Madelaine Boyd

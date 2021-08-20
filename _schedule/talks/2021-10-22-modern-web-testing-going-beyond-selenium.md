@@ -9,8 +9,8 @@ difficulty: All
 layout: session-details
 permalink: /talks/modern-web-testing-going-beyond-selenium/
 presenters:
-- bio: 'Dmitry Vinnik is an Open Source Developer Advocate at Facebook. '
-  company: 'Facebook '
+- bio: 'Dmitry Vinnik is an Open Source Developer Advocate at Facebook.'
+  company: 'Facebook'
   github: ''
   name: Dmitry Vinnik
   photo_url: ''
@@ -26,7 +26,7 @@ tags:
 - cypress
 - testcafe
 - protractor
-title: 'Modern Web Testing: Going Beyond Selenium '
+title: 'Modern Web Testing: Going Beyond Selenium'
 track: t0
 video_url: ''
 ---

@@ -45,4 +45,4 @@ Over the course of upgrading multiple services (including one large enough to ru
 * How to handle package dependencies which don't support your target Django version by the time you need them to
 * How to track and schedule all of the above across dozens of repositories
 
-All the scripts presented here are open source; links to the code will be provided, and I'll be here for the sprints if anyone wants to help refine them further.
+All the scripts presented here are open source; links to the code will be provided, and I'll be here for the live chat if anyone wants to help refine them further.

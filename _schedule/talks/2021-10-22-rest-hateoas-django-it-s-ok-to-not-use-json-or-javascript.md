@@ -14,7 +14,7 @@ presenters:
     opposite of that...
   company: Big Sky Software
   github: ''
-  name: carson@bigsky.software
+  name: Carson Gross
   photo_url: ''
   twitter: htmx_org
   website: https://bigsky.software

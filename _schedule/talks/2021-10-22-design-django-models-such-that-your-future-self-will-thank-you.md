@@ -10,7 +10,7 @@ difficulty: Intermediate
 layout: session-details
 permalink: /talks/design-django-models-such-that-your-future-self-will-thank-you/
 presenters:
-- bio: "- I'm currently working as Engineering Manager at SquadStack, I've been here
+- bio: "I'm currently working as Engineering Manager at SquadStack, I've been here
     for the past 5 years and have seen the team and processes grow from 3 member engineering
     team to a now ~60 people engineering team. Being the early member of the engineering
     team, I got to experience a fair share of challenges and make a lot of mistakes
@@ -48,16 +48,11 @@ While designing Django models, our primary objective is to develop a structure t
 
 In this talk, we're going to be focusing on how you can avoid those mistakes early in your design phase 😌 - these are all the learnings I have had after making mistakes. We are going to cover the following - 
 
-* Auditing your models
-
-* Boolean field for flags vs. timestamped field
-
-* Soft delete vs. hard delete
-
-* Many boolean flags in a model? 
-
-* How do you decide when to de-normalize?
-
-* And much more ...
+- Auditing your models
+- Boolean field for flags vs. timestamped field
+- Soft delete vs. hard delete
+- Many boolean flags in a model? 
+- How do you decide when to de-normalize?
+- And much more ...
 
  *As with every piece of advice in life, the answer of whether you should apply these or not is - **" it depends."** In this task, we'll also discuss when you can use this advice and when you can choose to skip it.*

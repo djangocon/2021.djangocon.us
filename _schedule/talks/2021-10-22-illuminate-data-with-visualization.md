@@ -54,11 +54,11 @@ In this talk we will walk through the concept of Data mining and visualization r
 Data mining refers to an autonomous process of discovery of previously unknown patterns which are valid, potentially useful or novel from large database.Orange is Open source machine learning, data visualization and data mining toolkit.  
 Orange features an interactive data visualization platform. The platform provides a wide variety of data analysis and visualization by statistical distributions, scatter plots, box plots, decision trees, heat maps, linear projections to name a few. By carefully selecting attributes in the dataset we can drill down multidimensional data to 2D. It helps in fast prototyping of data analysis workflow.
 The talk will also cover the recent and diverse existing use cases of Orange like:
-1.	Analysis of hyperspectra images from the Ryugu asteroid
-2.	Language support for 50 languages
-3.	bioinformatics, and many more.
+1. Analysis of hyperspectra images from the Ryugu asteroid
+2. Language support for 50 languages
+3. bioinformatics, and many more.
 By the end of the talk attendees would have a clear knowledge of 
-•	What Orange is
-•	How they can use it in work or side projects
-•	Be able to use it as a separate tool or embed it as a library in their existing Python projects 
+- What Orange is
+- How they can use it in work or side projects
+- Be able to use it as a separate tool or embed it as a library in their existing Python projects 
 And use all functionalities of Orange of data mining and visualization to the fullest!
