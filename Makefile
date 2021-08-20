@@ -15,138 +15,33 @@ test:
 .PHONY: social
 social:
 	@echo "check out... https://github.com/sindresorhus/pageres-cli"
-
-	@pageres $(DOMAIN)/presenters/adolfo-fitoria/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/adolfo-fitoria
-	@pageres $(DOMAIN)/presenters/andrew-godwin/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/andrew-godwin
-	@pageres $(DOMAIN)/presenters/andrew-knight/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/andrew-knight
-	@pageres $(DOMAIN)/presenters/blythe-j-dunham/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/j-dunham
-	@pageres $(DOMAIN)/presenters/cara-borenstein/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/cara-borenstein
-	@pageres $(DOMAIN)/presenters/carlos-martinez/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/carlos-martinez
-	@pageres $(DOMAIN)/presenters/carlton-gibson/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/carlton-gibson
-	@pageres $(DOMAIN)/presenters/casey-faist/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/casey-faist
-	@pageres $(DOMAIN)/presenters/chris-wilcox/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/chris-wilcox
-	@pageres $(DOMAIN)/presenters/dan-taylor/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/dan-taylor
-	@pageres $(DOMAIN)/presenters/dane-hillard/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/dane-hillard
-	@pageres $(DOMAIN)/presenters/daniele-procida/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/daniele-procida
-	@pageres $(DOMAIN)/presenters/dustin-ingram/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/dustin-ingram
-	@pageres $(DOMAIN)/presenters/eleanor-stribling/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/eleanor-stribling
-	@pageres $(DOMAIN)/presenters/erin-mullaney/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/erin-mullaney
-	@pageres $(DOMAIN)/presenters/felipe-lee/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/felipe-lee
-	@pageres $(DOMAIN)/presenters/jacinda-shelly/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/jacinda-shelly
-	@pageres $(DOMAIN)/presenters/james-bennett/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/james-bennett
-	@pageres $(DOMAIN)/presenters/juan-saavedra/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/juan-saavedra
-	@pageres $(DOMAIN)/presenters/karen-miller/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/karen-miller
-	@pageres $(DOMAIN)/presenters/kojo-idrissa/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/kojo-idrissa
-	@pageres $(DOMAIN)/presenters/louise-grandjonc/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/louise-grandjonc
-	@pageres $(DOMAIN)/presenters/luan-fonseca/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/luan-fonseca
-	@pageres $(DOMAIN)/presenters/luca-bezerra/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/luca-bezerra
-	@pageres $(DOMAIN)/presenters/melanie-crutchfield/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/melanie-crutchfield
-	@pageres $(DOMAIN)/presenters/mike-hansen/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/mike-hansen
-	@pageres $(DOMAIN)/presenters/nicole-zuckerman/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/nicole-zuckerman
-	@pageres $(DOMAIN)/presenters/nicolle-cysneiros/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/nicolle-cysneiros
-	@pageres $(DOMAIN)/presenters/nina-zakharenko/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/nina-zakharenko
-	@pageres $(DOMAIN)/presenters/noah-kantrowitz/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/noah-kantrowitz
-	@pageres $(DOMAIN)/presenters/pablo-garcia/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/pablo-garcia
-	@pageres $(DOMAIN)/presenters/peter-baumgartner/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/peter-baumgartner
-	@pageres $(DOMAIN)/presenters/renato-oliveira/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/renato-oliveira
-	@pageres $(DOMAIN)/presenters/russell-keith-magee/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/russell-keith-magee
-	@pageres $(DOMAIN)/presenters/ryan-sullivan/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/ryan-sullivan
-	@pageres $(DOMAIN)/presenters/timothy-allen/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/timothy-allen
-	@pageres $(DOMAIN)/presenters/tom-dyson/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/tom-dyson
-	@pageres $(DOMAIN)/presenters/trey-hunner/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/trey-hunner
-	@pageres $(DOMAIN)/presenters/vanessa-barreiros/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/vanessa-barreiros
-	@pageres $(DOMAIN)/presenters/veronica-hanus/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/veronica-hanus
-	@pageres $(DOMAIN)/presenters/william-s-vincent/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/s-vincent
-
-	@ # Keynotes
-	@pageres $(DOMAIN)/presenters/matt-mitchell/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/matt-mitchell
-	@pageres $(DOMAIN)/presenters/jessica-rose/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/jessica-rose
-	@pageres $(DOMAIN)/presenters/amber-brown/ $(IMAGE_SIZE) \
-		--overwrite \
-		--filename=static/img/social/presenters/amber-brown
+	@pageres $(DOMAIN)/presenters/alan-una-larisa/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/alan-una-larisa
+	@pageres $(DOMAIN)/presenters/andrew-knight/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/replace/andrew-knight
+	@pageres $(DOMAIN)/presenters/benjamin-zags-zagorsky/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/benjamin-zags-zagorsky
+	@pageres $(DOMAIN)/presenters/brendan-wee/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/brendan-wee
+	@pageres $(DOMAIN)/presenters/cagil-ulusahin/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/cagil-ulusahin
+	@pageres $(DOMAIN)/presenters/calvin-hendryx-parker/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/calvin-hendryx-parker
+	@pageres $(DOMAIN)/presenters/carson-gross/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/carson-gross
+	@pageres $(DOMAIN)/presenters/cory-zue/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/cory-zue
+	@pageres $(DOMAIN)/presenters/dan-palmer/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/dan-palmer
+	@pageres $(DOMAIN)/presenters/dane-hillard/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/dane-hillard
+	@pageres $(DOMAIN)/presenters/dmitry-vinnik/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/dmitry-vinnik
+	@pageres $(DOMAIN)/presenters/drishti-jain/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/drishti-jain
+	@pageres $(DOMAIN)/presenters/gajendra-deshpande/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/gajendra-deshpande
+	@pageres $(DOMAIN)/presenters/itamar-turner-trauring/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/itamar-turner-trauring
+	@pageres $(DOMAIN)/presenters/jack-linke/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/jack-linke
+	@pageres $(DOMAIN)/presenters/jeremy-bowman/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/jeremy-bowman
+	@pageres $(DOMAIN)/presenters/josue-balandrano-coronel/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/josue-balandrano-coronel
+	@pageres $(DOMAIN)/presenters/jyotika-singh/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/jyotika-singh
+	@pageres $(DOMAIN)/presenters/katie-mclaughlin/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/katie-mclaughlin
+	@pageres $(DOMAIN)/presenters/maari-tamm/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/maari-tamm
+	@pageres $(DOMAIN)/presenters/madelaine-boyd/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/madelaine-boyd
+	@pageres $(DOMAIN)/presenters/markus-holtermann/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/markus-holtermann
+	@pageres $(DOMAIN)/presenters/rachele-ditullio/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/rachele-ditullio
+	@pageres $(DOMAIN)/presenters/ramon-huidobro/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/ramon-huidobro
+	@pageres $(DOMAIN)/presenters/rodrigo-girao-serrao/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/rodrigo-girao-serrao
+	@pageres $(DOMAIN)/presenters/tarun-garg/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/tarun-garg
+	@pageres $(DOMAIN)/presenters/thibaud-colas/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/thibaud-colas
+	@pageres $(DOMAIN)/presenters/thomas-guttler/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/thomas-guttler
+	@pageres $(DOMAIN)/presenters/tidjani-dia/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/tidjani-dia
+	@pageres $(DOMAIN)/presenters/tyrel-denison/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/tyrel-denison
