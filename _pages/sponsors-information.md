@@ -68,7 +68,7 @@ All registrants receive an invitation to join the conference platform, directing
 
 #### Speaker Equipment Sponsor $1,500 (Limit 3)
 
-All speakers who request help with equipment will receive assistance from our Audio Visual team. Sometimes this equipment can be costly. With your contribution, you will help our team provide top tier content without burdening the resources of our amazing speakers. You will receive name and logo on video stream interstitial, sponsor link on website and your name and logo on social media post, thanking you for your contribution.
+All speakers who request help with equipment will receive assistance from our Audio/Visual team. Sometimes this equipment can be costly. With your contribution, you will help our team provide top tier content without burdening the resources of our amazing speakers. You will receive your name and logo on the video stream interstitials, a sponsor link on the DCUS website and your name and logo on a social media post thanking you for your contribution.
 
 #### Diversity Sponsor
 
