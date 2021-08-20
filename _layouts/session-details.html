@@ -7,8 +7,8 @@ layout: base
     {% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}
   </h1>
   <p class="lead">
-    {{ page.date | date: "%A %l:%M %P" }}{% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %},
-    in {{ page.room }}
+    {{ page.date | date: "%A %l:%M %P" }}{% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
+    {% comment %}, in {{ page.room }}{% endcomment %}
     {% if page.difficulty %}
       <br>
       <span
@@ -68,7 +68,7 @@ layout: base
     </div>
   </div><!-- end .row -->
 
-{% if page.presenters %}
+{% if page.presenter_slugs %}
 
 <div class="presenters section-pad theme-light-gray">
   <div class="row">
@@ -76,7 +76,7 @@ layout: base
   </div>
 
 <ul>
-  {% for presenter_slug in page.presenters %}
+  {% for presenter_slug in page.presenter_slugs %}
     {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
     <div class="row profile wide presenter">
       <div class="column medium-4 medium-offset-1 large-3">

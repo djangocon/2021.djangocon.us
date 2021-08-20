@@ -26,10 +26,12 @@ exclude:
   - .cache
   - .editorconfig
   - .gitignore
+  - bin
   - bower_components
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
+  - docker-compose.yml
   - EDITORS_GUIDE.md
   - Gemfile
   - Gemfile.lock
