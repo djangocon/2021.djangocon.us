@@ -12,12 +12,12 @@
   &:before {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: -2%;
     z-index: 0;
     display: block;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background-image: url(/static/img/city.svg);
+    background-image: url(/static/img/header.svg);
     background-position: 0 100px;
     background-repeat: no-repeat;
     content: "";
