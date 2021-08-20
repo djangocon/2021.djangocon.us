@@ -72,7 +72,7 @@ All speakers who request help with equipment will receive assistance from our Au
 
 #### Diversity Sponsor
 
-Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care!
+Django and the Python community at large pride themselves on their commitment to diversity and inclusion. Talk to us about contributing to our Opportunity Grant Fund, which prioritizes grants for people from underrepresented groups. Diversity sponsorship funds will also be used to offset the cost of offering child care when we return to in-person conferences!
 
 {% comment %}
 #### Lanyard $2,500 (Limit 1)
