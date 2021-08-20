@@ -64,7 +64,7 @@ Due to the fully remote conference this year, we'll be working with [spatial.cha
 
 #### Invitation Sponsor $2,000 (Limit 1)
 
-All registrants receive an invitation to join the conference platform, directing them how to sign up for the Discord and thanking them for their attendance. Your logo will be featured at the bottom of this email, welcoming attendees to the event! You will receive name and logo on video stream interstitial, sponsor link on website, and your name and logo on the email to participants to register.
+All registrants receive an invitation to join the conference platform, directing them how to sign up for the Discord and thanking them for their attendance. Your logo will be featured at the bottom of this email, welcoming attendees to the event! You will receive your name and logo on the video stream interstitials, a sponsor link on the DCUS website, and your name and logo on the email to participants confirming their registration.
 
 #### Speaker Equipment Sponsor $1,500 (Limit 3)
 
