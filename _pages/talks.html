@@ -5,20 +5,20 @@ permalink: /talks/
 description: DjangoCon US 2021 Talks / General Sessions Schedule
 heading: Talks Schedule
 sitemap: true
-published: false
+published: true
 ---
 
 <!-- talks: day 1 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Monday, September 23</h2>
+    <h2 class="day">Talks: Friday, October 22</h2>
     <p class="lead">
-      Tutorials are a separate registration and are $195 per session. {% comment %}Buy <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell out!{% endcomment %}
+      Buy <a href="{{ site.ticket_link }}">talk tickets</a> before they sell out!
     </p>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Monday' %}
+        {% if day == 'Friday' %}
           {% include schedule-talks-day.html %}
         {% endif %}
       {% endfor %}
@@ -30,7 +30,7 @@ published: false
 <!-- talks: day 2 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Tuesday, September 24</h2>
+    <h2 class="day">Talks: Saturday, October 23</h2>
     {% comment %}
     <p class="lead">
       Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
@@ -39,7 +39,7 @@ published: false
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Tuesday' %}
+        {% if day == 'Saturday' %}
           {% include schedule-talks-day.html %}
         {% endif %}
       {% endfor %}
@@ -47,26 +47,3 @@ published: false
   </div>
 </section>
 <!-- talks: day 2 -->
-
-<!-- talks: day 3 -->
-<section class="section-pad schedule">
-  <div class="row column">
-    <h2 class="day">Talks - Deep Dives: Wednesday, September 25</h2>
-    {% comment %}
-    <p class="lead">
-      This year, Wednesday is our Deep Dive day. The entire day is
-      single track and we picked talks that go beneath the surface of
-      the topic.
-    </p>
-    {% endcomment %}
-    <ul class="schedule">
-      {% for post in site.schedule %}
-        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Wednesday' %}
-          {% include schedule-talks-day.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-<!-- talks: day 3 -->
