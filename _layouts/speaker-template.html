@@ -20,7 +20,7 @@
 
       <h1 class="speaker-template-name">{{ page.name }}</h1>
       <h2 class="speaker-template-session-title">
-        {% assign presentations = site.schedule | where: "presenters", page.slug %}
+        {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
         {% assign presentation_length = presentations|size %}
         {% for schedule in presentations %}
           {{ schedule.title }}
