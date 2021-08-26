@@ -1,12 +1,10 @@
-
 ---
 author: Drew Winstel
-category: Progrtam
+category: Program
 date: 2021-08-26 12:00:00
 layout: post
 title: Announcing the 2021 DjangoCon US Talks
 ---
-
 We're proud to announce the talks for this year's online DjangoCon.
 
 The Django community and beyond submitted an incredible number of talk
