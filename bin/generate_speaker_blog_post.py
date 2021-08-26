@@ -6,7 +6,7 @@ import yaml
 HEADER = """
 ---
 author: Drew Winstel
-category: Progrtam
+category: Program
 date: 2021-08-26 12:00:00
 layout: post
 title: Announcing the 2021 DjangoCon US Talks
