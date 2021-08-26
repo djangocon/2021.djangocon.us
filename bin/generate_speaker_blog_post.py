@@ -19,13 +19,13 @@ Another huge thank you to our reviewers, without whom this list would still be
 weeks in the making.
 
 We will announce the full conference schedule soon. If you haven't picked up
-your free ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021).
+your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021).
 """
 
 FOOTER = """
 Congratulations to all our speakers!
 
-We can't wait to see you at DCUS 2021! Get your [**free** tickets](https://ti.to/defna/djangocon-us-2021)
+We can't wait to see you at DCUS 2021! Get your [free tickets](https://ti.to/defna/djangocon-us-2021)
 today and follow us on [Twitter](https://twitter.com/djangocon) to stay up to
 date on the latest news.
 """
