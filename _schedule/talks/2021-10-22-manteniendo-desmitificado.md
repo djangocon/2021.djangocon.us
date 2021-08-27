@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 22:00
 difficulty: Beginner
+image: /static/img/social/presenters/katherine-michel.png
 layout: session-details
 permalink: /talks/manteniendo-desmitificado/
+presenter_slugs:
+- katherine-michel
 presenters:
 - bio: "Kati is a web developer, open source maintainer, and technical writer. Her
     recent clients include The Wharton School and Eldarion. She has also been the

@@ -9,8 +9,11 @@ accepted: true
 category: talks
 date: 2021-10-22 22:00
 difficulty: Beginner
+image: /static/img/social/presenters/aldan-creo.png
 layout: session-details
-permalink: /talks/busqueda-de-texto-completo-fts-en-tu-sitio-web-mi-proyecto-de-google-summer-of-code/
+permalink: /talks/busqueda-de-texto-completo-fts-en-tu-web/
+presenter_slugs:
+- aldan-creo
 presenters:
 - bio: Hi! I'm Aldán Creo, a CS student with a **huge** passion for computers! I love
     to contribute to open source, because it makes me feel like I have a meaningful

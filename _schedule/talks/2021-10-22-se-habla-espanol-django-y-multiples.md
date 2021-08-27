@@ -7,8 +7,11 @@ accepted: true
 category: talks
 date: 2021-10-22 22:00
 difficulty: Beginner
+image: /static/img/social/presenters/adolfo-fitoria.png
 layout: session-details
-permalink: /talks/se-habla-espanol-django-y-multiples-idiomas/
+permalink: /talks/se-habla-espanol-django-y-multiples/
+presenter_slugs:
+- adolfo-fitoria
 presenters:
 - bio: "Django developer and enthusiast based in Managua, Nicaragua\r\n\r\n"
   company: ''
