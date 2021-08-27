@@ -5,7 +5,7 @@ abstract: Muchas Djangonauts suddenamente tienen un necessidad que mantener un p
   es una mejora en conocimiento y divertida también!
 accepted: true
 category: talks
-date: 2021-10-22 22:00
+date: 2021-10-22 10:00
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png
 layout: session-details
