@@ -3,6 +3,7 @@
 .DS_Store
 .jekyll-metadata
 .sass-cache
+.vendor
 _site
 bower_components/
 Gemfile.lock
