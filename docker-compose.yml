@@ -3,8 +3,9 @@ version: "3"
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    command: jekyll serve --watch --force_polling
+    command: jekyll serve --drafts --force_polling --watch --port 8000
     ports:
-      - 4000:4000
+      - 8000:8000
     volumes:
-      - .:/srv/jekyll
+      - ./.vendor/bundle:/usr/local/bundle:cached
+      - .:/srv/jekyll:cached
