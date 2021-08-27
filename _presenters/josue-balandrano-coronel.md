@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Josue Balandrano Coronel
 permalink: /presenters/josue-balandrano-coronel/
-photo_url: ''
+photo_url: /static/img/presenters/josue-balandrano-coronel.jpg
 slug: josue-balandrano-coronel
 twitter: rmcomplexity
 website: https://rmcomplexity.com
