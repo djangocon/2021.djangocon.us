@@ -36,7 +36,7 @@ def load_path(path: pathlib.Path) -> list[dict]:
     """Load the talks and return a list of dicts"""
     assert path.is_dir()
     return_data = []
-    for yaml_file in path.glob('*.md'):
+    for yaml_file in sorted(path.glob('*.md')):
         with open(yaml_file, 'r') as yaml_file_obj:
             yaml_data = yaml_file_obj.read()
         return_data.append(yaml.safe_load(yaml_data.split('---')[1]))
