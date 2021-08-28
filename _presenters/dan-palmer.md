@@ -1,15 +1,13 @@
 ---
 company: Thread https://www.thread.com/
-github: ''
+github: danpalmer
 layout: speaker-template
 name: Dan Palmer
 permalink: /presenters/dan-palmer/
-photo_url: ''
+photo_url: https://danpalmer.me/static/6ed84bb3826dad26c27a572d9bd9e732/4105e/danpalmer.jpg
 slug: dan-palmer
 twitter: danpalmer
 website: https://danpalmer.me/
 ---
 
-I’m a software engineer living in London. I enjoy writing software to solve interesting problems and improving engineering culture and processes.
-
-Since 2014 I've been an engineer at Thread working on core product features, APIs, payments, integration with partners, and tools. I'm currently mostly working with Python/Django, GraphQL APIs, and Swift on iOS.
+Dan is a software engineer at [Thread](https://www.thread.com/) in London. As a full stack engineer he works with Swift, Javascript, Kubernetes and cloud infrastructure, as well as plenty of Python and Django. At Thread he has built many core product features, APIs, and infrastructure components, as well as helping to build the team and engineering culture.
