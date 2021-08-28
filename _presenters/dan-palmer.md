@@ -4,7 +4,7 @@ github: danpalmer
 layout: speaker-template
 name: Dan Palmer
 permalink: /presenters/dan-palmer/
-photo_url: https://danpalmer.me/static/6ed84bb3826dad26c27a572d9bd9e732/4105e/danpalmer.jpg
+photo_url: /static/img/presenters/dan-palmer.jpg
 slug: dan-palmer
 twitter: danpalmer
 website: https://danpalmer.me/
