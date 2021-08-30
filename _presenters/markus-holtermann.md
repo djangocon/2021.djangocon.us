@@ -1,13 +1,13 @@
 ---
 company: micro-biolytics
-github: ''
+github: MarkusH
 layout: speaker-template
 name: Markus Holtermann
 permalink: /presenters/markus-holtermann/
-photo_url: ''
+photo_url: /static/img/presenters/markus-holtermann.jpg
 slug: markus-holtermann
 twitter: m_holtermann
 website: https://markusholtermann.eu
 ---
 
-Markus Holtermann works as a back-end and infrastructure engineer at micro-biolytics. He has been a Django core contributor since early 2015. He is a member of the Django security and operations team as well as an organizer of DjangoCon conferences. Markus has been a project lead at the German ubuntuusers.de community support platform where he discovered Python and Django in 2010.
+Markus Holtermann works as a team lead and staff engineer at micro-biolytics. He became a Django core contributor in early 2015 and servered as a member of the Django technical board for the 3.x release series. Markus is a member of the Django security and operations team as well as an organizer of DjangoCon conferences.
