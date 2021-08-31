@@ -21,7 +21,7 @@ presenters:
 
     Inventor of the term [Frow (Fragments
     over the wire)](https://github.com/guettli/frow--fragments-over-the-wire)."
-  company: [descript](https://www.descript.de/en/)
+  company: "[descript](https://www.descript.de/en/)"
   github: guettli
   name: Thomas Güttler
   photo_url: https://thomas-guettler.de/pictures/thomas-guettler-2020.jpg
