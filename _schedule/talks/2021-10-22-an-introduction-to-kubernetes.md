@@ -17,9 +17,9 @@ presenters:
     technical board for the 3.x release series. Markus is a member of the Django security
     and operations teams as well as an organizer of DjangoCon conferences.
   company: micro-biolytics
-  github: ''
+  github: MarkusH
   name: Markus Holtermann
-  photo_url: ''
+  photo_url: /static/img/presenters/markus-holtermann.jpg
   twitter: m_holtermann
   website: https://markusholtermann.eu
 published: true
