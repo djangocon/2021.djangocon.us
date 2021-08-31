@@ -17,10 +17,12 @@ presenter_slugs:
 - thomas-guttler
 presenters:
 - bio: "I am Thomas Güttler. Born 1976 in Germany. I like web development and try
-    to avoid JS as much as possible.\r\n\r\nInventor of the term [Frow (Fragments
-    over the wire)](https://github.com/guettli/frow--fragments-over-the-wire). "
-  company: ''
-  github: ''
+    to avoid JS as much as possible.
+
+    Inventor of the term [Frow (Fragments
+    over the wire)](https://github.com/guettli/frow--fragments-over-the-wire)."
+  company: "[descript](https://www.descript.de/en/)"
+  github: guettli
   name: Thomas Güttler
   photo_url: ''
   twitter: guettli
