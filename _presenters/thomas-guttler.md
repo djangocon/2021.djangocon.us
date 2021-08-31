@@ -1,6 +1,6 @@
 ---
 company: [descript](https://www.descript.de/en/)
-github:  https://github.com/guettli
+github:  guettli
 layout: speaker-template
 name: Thomas Güttler
 permalink: /presenters/thomas-guttler/
