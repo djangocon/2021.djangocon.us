@@ -17,16 +17,16 @@ We will announce the full conference schedule soon. If you haven't picked up
 your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021).
 
 
-- An Introduction to Kubernetes ☸️ by Markus Holtermann ([twitter](https://twitter.com/m_holtermann), [website](https://markusholtermann.eu))
+- An Introduction to Kubernetes ☸️ by Markus Holtermann ([github](https://github.com/MarkusH), [twitter](https://twitter.com/m_holtermann), [website](https://markusholtermann.eu))
 - Bootstrapping your Local Python Environment by Calvin Hendryx-Parker ([twitter](https://twitter.com/calvinhp), [website](http://www.sixfeetup.com/))
 - Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer of Code by Aldán Creo ([twitter](https://twitter.com/acmcmc), [website](https://acmc.codes))
-- Demystifying Natural Language Processing across Several Industry Verticals by Jyotika Singh ([twitter](https://twitter.com/jyotikasingh_), [website](https://github.com/jsingh811))
+- Demystifying Natural Language Processing across Several Industry Verticals by Jyotika Singh ([github](https://github.com/https://github.com/jsingh811), [twitter](https://twitter.com/jyotikasingh_), [website](https://linkedin.com/in/jyotikasingh))
 - Design django models such that your future self will thank you 👋 by Tarun Garg ([twitter](https://twitter.com/Tarun_Garg2), [website](https://www.linkedin.com/in/tarungarg546/))
 - Get interactive! Putting a shell (or a desktop) in your Django app by Maari Tamm ([twitter](https://twitter.com/tammmri))
 - graphene-django or: How I learned to stop RESTing and Love the Graph by Dane Hillard ([twitter](https://twitter.com/easyaspython), [website](https://dane.engineering))
 - Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories by Jeremy Bowman 
 - How we built a mobile application backend with Django in 10 weeks by Çağıl Ulusahin ([twitter](https://twitter.com/cagilulusahin))
-- HTMX: Frontend Revolution by Thomas Güttler ([twitter](https://twitter.com/guettli), [website](https://github.com/guettli))
+- HTMX: Frontend Revolution by Thomas Güttler ([github](https://github.com/guettli), [twitter](https://twitter.com/guettli), [website](https://thomas-guettler.de/))
 - Illuminate Data with Visualization by Drishti Jain ([twitter](https://twitter.com/drishtijjain), [website](https://medium.com/@drishtijjain))
 - Kontrasto: improving accessibility with Python by Thibaud Colas ([twitter](https://twitter.com/thibaud_colas), [website](https://thib.me/))
 - Leveraging the ORM to enforce object-level permissions by Jeremy Stretch ([twitter](https://twitter.com/jstretch85))
@@ -36,7 +36,7 @@ your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021
 - Modern JavaScript for Django Developers by Cory Zue ([twitter](https://twitter.com/czue), [website](https://www.coryzue.com/))
 - Modern Web Testing: Going Beyond Selenium by Dmitry Vinnik ([twitter](https://twitter.com/DmitryVinnik), [website](https://dvinnik.dev))
 - Pydon'ts – Write elegant Python code by Rodrigo Girão Serrão ([twitter](https://twitter.com/mathsppblog), [website](https://mathspp.com/blog))
-- Rapid Protoyping in Django by Benjamin "Zags" Zagorsky ([website](https://zagaran.com))
+- Rapid Prototyping in Django by Benjamin "Zags" Zagorsky ([website](https://zagaran.com))
 - REST, HATEOAS & Django - It's OK to not use JSON... or Javascript by Carson Gross ([twitter](https://twitter.com/htmx_org), [website](https://bigsky.software))
 - Scaling Django to 500 apps by Dan Palmer ([twitter](https://twitter.com/danpalmer), [website](https://danpalmer.me/))
 - SE HABLA ESPAÑOL: Django y multiples idiomas. by Adolfo Fitoria ([twitter](https://twitter.com/Fitoria), [website](http://fitoria.net))
