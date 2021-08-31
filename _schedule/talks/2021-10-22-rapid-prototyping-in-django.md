@@ -9,7 +9,7 @@ date: 2021-10-22 10:00
 difficulty: All
 image: /static/img/social/presenters/benjamin-zags-zagorsky.png
 layout: session-details
-permalink: /talks/rapid-protoyping-in-django/
+permalink: /talks/rapid-prototyping-in-django/
 presenter_slugs:
 - benjamin-zags-zagorsky
 presenters:
@@ -35,7 +35,7 @@ tags:
 - design
 - best practices
 - tools
-title: Rapid Protoyping in Django
+title: Rapid Prototyping in Django
 track: t0
 video_url: ''
 ---
