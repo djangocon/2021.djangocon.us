@@ -14,7 +14,10 @@ published: true
     <h2 class="day">Talks: Friday, October 22</h2>
     <p class="lead">
       Buy <a href="{{ site.ticket_link }}">talk tickets</a> before they sell out!
+      <br>
+      <strong>NOTE:</strong> All talks are in US Central Daylight Time (UTC-5). The schedule is still being finalized, so times are subject to change.
     </p>
+
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
@@ -31,6 +34,9 @@ published: true
 <section class="section-pad schedule">
   <div class="row column">
     <h2 class="day">Talks: Saturday, October 23</h2>
+    <p class="lead">
+      <strong>NOTE:</strong> All talks are in US Central Daylight Time (UTC-5). The schedule is still being finalized, so times are subject to change.
+    </p>
     {% comment %}
     <p class="lead">
       Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
