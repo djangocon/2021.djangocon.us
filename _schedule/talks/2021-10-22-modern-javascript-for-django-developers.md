@@ -49,7 +49,7 @@ If so, this talk is for you.
 First I cover common Django / JavaScript architectures and their tradeoffs. Including:
 
 1. The most common "ad-hoc" approach, where JS just gets incrementally added to templates until you find yourself in a mess.
-2. The "completely decoupled client/server" JS front-end and Django-API back end, which is popular, but complex and unfamiliar to pure Django developers.
+2. The "ompletely decoupled JS front-end and Django-API back end, which is popular, but complex and unfamiliar to pure Django developers.
 3. A "hybrid architecture", that combines modern JS with familiarity of working in Django.
 
 The rest of the talk deep dives into building out a hybrid app with Django.
