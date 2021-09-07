@@ -1,6 +1,6 @@
 ---
 company: SquadStack
-github: http://github.com/tarungarg546
+github: tarungarg546
 layout: speaker-template
 name: Tarun Garg
 permalink: /presenters/tarun-garg/
