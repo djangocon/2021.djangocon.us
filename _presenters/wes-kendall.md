@@ -1,6 +1,6 @@
 ---
 company: Rich
-github: https://github.com/wesleykendall/
+github: wesleykendall
 layout: speaker-template
 name: Wes Kendall
 permalink: /presenters/wes-kendall/
