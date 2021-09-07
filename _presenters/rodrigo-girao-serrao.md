@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Rodrigo Girão Serrão
 permalink: /presenters/rodrigo-girao-serrao/
-photo_url: ''
+photo_url: '/static/img/presenters/rodrigo-girao-serrao.jpg'
 slug: rodrigo-girao-serrao
 twitter: mathsppblog
 website: https://mathspp.com/blog
