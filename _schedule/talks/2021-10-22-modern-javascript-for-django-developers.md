@@ -54,7 +54,7 @@ First I cover common Django / JavaScript architectures and their tradeoffs. Incl
 
 The rest of the talk deep dives into building out a hybrid app with Django.
 
-I'll start with the fundamentals of JS tooling - a prerequisite to working with modern JavaScript. I'll cover why it's so frustrating and confusing trying to add React to a Django project, then introduce the concept of a JavaScript toolchain, why you need them and what they do, and finally do a quick overview of the most common JS toolchain: NPM, Webpack, and Babel.
+This process starts with the fundamentals of JS tooling, a prerequisite to working with modern JavaScript. I'll cover why it's so frustrating and confusing trying to add React to a Django project, then introduce the concept of a JavaScript toolchain, why you need them and what they do, and finally do a quick overview of the most common JS toolchain: NPM, Webpack, and Babel.
 
 Finally, we'll bring it back to Django, showing how you can add a JS toolchain to a Django project and use a React application inside Django without all the complexity of managing a separate standalone front end. I'll also cover some of the common patterns that are used to interact with data, and the benefits and tradeoffs of the hybrid architecture over other models.
 
