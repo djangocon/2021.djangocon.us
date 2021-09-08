@@ -40,7 +40,7 @@ tags:
 - idiomatic code
 - refactoring
 - fundamentals
-title: Pydon'ts – Write elegant Python code
+title: Pydon'ts – Write elegant Python code (v1.1)
 track: t0
 video_url: ''
 ---
