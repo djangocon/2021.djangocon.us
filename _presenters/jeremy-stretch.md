@@ -1,10 +1,10 @@
 ---
 company: NS1
-github: ''
+github: jeremystretch
 layout: speaker-template
 name: Jeremy Stretch
 permalink: /presenters/jeremy-stretch/
-photo_url: ''
+photo_url: /static/img/presenters/jeremy-stretch.jpg
 slug: jeremy-stretch
 twitter: jstretch85
 website: ''
