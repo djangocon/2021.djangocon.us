@@ -4,7 +4,7 @@ accepted: true
 category: talks
 date: 2021-10-22 10:00
 difficulty: All
-image: /static/img/blog/anna_keynote.png
+image: /static/img/speakers/anna-makarudze.jpg
 layout: session-details
 permalink: /talks/dsf-overview/
 presenter_slugs:
@@ -16,7 +16,7 @@ Anna will give an overview of the Django Software Foundation's mission and role 
   company: Django Software Foundation
   github: amakarudze
   name: Anna Makarudze
-  photo_url: /static/img/blog/anna_keynote.png
+  photo_url: /static/img/speakers/anna-makarudze.jpg
   twitter: amakarudze
   website: http://amakarudze.pythonanywhere.com/
 published: true
