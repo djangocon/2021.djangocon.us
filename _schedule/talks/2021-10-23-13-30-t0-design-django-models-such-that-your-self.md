@@ -42,6 +42,7 @@ tags:
 - user experience
 - database
 - architecture
+talk_slot: full
 title: "Design django models such that your future self will thank you \U0001F44B"
 track: t0
 video_url: ''

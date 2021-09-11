@@ -10,7 +10,7 @@ date: 2021-10-23 11:55:00 -0500
 difficulty: All
 image: /static/img/social/presenters/rodrigo-girao-serrao.png
 layout: session-details
-permalink: /talks/pydon-ts-write-elegant-python-code/
+permalink: /talks/pydon-ts-write-elegant-python-code-v1-1/
 presenter_slugs:
 - rodrigo-girao-serrao
 presenters:
@@ -40,6 +40,7 @@ tags:
 - idiomatic code
 - refactoring
 - fundamentals
+talk_slot: full
 title: Pydon'ts – Write elegant Python code (v1.1)
 track: t0
 video_url: ''

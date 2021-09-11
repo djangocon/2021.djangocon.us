@@ -36,6 +36,7 @@ tags:
 - testing
 - best practices
 - database
+talk_slot: full
 title: Managing the Test Data Nightmare
 track: t1
 video_url: ''

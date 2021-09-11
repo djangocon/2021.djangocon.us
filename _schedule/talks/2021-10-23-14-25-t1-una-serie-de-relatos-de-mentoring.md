@@ -35,6 +35,7 @@ tags:
 - communication
 - inclusion
 - community
+talk_slot: full
 title: Una serie de relatos de mentoring
 track: t1
 video_url: ''

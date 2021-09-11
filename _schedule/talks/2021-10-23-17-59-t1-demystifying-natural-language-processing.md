@@ -56,6 +56,7 @@ tags:
 - Data Science
 - machine learning
 - natural language processing
+talk_slot: full
 title: Demystifying Natural Language Processing across Several Industry Verticals
 track: t1
 video_url: ''

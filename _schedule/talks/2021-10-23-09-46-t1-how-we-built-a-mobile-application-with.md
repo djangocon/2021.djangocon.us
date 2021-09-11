@@ -39,6 +39,7 @@ tags:
 - communication
 - back-end
 - user experience
+talk_slot: full
 title: How we built a mobile application backend with Django in 10 weeks
 track: t1
 video_url: ''

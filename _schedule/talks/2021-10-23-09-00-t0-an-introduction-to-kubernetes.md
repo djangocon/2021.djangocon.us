@@ -31,6 +31,7 @@ tags:
 - beginners
 - infrastructure
 - Kubernetes
+talk_slot: full
 title: An Introduction to Kubernetes ☸️
 track: t0
 video_url: ''

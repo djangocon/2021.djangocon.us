@@ -51,6 +51,7 @@ tags:
 - back-end
 - community
 - communication
+talk_slot: full
 title: Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer
   of Code
 track: t0

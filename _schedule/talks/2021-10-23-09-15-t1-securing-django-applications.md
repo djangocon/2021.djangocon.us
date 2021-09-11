@@ -40,6 +40,7 @@ tags:
 - intermediate
 - experts
 - best practices
+talk_slot: full
 title: Securing Django Applications
 track: t1
 video_url: ''

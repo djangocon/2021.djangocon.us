@@ -37,6 +37,7 @@ tags:
 - task queues
 - filas de trabajo
 - web
+talk_slot: full
 title: Usando filas de tareas (task queues) en aplicaciones web
 track: t0
 video_url: ''

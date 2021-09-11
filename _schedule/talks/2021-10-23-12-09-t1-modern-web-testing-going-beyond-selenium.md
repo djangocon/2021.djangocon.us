@@ -29,6 +29,7 @@ tags:
 - cypress
 - testcafe
 - protractor
+talk_slot: full
 title: 'Modern Web Testing: Going Beyond Selenium'
 track: t1
 video_url: ''

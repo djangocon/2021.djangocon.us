@@ -35,6 +35,7 @@ tags:
 - design
 - best practices
 - tools
+talk_slot: full
 title: Rapid Prototyping in Django
 track: t0
 video_url: ''

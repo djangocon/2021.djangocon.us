@@ -34,6 +34,7 @@ tags:
 - back-end
 - best practices
 - tools
+talk_slot: full
 title: 'Zero to production-ready: a best-practices process for Docker packaging'
 track: t1
 video_url: ''

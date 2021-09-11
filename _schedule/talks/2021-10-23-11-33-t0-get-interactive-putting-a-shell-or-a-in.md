@@ -29,6 +29,7 @@ sitemap: true
 slides_url: ''
 summary: ''
 tags: []
+talk_slot: full
 title: Get interactive! Putting a shell (or a desktop) in your Django app
 track: t0
 video_url: ''

@@ -36,6 +36,7 @@ tags:
 - back-end
 - frameworks
 - scaling
+talk_slot: full
 title: Scaling Django to 500 apps
 track: t1
 video_url: ''

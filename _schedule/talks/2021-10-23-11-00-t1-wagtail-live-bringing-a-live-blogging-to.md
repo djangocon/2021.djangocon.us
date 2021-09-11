@@ -41,6 +41,7 @@ tags:
 - live-blog
 - real-time
 - Wagtail
+talk_slot: full
 title: 'Wagtail Live: bringing a live blogging tool to the Django ecosystem'
 track: t1
 video_url: ''

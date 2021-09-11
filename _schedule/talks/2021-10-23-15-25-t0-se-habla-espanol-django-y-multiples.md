@@ -29,6 +29,7 @@ tags:
 - django
 - i18n
 - i10n
+talk_slot: full
 title: 'SE HABLA ESPAÑOL: Django y multiples idiomas.'
 track: t0
 video_url: ''

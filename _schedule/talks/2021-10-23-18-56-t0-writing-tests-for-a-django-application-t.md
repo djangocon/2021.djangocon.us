@@ -38,6 +38,7 @@ tags:
 - Python
 - Django
 - testing
+talk_slot: full
 title: 'Writing tests for a Django application doesn''t have to suck: the simplest
   way to write short, fast and maintainable tests'
 track: t0

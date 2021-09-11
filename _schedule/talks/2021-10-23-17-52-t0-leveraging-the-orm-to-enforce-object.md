@@ -33,6 +33,7 @@ tags:
 - orm
 - json
 - security
+talk_slot: full
 title: Leveraging the ORM to enforce object-level permissions
 track: t0
 video_url: ''

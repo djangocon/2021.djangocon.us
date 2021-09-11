@@ -31,6 +31,7 @@ tags:
 - HATEOAS
 - web
 - front-end
+talk_slot: full
 title: REST, HATEOAS & Django - It's OK to not use JSON... or Javascript
 track: t1
 video_url: ''

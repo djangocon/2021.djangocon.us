@@ -37,6 +37,7 @@ tags:
 - DeckGL
 - GeoDjango
 - Leaflet
+talk_slot: full
 title: What in the World? Determining and demonstrating meaning in geospatial data
 track: t0
 video_url: ''
