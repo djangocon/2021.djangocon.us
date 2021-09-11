@@ -4,14 +4,14 @@ import typer
 
 from datetime import datetime
 from pathlib import Path
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel, Field, ValidationError
 from slugify import slugify
 from typing import List, Optional
 
 
 class Post(BaseModel):
     author: Optional[str] = None
-    category: Optional[str] = "General"
+    category: Optional[str] = "General"  # TODO: build a list of these
     date: datetime
     image: Optional[str] = None
     layout: Optional[str] = "post"
@@ -21,23 +21,62 @@ class Post(BaseModel):
     title: str
 
 
+class Schedule(BaseModel):
+    abstract: Optional[str] = None
+    accepted: bool = False
+    category: Optional[str] = None
+    date: str
+    difficulty: Optional[str] = None
+    image: Optional[str] = None
+    layout: Optional[str] = None  # TODO: validate against _layouts/*.html
+    permalink: Optional[str] = None
+    presenter_slugs: Optional[List[str]] = None
+    presenters: List[dict] = None  # TODO: break this into a sub-type
+    published: bool = False
+    room: Optional[str] = None
+    schedule: Optional[str] = None
+    schedule_layout: Optional[str] = Field(
+        alias="schedule-layout"
+    )  # TODO: Validate for breaks, lunch, etc
+    sitemap: bool
+    slides_url: Optional[str] = None
+    summary: Optional[str] = None
+    tags: Optional[List[str]] = None
+    talk_slot: Optional[str] = None
+    title: Optional[str] = None
+    track: Optional[str] = None
+    video_url: Optional[str] = None
+
+
 app = typer.Typer()
 
 
 @app.command()
 def validate():
-    filenames = Path("_posts").glob("**/*.md")
-    filenames = list(filenames)
-    filenames = sorted(filenames)
+    # Validate our posts...
+    filenames = sorted(list(Path("_posts").glob("**/*.md")))
 
     for filename in filenames:
         try:
             data = frontmatter.loads(filename.read_text())
-            post = Post(**data.metadata)
+            Post(**data.metadata)
         except ValidationError as e:
             typer.echo(e.json())
         except Exception as e:
             typer.secho(f"{filename}:: {e}", fg="red")
+
+    filenames = sorted(list(Path("_schedule").glob("**/*.md")))
+
+    for filename in filenames:
+        try:
+            data = frontmatter.loads(filename.read_text())
+            Schedule(**data.metadata)
+        except ValidationError as e:
+            typer.secho(f"{filename}", fg="red")
+            typer.echo(e.json())
+        except Exception as e:
+            typer.secho(f"{filename}", fg="red")
+            typer.echo(e.json())
 
 
 @app.command()
@@ -86,7 +125,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                             post["presenter_slugs"].append(presenter_slug)
                             presenter_post = frontmatter.loads(presenter.get("bio", ""))
                             del presenter["bio"]
-                            presenter["layout"] = "speaker-template"  # 'presenter-details'
+                            presenter[
+                                "layout"
+                            ] = "speaker-template"  # 'presenter-details'
                             presenter["permalink"] = "/".join(
                                 ["", "presenters", presenter_slug, ""]
                             )
@@ -101,7 +142,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                             if not presenter_filename.parent.exists():
                                 presenter_filename.parent.mkdirs()
 
-                            presenter_filename.write_text(frontmatter.dumps(presenter_post))
+                            presenter_filename.write_text(
+                                frontmatter.dumps(presenter_post)
+                            )
 
                         dirty = True
                         # post["presenters"] = post["presenter_slugs"]
@@ -109,7 +152,9 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    post["image"] = f"/static/img/social/presenters/{presenter_slug}.png"
+                    post[
+                        "image"
+                    ] = f"/static/img/social/presenters/{presenter_slug}.png"
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post))
