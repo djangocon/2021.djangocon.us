@@ -2,11 +2,46 @@ import frontmatter
 import maya
 import typer
 
+from datetime import datetime
 from pathlib import Path
+from pydantic import BaseModel, ValidationError
 from slugify import slugify
+from typing import List, Optional
 
 
-def main(slug_max_length: int = 40, process_presenters: bool = False):
+class Post(BaseModel):
+    author: Optional[str] = None
+    category: Optional[str] = "General"
+    date: datetime
+    image: Optional[str] = None
+    layout: Optional[str] = "post"
+    redirect_to: Optional[str] = None
+    slug: Optional[str] = None
+    tags: List[str] = None
+    title: str
+
+
+app = typer.Typer()
+
+
+@app.command()
+def validate():
+    filenames = Path("_posts").glob("**/*.md")
+    filenames = list(filenames)
+    filenames = sorted(filenames)
+
+    for filename in filenames:
+        try:
+            data = frontmatter.loads(filename.read_text())
+            post = Post(**data.metadata)
+        except ValidationError as e:
+            typer.echo(e.json())
+        except Exception as e:
+            typer.secho(f"{filename}:: {e}", fg="red")
+
+
+@app.command()
+def process(process_presenters: bool = False, slug_max_length: int = 40):
     filenames = Path("_schedule").glob("**/*.md")
     filenames = list(filenames)
     filenames = sorted(filenames)
@@ -114,4 +149,4 @@ def main(slug_max_length: int = 40, process_presenters: bool = False):
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()
