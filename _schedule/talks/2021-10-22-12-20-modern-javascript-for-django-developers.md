@@ -38,7 +38,7 @@ tags:
 - architecture
 - javascript
 title: Modern JavaScript for Django Developers
-track: ''
+track: null
 video_url: ''
 ---
 

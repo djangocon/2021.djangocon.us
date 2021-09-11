@@ -44,7 +44,7 @@ tags:
 - user experience
 - design
 title: The Web is Inherently Accessible
-track: ''
+track: null
 video_url: ''
 ---
 

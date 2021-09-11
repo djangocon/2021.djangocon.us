@@ -49,7 +49,7 @@ tags:
 - intermediate
 - community
 title: Illuminate Data with Visualization
-track: ''
+track: null
 video_url: ''
 ---
 

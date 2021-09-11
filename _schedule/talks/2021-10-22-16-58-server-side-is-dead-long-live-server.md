@@ -50,7 +50,7 @@ tags:
 - htmx
 - ajax
 title: Server-Side is Dead! Long Live Server-Side (+ HTMX)
-track: ''
+track: null
 video_url: ''
 ---
 

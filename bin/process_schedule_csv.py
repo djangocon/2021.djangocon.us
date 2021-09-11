@@ -117,7 +117,7 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
 
             track: Optional[str] = post.get('track')
             desired_track_number: Optional[int] = talk['track'] if not single_track else None
-            desired_track = ''
+            desired_track = None
             if desired_track_number is not None:
                 desired_track = f't{desired_track_number}'
             if track != desired_track:

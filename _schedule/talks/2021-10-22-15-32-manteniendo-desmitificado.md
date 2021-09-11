@@ -30,7 +30,7 @@ slides_url: ''
 summary: ''
 tags: []
 title: Manteniendo Desmitificado
-track: ''
+track: null
 video_url: ''
 ---
 

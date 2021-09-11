@@ -33,7 +33,7 @@ tags:
 - tools
 - best practices
 title: 'Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories'
-track: ''
+track: null
 video_url: ''
 ---
 

@@ -40,7 +40,7 @@ tags:
 - containers
 - oh my.
 title: What is deployment, anyway?
-track: ''
+track: null
 video_url: ''
 ---
 
