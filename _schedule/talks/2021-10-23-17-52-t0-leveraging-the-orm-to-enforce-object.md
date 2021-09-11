@@ -7,7 +7,7 @@ accepted: true
 category: talks
 date: 2021-10-23 17:52
 difficulty: Intermediate
-image: /static/img/social/presenters/jeremy-stretch.png
+image: /static/img/presenters/jeremy-stretch.png
 layout: session-details
 permalink: /talks/leveraging-the-orm-to-enforce-object/
 presenter_slugs:
@@ -18,9 +18,9 @@ presenters:
     engineer spearheading integration and development efforts around NetBox. He lives
     in the Raleigh, North Carolina area with his wife and three children.
   company: NS1
-  github: ''
+  github: jeremystretch
   name: Jeremy Stretch
-  photo_url: ''
+  photo_url: /static/img/presenters/jeremy-stretch.jpg
   twitter: jstretch85
   website: ''
 published: true

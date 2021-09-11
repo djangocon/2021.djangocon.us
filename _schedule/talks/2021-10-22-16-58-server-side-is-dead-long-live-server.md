@@ -60,33 +60,29 @@ By the end of this talk, audience members will have a better understanding of wh
 
 ## Outline
 
-- The current state (5 min)
+- The current state
+    - Frameworks for days
+    - Front-end roadmap
     - Django templates
-    - Ajax, transitions, and asynchronous front end approaches
-    - Heavy JS Frameworks (Vue, React, jQuery)
 
-- A different mindset (9 min)
-    - Getting back to the heart of HATEOAS
-    - Splitting up complicated views
+- One potential approach
 
-- Feature and approach walk-throughs (20 min)
+- Feature and approach walk-throughs
   For a variety of common web application features, we will take a look at a typical django approach and how one might approach the problem with django + htmx.
 
-    1. Messaging inbox functionality (read, archive)
-        - The default Django approach
+    1. Messaging inbox functionality (read/archive)
+        - A traditional Django approach
         - Django + HTMX approach
     2. One-click settings
-        - The default Django approach
+        - A traditional Django approach
         - Django + HTMX approach
     3. Multiple forms in multiple tabs
-        - The default Django approach
-        - Django + HTMX approach
-    4. Formsets and an HTMX approach
-        - The default Django approach
+        - A traditional Django approach
         - Django + HTMX approach
 
-- Tips, best practices, and pitfalls (6 min)
+- Tips, best practices, and pitfalls
     - CSRF Tokens
-    - Lightweight JS libraries which compliment HTMX
+    - More Views
+    - Complimentary JS libraries
     - Simplifying things with django-htmx
-    - Resources for further reading and community
+    - Additional resources
