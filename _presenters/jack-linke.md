@@ -1,10 +1,10 @@
 ---
 company: Watervize
-github: ''
+github: jacklinke
 layout: speaker-template
 name: Jack Linke
 permalink: /presenters/jack-linke/
-photo_url: ''
+photo_url: /static/img/presenters/jack-linke.jpg
 slug: jack-linke
 twitter: JackDLinke
 website: https://www.jacklinke.com
