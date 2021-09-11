@@ -24,28 +24,28 @@ class Post(BaseModel):
 class Schedule(BaseModel):
     abstract: Optional[str] = None
     accepted: bool = False
-    category: Optional[str] = None
-    date: str
-    difficulty: Optional[str] = None
-    image: Optional[str] = None
-    layout: Optional[str] = None  # TODO: validate against _layouts/*.html
-    permalink: Optional[str] = None
+    category: Optional[str] = "talks"
+    date: str  # TODO: Parse/fix...
+    difficulty: Optional[str] = "All"
+    image: Optional[str]
+    layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
+    permalink: Optional[str]
     presenter_slugs: Optional[List[str]] = None
     presenters: List[dict] = None  # TODO: break this into a sub-type
     published: bool = False
-    room: Optional[str] = None
-    schedule: Optional[str] = None
+    room: Optional[str]
+    schedule: Optional[str]
     schedule_layout: Optional[str] = Field(
         alias="schedule-layout"
     )  # TODO: Validate for breaks, lunch, etc
     sitemap: bool
-    slides_url: Optional[str] = None
-    summary: Optional[str] = None
+    slides_url: Optional[str]
+    summary: Optional[str]
     tags: Optional[List[str]] = None
-    talk_slot: Optional[str] = None
-    title: Optional[str] = None
+    talk_slot: Optional[str] = "full"
+    title: str
     track: Optional[str] = None
-    video_url: Optional[str] = None
+    video_url: Optional[str]
 
 
 app = typer.Typer()
@@ -65,6 +65,8 @@ def validate():
         except Exception as e:
             typer.secho(f"{filename}:: {e}", fg="red")
 
+    # Validate our schedule posts...
+
     filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
     for filename in filenames:
@@ -81,14 +83,17 @@ def validate():
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
-    filenames = Path("_schedule").glob("**/*.md")
-    filenames = list(filenames)
-    filenames = sorted(filenames)
+    filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
     for filename in filenames:
         try:
             dirty = False
             post = frontmatter.loads(filename.read_text())
+
+            # TODO: Re-enable once we know everything works...
+            # data = Schedule(**post.metadata)
+            # post.metadata.update(data.dict())
+
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
             )
