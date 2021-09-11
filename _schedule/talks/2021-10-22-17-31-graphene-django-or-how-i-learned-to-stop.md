@@ -7,7 +7,7 @@ abstract: 'django-rest-framework is the tried and true approach for Djangonauts 
   In this talk you''ll learn about Django-Graphene and hopefully come to love it.'
 accepted: true
 category: talks
-date: 2021-10-22 17:31
+date: 2021-10-22 17:31:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dane-hillard.png
 layout: session-details
@@ -36,6 +36,7 @@ tags:
 - graphene
 - graphql
 - apis
+talk_slot: full
 title: 'graphene-django or: How I learned to stop RESTing and Love the Graph'
 track: null
 video_url: ''

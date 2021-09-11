@@ -5,7 +5,7 @@ abstract: Let’s talk about getting started with the end in mind and making sur
   to make sure you can develop in a sane environment.
 accepted: true
 category: talks
-date: 2021-10-23 17:20
+date: 2021-10-23 17:20:00 -0500
 difficulty: All
 image: /static/img/social/presenters/calvin-hendryx-parker.png
 layout: session-details

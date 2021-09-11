@@ -5,7 +5,7 @@ abstract: "Have you ever thought of using data visualization to represent data; 
   also be used as a Python library.\nBeginner friendly!"
 accepted: true
 category: talks
-date: 2021-10-22 10:26
+date: 2021-10-22 10:26:00 -0500
 difficulty: All
 image: /static/img/social/presenters/drishti-jain.png
 layout: session-details
@@ -48,6 +48,7 @@ tags:
 - beginners
 - intermediate
 - community
+talk_slot: full
 title: Illuminate Data with Visualization
 track: null
 video_url: ''

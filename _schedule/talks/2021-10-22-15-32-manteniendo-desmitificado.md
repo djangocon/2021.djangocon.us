@@ -5,7 +5,7 @@ abstract: Muchas Djangonauts suddenamente tienen un necessidad que mantener un p
   es una mejora en conocimiento y divertida también!
 accepted: true
 category: talks
-date: 2021-10-22 15:32
+date: 2021-10-22 15:32:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png
 layout: session-details
@@ -29,6 +29,7 @@ sitemap: true
 slides_url: ''
 summary: ''
 tags: []
+talk_slot: full
 title: Manteniendo Desmitificado
 track: null
 video_url: ''

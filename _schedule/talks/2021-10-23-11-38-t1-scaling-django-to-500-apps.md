@@ -4,7 +4,7 @@ abstract: Django apps are more than just a way for libraries to provide reusable
   codebases. Techniques and experience from 500 apps and 400k lines of Python.
 accepted: true
 category: talks
-date: 2021-10-23 11:38
+date: 2021-10-23 11:38:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dan-palmer.png
 layout: session-details

@@ -8,7 +8,7 @@ abstract: 'HTMX is a tiny JavaScript library which helps you to avoid JavaScript
   scores.'
 accepted: true
 category: talks
-date: 2021-10-23 13:45
+date: 2021-10-23 13:45:00 -0500
 difficulty: All
 image: /static/img/social/presenters/thomas-guttler.png
 layout: session-details

@@ -5,7 +5,7 @@ abstract: En esta charla hablaremos sobre cómo preparar tu proyecto para soport
   traducción de contenido.
 accepted: true
 category: talks
-date: 2021-10-23 15:25
+date: 2021-10-23 15:25:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/adolfo-fitoria.png
 layout: session-details

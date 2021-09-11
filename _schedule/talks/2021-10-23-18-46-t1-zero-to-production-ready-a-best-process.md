@@ -5,7 +5,7 @@ abstract: You know the basics of packaging your Python application for Docker, b
   starting with security and ending with image size.
 accepted: true
 category: talks
-date: 2021-10-23 18:46
+date: 2021-10-23 18:46:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/itamar-turner-trauring.png
 layout: session-details

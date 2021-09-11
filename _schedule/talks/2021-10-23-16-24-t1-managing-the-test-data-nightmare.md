@@ -5,7 +5,7 @@ abstract: Good test data can be a nightmare to manage! It can make-or-break test
   both in our products and in our test cases.
 accepted: true
 category: talks
-date: 2021-10-23 16:24
+date: 2021-10-23 16:24:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/andrew-knight.png
 layout: session-details

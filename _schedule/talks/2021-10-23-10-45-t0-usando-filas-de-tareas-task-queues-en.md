@@ -8,7 +8,7 @@ abstract: 'Las filas de tareas se encuentran en un sinnúmero de aplicaciones qu
   aprovecharlas mejor.'
 accepted: true
 category: talks
-date: 2021-10-23 10:45
+date: 2021-10-23 10:45:00 -0500
 difficulty: All
 image: /static/img/social/presenters/josue-balandrano-coronel.png
 layout: session-details

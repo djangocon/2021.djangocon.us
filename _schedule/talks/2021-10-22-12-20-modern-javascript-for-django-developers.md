@@ -8,7 +8,7 @@ abstract: 'Many Django developers are intimidated by "modern" JavaScript, and th
   giving up Django''s View/Template system.'
 accepted: true
 category: talks
-date: 2021-10-22 12:20
+date: 2021-10-22 12:20:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/cory-zue.png
 layout: session-details
@@ -37,6 +37,7 @@ tags:
 - front-end
 - architecture
 - javascript
+talk_slot: full
 title: Modern JavaScript for Django Developers
 track: null
 video_url: ''

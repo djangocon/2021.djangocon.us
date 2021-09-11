@@ -5,7 +5,7 @@ abstract: "Are you familiar with web based applications? Did you build a Django 
   web services for a mobile application using Django/Python."
 accepted: true
 category: talks
-date: 2021-10-23 09:46
+date: 2021-10-23 09:46:00 -0500
 difficulty: All
 image: /static/img/social/presenters/cagil-ulusahin.png
 layout: session-details

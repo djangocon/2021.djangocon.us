@@ -5,7 +5,7 @@ abstract: This talk introduces Kontrasto, a library for Django and Wagtail that 
   can be used to improve accessibility.
 accepted: true
 category: talks
-date: 2021-10-22 11:06
+date: 2021-10-22 11:06:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/thibaud-colas.png
 layout: session-details
@@ -32,6 +32,7 @@ tags:
 - intermediate
 - javascript
 - accessibility
+talk_slot: full
 title: 'Kontrasto: improving accessibility with Python'
 track: null
 video_url: ''

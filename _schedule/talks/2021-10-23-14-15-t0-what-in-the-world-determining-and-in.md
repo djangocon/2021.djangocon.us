@@ -5,7 +5,7 @@ abstract: As piles of data continue to bury us all, geo-spatial data provides a 
   far more than just points on a map.
 accepted: true
 category: talks
-date: 2021-10-23 14:15
+date: 2021-10-23 14:15:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/tyrel-denison.png
 layout: session-details

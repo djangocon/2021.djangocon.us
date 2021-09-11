@@ -5,7 +5,7 @@ abstract: REST and HATEOAS are terms that are most often associated these days w
   even really trying, using good ol' Django.
 accepted: true
 category: talks
-date: 2021-10-23 15:40
+date: 2021-10-23 15:40:00 -0500
 difficulty: All
 image: /static/img/social/presenters/carson-gross.png
 layout: session-details

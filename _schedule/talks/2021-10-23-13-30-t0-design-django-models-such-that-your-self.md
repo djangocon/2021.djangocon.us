@@ -5,7 +5,7 @@ abstract: We'll discuss some practices around designing Django models that'll ma
   a pain in the future for developers if not done early.
 accepted: true
 category: talks
-date: 2021-10-23 13:30
+date: 2021-10-23 13:30:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/tarun-garg.png
 layout: session-details

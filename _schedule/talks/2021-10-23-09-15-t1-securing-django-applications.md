@@ -5,7 +5,7 @@ abstract: In this talk, we will focus on two aspects. First, performing penetrat
   source code and Django applications secure.
 accepted: true
 category: talks
-date: 2021-10-23 09:15
+date: 2021-10-23 09:15:00 -0500
 difficulty: All
 image: /static/img/social/presenters/gajendra-deshpande.png
 layout: session-details

@@ -6,7 +6,7 @@ abstract: 'Python''s shiny frameworks drive some people to spend too little time
   and learn powerful vanilla Python features.'
 accepted: true
 category: talks
-date: 2021-10-23 11:55
+date: 2021-10-23 11:55:00 -0500
 difficulty: All
 image: /static/img/social/presenters/rodrigo-girao-serrao.png
 layout: session-details

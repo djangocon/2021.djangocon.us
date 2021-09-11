@@ -4,7 +4,7 @@ abstract: Privacy matters, and I know I make mistakes, so I built a tool to make
   right into the Django ORM. Privacy checks are conducted under the hood, automatically.
 accepted: true
 category: talks
-date: 2021-10-22 16:11
+date: 2021-10-22 16:11:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/madelaine-boyd.png
 layout: session-details
@@ -40,6 +40,7 @@ tags:
 - privacy
 - authorization
 - model managers
+talk_slot: full
 title: The Pit of Success for Per-Object Permissions in Django
 track: null
 video_url: ''

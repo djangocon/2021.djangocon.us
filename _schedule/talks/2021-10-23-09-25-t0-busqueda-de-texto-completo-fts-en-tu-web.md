@@ -7,7 +7,7 @@ abstract: '**La funcionalidad de búsqueda es crucial, pero al mismo tiempo es u
   **¡Anímate a conocer mi experiencia!**'
 accepted: true
 category: talks
-date: 2021-10-23 09:25
+date: 2021-10-23 09:25:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/aldan-creo.png
 layout: session-details
