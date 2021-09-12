@@ -27,7 +27,6 @@ presenters:
   twitter: madelaineboyd
   website: https://www.madelaineboyd.com/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -42,7 +41,6 @@ tags:
 - model managers
 talk_slot: full
 title: The Pit of Success for Per-Object Permissions in Django
-track: null
 video_url: ''
 ---
 

@@ -22,7 +22,6 @@ presenters:
   twitter: htmx_org
   website: https://bigsky.software
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -33,7 +32,6 @@ tags:
 - front-end
 talk_slot: full
 title: REST, HATEOAS & Django - It's OK to not use JSON... or Javascript
-track: t1
 video_url: ''
 ---
 

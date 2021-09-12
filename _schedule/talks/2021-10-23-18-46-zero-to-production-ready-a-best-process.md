@@ -26,7 +26,6 @@ presenters:
   twitter: itamarst
   website: https://pythonspeed.com
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -36,7 +35,6 @@ tags:
 - tools
 talk_slot: full
 title: 'Zero to production-ready: a best-practices process for Docker packaging'
-track: t1
 video_url: ''
 ---
 

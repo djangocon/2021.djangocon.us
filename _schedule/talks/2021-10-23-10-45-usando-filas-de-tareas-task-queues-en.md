@@ -27,7 +27,6 @@ presenters:
   twitter: rmcomplexity
   website: https://rmcomplexity.com
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -39,7 +38,6 @@ tags:
 - web
 talk_slot: full
 title: Usando filas de tareas (task queues) en aplicaciones web
-track: t0
 video_url: ''
 ---
 

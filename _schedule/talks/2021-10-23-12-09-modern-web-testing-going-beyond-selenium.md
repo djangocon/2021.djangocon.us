@@ -20,7 +20,6 @@ presenters:
   twitter: DmitryVinnik
   website: https://dvinnik.dev
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -31,7 +30,6 @@ tags:
 - protractor
 talk_slot: full
 title: 'Modern Web Testing: Going Beyond Selenium'
-track: t1
 video_url: ''
 ---
 

@@ -21,7 +21,6 @@ presenters:
   twitter: Fitoria
   website: http://fitoria.net
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -31,7 +30,6 @@ tags:
 - i10n
 talk_slot: full
 title: 'SE HABLA ESPAÑOL: Django y multiples idiomas.'
-track: t0
 video_url: ''
 ---
 

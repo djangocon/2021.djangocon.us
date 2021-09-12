@@ -39,7 +39,6 @@ presenters:
   twitter: calvinhp
   website: http://www.sixfeetup.com/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -61,7 +60,6 @@ tags:
 - Version Management
 talk_slot: full
 title: Bootstrapping your Local Python Environment
-track: t1
 video_url: ''
 ---
 

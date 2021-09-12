@@ -28,7 +28,6 @@ presenters:
   twitter: easyaspython
   website: https://dane.engineering
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -38,7 +37,6 @@ tags:
 - apis
 talk_slot: full
 title: 'graphene-django or: How I learned to stop RESTing and Love the Graph'
-track: null
 video_url: ''
 ---
 

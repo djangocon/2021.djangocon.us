@@ -45,7 +45,6 @@ presenters:
   twitter: jyotikasingh_
   website: https://linkedin.com/in/jyotikasingh
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -58,7 +57,6 @@ tags:
 - natural language processing
 talk_slot: full
 title: Demystifying Natural Language Processing across Several Industry Verticals
-track: t1
 video_url: ''
 ---
 

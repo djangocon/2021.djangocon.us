@@ -21,7 +21,6 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -43,7 +42,6 @@ tags:
 - accessibility
 talk_slot: full
 title: Lightweight Multi-Tenant Architecture for Django Applications
-track: t0
 video_url: ''
 ---
 

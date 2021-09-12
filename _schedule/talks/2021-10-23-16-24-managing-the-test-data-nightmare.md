@@ -28,7 +28,6 @@ presenters:
   twitter: AutomationPanda
   website: https://automationpanda.com/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -38,7 +37,6 @@ tags:
 - database
 talk_slot: full
 title: Managing the Test Data Nightmare
-track: t1
 video_url: ''
 ---
 

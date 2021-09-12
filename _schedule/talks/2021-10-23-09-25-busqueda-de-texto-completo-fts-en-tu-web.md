@@ -32,7 +32,6 @@ presenters:
   twitter: acmcmc
   website: https://acmc.codes
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -54,7 +53,6 @@ tags:
 talk_slot: full
 title: Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer
   of Code
-track: t0
 video_url: ''
 ---
 

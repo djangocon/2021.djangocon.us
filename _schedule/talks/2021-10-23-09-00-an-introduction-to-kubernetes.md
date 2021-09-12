@@ -23,7 +23,6 @@ presenters:
   twitter: m_holtermann
   website: https://markusholtermann.eu
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -33,7 +32,6 @@ tags:
 - Kubernetes
 talk_slot: full
 title: An Introduction to Kubernetes ☸️
-track: t0
 video_url: ''
 ---
 

@@ -32,7 +32,6 @@ presenters:
   twitter: Tarun_Garg2
   website: https://www.linkedin.com/in/tarungarg546/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -44,7 +43,6 @@ tags:
 - architecture
 talk_slot: full
 title: "Design django models such that your future self will thank you \U0001F44B"
-track: t0
 video_url: ''
 ---
 

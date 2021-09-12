@@ -26,7 +26,6 @@ presenters:
   twitter: hola_soy_milk
   website: https://ramonh.dev
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -37,7 +36,6 @@ tags:
 - community
 talk_slot: full
 title: Una serie de relatos de mentoring
-track: t1
 video_url: ''
 ---
 
