@@ -13,7 +13,7 @@ published: true
   <div class="row column">
     <h2 class="day">Talks: Friday, October 22</h2>
     <p class="lead">
-      Buy <a href="{{ site.ticket_link }}">talk tickets</a> before they sell out!
+      Registraton is <a href="{{ site.ticket_link }}">free</a> this year.
     </p>
     <ul class="schedule">
       {% for post in site.schedule %}
@@ -31,11 +31,9 @@ published: true
 <section class="section-pad schedule">
   <div class="row column">
     <h2 class="day">Talks: Saturday, October 23</h2>
-    {% comment %}
     <p class="lead">
-      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+      Registraton is <a href="{{ site.ticket_link }}">free</a> this year.
     </p>
-    {% endcomment %}
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
