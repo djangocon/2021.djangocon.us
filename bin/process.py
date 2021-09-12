@@ -130,32 +130,6 @@ def validate():
             except Exception as e:
                 typer.secho(f"{filename}::{e}", fg="red")
 
-    # filenames = sorted(list(Path("_posts").glob("**/*.md")))
-
-    # for filename in filenames:
-    #     try:
-    #         data = frontmatter.loads(filename.read_text())
-    #         Post(**data.metadata)
-    #     except ValidationError as e:
-    #         typer.echo(e.json())
-    #     except Exception as e:
-    #         typer.secho(f"{filename}:: {e}", fg="red")
-
-    # # Validate our schedule posts...
-
-    # filenames = sorted(list(Path("_schedule").glob("**/*.md")))
-
-    # for filename in filenames:
-    #     try:
-    #         data = frontmatter.loads(filename.read_text())
-    #         Schedule(**data.metadata)
-    #     except ValidationError as e:
-    #         typer.secho(f"{filename}", fg="red")
-    #         typer.echo(e.json())
-    #     except Exception as e:
-    #         typer.secho(f"{filename}", fg="red")
-    #         typer.echo(e.json())
-
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
