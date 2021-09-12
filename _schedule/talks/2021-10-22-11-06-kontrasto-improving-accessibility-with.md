@@ -22,7 +22,6 @@ presenters:
   twitter: thibaud_colas
   website: https://thib.me/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -34,7 +33,6 @@ tags:
 - accessibility
 talk_slot: full
 title: 'Kontrasto: improving accessibility with Python'
-track: null
 video_url: ''
 ---
 

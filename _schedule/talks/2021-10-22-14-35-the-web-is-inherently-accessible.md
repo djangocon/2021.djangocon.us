@@ -30,7 +30,6 @@ presenters:
   twitter: racheleditullio
   website: https://racheleditullio.com/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -45,7 +44,6 @@ tags:
 - design
 talk_slot: full
 title: The Web is Inherently Accessible
-track: null
 video_url: ''
 ---
 

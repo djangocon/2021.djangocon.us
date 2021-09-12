@@ -27,7 +27,6 @@ presenters:
   twitter: guettli
   website: https://github.com/guettli
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -38,7 +37,6 @@ tags:
 - architecture
 talk_slot: full
 title: 'HTMX: Frontend Revolution'
-track: t1
 video_url: ''
 ---
 

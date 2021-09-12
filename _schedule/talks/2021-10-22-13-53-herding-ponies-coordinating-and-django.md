@@ -23,7 +23,6 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -34,7 +33,6 @@ tags:
 - best practices
 talk_slot: full
 title: 'Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories'
-track: null
 video_url: ''
 ---
 

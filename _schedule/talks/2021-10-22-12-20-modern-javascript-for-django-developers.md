@@ -27,7 +27,6 @@ presenters:
   twitter: czue
   website: https://www.coryzue.com/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -39,7 +38,6 @@ tags:
 - javascript
 talk_slot: full
 title: Modern JavaScript for Django Developers
-track: null
 video_url: ''
 ---
 

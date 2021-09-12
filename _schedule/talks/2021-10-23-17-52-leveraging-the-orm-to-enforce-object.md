@@ -24,7 +24,6 @@ presenters:
   twitter: jstretch85
   website: ''
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -35,7 +34,6 @@ tags:
 - security
 talk_slot: full
 title: Leveraging the ORM to enforce object-level permissions
-track: t0
 video_url: ''
 ---
 

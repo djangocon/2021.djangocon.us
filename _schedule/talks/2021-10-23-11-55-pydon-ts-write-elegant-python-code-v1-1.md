@@ -29,7 +29,6 @@ presenters:
   twitter: mathsppblog
   website: https://mathspp.com/blog
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -42,7 +41,6 @@ tags:
 - fundamentals
 talk_slot: full
 title: Pydon'ts – Write elegant Python code (v1.1)
-track: t0
 video_url: ''
 ---
 

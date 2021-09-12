@@ -29,7 +29,6 @@ presenters:
   twitter: drishtijjain
   website: https://medium.com/@drishtijjain
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -50,7 +49,6 @@ tags:
 - community
 talk_slot: full
 title: Illuminate Data with Visualization
-track: null
 video_url: ''
 ---
 

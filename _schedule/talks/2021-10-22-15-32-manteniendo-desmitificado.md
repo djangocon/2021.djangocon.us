@@ -24,14 +24,12 @@ presenters:
   twitter: KatiMichel
   website: https://github.com/KatherineMichel
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
 tags: []
 talk_slot: full
 title: Manteniendo Desmitificado
-track: null
 video_url: ''
 ---
 

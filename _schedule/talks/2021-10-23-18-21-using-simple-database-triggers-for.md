@@ -31,7 +31,6 @@ presenters:
   twitter: ''
   website: ''
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -39,7 +38,6 @@ tags:
 - postgres
 talk_slot: full
 title: Using simple database triggers for complex Django problems
-track: t0
 video_url: ''
 ---
 

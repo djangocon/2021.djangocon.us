@@ -30,7 +30,6 @@ presenters:
   twitter: gcdeshpande
   website: https://gcdeshpande.github.io
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -42,7 +41,6 @@ tags:
 - best practices
 talk_slot: full
 title: Securing Django Applications
-track: t1
 video_url: ''
 ---
 

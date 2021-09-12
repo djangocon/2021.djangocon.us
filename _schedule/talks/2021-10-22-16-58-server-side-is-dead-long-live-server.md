@@ -35,7 +35,6 @@ presenters:
   twitter: JackDLinke
   website: https://www.jacklinke.com
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -51,7 +50,6 @@ tags:
 - ajax
 talk_slot: full
 title: Server-Side is Dead! Long Live Server-Side (+ HTMX)
-track: null
 video_url: ''
 ---
 

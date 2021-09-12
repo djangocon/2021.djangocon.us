@@ -29,7 +29,6 @@ presenters:
   twitter: glasnt
   website: https://glasnt.com
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -41,7 +40,6 @@ tags:
 - oh my.
 talk_slot: full
 title: What is deployment, anyway?
-track: null
 video_url: ''
 ---
 

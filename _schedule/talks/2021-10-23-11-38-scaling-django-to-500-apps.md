@@ -24,7 +24,6 @@ presenters:
   twitter: danpalmer
   website: https://danpalmer.me/
 published: true
-room: ''
 sitemap: true
 slides_url: ''
 summary: ''
@@ -38,7 +37,6 @@ tags:
 - scaling
 talk_slot: full
 title: Scaling Django to 500 apps
-track: t1
 video_url: ''
 ---
 
