@@ -18,6 +18,9 @@ class FrontmatterModel(BaseModel):
     sitemap: Optional[bool]
     title: str
 
+    class Config:
+        extra = "allow"
+
 
 class Job(FrontmatterModel):
     hidden: bool = False
