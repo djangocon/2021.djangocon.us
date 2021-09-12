@@ -14,6 +14,7 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
+    date: Optional[str]  # TODO: Parse/fix...
     layout: str
     permalink: Optional[str]
     published: bool = True
@@ -87,7 +88,6 @@ class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
     accepted: bool = False
     category: Optional[str] = "talks"
-    date: str  # TODO: Parse/fix...
     difficulty: Optional[str] = "All"
     image: Optional[str]
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
