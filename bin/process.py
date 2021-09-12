@@ -10,6 +10,10 @@ from typing import List, Optional
 
 
 class FrontmatterModel(BaseModel):
+    """
+    Our base class for our default "Frontmatter" fields.
+    """
+
     layout: str
     permalink: Optional[str]
     published: bool = True
