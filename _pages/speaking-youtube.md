@@ -10,8 +10,8 @@ description: Our Speaking Template for YouTube Videos (this should not be in our
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
-{% if post.presenters %}
-{% for presenter_slug in post.presenters %}
+{% if post.presenter_slugs %}
+{% for presenter_slug in post.presenter_slugs %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
 <p class="event-byline">
 <h4>{{ presenter.name }}, {{ post.title }} - DjangoCon US (2021)</h4>

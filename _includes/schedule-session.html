@@ -29,8 +29,9 @@
     {% if post.room %}
       <p class="location">{{ post.room }}</p>
     {% endif %}
-    {% if post.presenters %}
-      {% for presenter_slug in post.presenters %}
+
+    {% if post.presenter_slugs %}
+      {% for presenter_slug in post.presenter_slugs %}
         {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
         <p class="event-byline">
           {% if presenter.photo_url != blank %}
