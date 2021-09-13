@@ -24,7 +24,7 @@ published: true
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' or day == 'Wednesday' %}
-{% if post.presenters %}
+{% if post.presenter_slugs %}
 {% for presenter_slug in post.presenter_slugs %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
 <tr>
