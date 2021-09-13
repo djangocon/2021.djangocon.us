@@ -2,19 +2,152 @@ import frontmatter
 import maya
 import typer
 
+from datetime import datetime
 from pathlib import Path
+from pydantic import BaseModel, Field, ValidationError
 from slugify import slugify
+from typing import List, Optional
 
 
-def main(slug_max_length: int = 40, process_presenters: bool = False):
-    filenames = Path("_schedule").glob("**/*.md")
-    filenames = list(filenames)
-    filenames = sorted(filenames)
+class FrontmatterModel(BaseModel):
+    """
+    Our base class for our default "Frontmatter" fields.
+    """
+
+    date: Optional[str]  # TODO: Parse/fix...
+    layout: str
+    permalink: Optional[str]
+    published: bool = True
+    redirect_from: Optional[List[str]]
+    redirect_to: Optional[str]  # via the jekyll-redirect-from plugin
+    sitemap: Optional[bool]
+    title: str
+
+    class Config:
+        extra = "allow"
+
+
+class Job(FrontmatterModel):
+    hidden: bool = False
+    layout: str = "base"
+    name: str
+    title: Optional[str]
+    website: str
+    website_text: str = "Apply here"
+
+
+class Organizer(FrontmatterModel):
+    github: Optional[str]
+    hidden: bool = False
+    layout: str = "base"
+    name: str
+    photo_url: Optional[str]
+    slug: Optional[str]
+    title: Optional[str]
+    twitter: Optional[str]
+    website: Optional[str]
+
+
+class Page(FrontmatterModel):
+    description: Optional[str]
+    heading: Optional[str]
+    hero_text_align: Optional[str]  # homepage related
+    hero_theme: Optional[str]  # homepage related
+    layout: Optional[str]
+    testimonial_img: Optional[str]  # homepage related
+    testimonial_img_mobile: Optional[str]  # homepage related
+    title: Optional[str]
+
+
+class Post(FrontmatterModel):
+    author: Optional[str] = None
+    category: Optional[str] = "General"  # TODO: build a list of these
+    categories: Optional[List[str]]
+    date: datetime  # YYYY-MM-DD HH:MM:SS +/-TTTT
+    image: Optional[str] = None
+    layout: Optional[str] = "post"
+    slug: Optional[str] = None
+    tags: Optional[List[str]]
+
+
+class Presenter(FrontmatterModel):
+    company: Optional[str]
+    github: Optional[str]
+    hidden: bool = False
+    layout: str = "speaker-template"
+    name: str
+    photo_url: Optional[str]
+    role: Optional[str]
+    title: Optional[str]
+    twitter: Optional[str]
+    website: Optional[str]
+    website_text: str = "Apply here"
+
+
+class Schedule(FrontmatterModel):
+    abstract: Optional[str] = None
+    accepted: bool = False
+    category: Optional[str] = "talks"
+    difficulty: Optional[str] = "All"
+    image: Optional[str]
+    layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
+    presenter_slugs: Optional[List[str]] = None
+    presenters: List[dict] = None  # TODO: break this into a sub-type
+    published: bool = False
+    room: Optional[str]
+    schedule: Optional[str]
+    schedule_layout: Optional[str] = Field(
+        alias="schedule-layout"
+    )  # TODO: Validate for breaks, lunch, etc
+    slides_url: Optional[str]
+    summary: Optional[str]
+    tags: Optional[List[str]] = None
+    talk_slot: Optional[str] = "full"
+    track: Optional[str] = None
+    video_url: Optional[str]
+
+
+POST_TYPES = [
+    {"path": "_jobs", "class_name": Job},
+    {"path": "_organizers", "class_name": Organizer},
+    {"path": "_pages", "class_name": Page},
+    {"path": "_posts", "class_name": Post},
+    {"path": "_presenters", "class_name": Presenter},
+    {"path": "_schedule/talks", "class_name": Schedule},
+]
+
+app = typer.Typer()
+
+
+@app.command()
+def validate():
+    for post_type in POST_TYPES:
+        filenames = sorted(list(Path(post_type["path"]).glob("**/*")))
+
+        for filename in filenames:
+            try:
+                data = frontmatter.loads(filename.read_text())
+                post_type["class_name"](**data.metadata)
+            except ValidationError as e:
+                typer.secho(f"{filename}", fg="red")
+                typer.echo(e.json())
+            except Exception as e:
+                typer.secho(f"{filename}::{e}", fg="red")
+
+
+@app.command()
+def process(process_presenters: bool = False, slug_max_length: int = 40):
+    filenames = sorted(list(Path("_schedule").glob("**/*.md")))
 
     for filename in filenames:
         try:
             dirty = False
             post = frontmatter.loads(filename.read_text())
+
+            # TODO: Re-enable once we know everything works...
+            # data = Schedule(**post.metadata)
+            # post.metadata.update(data.dict())
+
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
             )
@@ -51,7 +184,9 @@ def main(slug_max_length: int = 40, process_presenters: bool = False):
                             post["presenter_slugs"].append(presenter_slug)
                             presenter_post = frontmatter.loads(presenter.get("bio", ""))
                             del presenter["bio"]
-                            presenter["layout"] = "speaker-template"  # 'presenter-details'
+                            presenter[
+                                "layout"
+                            ] = "speaker-template"  # 'presenter-details'
                             presenter["permalink"] = "/".join(
                                 ["", "presenters", presenter_slug, ""]
                             )
@@ -66,7 +201,9 @@ def main(slug_max_length: int = 40, process_presenters: bool = False):
                             if not presenter_filename.parent.exists():
                                 presenter_filename.parent.mkdirs()
 
-                            presenter_filename.write_text(frontmatter.dumps(presenter_post))
+                            presenter_filename.write_text(
+                                frontmatter.dumps(presenter_post)
+                            )
 
                         dirty = True
                         # post["presenters"] = post["presenter_slugs"]
@@ -74,7 +211,9 @@ def main(slug_max_length: int = 40, process_presenters: bool = False):
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    post["image"] = f"/static/img/social/presenters/{presenter_slug}.png"
+                    post[
+                        "image"
+                    ] = f"/static/img/social/presenters/{presenter_slug}.png"
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post))
@@ -114,4 +253,4 @@ def main(slug_max_length: int = 40, process_presenters: bool = False):
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()
