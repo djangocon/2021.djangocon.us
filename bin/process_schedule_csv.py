@@ -97,7 +97,9 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
     filenames = path.glob("**/*.md")
     filenames = list(filenames)
     filenames = sorted(filenames)
-    single_track = all(talk['track'] == 0 for talk in talks.values())
+    # HACK for 2021
+    # normally this would be all(talk['track'] == 0 for talk in talks.values())
+    single_track = True
 
     for filename in filenames:
         try:
@@ -119,12 +121,16 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
                 dirty = True
 
             track: Optional[str] = post.get('track')
-            desired_track_number: Optional[int] = talk['track'] if not single_track else None
-            desired_track = None
-            if desired_track_number is not None:
-                desired_track = f't{desired_track_number}'
-            if track != desired_track:
-                post['track'] = desired_track
+            if not single_track:
+                desired_track_number: int = talk['track']
+                desired_track = None
+                if desired_track_number is not None:
+                    desired_track = f't{desired_track_number}'
+                if track != desired_track:
+                    post['track'] = desired_track
+                    dirty = True
+            elif 'track' in post:
+                del post['track']
                 dirty = True
 
             if dirty is True:
