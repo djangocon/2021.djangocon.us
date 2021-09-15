@@ -13,12 +13,12 @@ from slugify import slugify
 import typer
 import pytz
 
-SKIP_LINES = {'UTC Offset', 'Talk padding', 'Track 2 offset'}
+SKIP_LINES = {"UTC Offset", "Talk padding", "Track 2 offset"}
 SLUG_MAX_LENGTH = 40
-CONFERENCE_TZ = pytz.timezone('America/Chicago')
-TIME_FORMAT = '%Y-%m-%d %H:%M:%S %z'  # 2021-10-22 10:15:00 -0500
+CONFERENCE_TZ = pytz.timezone("America/Chicago")
+TIME_FORMAT = "%Y-%m-%d %H:%M:%S %z"  # 2021-10-22 10:15:00 -0500
 
-BREAK_TEMPLATE = '''---
+BREAK_TEMPLATE = """---
 layout: session-details
 category: talk
 permalink:
@@ -34,9 +34,9 @@ date: {timestamp}
 schedule-layout: full
 ---
 Get up, stretch your legs, have a snack, etc.
-'''
+"""
 
-LUNCH_TEMPLATE = '''---
+LUNCH_TEMPLATE = """---
 layout: session-details
 category: talk
 permalink:
@@ -52,48 +52,59 @@ date: {timestamp}
 schedule-layout: full
 ---
 Please remember to eat lunch as appropriate for your time zone and daily schedule.
-'''
+"""
 
 
-def read_csv(csv_file: TextIO, talk_date: datetime.date, path: Path) -> dict[str, dict[str, Union[str, int, datetime.datetime]]]:
+def read_csv(
+    csv_file: TextIO, talk_date: datetime.date, path: Path
+) -> dict[str, dict[str, Union[str, int, datetime.datetime]]]:
     """Read the CSV file and get the talks back"""
     csv_data = csv.DictReader(csv_file)
     result = {}
     for line in csv_data:
-        if not line['Time (CDT)'] or line['Time (CDT)'] in SKIP_LINES:
+        if not line["Time (CDT)"] or line["Time (CDT)"] in SKIP_LINES:
             continue
         try:
-            title, author = (line['Track 1'] or line['Track 2']).split('by')
+            title, author = (line["Track 1"] or line["Track 2"]).split("by")
         except ValueError as exc:
-            title = line['Track 1'] or line['Track 2']
-            author = ''
+            title = line["Track 1"] or line["Track 2"]
+            author = ""
         finally:
             title = title.strip()
             author = author.strip()
         talk = {
-            'title': title,
-            'author': author,
-            'track': 0 if line['Track 1'] else 1,
-            'timestamp': CONFERENCE_TZ.localize(datetime.datetime.combine(talk_date, parse(line['Time (CDT)']).time())),
+            "title": title,
+            "author": author,
+            "track": 0 if line["Track 1"] else 1,
+            "timestamp": CONFERENCE_TZ.localize(
+                datetime.datetime.combine(talk_date, parse(line["Time (CDT)"]).time())
+            ),
         }
-        if title.casefold() == 'break':
-            save_break(talk['timestamp'], path)
-        if title.casefold() == 'lunch':
-            save_lunch(talk['timestamp'], path)
+        if title.casefold() == "break":
+            save_break(talk["timestamp"], path)
+        if title.casefold() == "lunch":
+            save_lunch(talk["timestamp"], path)
         result[slugify(title, max_length=SLUG_MAX_LENGTH, word_boundary=True)] = talk
     return result
 
 
 def save_break(timestamp: datetime.datetime, path: Path):
-    filename = path / Path(f'{timestamp:%Y-%m-%d-%H-%M}-break.md')
-    filename.write_text(BREAK_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT)))
+    filename = path / Path(f"{timestamp:%Y-%m-%d-%H-%M}-break.md")
+    filename.write_text(
+        BREAK_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT))
+    )
+
 
 def save_lunch(timestamp: datetime.datetime, path: Path):
-    filename = path / Path(f'{timestamp:%Y-%m-%d-%H-%M}-lunch.md')
-    filename.write_text(LUNCH_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT)))
+    filename = path / Path(f"{timestamp:%Y-%m-%d-%H-%M}-lunch.md")
+    filename.write_text(
+        LUNCH_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT))
+    )
 
 
-def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime.datetime]]]) -> Literal[None]:
+def update_talks(
+    path: Path, talks: dict[str, dict[str, Union[str, int, datetime.datetime]]]
+) -> Literal[None]:
     filenames = path.glob("**/*.md")
     filenames = list(filenames)
     filenames = sorted(filenames)
@@ -105,10 +116,10 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
         try:
             dirty = False
             post = frontmatter.loads(filename.read_text())
-            if post['title'] in {'Break', 'Lunch'}:
+            if post["title"] in {"Break", "Lunch"}:
                 continue
 
-            slug = post['permalink'].split('/')[2]
+            slug = post["permalink"].split("/")[2]
 
             try:
                 talk = talks[slug]
@@ -116,21 +127,21 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
                 typer.secho(f"Unknown talk {post['title']} (slug {slug})", fg="red")
                 continue
 
-            if post['date'] != talk['timestamp'].strftime(TIME_FORMAT):
-                post['date'] = talk['timestamp'].strftime(TIME_FORMAT)
+            if post["date"] != talk["timestamp"].strftime(TIME_FORMAT):
+                post["date"] = talk["timestamp"].strftime(TIME_FORMAT)
                 dirty = True
 
-            track: Optional[str] = post.get('track')
+            track: Optional[str] = post.get("track")
             if not single_track:
-                desired_track_number: int = talk['track']
+                desired_track_number: int = talk["track"]
                 desired_track = None
                 if desired_track_number is not None:
-                    desired_track = f't{desired_track_number}'
+                    desired_track = f"t{desired_track_number}"
                 if track != desired_track:
-                    post['track'] = desired_track
+                    post["track"] = desired_track
                     dirty = True
-            elif 'track' in post:
-                del post['track']
+            elif "track" in post:
+                del post["track"]
                 dirty = True
 
             if dirty is True:
@@ -169,10 +180,19 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--csv-file', type=argparse.FileType('r'), help='CSV file to read')
-    parser.add_argument('--date', type=parse, help='Date for this sheet')
-    parser.add_argument('--talks-path', type=Path, default='_schedule/talks/', help='Directory where talks are stored')
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+    parser.add_argument(
+        "--csv-file", type=argparse.FileType("r"), help="CSV file to read"
+    )
+    parser.add_argument("--date", type=parse, help="Date for this sheet")
+    parser.add_argument(
+        "--talks-path",
+        type=Path,
+        default="_schedule/talks/",
+        help="Directory where talks are stored",
+    )
     args = parser.parse_args()
     return args
 
@@ -187,5 +207,5 @@ def main():
     update_talks(args.talks_path, csv_data)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

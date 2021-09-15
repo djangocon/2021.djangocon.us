@@ -9,7 +9,8 @@ from slugify import slugify
 from typing import List, Optional
 import pytz
 
-CONFERENCE_TZ = pytz.timezone('America/Chicago')
+CONFERENCE_TZ = pytz.timezone("America/Chicago")
+
 
 class FrontmatterModel(BaseModel):
     """
@@ -153,14 +154,14 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
             )
-            if isinstance(post['date'], str):
+            if isinstance(post["date"], str):
                 # NOTE if you get weird results in 2022+ importing from papercall,
                 # switch this to date = maya.when(post["date"]).datetime(
                 #    to_timezone="US/Central", naive=True
                 # )
                 date = parse(post["date"]).astimezone(CONFERENCE_TZ)
             else:
-                date = post['date'].astimezone(CONFERENCE_TZ)
+                date = post["date"].astimezone(CONFERENCE_TZ)
 
             category = post.get("category")
             permalink = post.get("permalink")
@@ -224,7 +225,7 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                     ] = f"/static/img/social/presenters/{presenter_slug}.png"
 
             if dirty is True:
-                filename.write_text(frontmatter.dumps(post) + '\n')
+                filename.write_text(frontmatter.dumps(post) + "\n")
 
             if track and len(track):
                 talk_filename = "-".join(
