@@ -11,9 +11,12 @@ from dateutil.parser import parse
 import frontmatter
 from slugify import slugify
 import typer
+import pytz
 
 SKIP_LINES = {'UTC Offset', 'Talk padding', 'Track 2 offset'}
 SLUG_MAX_LENGTH = 40
+CONFERENCE_TZ = pytz.timezone('America/Chicago')
+TIME_FORMAT = '%Y-%m-%d %H:%M:%S %z'  # 2021-10-22 10:15:00 -0500
 
 BREAK_TEMPLATE = '''---
 layout: session-details
@@ -71,7 +74,7 @@ def read_csv(csv_file: TextIO, talk_date: datetime.date, path: Path) -> dict[str
             'title': title,
             'author': author,
             'track': 0 if line['Track 1'] else 1,
-            'timestamp': datetime.datetime.combine(talk_date, parse(line['Time (CDT)']).time()),
+            'timestamp': CONFERENCE_TZ.localize(datetime.datetime.combine(talk_date, parse(line['Time (CDT)']).time())),
         }
         if title.casefold() == 'break':
             save_break(talk['timestamp'], path)
@@ -83,11 +86,11 @@ def read_csv(csv_file: TextIO, talk_date: datetime.date, path: Path) -> dict[str
 
 def save_break(timestamp: datetime.datetime, path: Path):
     filename = path / Path(f'{timestamp:%Y-%m-%d-%H-%M}-break.md')
-    filename.write_text(BREAK_TEMPLATE.format(timestamp=timestamp))
+    filename.write_text(BREAK_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT)))
 
 def save_lunch(timestamp: datetime.datetime, path: Path):
     filename = path / Path(f'{timestamp:%Y-%m-%d-%H-%M}-lunch.md')
-    filename.write_text(LUNCH_TEMPLATE.format(timestamp=timestamp))
+    filename.write_text(LUNCH_TEMPLATE.format(timestamp=timestamp.strftime(TIME_FORMAT)))
 
 
 def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime.datetime]]]) -> Literal[None]:
@@ -110,9 +113,9 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
             except KeyError:
                 typer.secho(f"Unknown talk {post['title']} (slug {slug})", fg="red")
                 continue
-            timestamp = parse(post['date'])
-            if timestamp != talk['timestamp']:
-                post['date'] = talk['timestamp'].strftime('%Y-%m-%d %H:%M')
+
+            if post['date'] != talk['timestamp'].strftime(TIME_FORMAT):
+                post['date'] = talk['timestamp'].strftime(TIME_FORMAT)
                 dirty = True
 
             track: Optional[str] = post.get('track')

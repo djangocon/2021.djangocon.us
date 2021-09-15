@@ -1,13 +1,15 @@
 import frontmatter
-import maya
 import typer
 
 from datetime import datetime
+from dateutil.parser import parse
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
 from slugify import slugify
 from typing import List, Optional
+import pytz
 
+CONFERENCE_TZ = pytz.timezone('America/Chicago')
 
 class FrontmatterModel(BaseModel):
     """
@@ -151,9 +153,11 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
             )
-            date = maya.when(post["date"]).datetime(
-                to_timezone="US/Central", naive=True
-            )
+            if isinstance(post['date'], str):
+                date = parse(post["date"]).astimezone(CONFERENCE_TZ)
+            else:
+                date = post['date'].astimezone(CONFERENCE_TZ)
+
             category = post.get("category")
             permalink = post.get("permalink")
             presenters = post.get("presenters", list())
