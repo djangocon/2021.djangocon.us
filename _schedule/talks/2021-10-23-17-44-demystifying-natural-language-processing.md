@@ -5,7 +5,7 @@ abstract: With the increase availability of text data across the globe, many ind
   a holistic view of NLP and how to leverage it.
 accepted: true
 category: talks
-date: 2021-10-23 17:59:00 -0500
+date: 2021-10-23 17:44:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/jyotika-singh.png
 layout: session-details
