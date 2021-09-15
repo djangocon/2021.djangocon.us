@@ -216,7 +216,7 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                     ] = f"/static/img/social/presenters/{presenter_slug}.png"
 
             if dirty is True:
-                filename.write_text(frontmatter.dumps(post))
+                filename.write_text(frontmatter.dumps(post) + '\n')
 
             if track and len(track):
                 talk_filename = "-".join(

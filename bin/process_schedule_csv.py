@@ -1,6 +1,6 @@
 """Process the CSV files for the schedule and then update the markdown and rename the file
 """
-import pathlib
+import os
 from typing import Literal, Optional, TextIO, Union
 from pathlib import Path
 import csv
@@ -28,10 +28,10 @@ presenters:
 difficulty:
 
 date: {timestamp}
-room:
 schedule-layout: full
 ---
-Get up, stretch your legs, have a snack, etc.'''
+Get up, stretch your legs, have a snack, etc.
+'''
 
 LUNCH_TEMPLATE = '''---
 layout: session-details
@@ -46,10 +46,10 @@ presenters:
 difficulty:
 
 date: {timestamp}
-room:
 schedule-layout: full
 ---
-Please remember to eat lunch as appropriate for your time zone and daily schedule.'''
+Please remember to eat lunch as appropriate for your time zone and daily schedule.
+'''
 
 
 def read_csv(csv_file: TextIO, talk_date: datetime.date, path: Path) -> dict[str, dict[str, Union[str, int, datetime.datetime]]]:
@@ -123,8 +123,9 @@ def update_talks(path: Path, talks: dict[str, dict[str, Union[str, int, datetime
             if track != desired_track:
                 post['track'] = desired_track
                 dirty = True
+
             if dirty is True:
-                filename.write_text(frontmatter.dumps(post))
+                filename.write_text(frontmatter.dumps(post) + os.linesep)
             if not single_track:
                 talk_filename = "-".join(
                     [
