@@ -154,6 +154,10 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                 post["title"], max_length=slug_max_length, word_boundary=True
             )
             if isinstance(post['date'], str):
+                # NOTE if you get weird results in 2022+ importing from papercall,
+                # switch this to date = maya.when(post["date"]).datetime(
+                #    to_timezone="US/Central", naive=True
+                # )
                 date = parse(post["date"]).astimezone(CONFERENCE_TZ)
             else:
                 date = post['date'].astimezone(CONFERENCE_TZ)
