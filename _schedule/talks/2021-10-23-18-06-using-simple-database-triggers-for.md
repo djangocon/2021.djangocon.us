@@ -12,7 +12,7 @@ abstract: 'Django has evolved over the years to have first-class support for man
   on earth you never used triggers in the first place.'
 accepted: true
 category: talks
-date: 2021-10-23 18:21:00 -0500
+date: 2021-10-23 18:06:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/wes-kendall.png
 layout: session-details

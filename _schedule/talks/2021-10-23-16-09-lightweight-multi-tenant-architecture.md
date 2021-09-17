@@ -5,7 +5,7 @@ abstract: Multitenancy offers a cost sensitive way to implement data segregation
   application, easy to implement, use, and maintain.
 accepted: true
 category: talks
-date: 2021-10-23 15:55:00 -0500
+date: 2021-10-23 16:09:00 -0500
 difficulty: All
 image: /static/img/social/presenters/brendan-wee.png
 layout: session-details

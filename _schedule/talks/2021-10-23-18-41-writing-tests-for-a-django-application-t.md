@@ -5,7 +5,7 @@ abstract: Writing a comprehensive test suite for Django applications is never ea
   tool that did all of the mocking for you in just a line of code?
 accepted: true
 category: talks
-date: 2021-10-23 18:56:00 -0500
+date: 2021-10-23 18:41:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/alan-una-larisa.png
 layout: session-details

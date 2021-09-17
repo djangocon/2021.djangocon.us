@@ -5,7 +5,7 @@ abstract: Django provides a robust permissions framework out of the box, but it 
   JSON, and database transactions.
 accepted: true
 category: talks
-date: 2021-10-23 17:52:00 -0500
+date: 2021-10-23 17:37:00 -0500
 difficulty: Intermediate
 image: /static/img/presenters/jeremy-stretch.png
 layout: session-details
