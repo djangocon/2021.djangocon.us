@@ -2,7 +2,7 @@
 layout: base
 
 name: "Jorge Gimeno"
-role: "Venue Team"
+role: "Organizer"
 photo_url: "/static/img/organizers/jorge.jpg"
 github: "jlgimeno"
 twitter: "JorgeGimeno8"

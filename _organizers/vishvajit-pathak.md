@@ -1,6 +1,6 @@
 ---
 layout: base
-
+hidden: true
 name: "Vishvajit Pathak"
 role: "Website Co-Chair"
 photo_url: "/static/img/organizers/vishvajit.jpg"
