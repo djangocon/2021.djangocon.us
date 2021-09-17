@@ -1,8 +1,7 @@
 ---
 layout: base
-
 name: "Jeff Triplett"
-role: "Delegator and DEFNA President"
+role: "DEFNA Cofounder"
 photo_url: "/static/img/organizers/jeff.jpg"
 github: "jefftriplett"
 twitter: "webology"
