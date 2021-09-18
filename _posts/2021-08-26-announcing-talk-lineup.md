@@ -21,8 +21,8 @@ your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021
 - Bootstrapping your Local Python Environment by Calvin Hendryx-Parker ([twitter](https://twitter.com/calvinhp), [website](http://www.sixfeetup.com/))
 - Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer of Code by Aldán Creo ([twitter](https://twitter.com/acmcmc), [website](https://acmc.codes))
 - Demystifying Natural Language Processing across Several Industry Verticals by Jyotika Singh ([github](https://github.com/https://github.com/jsingh811), [twitter](https://twitter.com/jyotikasingh_), [website](https://linkedin.com/in/jyotikasingh))
-- Desmitificando el Mantenimiento by Katherine Michel ([twitter](https://twitter.com/KatiMichel), [website](https://github.com/KatherineMichel))
 - Design django models such that your future self will thank you 👋 by Tarun Garg ([twitter](https://twitter.com/Tarun_Garg2), [website](https://www.linkedin.com/in/tarungarg546/))
+- Desmitificando el Mantenimiento by Katherine Michel ([twitter](https://twitter.com/KatiMichel), [website](https://github.com/KatherineMichel))
 - Get interactive! Putting a shell (or a desktop) in your Django app by Maari Tamm ([twitter](https://twitter.com/tammmri))
 - graphene-django or: How I learned to stop RESTing and Love the Graph by Dane Hillard ([twitter](https://twitter.com/easyaspython), [website](https://dane.engineering))
 - Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories by Jeremy Bowman 
