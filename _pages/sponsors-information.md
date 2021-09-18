@@ -60,7 +60,7 @@ In order to prioritize a comfortable and accessible conference, we transcribe al
 
 #### Virtual Conference Hall Sponsor $2,500 (Limit 1)
 
-Due to the fully remote conference this year, we'll be working with [spatial.chat](Spatial.chat) to imitate the real conference experience for the Friday session. Your name and logo will be mentioned in social media posts, featured as a sponsor link on our website, and shown in conference videos. If you're familiar with the PyCascades 2021 conference, it's the same platform! [See Spatial Chat demo >>](https://www.youtube.com/watch?v=EVo1REyNa3Y)
+Due to the fully remote conference this year, we'll be working with [spatial.chat](https://Spatial.chat) to imitate the real conference experience for the Friday session. Your name and logo will be mentioned in social media posts, featured as a sponsor link on our website, and shown in conference videos. If you're familiar with the PyCascades 2021 conference, it's the same platform! [See Spatial Chat demo >>](https://www.youtube.com/watch?v=EVo1REyNa3Y)
 
 #### Invitation Sponsor $2,000 (Limit 1)
 

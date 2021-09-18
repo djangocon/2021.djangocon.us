@@ -2,7 +2,7 @@
 layout: base
 
 name: "Dawn Wages"
-role: "Sponsors Co-Chair"
+role: "Sponsors Chair"
 photo_url: "/static/img/organizers/dawn.jpg"
 github: "dawnwages"
 twitter: "dawnwagessays"
