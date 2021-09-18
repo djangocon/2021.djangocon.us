@@ -1,5 +1,5 @@
 ---
-abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proyecto. Voy a usar mis años de experiencia como mantenedora profesional del open source code para enseñarles el processo y prácticas para ser un mejor mantenedor. ¡El mantenimiento es una mejora en conocimiento y divertida también!
+abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proyecto. Voy a usar mis años de experiencia como mantenedora profesional del código abierto para enseñarles el processo y prácticas para ser un mejor mantenedor. ¡El mantenimiento es una mejora en conocimiento y divertida también!
 accepted: true
 category: talks
 date: 2021-10-22 15:32:00 -0500
@@ -30,21 +30,21 @@ title: Desmitificando el Mantenimiento
 video_url: ''
 ---
 
-Va a apprender:
+Vas a apprender:
 
 * Cómo configurar un proyecto para el éxito a largo plazo
-* Cuales archivos de salud de la comunidad necesita
+* Cuales archivos de salud de la comunidad necesitas
 * Los tipos de licenses generales, cómo elegir una y consideraciones especiales
-* Cómo mantener su código seguro
-* Mejores prácticas para los contribuyentes incorporados
+* Cómo mantener tu código seguro
+* Mejores prácticas para los colaboradores incorporados
 * La importancia de la documentación y las estrategias para mantenerlo
 * Un proceso típico de revisión de pull request
 * Pruebas de matriz específicas de Python/Django, calidad de código y herramientas de empaquetado
 * Cómo mantener el código a hoy usando release management
-* Cuales funciones de GitHub podrían ser más útiles para ustedes
+* Cuales funciones de GitHub podrían ser más útiles
 * Estrategias de project management
-* Cómo medir la salud de su proyecto
-* La importancia de publicitando su proyecto
+* Cómo medir la salud de tu proyecto
+* La importancia de publicitar tu proyecto
 * Estrategias para administrar el trabajo a medida que escala
 * Algunas reflexiones sobre people management y la tutoría
 * Consejos para comenzar como mantenedor
