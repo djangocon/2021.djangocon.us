@@ -1,15 +1,12 @@
 ---
-abstract: Muchas Djangonauts suddenamente tienen un necessidad que mantener un proyecto.
-  Voy a usar mis años de experiencia como mantenedora professional del open source
-  code que enseñar ustedes el processo y prácticas mejor de ser un mantendero. ¡Manteniendo
-  es una mejora en conocimiento y divertida también!
+abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proyecto. Voy a usar mis años de experiencia como mantenedora profesional del open source code para enseñarles el processo y prácticas para ser un mejor mantenedor. ¡El mantenimiento es una mejora en conocimiento y divertida también!
 accepted: true
 category: talks
 date: 2021-10-22 15:32:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png
 layout: session-details
-permalink: /talks/manteniendo-desmitificado/
+permalink: /talks/desmitificando-el-mantenimiento/
 presenter_slugs:
 - katherine-michel
 presenters:
@@ -29,7 +26,7 @@ slides_url: ''
 summary: ''
 tags: []
 talk_slot: full
-title: Manteniendo Desmitificado
+title: Desmitificando el Mantenimiento
 video_url: ''
 ---
 
@@ -47,7 +44,7 @@ Va a apprender:
 * Cuales funciones de GitHub podrían ser más útiles para ustedes
 * Estrategias de project management
 * Cómo medir la salud de su proyecto
-* ​​La importancia de publicitando su proyecto
+* La importancia de publicitando su proyecto
 * Estrategias para administrar el trabajo a medida que escala
 * Algunas reflexiones sobre people management y la tutoría
 * Consejos para comenzar como mantenedor
