@@ -21,6 +21,7 @@ your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021
 - Bootstrapping your Local Python Environment by Calvin Hendryx-Parker ([twitter](https://twitter.com/calvinhp), [website](http://www.sixfeetup.com/))
 - Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer of Code by Aldán Creo ([twitter](https://twitter.com/acmcmc), [website](https://acmc.codes))
 - Demystifying Natural Language Processing across Several Industry Verticals by Jyotika Singh ([github](https://github.com/https://github.com/jsingh811), [twitter](https://twitter.com/jyotikasingh_), [website](https://linkedin.com/in/jyotikasingh))
+- Desmitificando el Mantenimiento by Katherine Michel ([twitter](https://twitter.com/KatiMichel), [website](https://github.com/KatherineMichel))
 - Design django models such that your future self will thank you 👋 by Tarun Garg ([twitter](https://twitter.com/Tarun_Garg2), [website](https://www.linkedin.com/in/tarungarg546/))
 - Get interactive! Putting a shell (or a desktop) in your Django app by Maari Tamm ([twitter](https://twitter.com/tammmri))
 - graphene-django or: How I learned to stop RESTing and Love the Graph by Dane Hillard ([twitter](https://twitter.com/easyaspython), [website](https://dane.engineering))
@@ -32,7 +33,6 @@ your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021
 - Leveraging the ORM to enforce object-level permissions by Jeremy Stretch ([twitter](https://twitter.com/jstretch85))
 - Lightweight Multi-Tenant Architecture for Django Applications by Brendan Wee 
 - Managing the Test Data Nightmare by Andrew Knight ([twitter](https://twitter.com/AutomationPanda), [website](https://automationpanda.com/))
-- Manteniendo Desmitificado by Katherine Michel ([twitter](https://twitter.com/KatiMichel), [website](https://github.com/KatherineMichel))
 - Modern JavaScript for Django Developers by Cory Zue ([twitter](https://twitter.com/czue), [website](https://www.coryzue.com/))
 - Modern Web Testing: Going Beyond Selenium by Dmitry Vinnik ([twitter](https://twitter.com/DmitryVinnik), [website](https://dvinnik.dev))
 - Pydon'ts – Write elegant Python code by Rodrigo Girão Serrão ([twitter](https://twitter.com/mathsppblog), [website](https://mathspp.com/blog))
