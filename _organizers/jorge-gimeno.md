@@ -1,10 +1,9 @@
 ---
+github: jlgimeno
 layout: base
-
-name: "Jorge Gimeno"
-role: "Organizer"
-photo_url: "/static/img/organizers/jorge.jpg"
-github: "jlgimeno"
-twitter: "JorgeGimeno8"
-website: ""
+name: Jorge Gimeno
+photo_url: /static/img/organizers/jorge.jpg
+role: Organizer
+twitter: JorgeGimeno8
+website: ''
 ---

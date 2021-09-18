@@ -1,10 +1,9 @@
 ---
+github: katialira
 layout: base
-
-name: "Katia Lira"
-role: "DEFNA President"
-photo_url: "/static/img/organizers/katialira.jpg"
-github: "katialira"
-twitter: "lakatialira"
-website: ""
+name: Katia Lira
+photo_url: /static/img/organizers/katialira.jpg
+role: DEFNA President
+twitter: lakatialira
+website: ''
 ---

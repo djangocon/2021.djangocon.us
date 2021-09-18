@@ -1,8 +1,8 @@
 ---
-layout: base
+github: davidfischer
 hidden: true
-name: "David Fischer"
-role: "Community Team"
-photo_url: "/static/img/organizers/davidfischer.jpg"
-github: "davidfischer"
+layout: base
+name: David Fischer
+photo_url: /static/img/organizers/davidfischer.jpg
+role: Community Team
 ---

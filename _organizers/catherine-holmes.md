@@ -1,10 +1,9 @@
 ---
+github: ''
 layout: base
-
-name: "Catherine Holmes"
-role: "Sponsors Co-Chair"
-photo_url: "/static/img/organizers/catherine.png"
-github: ""
-twitter: ""
-website: ""
+name: Catherine Holmes
+photo_url: /static/img/organizers/catherine.png
+role: Sponsors Co-Chair
+twitter: ''
+website: ''
 ---
