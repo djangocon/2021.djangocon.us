@@ -1,10 +1,9 @@
 ---
+github: adamfast
 layout: base
-
-name: "Adam Fast"
-role: "A/V Chair"
-photo_url: "/static/img/organizers/adam.jpg"
-github: "adamfast"
-twitter: "adamcanfly"
-website: "http://www.adamfast.com/"
+name: Adam Fast
+photo_url: /static/img/organizers/adam.jpg
+role: A/V Chair
+twitter: adamcanfly
+website: http://www.adamfast.com/
 ---
