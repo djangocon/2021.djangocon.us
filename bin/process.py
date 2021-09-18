@@ -123,6 +123,26 @@ app = typer.Typer()
 
 
 @app.command()
+def fmt():
+    for post_type in POST_TYPES:
+        filenames = sorted(list(Path(post_type["path"]).glob("**/*")))
+
+        for filename in filenames:
+            try:
+                post = frontmatter.loads(filename.read_text())
+                data = post_type["class_name"](**post.metadata)
+                post.metadata.update(data.dict(exclude_unset=True))
+                filename.write_text(
+                    frontmatter.dumps(post)
+                )
+            except ValidationError as e:
+                typer.secho(f"{filename}", fg="red")
+                typer.echo(e.json())
+            except Exception as e:
+                typer.secho(f"{filename}::{e}", fg="red")
+
+
+@app.command()
 def validate():
     for post_type in POST_TYPES:
         filenames = sorted(list(Path(post_type["path"]).glob("**/*")))
