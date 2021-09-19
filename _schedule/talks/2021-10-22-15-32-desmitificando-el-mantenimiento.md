@@ -36,11 +36,11 @@ Vas a aprender:
 * Cuales community health files necesitas
 * Los tipos de licenses general, cómo elegir una y consideraciones especiales
 * Cómo mantener tu código seguro
-* Mejores prácticas para los colaboradores incorporados
+* Mejores prácticas para incorporar a los colaboradores
 * La importancia de la documentación y las estrategias para mantenerla
 * Un proceso típico de revisión de pull request
 * Pruebas de matriz específicas de Python/Django, calidad de código y herramientas de empaquetado
-* Cómo mantener el código hoy usando release management
+* Cómo mantener el código actualizando usando release management
 * Cuales funciones de GitHub podrían ser más útiles
 * Estrategias de project management
 * Cómo medir la salud de tu proyecto
