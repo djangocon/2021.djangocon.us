@@ -34,17 +34,17 @@ Vas a aprender:
 
 * Cómo configurar un proyecto para el éxito a largo plazo
 * Cuales community health files necesitas
-* Los tipos de licenses general, cómo elegir una y consideraciones especiales
+* Los tipos de general licenses, cómo elegir una y consideraciones especiales
 * Cómo mantener tu código seguro
 * Mejores prácticas para incorporar a los colaboradores
 * La importancia de la documentación y las estrategias para mantenerla
 * Un proceso típico de revisión de pull request
 * Pruebas de matriz específicas de Python/Django, calidad de código y herramientas de empaquetado
-* Cómo mantener el código actualizando usando release management
+* Cómo mantener el código actualizado usando release management
 * Cuales funciones de GitHub podrían ser más útiles
 * Estrategias de project management
 * Cómo medir la salud de tu proyecto
 * La importancia de publicitar tu proyecto
 * Estrategias para administrar el trabajo a medida que escala
-* Algunas reflexiones sobre people management y la tutoría
+* Algunas reflexiones sobre people management y tutoría
 * Consejos para comenzar como mantenedor
