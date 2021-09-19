@@ -34,7 +34,7 @@ Vas a aprender:
 
 * Cómo configurar un proyecto para el éxito a largo plazo
 * Cuales community health files necesitas
-* Los tipos de licenses generales, cómo elegir una y consideraciones especiales
+* Los tipos de licenses general, cómo elegir una y consideraciones especiales
 * Cómo mantener tu código seguro
 * Mejores prácticas para los colaboradores incorporados
 * La importancia de la documentación y las estrategias para mantenerla
