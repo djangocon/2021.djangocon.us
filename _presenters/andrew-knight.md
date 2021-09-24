@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
-photo_url: ''
+photo_url: /static/img/speakers/andrew-knight.jpg
 slug: andrew-knight
 twitter: AutomationPanda
 website: https://automationpanda.com/
