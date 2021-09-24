@@ -2,3 +2,4 @@ pydantic
 python-frontmatter
 python-slugify
 typer
+requests
