@@ -30,8 +30,15 @@ published: true
             <div class="card card-theme-brand-color2">
               <div class="card-section">
                 <h3 class="card-title" id="program">{{ job.name }}</h3>
-                <p>{{ job.content | markdownify }}</p>
-                <p><a href="{{ job.website }}" class="button">{% if job.website_text %}{{ job.website_text }}{% else %}More information{% endif %}</a></p>
+                <p>{{ job.content | truncatewords: 40 | markdownify }}</p>
+                <div class="row column">
+                  <div class="medium-6 column">
+                    <p><a href="{{ job.website }}" class="button">{% if job.website_text %}{{ job.website_text }}{% else %}More information{% endif %}</a></p>
+                  </div>
+                  <div class="medium-6 column">
+                    <p><a href="{{ job.url }}" class="button">More information</a></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

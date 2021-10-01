@@ -1,9 +1,10 @@
 ---
 hidden: false
-layout: base
+layout: job-detail
 name: "Ordermark (Nextbite)"
 website: "https://jobs.lever.co/getordermark/d2228f35-fe51-484f-86f7-85262e0e3290"
 website_text: "Apply here"
+post_photo_url:
 ---
 
 **Senior Software Engineer - Remote**

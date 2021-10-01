@@ -1,9 +1,10 @@
 ---
 hidden: false
-layout: base
+layout: job-detail
 name: "Optimal Dynamics"
 website: "https://boards.greenhouse.io/optimaldynamics/jobs/4034910004"
 website_text: "Apply here"
+post_photo_url:
 ---
 
 **Engineering Team Lead**
