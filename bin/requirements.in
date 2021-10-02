@@ -1,5 +1,6 @@
+dateutils
 pydantic
 python-frontmatter
 python-slugify
-typer
 requests
+typer

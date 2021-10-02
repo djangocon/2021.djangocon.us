@@ -10,18 +10,26 @@ charset-normalizer==2.0.6
     # via requests
 click==8.0.1
     # via typer
+dateutils==0.6.12
+    # via -r requirements.in
 idna==3.2
     # via requests
 pydantic==1.8.2
     # via -r requirements.in
+python-dateutil==2.8.2
+    # via dateutils
 python-frontmatter==1.0.0
     # via -r requirements.in
 python-slugify==5.0.2
     # via -r requirements.in
+pytz==2021.3
+    # via dateutils
 pyyaml==5.4.1
     # via python-frontmatter
 requests==2.26.0
     # via -r requirements.in
+six==1.16.0
+    # via python-dateutil
 text-unidecode==1.3
     # via python-slugify
 typer==0.4.0
