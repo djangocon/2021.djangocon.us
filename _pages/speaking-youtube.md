@@ -8,6 +8,7 @@ description: Our Speaking Template for YouTube Videos (this should not be in our
 ---
 
 {% for post in site.schedule %}
+<a href='{{ post.video_url }}'>On YouTube</a>{% if post.additional_video_url %}<a href='{{ post.additional_video_url }}'>Also on YouTube</a>{% endif %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' %}
 {% if post.presenter_slugs %}
@@ -34,9 +35,7 @@ Follow DEFNA 👇
 https://twitter.com/defnado
 https://www.defna.org/
 
-Intro music: "This Is How We Quirk It" by Avocado Junkie.
-Video production by Confreaks TV.
-Captions by White Coat Captioning.
+Video production by the speaker and DjangoCon US 2021 Volunteers.
 </textarea>
 
 <button class="btn border" data-clipboard-action="copy" data-clipboard-target="#copy{{ post.slug | replace: "-", "_" }}">
