@@ -37,7 +37,7 @@ tags:
 - apis
 talk_slot: full
 title: 'graphene-django or: How I learned to stop RESTing and Love the Graph'
-video_url: ''
+video_url: 'https://youtu.be/LoJD36m1JRM'
 ---
 
 Though controversial, people generally agree that a major value of Python type hints is safety. Robust type safety reduces a whole category of defect to nothing, allowing developers to focus on bigger problems. What if we could do this for our API calls?
