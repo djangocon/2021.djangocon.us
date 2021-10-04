@@ -11,6 +11,22 @@ description: DjangoCon US is only possible through the support of various organi
 
 <div class="content">
   <div class="row column v-pad-bottom">
+    <div class="medium-6 large-7 column">
+      <p class="lead">
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for six days. Thank you for your support!
+      </p>
+    </div>
+    <div class="medium-5 large-4 column">
+      <div class="callout text-center partner-cta-box">
+        <h2>Looking for a job?</h2>
+        <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
+        <a href="/jobs/" class="button">Check out our jobs board</a>
+      </div>
+    </div>
+  </div>
+  <!-- PRE CONFERENCE -->
+  <!--
+  <div class="row column v-pad-bottom">
     <div class="row column">
       <p class="lead">
         DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, stream and record all talks, add captioning to talks, and so much more. Thank you for your support!
@@ -30,23 +46,14 @@ description: DjangoCon US is only possible through the support of various organi
     <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
   <div class="row partner text-center">
       <div class="column medium-12">
-        <h3><a href="{{ sponsor.url_target }}" rel="sponsored">We will be announcing our sponsors soon!</a></h3>
         <p>Interested in becoming a sponsor? There's still time!</p>
         <a href="/sponsors/information/" class="button">Become a Sponsor</a>
       </div>
     </div>
         </div>
-  <!--start spacer -->
-    <div class="row column v-pad-bottom">
-      <div class="col-12">
+-->
 
-      </div>
-    </div>
-  </div>
-  <!-- end spacer -->
-
-<!--
-{% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
+{% assign sponsors_by_level = "Diamond|Spanish Speech-to-Text|Speech-to-Text|Gold|Virtual Conference Hall|Invitation|Speaker Support|Bronze|Diversity & Inclusion|Virtual Conference Hall|Audio Visual|Community" | split: "|" %}
 {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
     <h2 class="text-center v-pad-bottom">{{ level }}</h2>
@@ -72,7 +79,6 @@ description: DjangoCon US is only possible through the support of various organi
         {% endunless %}
       {% endif %}
     {% endfor %}
+    </div>
   {% endfor %}
-
 </div>
--->
