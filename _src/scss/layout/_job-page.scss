@@ -1,6 +1,8 @@
 .job-photo {
   margin: 0 auto;
   display: block !important;
+  max-height: calc(20% + 6rem);
+  min-width: calc(30% + 6rem);
 
   &:first-child {
     margin-bottom: $global-margin * 2;
@@ -9,9 +11,6 @@
 
 @include breakpoint(medium) {
   .job-photo {
-    margin-left: -3rem;
-    width: calc(100% + 6rem);
-    max-width: none;
-    max-height: calc(20% + 6rem);
+    max-width: calc(100% + 6rem);
   }
 }
