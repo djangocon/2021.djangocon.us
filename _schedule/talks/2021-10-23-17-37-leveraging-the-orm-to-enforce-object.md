@@ -34,7 +34,7 @@ tags:
 - security
 talk_slot: full
 title: Leveraging the ORM to enforce object-level permissions
-video_url: ''
+video_url: 'https://youtu.be/svTt9F7MnDk'
 ---
 
 Django provides a robust permissions system out of the box, but it’s limited to operating at the model level. What if you want to assign permissions to create, modify, or delete only objects with certain attributes? In NetBox, we did exactly this by leveraging the ORM, JSON, and database transactions. We’ll quickly demonstrate how easy Django makes it to create a custom authentication backend and permission model to accommodate even complex object-based constraints.

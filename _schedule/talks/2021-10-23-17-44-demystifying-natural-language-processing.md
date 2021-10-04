@@ -57,7 +57,7 @@ tags:
 - natural language processing
 talk_slot: full
 title: Demystifying Natural Language Processing across Several Industry Verticals
-video_url: ''
+video_url: 'https://youtu.be/hy4voEbOPhM'
 ---
 
 Natural Language Processing (NLP) is the ability of a machine to understand human language. NLP is a popular field of data science and is widely used across different industry verticals to solve for various challenges. This talk will highlight NLP, what it is and will follow into how over 5 industries use NLP to solve for their use cases. The industries include e-commerce, finance, real estate, social media, and more. 

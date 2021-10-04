@@ -32,7 +32,7 @@ tags:
 - Kubernetes
 talk_slot: full
 title: An Introduction to Kubernetes ☸️
-video_url: ''
+video_url: 'https://youtu.be/ERcB5iIeEpY'
 ---
 
 Every other job opening for an IT position mentions Kubernetes. But unless you’ve worked with Kubernetes or seen it in action, you probably only have a vague idea of what it is, what it does and can do, or how to use it. And that’s understandable. It’s this big, abstract, software, that is supposed to “solve all the problems”. In this talk I’ll go through some of the concepts Kubernetes has. We’ll approach these by deploying a Django application, with the intent, that next time somebody asks you, “Do you know Kubernetes?”, you can confidently answer “Yes!”.

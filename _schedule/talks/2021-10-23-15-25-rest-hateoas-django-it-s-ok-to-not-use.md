@@ -32,7 +32,7 @@ tags:
 - front-end
 talk_slot: full
 title: REST, HATEOAS & Django - It's OK to not use JSON... or Javascript
-video_url: ''
+video_url: 'https://youtu.be/L_UWY-zHlOA'
 ---
 
 # REST, HATEOAS & Django - 

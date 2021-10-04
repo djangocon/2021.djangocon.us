@@ -27,7 +27,8 @@ summary: ''
 tags: []
 talk_slot: full
 title: Desmitificando el Mantenimiento
-video_url: ''
+video_url: 'https://youtu.be/BKJKAN2kEM8'
+additional_video_url: 'https://youtu.be/56sxu9vEJNc'
 ---
 
 Vas a aprender:

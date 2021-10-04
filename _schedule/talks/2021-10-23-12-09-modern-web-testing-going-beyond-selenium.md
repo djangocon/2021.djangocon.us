@@ -30,7 +30,7 @@ tags:
 - protractor
 talk_slot: full
 title: 'Modern Web Testing: Going Beyond Selenium'
-video_url: ''
+video_url: 'https://youtu.be/uDCQMdLJlWg'
 ---
 
 It is safe to say that Selenium WebDriver is the number one testing tool for many software engineers across the globe. However, as the tech world has been growing rapidly, so has the testing industry. More and more UI testing frameworks besides Selenium are gaining popularity. 

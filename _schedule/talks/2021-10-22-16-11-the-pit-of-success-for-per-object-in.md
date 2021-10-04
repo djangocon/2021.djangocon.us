@@ -41,7 +41,7 @@ tags:
 - model managers
 talk_slot: full
 title: The Pit of Success for Per-Object Permissions in Django
-video_url: ''
+video_url: 'https://youtu.be/ntiy3xfWflQ'
 ---
 
 Privacy is important, but permissions are hard. Even more, the Django permission framework only supports subject-verb relation guards (does *someone* have permission to *write*) but not subject-verb-object relations (does *someone* have permission to *write* in this *table*). Other existing Django middleware extensions such as django-guardian and django-rules address this, but require manual and explicit permission checking for every access.

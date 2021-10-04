@@ -38,7 +38,7 @@ tags:
 - web
 talk_slot: full
 title: Usando filas de tareas (task queues) en aplicaciones web
-video_url: ''
+video_url: 'https://youtu.be/6y0y88MMtj4'
 ---
 
 Al usar filas de tareas nuestros procesos se convierten en asincrónicos y esto hace nuestra aplicación más complicada.

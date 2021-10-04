@@ -41,7 +41,7 @@ tags:
 - best practices
 talk_slot: full
 title: Securing Django Applications
-video_url: ''
+video_url: 'https://youtu.be/qBvCdbZHbmM'
 ---
 
 Django is the most popular Python-based web framework used for creating web applications. The web applications are vulnerable for various reasons including a) configuration settings of the web applications b) lack of implementation of security best practices and secure coding and c) lack of awareness of secure first web applications among developers. The vulnerable web applications put the data of the customers at greater risk and the compromised code can lead to problems beyond control. It is very important to develop secure web applications to protect customer data and code to mitigate the risk. In this talk, we will focus on two aspects. First, performing penetration testing on Django web applications to identify vulnerabilities and scanning for Open Web Application Security Project (OWASP) Top 10 risks. Second, strategies and configuration settings for making the source code and Django applications secure. We will also discuss the Djangohunter tool to identify incorrectly configured Django applications that are exposing sensitive information.

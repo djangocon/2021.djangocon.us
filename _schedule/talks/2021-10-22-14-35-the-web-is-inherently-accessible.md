@@ -44,7 +44,7 @@ tags:
 - design
 talk_slot: full
 title: The Web is Inherently Accessible
-video_url: ''
+video_url: 'https://youtu.be/B3wrhqzO5gk'
 ---
 
 Every semantic mistake introduces accessibility issues into your code. In this session, you will learn
