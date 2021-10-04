@@ -53,7 +53,7 @@ description: DjangoCon US is only possible through the support of various organi
         </div>
 -->
 
-{% assign sponsors_by_level = "Diamond|Spanish Speech-to-Text|Speech-to-Text|Gold|Virtual Conference Hall|Invitation|Speaker Support|Bronze|Diversity & Inclusion|Virtual Conference Hall|Audio Visual|Community" | split: "|" %}
+{% assign sponsors_by_level = "Speech-to-Text|Gold|Virtual Conference Hall|Invitation|Speaker Support|Bronze|Diversity & Inclusion|Virtual Conference Hall|Community" | split: "|" %}
 {% for level in sponsors_by_level %}
   <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
     <h2 class="text-center v-pad-bottom">{{ level }}</h2>
