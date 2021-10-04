@@ -113,6 +113,7 @@ sponsorship_prospectus: ""
 ticket_link: "https://ti.to/defna/djangocon-us-2021"
 # youtube_link: ""
 mailing_list: "http://eepurl.com/bpvu2f"
+schedule_show_video_urls: false
 
 github: [metadata]
 facebook:

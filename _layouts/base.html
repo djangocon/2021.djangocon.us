@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% seo %}
 
-{% if page.video_url != blank %}
+{% if site.schedule_show_video_urls and page.video_url != blank %}
 {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
 {% include youtube-embed-head.html id=youtube_id %}
 {% endif %}
