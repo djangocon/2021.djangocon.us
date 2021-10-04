@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<header class="subpage-header{% if page.post_photo_url %} has-post-photo{% endif %}">
+  <h1 class="post-title">{{ page.name }}</h1>
+</header>
+
+<div class="content subpage-content">
+  <div class="row">
+    <div class="column medium-10 medium-centered large-9 large-centered">
+      {% if page.post_photo_url %}
+        <img
+          src="{{ page.post_photo_url }}"
+          alt="{{ page.post_photo_alt }}"
+          class="job-photo v-pad-bottom" />
+      {% endif %}
+
+    {{ content }}
+      <a href="{{ page.website }}" class="button">{% if page.website_text %}{{ page.website_text }}{% else %}More information{% endif %}</a>
+    </div>
+  </div>
+</div><!-- end .content -->
