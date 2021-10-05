@@ -6,12 +6,11 @@
         <a href="/sponsors/information/" class="button">Become a Sponsor</a>
       </div>
     </div>
-  {% assign sponsors_by_level = "Platinum|Gold|Lanyard|Silver|Bronze|Diversity & Inclusion|Community" | split: "|" %}
-  {% for level in sponsors_by_level %}
-    {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
+  {% for sponsor-level in site.data.sponsor-levels.sponsor-levels %}
+    {% assign sponsors_in_level = site.sponsors | where: 'level', sponsor-level.title | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}
     {% if sponsors_count != 0 %}
-    <h4 class="lead min text-center swatch-color-teal">{{ level }}</h4>
+    <h4 class="lead min text-center swatch-color-teal">{{ sponsor-level.title }}</h4>
     <div class="row partner-list">
       {% for sponsor in sponsors_in_level %}
         {% unless sponsor.hidden %}

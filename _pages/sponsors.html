@@ -53,32 +53,35 @@ description: DjangoCon US is only possible through the support of various organi
         </div>
 -->
 
-{% assign sponsors_by_level = "Speech-to-Text|Gold|Virtual Conference Hall|Invitation|Speaker Support|Bronze|Diversity & Inclusion|Virtual Conference Hall|Community" | split: "|" %}
-{% for level in sponsors_by_level %}
-  <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
-    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
-    {% for sponsor in site.sponsors %}
-      {% if sponsor.level == level %}
-        {% unless sponsor.hidden %}
-          <div class="row partner">
-            <div class="column medium-4 text-center">
-              <a href="{{ sponsor.url_target }}" rel="sponsored">
-                <img
-                  class="partner-logo {{ sponsor.logo_orientation }}"
-                  src="{{ sponsor.logo }}"
-                  alt="{{ sponsor.name }} Logo" />
-              </a>
+{% for sponsor-level in site.data.sponsor-levels.sponsor-levels %}
+  {% assign sponsors_in_level = site.sponsors | where: 'level', sponsor-level.title | where: 'hidden', false %}
+  {% assign sponsors_count = sponsors_in_level | size %}
+  {% if sponsors_count != 0 %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+      <h2 class="text-center v-pad-bottom">{{ sponsor-level.title }}</h2>
+      {% for sponsor in sponsors_in_level %}
+        {% if sponsor.level == sponsor-level.title %}
+          {% unless sponsor.hidden %}
+            <div class="row partner">
+              <div class="column medium-4 text-center">
+                <a href="{{ sponsor.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ sponsor.logo_orientation }}"
+                    src="{{ sponsor.logo }}"
+                    alt="{{ sponsor.name }} Logo" />
+                </a>
+              </div>
+              <div class="column medium-8">
+                <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+                {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
+                {{ sponsor_description | markdownify }}
+                {% if sponsor.hiring %}<a href="/jobs/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
+              </div>
             </div>
-            <div class="column medium-8">
-              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
-              {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
-              {{ sponsor_description | markdownify }}
-              {% if sponsor.hiring %}<a href="/jobs/" class="button">{{ sponsor.name }} is hiring!</a>{% endif %}
-            </div>
-          </div>
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
     </div>
-  {% endfor %}
+  {% endif %}
+{% endfor %}
 </div>
