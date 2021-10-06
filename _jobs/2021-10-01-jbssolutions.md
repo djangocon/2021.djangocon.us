@@ -13,6 +13,12 @@ post_photo_url: "/static/img/sponsors/jbslogo.png"
 
 JBS is looking for someone experienced with Python and Python web frameworks like Django. Must be committed to providing quality deliverables with well-factored, maintainable code.
 
+At JBS, all of our employees work remotely from home offices. We cluster our staff into project teams around specific 
+code requirements, and then set them free to do great work within specific guidelines and timetables. The combination 
+of developer accountability and cutting-edge development technologies allows us to attract the very best in the 
+business and perform at a high level for our clients. If you are ready to get out of the cubicle, anxious to stand on 
+your own, ready to reduce your commute time to zero, and like working with great teams, apply today.
+
 Responsibilities include:
 *	5+ years working with Python 3+ years working with Python web frameworks (Django required; flask/turbo gears/web2py nice to have)
 *	2+ years working with AWS (Lambda, RDS, Terraform/Cloudformation, Cloudcache, others)
