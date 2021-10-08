@@ -9,12 +9,9 @@ logo_orientation: "landscape"
 url_target: "https://www.jbssolutions.com/"
 url_friendly: "www.jbssolutions.com"
 description: |
-  JBS Solutions has developed custom web applications
-  for clients from small to large, supporting e-commerce,
-  appointment scheduling, advertising, nationally televised events,
-  data warehousing/business intelligence and many others.
-  They work primarily in Django, but other technologies occasionally
-  fit applications better (even Microsoft - a separate team is a
-  Gold Application Development partner.)
+  JBS is a highly experienced team of senior developers and technology trailblazers obsessed with accelerating business
+  innovation at any size. From high-growth startups to Fortune 500 organizations, we are problem-solvers orchestrating
+  software development with the right harmony of passion and pragmatism to closely align with your business needs and
+  growth.
 hiring: true
 ---
