@@ -30,7 +30,7 @@ summary: ''
 tags: []
 talk_slot: full
 title: Get interactive! Putting a shell (or a desktop) in your Django app
-video_url: ''
+video_url: 'https://youtu.be/kbrHW--ZLUc'
 ---
 
 In our learning platform, we enable learners to interact with real-world hands-on lab environments, so that they can learn complex technologies like OpenStack, Kubernetes, Terraform, Ceph, Ansible, and others. To do that, we use [Apache Guacamole](https://guacamole.apache.org/)'s `guacd` service to provide learners with interactive shell terminals — or even full desktop environments — that run right in people's browsers, no additional software required.

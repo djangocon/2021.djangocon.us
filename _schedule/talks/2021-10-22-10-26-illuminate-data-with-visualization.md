@@ -49,7 +49,7 @@ tags:
 - community
 talk_slot: full
 title: Illuminate Data with Visualization
-video_url: ''
+video_url: 'https://youtu.be/cSh_aHcsbFM'
 ---
 
 In this talk we will walk through the concept of Data mining and visualization right from the basics. A free and open source tool for data visualization -Orange from a beginner to an advance level will also be covered. We will also cover the concepts of data mining and data warehousing to gain a deeper insight into the concept and help understand the process form the core level.

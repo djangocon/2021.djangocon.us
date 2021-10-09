@@ -40,7 +40,7 @@ tags:
 - oh my.
 talk_slot: full
 title: What is deployment, anyway?
-video_url: ''
+video_url: 'https://youtu.be/rdp8o0nkXQ4'
 ---
 
 In this talk we will discuss: 

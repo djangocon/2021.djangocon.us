@@ -33,7 +33,7 @@ tags:
 - accessibility
 talk_slot: full
 title: 'Kontrasto: improving accessibility with Python'
-video_url: ''
+video_url: 'https://youtu.be/ISOflBDh0vE'
 ---
 
 This talk introduces [Kontrasto](https://kontrasto.netlify.app/), a library for Django and Wagtail that automatically improves the contrast of text over images. We’ll look into how it works, how accessibility guidelines define color contrast, and more generally where Django developers’ expertise can be used to improve accessibility.

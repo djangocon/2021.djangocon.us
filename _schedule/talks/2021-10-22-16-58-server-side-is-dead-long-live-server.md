@@ -50,7 +50,7 @@ tags:
 - ajax
 talk_slot: full
 title: Server-Side is Dead! Long Live Server-Side (+ HTMX)
-video_url: ''
+video_url: 'https://youtu.be/t98bKdeUHsU'
 ---
 
 ## Objectives

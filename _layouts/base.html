@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% seo %}
 
-{% if page.video_url != blank %}
+{% if site.schedule_show_video_urls and page.video_url != blank %}
 {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
 {% include youtube-embed-head.html id=youtube_id %}
 {% endif %}
@@ -40,11 +40,11 @@
       </div><!-- end .off-canvas-wrapper-inner -->
     </div><!-- end .off-canvas-wrapper -->
 
-
-
     <!-- Loading JavaScripts
     ================================================== -->
     <script src="/static/main.js"></script>
+    <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    <script src="//unpkg.com/@github/time-elements@latest?module" type="module"></script>
     {% include analytics.html %}
   </body>
 </html>

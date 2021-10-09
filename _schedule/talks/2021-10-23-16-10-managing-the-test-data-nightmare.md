@@ -37,7 +37,7 @@ tags:
 - database
 talk_slot: full
 title: Managing the Test Data Nightmare
-video_url: ''
+video_url: 'https://youtu.be/CS663BxLpE8'
 ---
 
 Good data for testing can be a **nightmare** to manage. Sometimes, teams don't have much control over the data in their systems under test—it's just dropped in, and it can change arbitrarily. Other times, teams need to build their own data sets, either before testing or during testing. Inaccurate data can leave test gaps. Incorrect or stale data can break tests. Large data can consume too much time. Ugh!

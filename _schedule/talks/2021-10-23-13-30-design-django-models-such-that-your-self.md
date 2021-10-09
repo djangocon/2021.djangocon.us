@@ -43,7 +43,7 @@ tags:
 - architecture
 talk_slot: full
 title: "Design django models such that your future self will thank you \U0001F44B"
-video_url: ''
+video_url: 'https://youtu.be/92jMAbHXahg'
 ---
 
 While designing Django models, our primary objective is to develop a structure that'll enable us to build the said product feature, but while doing so ~we~ I used to neglect things like a) Ease of debugging/Auditing, b) Query patterns, c) and Scalability, and later when push came to shove these things used to become a blocker. While we can't possibly think and preempt everything from day 1(and if you try to - it'll take long to roll that feature out), we can do something better 🤔.

@@ -33,7 +33,7 @@ tags:
 - best practices
 talk_slot: full
 title: 'Herding Ponies: Coordinating and Automating Django Upgrades Across 100+ Repositories'
-video_url: ''
+video_url: 'https://youtu.be/ny-3AaNHbbs'
 ---
 
 Over the course of upgrading multiple services (including one large enough to run afoul of seemingly every backwards-incompatible change) to new Django LTS releases several times, the Open edX project has developed a set of procedures and tools to help streamline the process.  Given how useful we've found these, and how late we often see other packages tackling these upgrades, we'd like to share what we've learned about keeping up with the upgrade treadmill.  Among the topics I'll cover are:
