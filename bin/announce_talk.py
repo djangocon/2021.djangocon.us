@@ -44,9 +44,12 @@ app = typer.Typer(help="Awesome Announce Talks")
 
 
 def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
-    filenames = path.glob("**/*.md")
-    filenames = list(filenames)
-    filenames = sorted(filenames)
+    if path.is_dir():
+        filenames = path.glob("**/*.md")
+        filenames = list(filenames)
+        filenames = sorted(filenames)
+    else:
+        filenames = [path]
 
     for filename in filenames:
         try:
