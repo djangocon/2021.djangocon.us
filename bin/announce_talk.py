@@ -79,9 +79,23 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                         "users": [],
                     },
                     # "embeds": [
-                    #     {"type": "rich", "title": "Text", "description": "Text description here"},
-                    #     {"type": "image", "title": "Author image", "height":"400", "width":"400", "url": f"http://2021.djangocon.us{post['image']}"},
-                    #     {"type": "video", "title": "Video link", "url": f"{post['video_url']}"},
+                    #     {
+                    #         "type": "rich",
+                    #         "title": "Text",
+                    #         "description": "Text description here",
+                    #     },
+                    #     {
+                    #         "type": "image",
+                    #         "title": "Author image",
+                    #         "height": "400",
+                    #         "width": "400",
+                    #         "url": f"http://2021.djangocon.us{post['image']}",
+                    #     },
+                    #     {
+                    #         "type": "video",
+                    #         "title": "Video link",
+                    #         "url": f"{post['video_url']}",
+                    #     },
                     # ],
                 }
 
