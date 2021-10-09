@@ -12,6 +12,7 @@ TODO:
 from typing import Literal
 from pathlib import Path
 import datetime
+import json
 import time
 
 from dateutil.parser import parse
@@ -27,9 +28,11 @@ CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
 # You can get this ID by sending a discord message of the form "\#channel-name"
 # and seeing what posts
-MESSAGE_TEMPLATE = """Talk starting in 5 minutes: {post[title]} by {speaker}
+MESSAGE_TEMPLATE = """:tada: Talk starting in 5 minutes: **{post[title]}** by *{speaker}*
 
-Watch the talk at {timestamp:%H:%M %Z}: {post[video_url]}
+:alarm_clock: Watch the talk at [{timestamp:%H:%M %Z}](https://time.is/compare/{timestamp:%I%M%p_%d_%B_%Y}_in_Chicago)
+
+:tv: {post[video_url]}
 
 See the talk information at https://2021.djangocon.us{post[permalink]}
 
@@ -75,14 +78,21 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                         "parse": ["everyone"],
                         "users": [],
                     },
+                    # "embeds": [
+                    #     {"type": "rich", "title": "Text", "description": "Text description here"},
+                    #     {"type": "image", "title": "Author image", "height":"400", "width":"400", "url": f"http://2021.djangocon.us{post['image']}"},
+                    #     {"type": "video", "title": "Video link", "url": f"{post['video_url']}"},
+                    # ],
                 }
+
                 if webhook_url:
                     response = requests.post(webhook_url, json=body)
                     response.raise_for_status()
-                    time.sleep(5)
+                    time.sleep(30)
                 else:
-                    typer.echo(f"{body}")
-                    typer.echo()
+                    typer.echo(f"{body['content']}")
+                    typer.echo(json.dumps(body, indent=2))
+                    typer.secho("----" * 10, fg="yellow")
                 # break
 
         except Exception as e:
