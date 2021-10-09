@@ -12,12 +12,12 @@ TODO:
 from typing import Literal
 from pathlib import Path
 import datetime
-import argparse
 
 from dateutil.parser import parse
 import frontmatter
 import pytz
 import requests
+import typer
 
 
 CONFERENCE_TZ = pytz.timezone("America/Chicago")
@@ -34,7 +34,10 @@ Live discussions are happening in <#885229363921043486>.
 """
 
 
-def post_about_talks(path: Path, webhook_url: str) -> Literal[None]:
+app = typer.Typer(help="Awesome CLI user manager.")
+
+
+def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
     filenames = path.glob("**/*.md")
     filenames = list(filenames)
     filenames = sorted(filenames)
@@ -54,7 +57,7 @@ def post_about_talks(path: Path, webhook_url: str) -> Literal[None]:
         try:
             speaker = speakers[0]
         except IndexError:
-            print(f"No speaker for talk {post['title']}")
+            typer.echo(f"No speaker for talk {post['title']}")
             raise
 
         body = {
@@ -69,30 +72,25 @@ def post_about_talks(path: Path, webhook_url: str) -> Literal[None]:
                 "users": [],
             },
         }
-        response = requests.post(webhook_url, json=body)
-        response.raise_for_status()
+        if webhook_url:
+            response = requests.post(webhook_url, json=body)
+            response.raise_for_status()
+        else:
+            typer.echo(f"{body}")
         break
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter
-    )
-    parser.add_argument('webhook_url', help='URL for the webhook to the Q & A channel')
-    parser.add_argument(
-        "--talks-path",
-        type=Path,
-        default="_schedule/talks/",
-        help="Directory where talks are stored",
-    )
-    args = parser.parse_args()
-    return args
-
-
-def main():
-    args = parse_args()
-    post_about_talks(args.talks_path, args.webhook_url)
+@app.command()
+def main(
+    talks_path: Path = typer.Option(
+        default="_schedule/talks/", help="Directory where talks are stored"
+    ),
+    webhook_url: str = typer.Option(
+        default=None, help="URL for the webhook to the Q & A channel"
+    ),
+):
+    post_about_talks(path=talks_path, webhook_url=webhook_url)
 
 
 if __name__ == "__main__":
-    main()
+    app()
