@@ -34,7 +34,7 @@ Live discussions are happening in <#885229363921043486>.
 """
 
 
-app = typer.Typer(help="Awesome CLI user manager.")
+app = typer.Typer(help="Awesome Announce Talks")
 
 
 def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
