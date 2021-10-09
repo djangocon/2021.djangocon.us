@@ -12,6 +12,7 @@ TODO:
 from typing import Literal
 from pathlib import Path
 import datetime
+import time
 
 from dateutil.parser import parse
 import frontmatter
@@ -20,13 +21,15 @@ import requests
 import typer
 
 
+IGNORED_TALK_TYPES = ["break", "lunch"]
+
 CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
 # You can get this ID by sending a discord message of the form "\#channel-name"
 # and seeing what posts
 MESSAGE_TEMPLATE = """Talk starting in 5 minutes: {post[title]} by {speaker}
 
-Watch the talk at {timestamp:%H:%M %Z}: {video_url}
+Watch the talk at {timestamp:%H:%M %Z}: {post[video_url]}
 
 See the talk information at https://2021.djangocon.us{post[permalink]}
 
@@ -43,41 +46,47 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
     filenames = sorted(filenames)
 
     for filename in filenames:
-        post = frontmatter.loads(filename.read_text())
-
-        if isinstance(post["date"], datetime.datetime):
-            timestamp = post["date"]
-        else:
-            timestamp = parse(post["date"])
-        timestamp = timestamp.astimezone(CONFERENCE_TZ)
-
-        video_url = "https://youtu.be/X7U-j5rZTaM"
-
-        speakers: list[dict] = post.get("presenters", [])
         try:
-            speaker = speakers[0]
-        except IndexError:
-            typer.echo(f"No speaker for talk {post['title']}")
-            raise
+            post = frontmatter.loads(filename.read_text())
 
-        body = {
-            "content": MESSAGE_TEMPLATE.format(
-                post=post,
-                speaker=speaker["name"],
-                video_url=video_url,
-                timestamp=timestamp,
-            ),
-            "allowed_mentions": {
-                "parse": ["everyone"],
-                "users": [],
-            },
-        }
-        if webhook_url:
-            response = requests.post(webhook_url, json=body)
-            response.raise_for_status()
-        else:
-            typer.echo(f"{body}")
-        break
+            if post["title"].strip().lower() not in IGNORED_TALK_TYPES:
+                if isinstance(post["date"], datetime.datetime):
+                    timestamp = post["date"]
+                else:
+                    timestamp = parse(post["date"])
+                timestamp = timestamp.astimezone(CONFERENCE_TZ)
+
+                speakers: list[dict] = post.get("presenters", [])
+                try:
+                    speaker = speakers[0]
+                except (IndexError, TypeError):
+                    typer.echo(f"No speaker for talk {post['title']}")
+                    typer.secho(f"{filename}", fg="red")
+                    break
+
+                body = {
+                    "content": MESSAGE_TEMPLATE.format(
+                        post=post,
+                        speaker=speaker["name"],
+                        video_url=post["video_url"],
+                        timestamp=timestamp,
+                    ),
+                    "allowed_mentions": {
+                        "parse": ["everyone"],
+                        "users": [],
+                    },
+                }
+                if webhook_url:
+                    response = requests.post(webhook_url, json=body)
+                    response.raise_for_status()
+                    time.sleep(5)
+                else:
+                    typer.echo(f"{body}")
+                    typer.echo()
+                # break
+
+        except Exception as e:
+            typer.secho(f"{filename}::{e}", fg="red")
 
 
 @app.command()
