@@ -1,13 +1,13 @@
 ---
-company: DEFNA, DjangoCon US Website Chair
-github: ''
+company: Octopus Energy US
+github: https://github.com/KatherineMichel
 layout: speaker-template
 name: Katherine Michel
 permalink: /presenters/katherine-michel/
-photo_url: ''
+photo_url: /static/img/presenters/kati.jpeg
 slug: katherine-michel
 twitter: KatiMichel
-website: https://github.com/KatherineMichel
+website: '' 
 ---
-
-Kati is a web developer, open source maintainer, and technical writer. Her recent clients include The Wharton School and Eldarion. She has also been the DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling, eating good food, and listening to music.
+  
+Kati is a Backend Engineer at Octopus Energy US. She has also been the DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling, eating good food, and listening to music.

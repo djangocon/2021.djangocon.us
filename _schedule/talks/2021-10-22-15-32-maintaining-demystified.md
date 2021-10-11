@@ -10,16 +10,13 @@ permalink: /talks/maintaining-demystified/
 presenter_slugs:
 - katherine-michel
 presenters:
-- bio: "Kati is a web developer, open source maintainer, and technical writer. Her
-    recent clients include The Wharton School and Eldarion. She has also been the
-    DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling,
-    eating good food, and listening to music. \r\n"
-  company: DEFNA, DjangoCon US Website Chair
-  github: ''
+- bio: "Kati is a Backend Engineer at Octopus Energy US. She has also been the DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling,       eating good food, and listening to music. \r\n" 
+  company: Octopus Energy US
+  github: https://github.com/KatherineMichel
   name: Katherine Michel
-  photo_url: ''
+  photo_url: /static/img/presenters/kati.jpeg
   twitter: KatiMichel
-  website: https://github.com/KatherineMichel
+  website: ''
 published: true
 sitemap: true
 slides_url: ''
