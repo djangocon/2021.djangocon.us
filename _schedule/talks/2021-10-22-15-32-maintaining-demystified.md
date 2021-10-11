@@ -14,7 +14,7 @@ presenters:
   company: Octopus Energy US
   github: https://github.com/KatherineMichel
   name: Katherine Michel
-  photo_url: /static/img/speakers/kati.jpeg
+  photo_url: /static/img/presenters/kati.jpeg
   twitter: KatiMichel
   website: ''
 published: true
