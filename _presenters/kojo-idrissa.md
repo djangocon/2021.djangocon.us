@@ -1,11 +1,12 @@
 ---
-layout: speaker-template
-permalink: /presenters/kojo-idrissa/
-slug: kojo-idrissa
 company: ''
+layout: speaker-template
 name: Kojo Idrissa
+permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
+slug: kojo-idrissa
 twitter: transition_swpz
 website: ''
 ---
+
 Kojo Idrissa is the Orientation Chair and Lightning Talks Chair at DCUS and has been for many years.
