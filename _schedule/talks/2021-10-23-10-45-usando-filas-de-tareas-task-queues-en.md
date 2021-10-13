@@ -23,7 +23,7 @@ presenters:
   company: GoDaddy
   github: ''
   name: Josue Balandrano Coronel
-  photo_url: ''
+  photo_url: /static/img/organizers/josue.jpg
   twitter: rmcomplexity
   website: https://rmcomplexity.com
 published: true
