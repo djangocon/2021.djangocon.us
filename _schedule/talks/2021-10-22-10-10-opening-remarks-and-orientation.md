@@ -6,21 +6,24 @@ date: 2021-10-22 10:10:00 -0500
 difficulty: All
 image: /static/img/organizers/drew.jpg
 layout: session-details
-permalink: /talks/opening-remarks-orientation/
+permalink: /talks/opening-remarks-and-orientation/
 presenter_slugs:
 - drew-winstel
 - kojo-idrissa
 - katia-lira
 - josue-balandrano-coronel
 presenters:
-- bio: Drew (he/him) is the Vice President of the Django Events Foundation North America and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer at The Noun Project
+- bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
+    and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer
+    at The Noun Project
   company: DEFNA
   github: drewbrew
   name: Drew Winstel
   photo_url: /static/img/organizers/drew.jpg
   twitter: hops_and_smoke
   website: http://amakarudze.pythonanywhere.com/
-- bio: Kojo Idrissa is the Orientation Chair and Lightning Talks Chair at DCUS and has been for many years.
+- bio: Kojo Idrissa is the Orientation Chair and Lightning Talks Chair at DCUS and
+    has been for many years.
   company: ''
   name: Kojo Idrissa
   photo_url: /static/img/organizers/kojo.jpg
