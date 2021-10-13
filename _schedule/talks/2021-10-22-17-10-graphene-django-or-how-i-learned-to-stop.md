@@ -7,7 +7,7 @@ abstract: 'django-rest-framework is the tried and true approach for Djangonauts 
   In this talk you''ll learn about Django-Graphene and hopefully come to love it.'
 accepted: true
 category: talks
-date: 2021-10-22 17:31:00 -0500
+date: 2021-10-22 17:10:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dane-hillard.png
 layout: session-details
@@ -37,7 +37,8 @@ tags:
 - apis
 talk_slot: full
 title: 'graphene-django or: How I learned to stop RESTing and Love the Graph'
-video_url: 'https://youtu.be/LoJD36m1JRM'
+track: null
+video_url: https://youtu.be/LoJD36m1JRM
 ---
 
 Though controversial, people generally agree that a major value of Python type hints is safety. Robust type safety reduces a whole category of defect to nothing, allowing developers to focus on bigger problems. What if we could do this for our API calls?

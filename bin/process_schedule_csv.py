@@ -140,8 +140,8 @@ def update_talks(
                 if track != desired_track:
                     post["track"] = desired_track
                     dirty = True
-            elif "track" in post:
-                del post["track"]
+            elif post.get("track", False) is not None:
+                post["track"] = None
                 dirty = True
 
             if dirty is True:

@@ -35,7 +35,8 @@ tags:
 - tools
 talk_slot: full
 title: 'Zero to production-ready: a best-practices process for Docker packaging'
-video_url: 'https://youtu.be/zUtbwBRVZaY'
+track: null
+video_url: https://youtu.be/zUtbwBRVZaY
 ---
 
 You know the basics of packaging your Python application for Docker, but do you know enough to run that image in production? Bad packaging can result in security and production problems, not to mention wasted time try to debug unreproducible errors.

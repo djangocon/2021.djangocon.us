@@ -5,7 +5,7 @@ abstract: With no 'standard' approach to front-end other than built-in templatin
   - without feeling like we're missing out on modern tools.
 accepted: true
 category: talks
-date: 2021-10-22 16:58:00 -0500
+date: 2021-10-22 16:26:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/jack-linke.png
 layout: session-details
@@ -50,7 +50,8 @@ tags:
 - ajax
 talk_slot: full
 title: Server-Side is Dead! Long Live Server-Side (+ HTMX)
-video_url: 'https://youtu.be/t98bKdeUHsU'
+track: null
+video_url: https://youtu.be/t98bKdeUHsU
 ---
 
 ## Objectives

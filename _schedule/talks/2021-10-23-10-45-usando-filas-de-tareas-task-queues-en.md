@@ -23,7 +23,7 @@ presenters:
   company: GoDaddy
   github: ''
   name: Josue Balandrano Coronel
-  photo_url: ''
+  photo_url: /static/img/organizers/josue.jpg
   twitter: rmcomplexity
   website: https://rmcomplexity.com
 published: true
@@ -38,7 +38,8 @@ tags:
 - web
 talk_slot: full
 title: Usando filas de tareas (task queues) en aplicaciones web
-video_url: 'https://youtu.be/6y0y88MMtj4'
+track: null
+video_url: https://youtu.be/6y0y88MMtj4
 ---
 
 Al usar filas de tareas nuestros procesos se convierten en asincrónicos y esto hace nuestra aplicación más complicada.

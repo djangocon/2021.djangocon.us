@@ -42,7 +42,8 @@ tags:
 - accessibility
 talk_slot: full
 title: Lightweight Multi-Tenant Architecture for Django Applications
-video_url: 'https://youtu.be/cwsi9VPpFEo'
+track: null
+video_url: https://youtu.be/cwsi9VPpFEo
 ---
 
 As Software as a Service continues to grow in today’s landscape, many applications must adapt and provide services to multiple clients. Multitenancy has proven to be a mature architecture that can achieve secure data segregation while sustaining application functionality for multiple clients with lower costs. We have looked for pre-existing solutions to implement multitenancy, but were unable to find one. In this talk, we will demonstrate the benefits of multitenancy and provide a simple way to implement a lightweight, single-database, single-schema, multi-tenant architecture in virtually any Django application by using Django Guardian.

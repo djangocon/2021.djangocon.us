@@ -40,7 +40,8 @@ tags:
 talk_slot: full
 title: 'Writing tests for a Django application doesn''t have to suck: the simplest
   way to write short, fast and maintainable tests'
-video_url: 'https://youtu.be/9dqDij1cSXw'
+track: null
+video_url: https://youtu.be/9dqDij1cSXw
 ---
 
 ### Let's face it, writing tests sucks 

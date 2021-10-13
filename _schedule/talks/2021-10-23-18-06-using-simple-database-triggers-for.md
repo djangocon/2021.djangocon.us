@@ -38,7 +38,8 @@ tags:
 - postgres
 talk_slot: full
 title: Using simple database triggers for complex Django problems
-video_url: 'https://youtu.be/Tte3d4JjxCk'
+track: null
+video_url: https://youtu.be/Tte3d4JjxCk
 ---
 
 Over the years I have struggled with a large class of Django problems, and I have found that these problems are much better solved using a common database feature called triggers.

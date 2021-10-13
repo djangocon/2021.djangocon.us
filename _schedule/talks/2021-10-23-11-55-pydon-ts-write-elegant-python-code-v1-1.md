@@ -41,7 +41,7 @@ tags:
 - fundamentals
 talk_slot: full
 title: Pydon'ts – Write elegant Python code (v1.1)
-video_url: 'https://youtu.be/s6dJab2qwkg'
+video_url: https://youtu.be/s6dJab2qwkg
 ---
 
 In this talk I show what idiomatic Python code looks like and illustrate how the subjective notion of "beautiful", or "elegant" code, can make your code objectively better, regardless of your Python skill level.

@@ -37,7 +37,8 @@ tags:
 - architecture
 talk_slot: full
 title: 'HTMX: Frontend Revolution'
-video_url: 'https://youtu.be/z0yPTv15Fjk'
+track: null
+video_url: https://youtu.be/z0yPTv15Fjk
 ---
 
 I developed my first CGI script in 1998. Since that day I have seen a lot of hypes coming and going.

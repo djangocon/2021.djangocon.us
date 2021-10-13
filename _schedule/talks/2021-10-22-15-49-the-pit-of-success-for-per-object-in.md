@@ -4,7 +4,7 @@ abstract: Privacy matters, and I know I make mistakes, so I built a tool to make
   right into the Django ORM. Privacy checks are conducted under the hood, automatically.
 accepted: true
 category: talks
-date: 2021-10-22 16:11:00 -0500
+date: 2021-10-22 15:49:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/madelaine-boyd.png
 layout: session-details
@@ -41,7 +41,8 @@ tags:
 - model managers
 talk_slot: full
 title: The Pit of Success for Per-Object Permissions in Django
-video_url: 'https://youtu.be/ntiy3xfWflQ'
+track: null
+video_url: https://youtu.be/ntiy3xfWflQ
 ---
 
 Privacy is important, but permissions are hard. Even more, the Django permission framework only supports subject-verb relation guards (does *someone* have permission to *write*) but not subject-verb-object relations (does *someone* have permission to *write* in this *table*). Other existing Django middleware extensions such as django-guardian and django-rules address this, but require manual and explicit permission checking for every access.
