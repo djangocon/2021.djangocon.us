@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Colophon
-heading: Colophon
-permalink: /colophon/
 description: Thank you to those who have inspired us
+heading: Colophon
+layout: default
+permalink: /colophon/
+title: Colophon
 ---
 
 We are grateful to the past organizers of DjangoCon US and of other events for their help and inspiration. The following is an incomplete list of organizations and conferences whose positive example, advice, and generosity have helped make DjangoCon US the welcoming conference it is today.

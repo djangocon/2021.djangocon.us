@@ -2,9 +2,9 @@
 author: Lacey Williams Henschel and Drew Wisntel
 category: General
 date: 2021-09-10 15:00:00
-layout: post
 image: /static/img/speakers/anna-makarudze.jpg
-title: "Announcing Our Invited Speaker: Anna Makarudze"
+layout: post
+title: 'Announcing Our Invited Speaker: Anna Makarudze'
 ---
 
 We are so excited to announce our invited speaker for DjangoCon US 2021: Anna Makarudze!
