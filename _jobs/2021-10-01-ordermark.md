@@ -1,10 +1,10 @@
 ---
 hidden: false
 layout: job-detail
-name: "Ordermark (Nextbite)"
-website: "https://jobs.lever.co/getordermark/d2228f35-fe51-484f-86f7-85262e0e3290"
-website_text: "Apply here"
-post_photo_url: "/static/img/sponsors/Nextbite.png"
+name: Ordermark (Nextbite)
+post_photo_url: /static/img/sponsors/Nextbite.png
+website: https://jobs.lever.co/getordermark/d2228f35-fe51-484f-86f7-85262e0e3290
+website_text: Apply here
 ---
 
 **Senior Software Engineer - Remote**
@@ -30,5 +30,3 @@ What we offer:
 An opportunity to bring your whole-self to work and excel in a high-output, distributed team
 An engineering team ranked in the top 10% in diversity among similar sized companies
 A chance to help define the technology landscape of a fast-growing enterprise where innovation is expected and required
-
-

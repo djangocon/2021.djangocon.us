@@ -1,12 +1,13 @@
 ---
-layout: default
-title: Speaking Status
-heading: Speaking Status
-permalink: /speaking/status/
-sitemap: false
 description: Our Speaking Status for YouTube catching missing links
+heading: Speaking Status
+layout: default
+permalink: /speaking/status/
 published: true
+sitemap: false
+title: Speaking Status
 ---
+
 <table>
   <thead>
     <tr>

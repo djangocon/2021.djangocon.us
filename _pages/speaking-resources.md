@@ -1,10 +1,10 @@
 ---
-layout: default
-title: Speaker Resources
-heading: Speaker Resources
-permalink: /speaking/speaker-resources/
 description: Resources to support DjangoCon 2021 speakers
+heading: Speaker Resources
+layout: default
+permalink: /speaking/speaker-resources/
 published: false
+title: Speaker Resources
 ---
 
 {% comment %}

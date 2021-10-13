@@ -1,3 +1,4 @@
+import os
 import frontmatter
 import typer
 
@@ -133,7 +134,7 @@ def fmt():
                 data = post_type["class_name"](**post.metadata)
                 post.metadata.update(data.dict(exclude_unset=True))
                 filename.write_text(
-                    frontmatter.dumps(post)
+                    frontmatter.dumps(post) + os.linesep
                 )
             except ValidationError as e:
                 typer.secho(f"{filename}", fg="red")

@@ -1,13 +1,16 @@
 ---
-layout: default
-title: Opportunity Grants
+description: 'As part of our commitment to diversity, we are thrilled to announce
+  that we will be supporting individuals who need opportunity grants to attend DjangoCon
+  US
+
+  '
 heading: Opportunity Grants
+layout: default
 permalink: /opportunity-grants/
-redirect_from:
-  - /financial-aid/
-description: |
-    As part of our commitment to diversity, we are thrilled to announce that we will be supporting individuals who need opportunity grants to attend DjangoCon US
 published: false
+redirect_from:
+- /financial-aid/
+title: Opportunity Grants
 ---
 
 Our opportunity grant application is now closed. All decision notifications will be sent by June 24th, 2021.

@@ -1,10 +1,10 @@
 ---
 hidden: false
 layout: job-detail
-name: "JBS Solutions"
-website: "https://bit.ly/2YeGM1B"
-website_text: "Apply here"
-post_photo_url: "/static/img/sponsors/jbslogo.png"
+name: JBS Solutions
+post_photo_url: /static/img/sponsors/jbslogo.png
+website: https://bit.ly/2YeGM1B
+website_text: Apply here
 ---
 
 **Senior Developer Python / Django - Remote**

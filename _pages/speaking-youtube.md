@@ -1,10 +1,11 @@
 ---
-layout: default
-title: Speaking Template for YouTube Videos
+description: Our Speaking Template for YouTube Videos (this should not be in our sitemaps
+  file)
 heading: Speaking Template for YouTube Videos
+layout: default
 permalink: /speaking/youtube/
 sitemap: false
-description: Our Speaking Template for YouTube Videos (this should not be in our sitemaps file)
+title: Speaking Template for YouTube Videos
 ---
 
 {% for post in site.schedule %}
