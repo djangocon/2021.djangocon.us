@@ -5,7 +5,7 @@ abstract: The web is accessible by default; it is our design decisions that stop
   elements to use and what functionality they provide.
 accepted: true
 category: talks
-date: 2021-10-22 14:35:00 -0500
+date: 2021-10-22 14:12:00 -0500
 difficulty: All
 image: /static/img/social/presenters/rachele-ditullio.png
 layout: session-details
@@ -44,7 +44,8 @@ tags:
 - design
 talk_slot: full
 title: The Web is Inherently Accessible
-video_url: 'https://youtu.be/B3wrhqzO5gk'
+track: null
+video_url: https://youtu.be/B3wrhqzO5gk
 ---
 
 Every semantic mistake introduces accessibility issues into your code. In this session, you will learn

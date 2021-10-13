@@ -1,6 +1,10 @@
 ---
-abstract: Many Djangonauts suddenly find themselves maintaining a project. I’ll use my years of experience as a professional open source maintainer to teach you the essential process and best practices of being a maintainer. Not only is maintaining a step change in knowledge, it can be fun too!
+abstract: Many Djangonauts suddenly find themselves maintaining a project. I’ll use
+  my years of experience as a professional open source maintainer to teach you the
+  essential process and best practices of being a maintainer. Not only is maintaining
+  a step change in knowledge, it can be fun too!
 accepted: true
+additional_video_url: https://youtu.be/BKJKAN2kEM8
 category: talks
 date: 2021-10-22 15:32:00 -0500
 difficulty: Beginner
@@ -10,7 +14,9 @@ permalink: /talks/maintaining-demystified/
 presenter_slugs:
 - katherine-michel
 presenters:
-- bio: "Kati is a Backend Engineer at Octopus Energy US. She has also been the DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling,       eating good food, and listening to music. \r\n" 
+- bio: "Kati is a Backend Engineer at Octopus Energy US. She has also been the DjangoCon
+    US Website Chair and Co-Chair. In her free time, she enjoys traveling,       eating
+    good food, and listening to music. \r\n"
   company: Octopus Energy US
   github: https://github.com/KatherineMichel
   name: Katherine Michel
@@ -24,8 +30,7 @@ summary: ''
 tags: []
 talk_slot: full
 title: Maintaining Demystified
-video_url: 'https://youtu.be/56sxu9vEJNc'
-additional_video_url: 'https://youtu.be/BKJKAN2kEM8'
+video_url: https://youtu.be/56sxu9vEJNc
 ---
 
 You’ll learn

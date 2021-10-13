@@ -8,7 +8,7 @@ abstract: 'Many Django developers are intimidated by "modern" JavaScript, and th
   giving up Django''s View/Template system.'
 accepted: true
 category: talks
-date: 2021-10-22 12:20:00 -0500
+date: 2021-10-22 11:50:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/cory-zue.png
 layout: session-details
@@ -38,7 +38,8 @@ tags:
 - javascript
 talk_slot: full
 title: Modern JavaScript for Django Developers
-video_url: 'https://youtu.be/bz33cFQIC9Q'
+track: null
+video_url: https://youtu.be/bz33cFQIC9Q
 ---
 
 Is the front end of your Django project a disorganized mess? Have you ever tried to add React to a Django project and gotten discouraged because it was too complicated? Or have you worked in a project with completely separate front and back ends and wondered why you couldn't use just Django templates and forms for simple things and had to build an API for every little thing?

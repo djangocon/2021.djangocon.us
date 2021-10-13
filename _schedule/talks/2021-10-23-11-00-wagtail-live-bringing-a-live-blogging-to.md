@@ -42,7 +42,8 @@ tags:
 - Wagtail
 talk_slot: full
 title: 'Wagtail Live: bringing a live blogging tool to the Django ecosystem'
-video_url: 'https://youtu.be/JKw5IKSao5U'
+track: null
+video_url: https://youtu.be/JKw5IKSao5U
 ---
 
 People want their news as fast as possible. Increasingly, large news organisations are using 'live blogging' techniques to bring breaking stories to the public as they happen - this could be goals in a soccer match, or the unfolding events of an election night.

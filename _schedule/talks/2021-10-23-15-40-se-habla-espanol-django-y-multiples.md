@@ -30,7 +30,8 @@ tags:
 - i10n
 talk_slot: full
 title: 'SE HABLA ESPAÑOL: Django y multiples idiomas.'
-video_url: 'https://youtu.be/hsOjCAne5wk'
+track: null
+video_url: https://youtu.be/hsOjCAne5wk
 ---
 
 En esta charla hablaremos sobre cómo preparar tu proyecto para soportar múltiples idiomas en nuestros datos estáticos (plantillas, mensajes, nombres de campos y modelos) selección automática o manual de idioma, traducción de URLs y traducción de contenido. 
