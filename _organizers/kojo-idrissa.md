@@ -1,6 +1,6 @@
 ---
 github: kojoidrissa
-hidden: true
+hidden: false
 layout: base
 name: Kojo Idrissa
 photo_url: /static/img/organizers/kojo.jpg
