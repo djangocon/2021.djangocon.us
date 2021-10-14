@@ -4,7 +4,7 @@ hidden: false
 layout: base
 name: Kojo Idrissa
 photo_url: /static/img/organizers/kojo.jpg
-role: ':zap: Talk, Orientation, and Sprints Chairs'
+role: Orientation Chair
 twitter: Transition
 website: http://kojoidrissa.com/
 ---
