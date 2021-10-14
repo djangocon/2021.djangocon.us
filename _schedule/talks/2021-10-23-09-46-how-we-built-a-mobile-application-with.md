@@ -40,7 +40,8 @@ tags:
 - user experience
 talk_slot: full
 title: How we built a mobile application backend with Django in 10 weeks
-video_url: 'https://youtu.be/tVn8TLoySH8'
+track: null
+video_url: https://youtu.be/tVn8TLoySH8
 ---
 
 This talk is about how we delivered APIs and backend services for a mobile app in 10 weeks using Django/Python.

@@ -60,7 +60,8 @@ tags:
 - Version Management
 talk_slot: full
 title: Bootstrapping your Local Python Environment
-video_url: 'https://youtu.be/InVUiKtKNGw'
+track: null
+video_url: https://youtu.be/InVUiKtKNGw
 ---
 
 You cracked open your brand new Mac or Linux dream machine and lo and behold, it has Python out-of-the-box and ready to roll… Or so you think? Maybe you want to get started doing Python development on Windows and see that you can grab Python easily from the Microsoft Store. Should you? Let’s talk about getting started with the end in mind and making sure your development computer doesn’t become the next [superfund site](https://xkcd.com/1987/). We’ll quickly go through a tour of the various options such as pyenv, venv, virtualenv, conda and Docker as great ways to make sure you can develop in a sane environment.

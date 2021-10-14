@@ -5,6 +5,7 @@ date: 2021-08-26 12:00:00
 layout: post
 title: Announcing the 2021 DjangoCon US Talks
 ---
+
 We're proud to announce the talks for this year's online DjangoCon US.
 
 The Django community and beyond submitted an incredible number of talk
@@ -59,4 +60,3 @@ Congratulations to all our speakers!
 We can't wait to see you at DCUS 2021! Get your [free tickets](https://ti.to/defna/djangocon-us-2021)
 today and follow us on [Twitter](https://twitter.com/djangocon) to stay up to
 date on the latest news.
-

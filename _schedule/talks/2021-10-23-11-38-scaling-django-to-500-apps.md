@@ -37,7 +37,8 @@ tags:
 - scaling
 talk_slot: full
 title: Scaling Django to 500 apps
-video_url: 'https://youtu.be/NsHo-kThlqI'
+track: null
+video_url: https://youtu.be/NsHo-kThlqI
 ---
 
 Have you ever...

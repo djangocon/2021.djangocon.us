@@ -1,18 +1,18 @@
 ---
-layout: default
-title: Speaker Resources
-heading: Speaker Resources
-permalink: /speaking/speaker-resources/
 description: Resources to support DjangoCon 2021 speakers
+heading: Speaker Resources
+layout: default
+permalink: /speaking/speaker-resources/
 published: false
+title: Speaker Resources
 ---
 
+{% comment %}
 ## Information for Speakers
 * The Speaker Green Room will be in <strong>Santa Fe 4</strong> on Sunday-Wednesday.
 * Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
 * The Quiet Room will be in the <strong>Private Dining Room</strong> on all conference days.
 
-{% comment %}
 ## Need some help with your presentation?
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.

@@ -7,7 +7,12 @@ layout: base
     {% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}
   </h1>
   <p class="lead">
-    {{ page.date | date: "%A %l:%M %P" }}{% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
+    <local-time datetime="{{ page.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric"
+      time-zone-name="short">
+      {{ page.date | date: "%A %l:%M %P" }}
+    </local-time>
+    <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago">:calendar:</a>
+    {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
     {% comment %}, in {{ page.room }}{% endcomment %}
     {% if page.difficulty %}
       <br>

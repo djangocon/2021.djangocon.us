@@ -53,7 +53,8 @@ tags:
 talk_slot: full
 title: Búsqueda de texto completo (FTS) en tu sitio web – mi proyecto de Google Summer
   of Code
-video_url: 'https://youtu.be/gbeAKO0vxhw'
+track: null
+video_url: https://youtu.be/gbeAKO0vxhw
 ---
 
 En esta charla, descubrirás el nuevo *backend* de búsqueda de Wagtail, que he desarrollado como proyecto del *Google Summer of Code*, y las ventajas que ofrece. Además, ofreceré información sobre el *GSoC*, un programa muy interesante, tanto para estudiantes como para desarrolladores veteranos.

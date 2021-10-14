@@ -1,6 +1,10 @@
 ---
-abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proyecto. Voy a usar mis años de experiencia como mantenedora profesional del código abierto para enseñarles el proceso y prácticas para ser un mejor mantenedor. ¡El mantenimiento es una mejora en conocimiento y divertida también!
+abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proyecto.
+  Voy a usar mis años de experiencia como mantenedora profesional del código abierto
+  para enseñarles el proceso y prácticas para ser un mejor mantenedor. ¡El mantenimiento
+  es una mejora en conocimiento y divertida también!
 accepted: true
+additional_video_url: https://youtu.be/56sxu9vEJNc
 category: talks
 date: 2021-10-22 15:32:00 -0500
 difficulty: Beginner
@@ -10,16 +14,15 @@ permalink: /talks/desmitificando-el-mantenimiento/
 presenter_slugs:
 - katherine-michel
 presenters:
-- bio: "Kati is a web developer, open source maintainer, and technical writer. Her
-    recent clients include The Wharton School and Eldarion. She has also been the
-    DjangoCon US Website Chair and Co-Chair. In her free time, she enjoys traveling,
-    eating good food, and listening to music. \r\n"
-  company: DEFNA, DjangoCon US Website Chair
-  github: ''
+- bio: "Kati is a Backend Engineer at Octopus Energy US. She has also been the DjangoCon
+    US Website Chair and Co-Chair. In her free time, she enjoys traveling,       eating
+    good food, and listening to music. \r\n"
+  company: Octopus Energy US
+  github: https://github.com/KatherineMichel
   name: Katherine Michel
-  photo_url: ''
+  photo_url: /static/img/presenters/kati.jpeg
   twitter: KatiMichel
-  website: https://github.com/KatherineMichel
+  website: ''
 published: true
 sitemap: true
 slides_url: ''
@@ -27,8 +30,7 @@ summary: ''
 tags: []
 talk_slot: full
 title: Desmitificando el Mantenimiento
-video_url: 'https://youtu.be/BKJKAN2kEM8'
-additional_video_url: 'https://youtu.be/56sxu9vEJNc'
+video_url: https://youtu.be/BKJKAN2kEM8
 ---
 
 Vas a aprender:

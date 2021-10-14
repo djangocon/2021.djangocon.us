@@ -36,7 +36,8 @@ tags:
 - community
 talk_slot: full
 title: Una serie de relatos de mentoring
-video_url: 'https://youtu.be/HSpeDeik1ew'
+track: null
+video_url: https://youtu.be/HSpeDeik1ew
 ---
 
 Espero poder motivar a los participantes a probar mentorear.

@@ -36,7 +36,8 @@ tags:
 - tools
 talk_slot: full
 title: Rapid Prototyping in Django
-video_url: 'https://youtu.be/V1dEWyzDfuY'
+track: null
+video_url: https://youtu.be/V1dEWyzDfuY
 ---
 
 Building a usable prototype in a weekend is the dream of startups and established business alike.  This is the lean startup approach.  You have many ideas.  Not all of those ideas will work, and all of them take attention away from known ways of making money.  So, you need to validate those ideas as cheaply as possible.  This means you need to build MVPs (minimum viable products) as fast as possible.  But there is a danger; if you cut the wrong corners and one of these new products takes off, that MVP will be the seed for a massive product and you will be stuck with your mistakes for years to come.  This talk will show you the tools and techniques to build a rapid prototype in Django, as well as how to minimize regrets later.

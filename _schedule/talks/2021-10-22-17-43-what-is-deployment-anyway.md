@@ -7,7 +7,7 @@ abstract: 'So you''ve finished the DjangoGirls tutorial or smol demo, now you wa
   locally, and discuss the concepts and strategies around how to host your project.'
 accepted: true
 category: talks
-date: 2021-10-22 18:04:00 -0500
+date: 2021-10-22 17:43:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katie-mclaughlin.png
 layout: session-details
@@ -40,7 +40,8 @@ tags:
 - oh my.
 talk_slot: full
 title: What is deployment, anyway?
-video_url: 'https://youtu.be/rdp8o0nkXQ4'
+track: null
+video_url: https://youtu.be/rdp8o0nkXQ4
 ---
 
 In this talk we will discuss: 
