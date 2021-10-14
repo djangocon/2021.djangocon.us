@@ -11,12 +11,14 @@ website_text: Apply here
 
 *Remote in the US*
 
+<br/>
+
 JBS is looking for someone experienced with Python and Python web frameworks like Django. Must be committed to providing quality deliverables with well-factored, maintainable code.
 
-At JBS, all of our employees work remotely from home offices. We cluster our staff into project teams around specific 
-code requirements, and then set them free to do great work within specific guidelines and timetables. The combination 
-of developer accountability and cutting-edge development technologies allows us to attract the very best in the 
-business and perform at a high level for our clients. If you are ready to get out of the cubicle, anxious to stand on 
+At JBS, all of our employees work remotely from home offices. We cluster our staff into project teams around specific
+code requirements, and then set them free to do great work within specific guidelines and timetables. The combination
+of developer accountability and cutting-edge development technologies allows us to attract the very best in the
+business and perform at a high level for our clients. If you are ready to get out of the cubicle, anxious to stand on
 your own, ready to reduce your commute time to zero, and like working with great teams, apply today.
 
 Responsibilities include:
