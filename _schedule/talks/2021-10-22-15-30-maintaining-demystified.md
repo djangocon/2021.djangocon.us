@@ -6,7 +6,7 @@ abstract: Many Djangonauts suddenly find themselves maintaining a project. I’l
 accepted: true
 additional_video_url: https://youtu.be/BKJKAN2kEM8
 category: talks
-date: 2021-10-22 15:32:00 -0500
+date: 2021-10-22 15:30:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png
 layout: session-details
