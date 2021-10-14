@@ -11,6 +11,8 @@ website_text: Apply here
 
 *Remote or NYC*
 
+<br/>
+
 As an Engineering Team Lead, you will manage a team of engineers, own significant chunks of our architecture, design and build systems at scale, and shape product decisions. You'll work on challenging projects, make an impact, and grow as an engineer and a leader.
 
 You will iterate on our agile process to help us build better software as a cohesive team. You will collaborate with our analytics and product teams to define the scope of projects, and plan deliverables. And you will have the opportunity to develop your non-technical skills by mentoring engineers on your team, leading projects your team is responsible for, and helping influence our technical direction.
