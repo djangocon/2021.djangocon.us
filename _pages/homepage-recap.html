@@ -2,7 +2,8 @@
 heading: 2021 DjangoCon US Recap
 layout: base
 permalink: /recap/
-published: false
+# permalink: /
+published: true
 title: 2021 DjangoCon US Recap
 ---
 
@@ -108,17 +109,7 @@ title: 2021 DjangoCon US Recap
     {% for post in site.schedule %}
       {% if post.featured %}
         {% if post.permalink and post.room != 'filler' %}
-        <article
-          class="event
-          {% if post.room == "Salon A-E" %}loc-main
-          {% elsif post.room == "Salon F-H" %}loc-alt-3
-          {% elsif post.room == "Rio Vista Pavilion" %}loc-alt
-          {% elsif post.room == "Balboa I & II" %}loc-main
-          {% elsif post.room == "Sierra 5" %}loc-alt-3
-          {% elsif post.room == "Cabrillo 1" %}loc-alt-2
-          {% else %}loc-main
-          {% endif %}
-          ">
+        <article class="event loc-main">
           {% unless post.room == 'filler' %}
             {% if post.permalink %}
               <a href="{{ post.permalink }}" class="event-content">
@@ -183,8 +174,10 @@ title: 2021 DjangoCon US Recap
   <div class="row">
     <div class="column small-12 medium-5">
       <h2>{{ ":chart_with_upwards_trend: 2021 By the Numbers" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-      <p class="lead">2021 was an amazing year for attendance, sponsorship, talks, food, really everything that goes into making a conference great.</p>
+      <p class="lead">2021 was an amazing year for attendance, sponsorship, talks, really everything that goes into making a conference great.</p>
+      {% comment %}
       <p>The buzz we heard on Twitter was that it was a lot of people's favorite DjangoCon US ever!</p>
+      {% endcomment %}
     </div>
 
     <div class="column hide-for-mobile medium-6">
@@ -199,19 +192,11 @@ title: 2021 DjangoCon US Recap
           <tbody>
             <tr>
               <td>Attendees</td>
-              <td>425</td>
-            </tr>
-            <tr>
-              <td>Tutorials</td>
-              <td>6</td>
+              <td>15xx</td>
             </tr>
             <tr>
               <td>Talks</td>
-              <td>38</td>
-            </tr>
-            <tr>
-              <td>Favorite food</td>
-              <td>Mac and cheese bar at the opening reception</td>
+              <td>3x</td>
             </tr>
           </tbody>
         </table>
