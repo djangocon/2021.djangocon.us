@@ -9,8 +9,10 @@ from typing import Any, Literal
 from pathlib import Path
 import datetime
 import json
+import os
 import time
 
+from celery import Celery
 from dateutil.parser import parse
 import frontmatter
 import pytz
@@ -45,6 +47,9 @@ Live discussions are happening in <#885229363921043486>.
 """
 
 app = typer.Typer(help="Awesome Announce Talks")
+celery_app = Celery(
+    "announce_talk", backend=os.environ.get("CELERY_BROKER", "redis:///")
+)
 
 
 def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
