@@ -14,7 +14,7 @@ We are excited to bring you a slice of the usual DjangoCon experience virtually!
 - [Discord](https://2021.djangocon.us/chat/)
 - Get active in our [Strava group](https://www.strava.com/clubs/987456)
 - Recruitment Fair (Friday, October 22nd at 12:45 PM Central Time/17:45 UTC)
-- Live DJ and Scheduled Tunes with [DJ RanaRansom]()! (Lunch Break and End of Day, Friday and Saturday)
+- Live DJ and Scheduled Tunes with [DJ Rana Ransom](https://soundcloud.com/ranaransom)! (during Lunch and at the end of each day of talks, Friday and Saturday)
 - Virtual Conference Hall with Spatial Chat
 
 ## Youtube
