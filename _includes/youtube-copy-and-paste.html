@@ -1,0 +1,18 @@
+{% if include.presenter.twitter != blank %}{{ include.post.abstract }}
+{% endif %}
+This talk was presented at: {{ site.url }}{{ include.post.url }}
+{% if include.presenter.twitter != blank or include.presenter.github != blank or include.presenter.website != blank %}
+LINKS:
+Follow {{ include.presenter.name }} 👇
+{% if include.presenter.twitter != blank %}On Twitter: https://twitter.com/{{ include.presenter.twitter }}
+{% endif %}{% if include.presenter.github != blank %}On GitHub: https://github.com/{{ include.presenter.github }}
+{% endif %}{% if include.presenter.website != blank %}Official homepage: {{ include.presenter.website }}{% endif %}
+{% endif %}
+Follow DjangCon US 👇
+https://twitter.com/djangocon
+
+Follow DEFNA 👇
+https://twitter.com/defnado
+https://www.defna.org/
+
+Video production by the speaker and DjangoCon US 2021 Volunteers.
