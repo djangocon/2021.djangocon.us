@@ -80,21 +80,6 @@ layout: base
     <h2>A conference with heart</h2>
   </div>
   <div class="row card-row">
-    {% comment %}
-    <div class="medium-4 column">
-      <div class="card">
-        <img
-          src="{{ "/static/img/compass.svg" | relative_url }}"
-          alt="Compass"
-          class="card-icon"
-          />
-        <div class="card-section">
-          <h3 class="card-title">Join Our Mailing List</h3>
-          <p>Please <strong><a href="{{ site.mailing_list }}">join our mailing list today</a></strong> and don't miss out on important info like ticket sales, schedule announcements, and more.</p>
-        </div>
-      </div>
-    </div>
-    {% endcomment %}
     <div class="medium-4 column">
       <div class="card">
         <img
@@ -124,6 +109,20 @@ layout: base
     <div class="medium-4 column">
       <div class="card">
         <img
+          src="{{ "/static/img/compass.svg" | relative_url }}"
+          alt="Compass"
+          class="card-icon"
+          />
+        <div class="card-section">
+          <h3 class="card-title">Join Our Mailing List</h3>
+          <p>Please <strong><a href="{{ site.mailing_list }}">join our mailing list today</a></strong> and don't miss out on important info like ticket sales, schedule announcements, and more.</p>
+        </div>
+      </div>
+    </div>
+    {% comment %}
+    <div class="medium-4 column">
+      <div class="card">
+        <img
           src="{{ "/static/img/star.svg" | relative_url }}"
           alt="Star"
           class="card-icon"
@@ -134,6 +133,7 @@ layout: base
         </div>
       </div>
     </div>
+    {% endcomment %}
   </div>
 </section>
 
