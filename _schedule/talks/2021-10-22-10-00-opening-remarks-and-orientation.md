@@ -27,7 +27,7 @@ presenters:
   company: ''
   name: Kojo Idrissa
   photo_url: /static/img/organizers/kojo.jpg
-  twitter: transition_swpz
+  twitter: transitionswpz
   website: ''
 - bio: Katia is the President of the Django Events Foundation North America.
   company: ''
