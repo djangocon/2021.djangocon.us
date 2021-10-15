@@ -1,0 +1,17 @@
+{% capture tweet %}
+🎉 {{ include.post.title }}
+
+{% if include.presenter_slugs %} by
+{% for presenter_slug in include.presenter_slugs %}
+{% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+ {{ presenter.name }}
+{% if presenter.twitter != blank %} @{{ presenter.twitter }} {% endif %}
+{% endfor %}
+{% endif %}
+
+at {{ post.date | date: "%b %d %l:%M %p %Z" }}
+
+ #djangocon #dcus
+{% endcapture %}{{ tweet | strip_newlines }}
+
+📺 Watch on YouTube {{ post.video_url }}
