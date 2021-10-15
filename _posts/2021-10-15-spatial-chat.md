@@ -17,8 +17,8 @@ We are excited to bring you a slice of the usual DjangoCon experience virtually!
 - Live DJ and Scheduled Tunes with [DJ Rana Ransom](https://soundcloud.com/ranaransom)! (during Lunch and at the end of each day of talks, Friday and Saturday)
 - Virtual Conference Hall with Spatial Chat
 
-## Youtube
-We have XX talks between XX - XX Friday, October 22nd and XX - XX Saturday, October 23rd 2021. All talks will be featured on Youtube, scheduled-released for the global community to enjoy together. Talks will be announced in Discord where you can join in on the discussion. We recommend subscribing to the [DjangoCon US Youtube Channel]() to have Youtube remind you while using the app or web client. You can check out the schedule [here]().
+## YouTube
+We have 36 talks between 10 AM and 6:30 PM CDT Friday, October 22nd, and between 9 AM and 7:15 PM CDT Saturday, October 23rd, 2021. All talks will be featured on YouTube with scheduled releases for the global community to enjoy together. Talks will be announced in Discord where you can join in on the discussion. We recommend subscribing to the [DjangoCon US Youtube Channel](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw) to have YouTube remind you while using the app or web client. Take a look at the [schedule](https://2021.djangocon.us/talks) and make sure to catch your favorites.
 
 ## Discord
 Join the Discord!
