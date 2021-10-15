@@ -9,7 +9,7 @@ layout: base
   <p class="lead">
     <local-time datetime="{{ page.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric"
       time-zone-name="short">
-      {{ page.date | date: "%A %l:%M %P" }}
+      {{ page.date | date: "%b %d %l:%M %p %Z" }}
     </local-time>
     <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago">:calendar:</a>
     {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
