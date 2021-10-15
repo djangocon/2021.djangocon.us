@@ -4,7 +4,7 @@ category: General
 date: 2021-10-16 15:00:00
 image: /static/img/sponsors/Login.jpg
 layout: post
-title: 'How to Engage With Fellow Attendees at DjangoCon 2021 Online'
+title: How to Engage With Fellow Attendees at DjangoCon 2021 Online
 ---
 
 We are excited to bring you a slice of the usual DjangoCon experience virtually! After not having a conference in 2020, we've done our best to try to prioritize sharing the best of the US Django Conference while remaining safe and accessible, and 100% online. Details are emailed to registrants, so we recommend you [get your ticket]({{site.ticket_link}}) today!
