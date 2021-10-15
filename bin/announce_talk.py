@@ -166,7 +166,10 @@ def post_about_talks(
                             body=body,
                         ).apply_async(eta=post_time)
                         if post_now:
-                            typer.secho("Waiting 30 sec before queueing next messages")
+                            typer.secho(
+                                f'Messages for {post["title"]} queued; Waiting 30 sec before'
+                                " queueing next messages"
+                            )
                             time.sleep(30)
                     else:
                         post_to_webhook(webhook_url=webhook_url, body=body)
