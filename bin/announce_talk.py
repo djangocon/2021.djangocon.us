@@ -5,7 +5,7 @@ TODO:
 2. Iterate over all the talks and test it in Discord
 3. Delete all the announcements before we invite anyone in
 """
-from typing import Literal
+from typing import Any, Literal
 from pathlib import Path
 import datetime
 import json
@@ -108,8 +108,7 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                 }
 
                 if webhook_url:
-                    response = requests.post(webhook_url, json=body)
-                    response.raise_for_status()
+                    post_to_webhook(webhook_url=webhook_url, body=body)
                     time.sleep(30)
                 else:
                     typer.echo(f"{body['content']}")
@@ -118,6 +117,12 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
 
         except Exception as e:
             typer.secho(f"{filename}::{e}", fg="red")
+
+
+def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> None:
+    """Post the body to the webhook URL"""
+    response = requests.post(webhook_url, json=body)
+    response.raise_for_status()
 
 
 @app.command()
