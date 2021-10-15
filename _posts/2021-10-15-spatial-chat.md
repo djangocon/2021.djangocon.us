@@ -1,20 +1,20 @@
 ---
-author: Lacey Williams Henschel and Drew Wisntel
+author: Dawn Wages and -- add names --
 category: General
 date: 2021-10-16 15:00:00
-image: /static/img/speakers/anna-makarudze.jpg
+image: /static/img/sponsors/Login.jpg
 layout: post
 title: 'How to Engage With Fellow Attendees at DjangoCon 2021 Online'
 ---
 
-We are so excited to bring you a slice of the usual DjangoCon experience virtually! After not having a conference in 2020, we've done our best to try to prioritize sharing the best of the US Django Conference while remaining safe and accessible, and 100% online.
+We are excited to bring you a slice of the usual DjangoCon experience virtually! After not having a conference in 2020, we've done our best to try to prioritize sharing the best of the US Django Conference while remaining safe and accessible, and 100% online. Details are emailed to registrants, so we recommend you [get your ticket]({{site.ticket_link}}) today!
 
 **Ways to Engage:**
 - Youtube
 - Discord
-- Offline Biking and online competition with STRATA
+- Offline Biking and online competition with [STRATA]()
 - Recruitment Fair (Friday October 22nd 12:43 PM Central Time)
-- Live DJ and Scheduled Tunes with DJ RanaRansom! (Lunch Break and End of Day, Friday and Saturday)
+- Live DJ and Scheduled Tunes with [DJ RanaRansom]()! (Lunch Break and End of Day, Friday and Saturday)
 - Virtual Conference Hall with Spatial Chat
 
 ## Youtube
@@ -33,24 +33,32 @@ A large group of our community enjoys our conference in the TwitterSphere. @Djan
 We're excited to announce that we've partnered with the Virtual Conference platform [SpatialChat](https://spatial.chat) to give a fun and interactive experience. We encourage you to log on and poke around for yourself but here is a preliminary list of the rooms that will be available to all attendees:
 
 ##### Main Room
+Rana Ransom DJ Lunch and after conference day. stream chat, mingle.
 
 ##### Recruitment Hall
+Friday Oct 22nd, Lunch Break - We encourage job seekers and the recruiting Sponsors to join the Recruitment Hall.
 
 ##### Library - Recommend a Book
+Recommend your favorite python, django, or tech book! We've already started.
 <img alt="Conference Library" src="/static/img/sponsors/SpatialChat_Library.png"/>
+<sub><sup>Caption: Screen Shot of Library Room</sup></sub>
 
 ##### Conference Theater
 <img alt="Conference Theater" src="/static/img/sponsors/SpatialChat_ConferenceTheater.png"/>
+<sub><sup>Caption: Screen Shot of Conference Theater currently screening [DjangoCon 2021 Europe Talk]()</sup></sub>
 
 ##### Workshop Room
+Have a tutorial you're jumping to give? Hoping to share a demo? Hop into the workshop room and give your insight to an audience. No need to reserve the room, it's first come, first served. Just put your topic up on the virtual chalk board, and can call "dibs" for next topic, but adding it to the bottom of the board.
 <img alt="Workshop Room" src="/static/img/sponsors/SpatialChat_WorkshopRoom.png"/>
+<sub><sup>Caption: Screen Shot of Workshop Room</sup></sub>
 
 ##### Panel Room
+Host your own panel discussions! No need to reserve the room, it's first come, first served. Get a group of friends, chat about it on Twitter, Discord and chat host panel discussions and share your expertise. You can reserve your space for the next topic, but adding it to the bottom of the board.
 <img alt="Panel Room" src="/static/img/sponsors/SpatialChat_PanelRoom.png"/>
+<sub><sup>Caption: Screen Shot of Panel Room</sup></sub>
 
 ... and more rooms!
 
-- DjangoCon 2021 Stream
 - Recruitment Hall
 - Share Some Knowledge / Audio-Only Room
 - Have Some Fun / Spoopy Room
@@ -68,14 +76,17 @@ In your **Bio**, we ask that you enter these 4 things:
    <img alt="Discord Screen Shot to Copy Username" src="/static/img/sponsors/SpatialChat_Discord.png" title="Copy Username  from Discord"/>
 
 > When you first log in, you'll see this screen!
-<img alt="Spatial Chat Login Screen" src="/static/img/sponsors/SpatialChat_Login.png"/>
+<img alt="Spatial Chat Login Screen" src="/static/img/sponsors/SpatialChat_Login.png"/><sub><sup>Caption: This is the first page you will see when you log onto Spatial Chat DjangoCon US<sup><sub>
 
   > You will then be prompted to enable your camera and microphone. Please do either only as you feel comfortable.
   <img alt="Enable Your Spatial Chat Microphone and Cameera" src="/static/img/sponsors/SpatialChat_MicAndCamera.png"/>
+> <sub><sup>Caption: Prompt to enable camera and microphone.<sup><sub>
 
 ### More Resources on SpatialChat
 - For information describing how to use SpatialChat, see this link: [Basics of SpatialChat](https://help.spatial.chat/hc/en-us/articles/360019120259-Basics-of-SpatialChat).
 
 - More documentation on the platform in general can be found here: [How SpacialChat Works](https://help.spatial.chat/hc/en-us/sections/360004587240-How-SpatialChat-works)
 
-**Don't miss DjangoCon 2021! [Get your ticket]({{site.ticket_link}}) today!**
+- SpatialChat is mobile friendly, but to get the best experience we recommend logging on with a PC or Tablet.
+
+**Don't miss DjangoCon 2021! [Register for the conference]({{site.ticket_link}}) today!**
