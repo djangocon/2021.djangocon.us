@@ -73,7 +73,7 @@ In your **Bio**, we ask that you enter these 4 things:
 1. Location (e.g. Philadelphia, PA, USA)
 2. Pronouns (e.g. she/they)
 3. Organization (if affiliated, e.g. Wharton)
-4. Discord Handle (e.g. Dawn#3554 )
+4. Discord Handle (e.g. `Dawn#3554`)
     > You can copy your username by hovering over your icon and clicking.
    <img alt="Discord Screen Shot to Copy Username" src="/static/img/sponsors/SpatialChat_Discord.png" title="Copy Username  from Discord"/>
 
