@@ -1,23 +1,20 @@
 ---
-description: Our Speaking Template for YouTube Videos (this should not be in our sitemaps
+description: Our Speaking Checklists for YouTube Videos (this should not be in our sitemaps
   file)
-heading: Speaking Template for YouTube Videos
+heading: Speaking Checklists for YouTube Videos
 layout: default
 permalink: /speaking/youtube/checklists/
 sitemap: false
-title: Speaking Template for YouTube Videos
+title: Speaking Checklists for YouTube Videos
 ---
 
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' %}
-{% if post.presenter_slugs %}
-{% for presenter_slug in post.presenter_slugs %}
-{% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
 <div class="event-byline">
 <h2>Video Checklist</h2>
 
-<h4>{{ presenter.name }}, {{ post.title }} - {{ post.date | date: "%b %d %l:%M %p %Z" }}</h4>
+<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
 
 <div>
   <a href="{{ post.video_url }}">On YouTube</a>
@@ -44,10 +41,10 @@ title: Speaking Template for YouTube Videos
   <li><input type="checkbox">Spanish captions uploaded</li>
 </ul>
 
-{% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-{{ presenter.name | slugify }}-youtube{% endcapture %}
+{% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
 
 <textarea rows="10" id="{{ youtube-copy-link }}">
-{% include youtube-copy-and-paste.html post=post presenter=presenter %}
+{% include youtube-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
 <button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
@@ -55,8 +52,6 @@ Copy to clipboard
 </button>
 </div>
 <hr>
-{% endfor %}
-{% endif %}
 {% endif %}
 {% endfor %}
 

@@ -3,13 +3,14 @@
 {% if include.post.abstract != blank %}{{ include.post.abstract }}
 {% endif %}
 This talk was presented at: {{ site.url }}{{ include.post.url }}
-{% if include.presenter.twitter != blank or include.presenter.github != blank or include.presenter.website != blank %}
-LINKS:
-Follow {{ include.presenter.name }} 👇
-{% if include.presenter.twitter != blank %}On Twitter: https://twitter.com/{{ include.presenter.twitter }}
-{% endif %}{% if include.presenter.github != blank %}On GitHub: https://github.com/{{ include.presenter.github }}
-{% endif %}{% if include.presenter.website != blank %}Official homepage: {{ include.presenter.website }}{% endif %}
-{% endif %}
+
+LINKS:{% if include.presenter_slugs %}{% for presenter_slug in post.presenter_slugs %}{% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+Follow {{ presenter.name }} 👇
+{% if presenter.twitter != blank %}On Twitter: https://twitter.com/{{ presenter.twitter }}
+{% endif %}{% if presenter.github != blank %}On GitHub: https://github.com/{{ presenter.github }}
+{% endif %}{% if presenter.website != blank %}Website: {{ presenter.website }}{% endif %}
+{% endfor %}{% endif %}
+
 Follow DjangCon US 👇
 https://twitter.com/djangocon
 
