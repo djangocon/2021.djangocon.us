@@ -59,7 +59,7 @@ Host your own panel discussions! No need to reserve the room; it's first come, f
 <img alt="Panel Room" src="/static/img/sponsors/SpatialChat_PanelRoom.png"/>
 <sub><sup>Caption: Screen Shot of Panel Room</sup></sub>
 
-... and more rooms!
+### Even more rooms!
 
 - Recruitment Hall
 - Share Some Knowledge / Audio-Only Room
