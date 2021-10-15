@@ -1,4 +1,6 @@
-{% if include.presenter.twitter != blank %}{{ include.post.abstract }}
+{{ include.post.title }}
+
+{% if include.post.abstract != blank %}{{ include.post.abstract }}
 {% endif %}
 This talk was presented at: {{ site.url }}{{ include.post.url }}
 {% if include.presenter.twitter != blank or include.presenter.github != blank or include.presenter.website != blank %}
