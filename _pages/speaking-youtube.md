@@ -9,14 +9,18 @@ title: Speaking Template for YouTube Videos
 ---
 
 {% for post in site.schedule %}
-<a href='{{ post.video_url }}'>For YouTube</a>{% if post.additional_video_url %}<a href='{{ post.additional_video_url }}'>Also on YouTube</a>{% endif %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' %}
 {% if post.presenter_slugs %}
 {% for presenter_slug in post.presenter_slugs %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
-<p class="event-byline">
-<h4>{{ presenter.name }}, {{ post.title }} - DjangoCon US (2021)</h4>
+<div class="event-byline">
+<h4>{{ presenter.name }}, {{ post.title }} - {{ post.date | date: "%b %d %l:%M %p %Z" }}</h4>
+
+<div>
+  <a href="{{ post.video_url }}">On YouTube</a>
+  {% if post.additional_video_url %}<a href="{{ post.additional_video_url }}">Also on YouTube</a>{% endif %}
+</div>
 
 {% capture youtube-copy-link %}copy-{{ post.slug | slugify }}-{{ presenter.name | slugify }}-youtube{% endcapture %}
 
@@ -25,23 +29,9 @@ title: Speaking Template for YouTube Videos
 </textarea>
 
 <button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-link }}">
-    Copy to clipboard
+Copy to clipboard
 </button>
-</p>
-
-<p>
-
-{% capture twitter-copy-link %}copy-{{ post.slug | slugify }}-{{ presenter.name | slugify }}-twitter{% endcapture %}
-
-<textarea rows="4" id="{{ twitter-copy-link }}">
-{% include twitter-copy-and-paste.html post=post presenter=presenter %}
-</textarea>
-
-<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ twitter-copy-link }}">
-    Copy to clipboard
-</button>
-</p>
-
+</div>
 <hr>
 {% endfor %}
 {% endif %}

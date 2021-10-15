@@ -14,9 +14,8 @@ title: Speaking Template for YouTube Videos
 {% if post.presenter_slugs and post.video_url %}
 {% for presenter_slug in post.presenter_slugs %}
 {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
-<p class="event-byline">
+<div class="event-byline">
 <h4>{{ presenter.name }}, {{ post.title }} - {{ post.date | date: "%b %d %l:%M %p %Z" }}</h4>
-<p>
 
 {% capture twitter-copy-link %}copy-{{ post.slug | slugify }}-{{ presenter.name | slugify }}-twitter{% endcapture %}
 
@@ -25,9 +24,9 @@ title: Speaking Template for YouTube Videos
 </textarea>
 
 <button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ twitter-copy-link }}">
-    Copy to clipboard
+Copy to clipboard
 </button>
-</p>
+</div>
 
 <hr>
 {% endfor %}
