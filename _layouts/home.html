@@ -96,6 +96,20 @@ layout: base
     <div class="medium-4 column">
       <div class="card">
         <img
+          src="{{ "/static/img/megaphone.svg" | relative_url }}"
+          alt="Talk"
+          class="card-icon"
+          />
+        <div class="card-section">
+            <h3 class="card-title">Talks</h3>
+            <p>Check out the <strong><a href="/talk/">talks page</a></strong> for a list of our schedule. We'll post video links on the specific talk pages once the videos are up.</p>
+        </div>
+      </div>
+    </div>
+    {% comment %}
+    <div class="medium-4 column">
+      <div class="card">
+        <img
           src="{{ "/static/img/star.svg" | relative_url }}"
           alt="Star"
           class="card-icon"
@@ -106,6 +120,7 @@ layout: base
         </div>
       </div>
     </div>
+    {% endcomment %}
     <div class="medium-4 column">
       <div class="card">
         <img
