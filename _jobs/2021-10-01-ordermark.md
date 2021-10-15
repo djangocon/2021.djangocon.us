@@ -11,6 +11,8 @@ website_text: Apply here
 
 *Remote in the US*
 
+<br/>
+
 Seeking talented Software Engineers who will bring their passion and skill for building efficient systems and delighting customers. You’ll leverage your technical expertise with architectures, frameworks, performance, security, automated testing, and more to build our product. You’ll collaborate closely with other members of the Engineering and Product teams. If you are a collaborative, adaptive, effective communicator, as well as a skilled engineer that loves to learn, then you will thrive in our innovative culture.
 
 Our current tech stack:

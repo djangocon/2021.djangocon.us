@@ -5,7 +5,7 @@ name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
 slug: kojo-idrissa
-twitter: transition_swpz
+twitter: transitionswpz
 website: ''
 ---
 

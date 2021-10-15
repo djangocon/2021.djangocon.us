@@ -2,7 +2,7 @@
 abstract: Opening remarks and orientation
 accepted: true
 category: talks
-date: 2021-10-22 10:10:00 -0500
+date: 2021-10-22 10:00:00 -0500
 difficulty: All
 image: /static/img/organizers/drew.jpg
 layout: session-details
@@ -27,7 +27,7 @@ presenters:
   company: ''
   name: Kojo Idrissa
   photo_url: /static/img/organizers/kojo.jpg
-  twitter: transition_swpz
+  twitter: transitionswpz
   website: ''
 - bio: Katia is the President of the Django Events Foundation North America.
   company: ''

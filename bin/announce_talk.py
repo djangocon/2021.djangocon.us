@@ -1,13 +1,9 @@
 """Iterate through our talks and announce them to discord when it's time to go see the talk.
 
 TODO:
-1. Create a separate message for 5 minutes to go that doesn't have the YouTube link
-2. Update the message template to say it's starting now
-3. Decide how we want to do the actual scheduling: celery? event loop like tornado? cron job?
-4. Iterate over all the talks and test it in Discord
-5. Delete all the announcements before we invite anyone in
-6. Figure out the best way to link talk URLs to videos without putting the URLs on the public site
-   before the talk is actually live
+1. Decide how we want to do the actual scheduling: celery? event loop like tornado? cron job?
+2. Iterate over all the talks and test it in Discord
+3. Delete all the announcements before we invite anyone in
 """
 from typing import Literal
 from pathlib import Path
@@ -28,7 +24,16 @@ CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
 # You can get this ID by sending a discord message of the form "\#channel-name"
 # and seeing what posts
-MESSAGE_TEMPLATE = """:tada: Talk starting in 5 minutes: **{post[title]}** by *{speaker}*
+MESSAGE_TEMPLATE = """:tada: Talk starting right _now_: **{post[title]}** by *{speaker}*
+
+:tv: {post[video_url]}
+
+See the talk information at https://2021.djangocon.us{post[permalink]}
+
+Live discussions are happening in <#885229363921043486>.
+"""
+
+FIVE_MINUTE_WARNING_TEMPLATE = """:tada: Talk starting in 5 minutes: **{post[title]}** by *{speaker}*
 
 :alarm_clock: Watch the talk at [{timestamp:%H:%M %Z}](https://time.is/compare/{timestamp:%I%M%p_%d_%B_%Y}_in_Chicago)
 
@@ -38,7 +43,6 @@ See the talk information at https://2021.djangocon.us{post[permalink]}
 
 Live discussions are happening in <#885229363921043486>.
 """
-
 
 app = typer.Typer(help="Awesome Announce Talks")
 
@@ -70,6 +74,7 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                     typer.secho(f"{filename}", fg="red")
                     break
 
+                # TODO queue 5 minute to go message separately from this
                 body = {
                     "content": MESSAGE_TEMPLATE.format(
                         post=post,
@@ -110,7 +115,6 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                     typer.echo(f"{body['content']}")
                     typer.echo(json.dumps(body, indent=2))
                     typer.secho("----" * 10, fg="yellow")
-                # break
 
         except Exception as e:
             typer.secho(f"{filename}::{e}", fg="red")

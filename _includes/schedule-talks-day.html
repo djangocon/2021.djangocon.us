@@ -6,7 +6,7 @@
         <div class="column medium-2">
           <time class="time">
             <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-              {{ post.date | date: "%l:%M %P" }}
+              {{ post.date | date: "%b %d %l:%M %p %Z" }}
             </local-time>
             {% if post.end_date %}&ndash;
               <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
@@ -27,7 +27,7 @@
           <div class="column medium-2">
             <time class="time">
               <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                {{ post.date | date: "%l:%M %P" }}
+                {{ post.date | date: "%b %d %l:%M %p %Z" }}
               </local-time>
               {% if post.end_date %}&ndash;
                 <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
@@ -50,7 +50,7 @@
             <div class="column medium-2">
               <time class="time">
                 <local-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                  {{ post.date | date: "%l:%M %P" }}
+                  {{ post.date | date: "%b %d %l:%M %p %Z" }}
                 </local-time>
                 {% if post.end_date %}&ndash;
                   <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
