@@ -27,16 +27,18 @@ Join the Discord!
 Enjoy Biking? You're not alone. We have a big group of bikers in the Django/Python community. We're hoping you come out and use this Django-filled weekend, to keep up the activity. Join the [STRATA]()!
 
 ## Twitter
-A large group of our community enjoys our conference in the TwitterSphere. @DjangoCon will be tweeting throughout the conference! Keep up to date as we'll be using our twitter handle as a way to communicate. Don't forget to tag us and use hashtag #DjangoConUS2021 to keep track of the conversation.
+A large group of our community enjoys our conference in the TwitterSphere. [@DjangoCon]() will be tweeting throughout the conference! Keep up to date as we'll be using our twitter handle as a way to communicate. Don't forget to tag us and use hashtag #DjangoConUS2021 to keep track of the conversation.
 
 ## SpatialChat
 We're excited to announce that we've partnered with the Virtual Conference platform [SpatialChat](https://spatial.chat) to give a fun and interactive experience. We encourage you to log on and poke around for yourself but here is a preliminary list of the rooms that will be available to all attendees:
 
 ##### Main Room
-Rana Ransom DJ Lunch and after conference day. stream chat, mingle.
+Rana Ransom DJ Lunch and after conference day. Stream, chat, mingle.
+[Add the Friday live lunch set to your calendar >>](ics link)
+[Add the Saturday live lunch set to your calendar  >>](ics link)
 
 ##### Recruitment Hall
-Friday Oct 22nd, Lunch Break - We encourage job seekers and the recruiting Sponsors to join the Recruitment Hall.
+Friday Oct 22nd, Lunch Break - We encourage job seekers and the recruiting Sponsors to join the Recruitment Hall. [Add Event to calendar >>](ics link)
 
 ##### Library - Recommend a Book
 Recommend your favorite python, django, or tech book! We've already started.
