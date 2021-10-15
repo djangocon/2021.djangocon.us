@@ -89,6 +89,6 @@ In your **Bio**, we ask that you enter these 4 things:
 
 - More documentation on the platform in general can be found here: [How SpacialChat Works](https://help.spatial.chat/hc/en-us/sections/360004587240-How-SpatialChat-works)
 
-- SpatialChat is mobile friendly, but to get the best experience we recommend logging on with a PC or Tablet.
+- SpatialChat is mobile friendly, but to get the best experience we recommend logging on with a PC or tablet.
 
 **Don't miss DjangoCon 2021! [Register for the conference]({{site.ticket_link}}) today!**
