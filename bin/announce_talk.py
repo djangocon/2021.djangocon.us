@@ -13,6 +13,7 @@ import os
 import time
 
 from celery import Celery
+import click
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 import frontmatter
@@ -207,6 +208,10 @@ def main(
         "(for testing)",
     ),
 ):
+    if webhook_url and "CELERY_BROKER" not in os.environ:
+        typer.secho(
+            click.style("Warning: not using celery for posting messages", fg="yellow")
+        )
     post_about_talks(path=talks_path, webhook_url=webhook_url, post_now=post_now)
 
 
