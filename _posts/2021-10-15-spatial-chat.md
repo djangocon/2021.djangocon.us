@@ -70,7 +70,7 @@ Host your own panel discussions! No need to reserve the room; it's first come, f
 ### Set Up Your SpatialChat Profile
 Whenever you enter the platform, you will be prompted to enter your Name, Bio, and Avatar.
 In your **Bio**, we ask that you enter these 4 things:
-1. Location (e.g. Philadelphia, PA)
+1. Location (e.g. Philadelphia, PA, USA)
 2. Pronouns (e.g. she/they)
 3. Organization (if affiliated, e.g. Wharton)
 4. Discord Handle (e.g. Dawn#3554 )
