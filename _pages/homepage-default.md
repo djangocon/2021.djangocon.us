@@ -1,5 +1,5 @@
 ---
-description: Three days of inspiration, education, and networking opportunities.
+description: Two days of inspiration, education, and networking opportunities.
 hero_text_align: left
 hero_theme: green
 layout: home
