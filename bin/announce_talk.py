@@ -14,6 +14,7 @@ import time
 
 from celery import Celery
 from dateutil.parser import parse
+from dateutil.relativedelta import relativedelta
 import frontmatter
 import pytz
 import requests
@@ -52,7 +53,9 @@ celery_app = Celery(
 )
 
 
-def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
+def post_about_talks(
+    *, path: Path, webhook_url: str, post_now: bool = False
+) -> Literal[None]:
     if path.is_dir():
         filenames = path.glob("**/*.md")
         filenames = list(filenames)
@@ -111,10 +114,63 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                     #     },
                     # ],
                 }
+                five_to_go_body = {
+                    "content": FIVE_MINUTE_WARNING_TEMPLATE.format(
+                        post=post,
+                        speaker=speaker["name"],
+                        timestamp=timestamp,
+                    ),
+                    "allowed_mentions": {
+                        "parse": ["everyone"],
+                        "users": [],
+                    },
+                    # "embeds": [
+                    #     {
+                    #         "type": "rich",
+                    #         "title": "Text",
+                    #         "description": "Text description here",
+                    #     },
+                    #     {
+                    #         "type": "image",
+                    #         "title": "Author image",
+                    #         "height": "400",
+                    #         "width": "400",
+                    #         "url": f"http://2021.djangocon.us{post['image']}",
+                    #     },
+                    #     {
+                    #         "type": "video",
+                    #         "title": "Video link",
+                    #         "url": f"{post['video_url']}",
+                    #     },
+                    # ],
+                }
 
                 if webhook_url:
-                    post_to_webhook(webhook_url=webhook_url, body=body)
-                    time.sleep(30)
+                    if "CELERY_BROKER" in os.environ:
+                        # if we're in test mode, pretend all talks are at the 5 minutes to go mark
+                        # momentarily
+                        post_time = (
+                            timestamp
+                            if not post_now
+                            else pytz.UTC.localize(datetime.datetime.utcnow())
+                            + relativedelta(minutes=5, seconds=5)
+                        )
+
+                        # Dispatch these off to celery
+                        post_to_webhook.s(
+                            webhook_url=webhook_url,
+                            body=five_to_go_body,
+                        ).apply_async(eta=post_time - relativedelta(minutes=5))
+                        post_to_webhook.s(
+                            webhook_url=webhook_url,
+                            body=body,
+                        ).apply_async(eta=post_time)
+                        if post_now:
+                            typer.secho("Waiting 30 sec before queueing next messages")
+                            time.sleep(30)
+                    else:
+                        post_to_webhook(webhook_url=webhook_url, body=body)
+                        time.sleep(30)
                 else:
                     typer.echo(f"{body['content']}")
                     typer.echo(json.dumps(body, indent=2))
@@ -124,6 +180,10 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
             typer.secho(f"{filename}::{e}", fg="red")
 
 
+@celery_app.task(
+    autoretry_for=[requests.exceptions.RequestException],
+    retry_backoff=True,
+)
 def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> Literal[None]:
     """Post the body to the webhook URL"""
     response = requests.post(webhook_url, json=body)
@@ -138,8 +198,13 @@ def main(
     webhook_url: str = typer.Option(
         default=None, help="URL for the webhook to the Q & A channel"
     ),
+    post_now: bool = typer.Option(
+        default=False,
+        help="Pretend the talks are happening now instead of queueing the talks up later "
+        "(for testing)",
+    ),
 ):
-    post_about_talks(path=talks_path, webhook_url=webhook_url)
+    post_about_talks(path=talks_path, webhook_url=webhook_url, post_now=post_now)
 
 
 if __name__ == "__main__":
