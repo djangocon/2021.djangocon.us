@@ -83,26 +83,13 @@ layout: base
     <div class="medium-4 column">
       <div class="card">
         <img
-          src="{{ "/static/img/compass.svg" | relative_url }}"
-          alt="Compass"
+          src="{{ "/static/img/megaphone.svg" | relative_url }}"
+          alt="Talk"
           class="card-icon"
           />
         <div class="card-section">
-          <h3 class="card-title">Join Our Mailing List</h3>
-          <p>Please <strong><a href="{{ site.mailing_list }}">join our mailing list today</a></strong> and don't miss out on important info like ticket sales, schedule announcements, and more.</p>
-        </div>
-      </div>
-    </div>
-    <div class="medium-4 column">
-      <div class="card">
-        <img
-          src="{{ "/static/img/star.svg" | relative_url }}"
-          alt="Star"
-          class="card-icon"
-          />
-        <div class="card-section">
-            <h3 class="card-title">Sponsor DjangoCon</h3>
-            <p>Check out our <strong><a href="/sponsors/information/">sponsorship options</a></strong>! We'd love to have your company join the DjangoCon US team. </p>
+            <h3 class="card-title">Talks</h3>
+            <p>Check out the <strong><a href="/talks/">talks page</a></strong> for our talk schedule. We'll post video links on the specific talk pages once the videos are up.</p>
         </div>
       </div>
     </div>
@@ -119,6 +106,34 @@ layout: base
       </div>
       </div>
     </div>
+    <div class="medium-4 column">
+      <div class="card">
+        <img
+          src="{{ "/static/img/compass.svg" | relative_url }}"
+          alt="Compass"
+          class="card-icon"
+          />
+        <div class="card-section">
+          <h3 class="card-title">Join Our Mailing List</h3>
+          <p>Please <strong><a href="{{ site.mailing_list }}">join our mailing list today</a></strong> and don't miss out on important info like ticket sales, schedule announcements, and more.</p>
+        </div>
+      </div>
+    </div>
+    {% comment %}
+    <div class="medium-4 column">
+      <div class="card">
+        <img
+          src="{{ "/static/img/star.svg" | relative_url }}"
+          alt="Star"
+          class="card-icon"
+          />
+        <div class="card-section">
+            <h3 class="card-title">Sponsor DjangoCon</h3>
+            <p>Check out our <strong><a href="/sponsors/information/">sponsorship options</a></strong>! We'd love to have your company join the DjangoCon US team. </p>
+        </div>
+      </div>
+    </div>
+    {% endcomment %}
   </div>
 </section>
 
