@@ -54,8 +54,8 @@ Have a tutorial you're jumping to give? Hoping to share a demo? Hop into the wor
 <img alt="Workshop Room" src="/static/img/sponsors/SpatialChat_WorkshopRoom.png"/>
 <sub><sup>Caption: Screen Shot of Workshop Room</sup></sub>
 
-##### Panel Room
-Host your own panel discussions! No need to reserve the room, it's first come, first served. Get a group of friends, chat about it on Twitter, Discord and chat host panel discussions and share your expertise. You can reserve your space for the next topic, but adding it to the bottom of the board.
+### Panel Room
+Host your own panel discussions! No need to reserve the room; it's first come, first served. Get a group of friends, chat about it on Twitter and Discord and host panel discussions and share your expertise. You can reserve your space for the next topic by adding it to the bottom of the board.
 <img alt="Panel Room" src="/static/img/sponsors/SpatialChat_PanelRoom.png"/>
 <sub><sup>Caption: Screen Shot of Panel Room</sup></sub>
 
