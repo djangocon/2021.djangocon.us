@@ -119,7 +119,7 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
             typer.secho(f"{filename}::{e}", fg="red")
 
 
-def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> None:
+def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> Literal[None]:
     """Post the body to the webhook URL"""
     response = requests.post(webhook_url, json=body)
     response.raise_for_status()
