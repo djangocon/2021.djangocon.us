@@ -11,6 +11,7 @@ presenter_slugs:
 - drew-winstel
 - kojo-idrissa
 - katia-lira
+- catherine-holmes
 - josue-balandrano-coronel
 presenters:
 - bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
@@ -33,6 +34,12 @@ presenters:
   company: ''
   name: Katia Lira
   photo_url: /static/img/organizers/katialira.jpg
+  twitter: ''
+  website: ''
+- bio: Catherine is the Sponsorship Co-Chair for DCUS 2021.
+  company: ''
+  name: Catherine Holmes
+  photo_url: /static/img/organizers/catherine.png
   twitter: ''
   website: ''
 - bio: "Josue Balandrano Coronel trabaja en el Texas Advanced Computing Center como
