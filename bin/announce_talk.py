@@ -28,7 +28,7 @@ CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
 # You can get this ID by sending a discord message of the form "\#channel-name"
 # and seeing what posts
-MESSAGE_TEMPLATE = """:tada: Talk starting right _now_: **{post[title]}** by *{speaker}*
+MESSAGE_TEMPLATE = """:tada: Talk starting right now: **{post[title]}** by *{speaker}*
 
 :tv: {post[video_url]}
 
