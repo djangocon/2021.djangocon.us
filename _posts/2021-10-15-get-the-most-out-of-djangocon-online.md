@@ -11,19 +11,20 @@ We are excited to bring you a slice of the usual DjangoCon experience virtually!
 
 ## :wave: Ways to Engage
 - [YouTube](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw)
-- [Discord](https://2021.djangocon.us/chat/)
+- [Discord](/chat/)
 - Get active in our [STRAVA group](https://www.strava.com/clubs/987456)
 - Recruitment Fair (Friday, October 22nd at 12:45 PM Central Time/17:45 UTC)
 - Live DJ and Scheduled Tunes with [DJ Rana Ransom](https://soundcloud.com/ranaransom) ([@_tagine on twitter](https://twitter.com/_tagine))! (during lunch and at the end of each day of talks, Friday and Saturday)
 - Virtual Conference Experience with [SpatialChat](https://spatial.chat)!
+- [DjangoCon Code of Conduct](/conduct) applies to all aspects of this conference.
 
 ## :tv: YouTube
-We have 36 talks between 10 AM and 6:30 PM CDT Friday, October 22nd, and between 9 AM and 7:15 PM CDT Saturday, October 23rd, 2021. All talks will be featured on YouTube with scheduled releases for the global community to enjoy together. Talks will be announced in Discord where you can join in on the discussion. We recommend subscribing to the [DjangoCon US Youtube Channel](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw) to have YouTube remind you while using the app or web client. Take a look at the [schedule](https://2021.djangocon.us/talks) and make sure to catch your favorites.
+We have 36 talks between 10 AM and 6:30 PM CDT Friday, October 22nd, and between 9 AM and 7:15 PM CDT Saturday, October 23rd, 2021. All talks will be featured on YouTube with scheduled releases for the global community to enjoy together. Talks will be announced in Discord where you can join in on the discussion. We recommend subscribing to the [DjangoCon US Youtube Channel](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw) to have YouTube remind you while using the app or web client. Take a look at the [schedule](/talks) and make sure to catch your favorites.
 
 ## :pager: Discord
 Join the Discord! The Discord Space as it is likely to be the most popular place for DjangoCon attendees to engage with each other. More information is forthcoming about the channel. New to Discord? We got you, check out this video by Tech Insider on [How to Use Discord](https://www.youtube.com/watch?v=OIqyPJQAgT4)
 
-The best and most up-to-date information on chat experience can be found on our [Chat Information page](https://2021.djangocon.us/chat)
+The best and most up-to-date information on chat experience can be found on our [Chat Information page](/chat)
 
 ## :bike: STRAVA
 Enjoy Biking? You're not alone. We have a big group of bikers in the Django/Python community. We're hoping you come out and use this Django-filled weekend, to keep up the activity. Join the [STRAVA group](https://www.strava.com/clubs/987456)!
@@ -42,7 +43,7 @@ We're excited to announce that we've partnered with the Virtual Conference platf
 ##### Recruitment Hall
 Friday Oct 22nd, Lunch Break - We encourage job seekers and the recruiting Sponsors to join the Recruitment Hall. [Add Event to calendar >>](https://calendar.google.com/event?action=TEMPLATE&tmeid=MWZoZXU0bXRqcnQ3c2JncjkzcWJncGQ5aXUgZGF3bi53YWdlc0Bt&tmsrc=dawn.wages%40gmail.com)
 
-Looking for a new role? Don't forget to check out the [Jobs Board](https://djangocon.us/jobs/).
+Looking for a new role? Don't forget to check out the [Jobs Board](/jobs/).
 
 ##### Library - Recommend a Book
 Recommend your favorite Python, Django, or tech book! We've already started.
