@@ -6,7 +6,7 @@ name: Rana Ransom
 permalink: /presenters/rana-ransom/
 photo_url: ''
 slug: rana-ransom
-twitter: ''
+twitter: _tagine
 website: https://www.facebook.com/ranaransom/
 ---
 
