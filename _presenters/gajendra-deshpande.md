@@ -1,10 +1,10 @@
 ---
 company: KLS Gogte Institute of Technology, Belagavi, Karnataka, India
-github: ''
+github: gcdeshpande
 layout: speaker-template
 name: Gajendra Deshpande
 permalink: /presenters/gajendra-deshpande/
-photo_url: ''
+photo_url: /static/img/presenters/gajendra-deshpande.jpg
 slug: gajendra-deshpande
 twitter: gcdeshpande
 website: https://gcdeshpande.github.io

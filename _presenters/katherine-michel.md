@@ -1,6 +1,6 @@
 ---
 company: Octopus Energy US
-github: https://github.com/KatherineMichel
+github: KatherineMichel
 layout: speaker-template
 name: Katherine Michel
 permalink: /presenters/katherine-michel/

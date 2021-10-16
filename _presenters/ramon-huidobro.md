@@ -1,10 +1,10 @@
 ---
 company: ''
-github: ''
+github: ramonh
 layout: speaker-template
 name: Ramón Huidobro
 permalink: /presenters/ramon-huidobro/
-photo_url: ''
+photo_url: /static/img/presenters/ramon-huidobro.jpg
 slug: ramon-huidobro
 twitter: hola_soy_milk
 website: https://ramonh.dev

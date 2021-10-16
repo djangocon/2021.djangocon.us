@@ -1,10 +1,10 @@
 ---
 company: Facebook
-github: ''
+github: dmitryvinn
 layout: speaker-template
 name: Dmitry Vinnik
 permalink: /presenters/dmitry-vinnik/
-photo_url: ''
+photo_url: /static/img/presenters/dmitry-vinnik.jpg
 slug: dmitry-vinnik
 twitter: DmitryVinnik
 website: https://dvinnik.dev

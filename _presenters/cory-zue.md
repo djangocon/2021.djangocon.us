@@ -1,10 +1,10 @@
 ---
 company: SaaS Pegasus
-github: ''
+github: czue
 layout: speaker-template
 name: Cory Zue
 permalink: /presenters/cory-zue/
-photo_url: ''
+photo_url: /static/img/presenters/cory-zue.jpg
 slug: cory-zue
 twitter: czue
 website: https://www.coryzue.com/

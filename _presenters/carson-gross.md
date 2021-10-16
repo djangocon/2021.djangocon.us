@@ -1,10 +1,10 @@
 ---
 company: Big Sky Software
-github: ''
+github: 1cg
 layout: speaker-template
 name: Carson Gross
 permalink: /presenters/carson-gross/
-photo_url: ''
+photo_url: /static/img/presenters/carson-gross.jpg
 slug: carson-gross
 twitter: htmx_org
 website: https://bigsky.software

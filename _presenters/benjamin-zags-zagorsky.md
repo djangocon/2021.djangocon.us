@@ -1,10 +1,10 @@
 ---
 company: Zagaran, Inc.
-github: ''
+github: zags
 layout: speaker-template
 name: Benjamin "Zags" Zagorsky
 permalink: /presenters/benjamin-zags-zagorsky/
-photo_url: ''
+photo_url: /static/img/presenters/benjamin-zags-zagorsky.jpg
 slug: benjamin-zags-zagorsky
 twitter: ''
 website: https://zagaran.com

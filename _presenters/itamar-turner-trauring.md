@@ -1,10 +1,10 @@
 ---
 company: Python⇒Speed
-github: ''
+github: itamarst
 layout: speaker-template
 name: Itamar Turner-Trauring
 permalink: /presenters/itamar-turner-trauring/
-photo_url: ''
+photo_url: /static/img/presenters/itamar-turner-trauring.jpg
 slug: itamar-turner-trauring
 twitter: itamarst
 website: https://pythonspeed.com

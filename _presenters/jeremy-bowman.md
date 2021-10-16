@@ -1,10 +1,10 @@
 ---
 company: edX
-github: ''
+github: jmbowman
 layout: speaker-template
 name: Jeremy Bowman
 permalink: /presenters/jeremy-bowman/
-photo_url: ''
+photo_url: /static/img/presenters/jeremy-bowman.jpg
 slug: jeremy-bowman
 twitter: ''
 website: ''

@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Rachele DiTullio
 permalink: /presenters/rachele-ditullio/
-photo_url: ''
+photo_url: /static/img/presenters/rachele-ditullio.jpg
 slug: rachele-ditullio
 twitter: racheleditullio
 website: https://racheleditullio.com/
