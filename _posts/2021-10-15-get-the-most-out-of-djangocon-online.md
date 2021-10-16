@@ -22,7 +22,7 @@ We are excited to bring you a slice of the usual DjangoCon experience virtually!
 We have 36 talks between 10 AM and 6:30 PM CDT Friday, October 22nd, and between 9 AM and 7:15 PM CDT Saturday, October 23rd, 2021. All talks will be featured on YouTube with scheduled releases for the global community to enjoy together. Talks will be announced in Discord where you can join in on the discussion. We recommend subscribing to the [DjangoCon US Youtube Channel](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw) to have YouTube remind you while using the app or web client. Take a look at the [schedule](/talks) and make sure to catch your favorites.
 
 ## :pager: Discord
-Join the Discord! The Discord Space as it is likely to be the most popular place for DjangoCon attendees to engage with each other. More information is forthcoming about the channel. New to Discord? We got you, check out this video by Tech Insider on [How to Use Discord](https://www.youtube.com/watch?v=OIqyPJQAgT4)
+Join the Discord! The Discord Space is likely to be the most popular place for DjangoCon attendees to engage with each other. More information is forthcoming about the channel. New to Discord? We got you, check out this video by Tech Insider on [How to Use Discord](https://www.youtube.com/watch?v=OIqyPJQAgT4)
 
 The best and most up-to-date information on chat experience can be found on our [Chat Information page](/chat)
 
