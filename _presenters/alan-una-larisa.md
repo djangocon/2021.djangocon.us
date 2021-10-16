@@ -1,10 +1,10 @@
 ---
 company: Bitstamp
-github: 'https://github.com/cmdctrlesc'
+github: cmdctrlesc
 layout: speaker-template
 name: Alan Una Larisa
 permalink: /presenters/alan-una-larisa/
-photo_url: ''
+photo_url: /static/img/presenters/alan-una-larisa.png
 slug: alan-una-larisa
 twitter: ''
 website: 'http://www.cmdctrlesc.xyz'

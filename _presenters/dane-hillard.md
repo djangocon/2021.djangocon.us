@@ -1,10 +1,10 @@
 ---
 company: ITHAKA
-github: ''
+github: daneah
 layout: speaker-template
 name: Dane Hillard
 permalink: /presenters/dane-hillard/
-photo_url: ''
+photo_url: /static/img/presenters/dane-hillard.jpg
 slug: dane-hillard
 twitter: easyaspython
 website: https://dane.engineering

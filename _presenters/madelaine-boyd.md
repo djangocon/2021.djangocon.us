@@ -1,6 +1,6 @@
 ---
 company: bit.io
-github: ''
+github: intellectuallyswole
 layout: speaker-template
 name: Madelaine Boyd
 permalink: /presenters/madelaine-boyd/

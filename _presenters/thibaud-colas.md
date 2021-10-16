@@ -1,10 +1,10 @@
 ---
 company: Torchbox
-github: ''
+github: thibaudcolas
 layout: speaker-template
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
-photo_url: ''
+photo_url: /static/img/presenters/thibaud-colas.png
 slug: thibaud-colas
 twitter: thibaud_colas
 website: https://thib.me/

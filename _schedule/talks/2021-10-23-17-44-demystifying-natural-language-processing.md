@@ -39,7 +39,7 @@ presenters:
     She volunteers as a Data Science Mentor at Data Science Nigeria and Women Impact
     Tech."
   company: ICX Media, Inc.
-  github: https://github.com/jsingh811
+  github: jsingh811
   name: Jyotika Singh
   photo_url: /static/img/presenters/jyotika-singh.jpg
   twitter: jyotikasingh_

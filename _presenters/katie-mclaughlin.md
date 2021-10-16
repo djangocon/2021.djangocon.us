@@ -1,10 +1,10 @@
 ---
 company: Google Cloud
-github: ''
+github: glasnt
 layout: speaker-template
 name: Katie McLaughlin
 permalink: /presenters/katie-mclaughlin/
-photo_url: ''
+photo_url: /static/img/presenters/katie-mclaughlin.jpg
 slug: katie-mclaughlin
 twitter: glasnt
 website: https://glasnt.com

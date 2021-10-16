@@ -18,7 +18,7 @@ presenters:
     US Website Chair and Co-Chair. In her free time, she enjoys traveling,       eating
     good food, and listening to music. \r\n"
   company: Octopus Energy US
-  github: https://github.com/KatherineMichel
+  github: KatherineMichel
   name: Katherine Michel
   photo_url: /static/img/presenters/kati.jpeg
   twitter: KatiMichel
