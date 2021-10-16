@@ -5,13 +5,17 @@ TODO:
 2. Iterate over all the talks and test it in Discord
 3. Delete all the announcements before we invite anyone in
 """
-from typing import Literal
+from typing import Any, Literal
 from pathlib import Path
 import datetime
 import json
+import os
 import time
 
+from celery import Celery
+import click
 from dateutil.parser import parse
+from dateutil.relativedelta import relativedelta
 import frontmatter
 import pytz
 import requests
@@ -24,7 +28,7 @@ CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
 # You can get this ID by sending a discord message of the form "\#channel-name"
 # and seeing what posts
-MESSAGE_TEMPLATE = """:tada: Talk starting right _now_: **{post[title]}** by *{speaker}*
+MESSAGE_TEMPLATE = """:tada: Talk starting right now: **{post[title]}** by *{speaker}*
 
 :tv: {post[video_url]}
 
@@ -44,10 +48,14 @@ See the talk information at https://2021.djangocon.us{post[permalink]}
 Live discussions are happening in <#885229363921043486>.
 """
 
-app = typer.Typer(help="Awesome Announce Talks")
+cli_app = typer.Typer(help="Awesome Announce Talks")
+app = Celery("announce_talk")
+app.conf.broker_url = os.environ.get("CELERY_BROKER", "redis:///")
 
 
-def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
+def post_about_talks(
+    *, path: Path, webhook_url: str, post_now: bool = False
+) -> Literal[None]:
     if path.is_dir():
         filenames = path.glob("**/*.md")
         filenames = list(filenames)
@@ -106,11 +114,66 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
                     #     },
                     # ],
                 }
+                five_to_go_body = {
+                    "content": FIVE_MINUTE_WARNING_TEMPLATE.format(
+                        post=post,
+                        speaker=speaker["name"],
+                        timestamp=timestamp,
+                    ),
+                    "allowed_mentions": {
+                        "parse": ["everyone"],
+                        "users": [],
+                    },
+                    # "embeds": [
+                    #     {
+                    #         "type": "rich",
+                    #         "title": "Text",
+                    #         "description": "Text description here",
+                    #     },
+                    #     {
+                    #         "type": "image",
+                    #         "title": "Author image",
+                    #         "height": "400",
+                    #         "width": "400",
+                    #         "url": f"http://2021.djangocon.us{post['image']}",
+                    #     },
+                    #     {
+                    #         "type": "video",
+                    #         "title": "Video link",
+                    #         "url": f"{post['video_url']}",
+                    #     },
+                    # ],
+                }
 
                 if webhook_url:
-                    response = requests.post(webhook_url, json=body)
-                    response.raise_for_status()
-                    time.sleep(30)
+                    if "CELERY_BROKER" in os.environ:
+                        # if we're in test mode, pretend all talks are at the 5 minutes to go mark
+                        # momentarily
+                        post_time = (
+                            timestamp
+                            if not post_now
+                            else pytz.UTC.localize(datetime.datetime.utcnow())
+                            + relativedelta(minutes=5, seconds=5)
+                        )
+
+                        # Dispatch these off to celery
+                        post_to_webhook.s(
+                            webhook_url=webhook_url,
+                            body=five_to_go_body,
+                        ).apply_async(eta=post_time - relativedelta(minutes=5))
+                        post_to_webhook.s(
+                            webhook_url=webhook_url,
+                            body=body,
+                        ).apply_async(eta=post_time)
+                        if post_now:
+                            typer.secho(
+                                f'Messages for {post["title"]} queued; Waiting 30 sec before'
+                                " queueing next messages"
+                            )
+                            time.sleep(30)
+                    else:
+                        post_to_webhook(webhook_url=webhook_url, body=body)
+                        time.sleep(30)
                 else:
                     typer.echo(f"{body['content']}")
                     typer.echo(json.dumps(body, indent=2))
@@ -120,7 +183,17 @@ def post_about_talks(*, path: Path, webhook_url: str) -> Literal[None]:
             typer.secho(f"{filename}::{e}", fg="red")
 
 
-@app.command()
+@app.task(
+    autoretry_for=[requests.exceptions.RequestException],
+    retry_backoff=True,
+)
+def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> Literal[None]:
+    """Post the body to the webhook URL"""
+    response = requests.post(webhook_url, json=body)
+    response.raise_for_status()
+
+
+@cli_app.command()
 def main(
     talks_path: Path = typer.Option(
         default="_schedule/talks/", help="Directory where talks are stored"
@@ -128,9 +201,18 @@ def main(
     webhook_url: str = typer.Option(
         default=None, help="URL for the webhook to the Q & A channel"
     ),
+    post_now: bool = typer.Option(
+        default=False,
+        help="Pretend the talks are happening now instead of queueing the talks up later "
+        "(for testing)",
+    ),
 ):
-    post_about_talks(path=talks_path, webhook_url=webhook_url)
+    if webhook_url and "CELERY_BROKER" not in os.environ:
+        typer.secho(
+            click.style("Warning: not using celery for posting messages", fg="yellow")
+        )
+    post_about_talks(path=talks_path, webhook_url=webhook_url, post_now=post_now)
 
 
 if __name__ == "__main__":
-    app()
+    cli_app()

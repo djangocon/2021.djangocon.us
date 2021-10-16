@@ -1,3 +1,4 @@
+celery[redis]
 dateutils
 pydantic
 python-frontmatter
