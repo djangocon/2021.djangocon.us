@@ -1,10 +1,10 @@
 ---
 company: Six Feet Up
-github: ''
+github: calvinhp
 layout: speaker-template
 name: Calvin Hendryx-Parker
 permalink: /presenters/calvin-hendryx-parker/
-photo_url: ''
+photo_url: /static/img/presenters/calvin-hendryx-parker.jpg
 slug: calvin-hendryx-parker
 twitter: calvinhp
 website: http://www.sixfeetup.com/

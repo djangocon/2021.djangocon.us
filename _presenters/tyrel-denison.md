@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Tyrel Denison
 permalink: /presenters/tyrel-denison/
-photo_url: ''
+photo_url: /static/img/presenters/tyrel-denison.jpg
 slug: tyrel-denison
 twitter: tyreldenison
 website: https://hirelofty.com
