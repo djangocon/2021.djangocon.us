@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Çağıl Ulusahin
 permalink: /presenters/cagil-ulusahin/
-photo_url: ''
+photo_url: /static/img/presenters/cagil-ulusahin.jpg
 slug: cagil-ulusahin
 twitter: cagilulusahin
 website: ''

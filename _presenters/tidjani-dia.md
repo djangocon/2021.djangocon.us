@@ -1,6 +1,6 @@
 ---
 company: Wagtail
-github: ''
+github: tijani-dia
 layout: speaker-template
 name: Tidjani Dia
 permalink: /presenters/tidjani-dia/

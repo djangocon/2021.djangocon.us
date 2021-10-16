@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Maari Tamm
 permalink: /presenters/maari-tamm/
-photo_url: ''
+photo_url: /static/img/presenters/maari-tamm.jpg
 slug: maari-tamm
 twitter: tammmri
 website: ''

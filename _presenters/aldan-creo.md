@@ -1,10 +1,10 @@
 ---
 company: Django & Wagtail
-github: ''
+github: acmcmc
 layout: speaker-template
 name: Aldán Creo
 permalink: /presenters/aldan-creo/
-photo_url: ''
+photo_url: /static/img/presenters/aldan-creo.jpg
 slug: aldan-creo
 twitter: acmcmc
 website: https://acmc.codes
