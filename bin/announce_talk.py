@@ -49,9 +49,8 @@ Live discussions are happening in <#885229363921043486>.
 """
 
 cli_app = typer.Typer(help="Awesome Announce Talks")
-app = Celery(
-    "announce_talk", backend=os.environ.get("CELERY_BROKER", "redis:///")
-)
+app = Celery("announce_talk")
+app.conf.broker_url = os.environ.get("CELERY_BROKER", "redis:///")
 
 
 def post_about_talks(
