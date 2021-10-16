@@ -12,7 +12,7 @@ We are excited to bring you a slice of the usual DjangoCon experience virtually!
 ## :wave: Ways to Engage
 - [YouTube](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw)
 - [Discord](/chat/)
-- Get active in our [STRAVA group](https://www.strava.com/clubs/987456)
+- Get active in our [Strava group](https://www.strava.com/clubs/987456)
 - Recruitment Fair (Friday, October 22nd at 12:45 PM Central Time/17:45 UTC)
 - Live DJ and Scheduled Tunes with [DJ Rana Ransom](https://soundcloud.com/ranaransom) ([@_tagine on twitter](https://twitter.com/_tagine))! (during lunch and at the end of each day of talks, Friday and Saturday)
 - Virtual Conference Experience with [SpatialChat](https://spatial.chat)!
@@ -26,8 +26,8 @@ Join the Discord! The Discord Space as it is likely to be the most popular place
 
 The best and most up-to-date information on chat experience can be found on our [Chat Information page](/chat)
 
-## :bike: STRAVA
-Enjoy Biking? You're not alone. We have a big group of bikers in the Django/Python community. We're hoping you come out and use this Django-filled weekend, to keep up the activity. Join the [STRAVA group](https://www.strava.com/clubs/987456)!
+## :bike: Strava
+Enjoy Biking? You're not alone. We have a big group of bikers in the Django/Python community. We're hoping you come out and use this Django-filled weekend, to keep up the activity. Join the [Strava group](https://www.strava.com/clubs/987456)!
 
 ## :loudspeaker: Twitter
 A large group of our community enjoys our conference in the TwitterSphere. [@DjangoCon](https://twitter.com/djangocon) will be tweeting throughout the conference! Stay up to date as we'll be using our twitter handle as a way to communicate. Don't forget to tag us and use the hashtag [#DjangoConUS2021](https://twitter.com/search?q=%23DjangoCon2021) to keep track of the conversation.
@@ -75,7 +75,7 @@ Host your own panel discussions! No need to reserve the room; it's first come, f
 - Share Some Knowledge / Audio-Only Room
 - Have Some Fun / Spoopy Room
 - Have Some Fun / Recharge Room (w/ Lofi Beats)
-- Have Some Fun / STRAVA + Biking Room
+- Have Some Fun / Strava + Biking Room
 
 ### Set Up Your SpatialChat Profile
 Whenever you enter the platform, you will be prompted to enter your Name, Bio, and Avatar.
