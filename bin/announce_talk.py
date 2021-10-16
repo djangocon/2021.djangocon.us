@@ -48,8 +48,8 @@ See the talk information at https://2021.djangocon.us{post[permalink]}
 Live discussions are happening in <#885229363921043486>.
 """
 
-app = typer.Typer(help="Awesome Announce Talks")
-celery_app = Celery(
+cli_app = typer.Typer(help="Awesome Announce Talks")
+app = Celery(
     "announce_talk", backend=os.environ.get("CELERY_BROKER", "redis:///")
 )
 
@@ -184,7 +184,7 @@ def post_about_talks(
             typer.secho(f"{filename}::{e}", fg="red")
 
 
-@celery_app.task(
+@app.task(
     autoretry_for=[requests.exceptions.RequestException],
     retry_backoff=True,
 )
@@ -194,7 +194,7 @@ def post_to_webhook(*, webhook_url: str, body: dict[str, Any]) -> Literal[None]:
     response.raise_for_status()
 
 
-@app.command()
+@cli_app.command()
 def main(
     talks_path: Path = typer.Option(
         default="_schedule/talks/", help="Directory where talks are stored"
@@ -216,4 +216,4 @@ def main(
 
 
 if __name__ == "__main__":
-    app()
+    cli_app()
