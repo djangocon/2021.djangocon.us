@@ -14,7 +14,13 @@ title: Speaking Checklists for YouTube Videos
 <div class="event-byline">
 <h2>Video Checklist</h2>
 
-<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
+{% capture youtube-copy-title %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
+
+<h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - <div id="{{ youtube-copy-title }}">{{ post.title }}</div></h4>
+
+<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
+Copy title to clipboard
+</button>
 
 <div>
   <a href="{{ post.video_url }}">On YouTube</a>
