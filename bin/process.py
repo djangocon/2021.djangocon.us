@@ -91,7 +91,7 @@ class Presenter(FrontmatterModel):
 class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
     accepted: bool = False
-    category: Optional[str] = "talks"
+    category: Optional[str] = "talk"
     difficulty: Optional[str] = "All"
     image: Optional[str]
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
@@ -133,9 +133,7 @@ def fmt():
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
                 post.metadata.update(data.dict(exclude_unset=True))
-                filename.write_text(
-                    frontmatter.dumps(post) + os.linesep
-                )
+                filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
                 typer.secho(f"{filename}", fg="red")
                 typer.echo(e.json())
