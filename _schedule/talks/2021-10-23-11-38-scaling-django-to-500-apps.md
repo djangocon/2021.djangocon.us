@@ -3,7 +3,7 @@ abstract: Django apps are more than just a way for libraries to provide reusable
   they can be a powerful tool for separation of concerns and can help scale Django
   codebases. Techniques and experience from 500 apps and 400k lines of Python.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 11:38:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dan-palmer.png

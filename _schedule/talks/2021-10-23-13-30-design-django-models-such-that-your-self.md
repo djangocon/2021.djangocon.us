@@ -4,7 +4,7 @@ abstract: We'll discuss some practices around designing Django models that'll ma
   developers happy. It is easy to miss these things when you're starting but can become
   a pain in the future for developers if not done early.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 13:30:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/tarun-garg.png

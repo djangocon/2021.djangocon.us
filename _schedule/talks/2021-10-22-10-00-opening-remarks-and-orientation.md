@@ -1,7 +1,7 @@
 ---
 abstract: Opening remarks and orientation
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 10:00:00 -0500
 difficulty: All
 image: /static/img/organizers/drew.jpg

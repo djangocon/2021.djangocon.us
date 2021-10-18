@@ -4,7 +4,7 @@ abstract: With the increase availability of text data across the globe, many ind
   reducing manual efforts. This talk demystifies the application nuggets and provides
   a holistic view of NLP and how to leverage it.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 17:44:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/jyotika-singh.png

@@ -4,7 +4,7 @@ abstract: "Have you ever thought of using data visualization to represent data; 
   \nCome, dive into the world of this magical open source data mining tool that can
   also be used as a Python library.\nBeginner friendly!"
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 10:31:00 -0500
 difficulty: All
 image: /static/img/social/presenters/drishti-jain.png

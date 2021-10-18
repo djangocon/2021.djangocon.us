@@ -4,7 +4,7 @@ abstract: You know the basics of packaging your Python application for Docker, b
   process that will help you prioritize the many best practices you'll need to implement,
   starting with security and ending with image size.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 18:40:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/itamar-turner-trauring.png

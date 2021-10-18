@@ -6,7 +6,7 @@ abstract: 'django-rest-framework is the tried and true approach for Djangonauts 
 
   In this talk you''ll learn about Django-Graphene and hopefully come to love it.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 17:10:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dane-hillard.png

@@ -2,7 +2,7 @@
 abstract: How to make your Django app speak SSH or RDP with Guacamole, ASGI and Daphne
   — giving anyone a console or a desktop right in their browser!
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 11:33:00 -0500
 difficulty: All
 image: /static/img/social/presenters/maari-tamm.png

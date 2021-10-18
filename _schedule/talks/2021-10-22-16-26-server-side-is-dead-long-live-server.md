@@ -4,7 +4,7 @@ abstract: With no 'standard' approach to front-end other than built-in templatin
   for a loop. HTMX lets us stick to what django is good at - server-side stuff, mainly
   - without feeling like we're missing out on modern tools.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 16:26:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/jack-linke.png

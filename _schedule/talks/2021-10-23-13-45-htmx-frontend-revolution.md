@@ -7,7 +7,7 @@ abstract: 'HTMX is a tiny JavaScript library which helps you to avoid JavaScript
   It simplifies the toolchain and the result are fast pages with good SEO (web vitals)
   scores.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 13:45:00 -0500
 difficulty: All
 image: /static/img/social/presenters/thomas-guttler.png

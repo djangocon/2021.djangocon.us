@@ -4,7 +4,7 @@ abstract: Good test data can be a nightmare to manage! It can make-or-break test
   data? What about collisions? Let's cover practical strategies for handling data
   both in our products and in our test cases.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 16:10:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/andrew-knight.png

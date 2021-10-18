@@ -4,7 +4,7 @@ abstract: Writing a comprehensive test suite for Django applications is never ea
   mock the Django models and queries, which is quite complex. What if there was a
   tool that did all of the mocking for you in just a line of code?
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 18:41:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/alan-una-larisa.png
@@ -44,7 +44,7 @@ track: null
 video_url: https://youtu.be/9dqDij1cSXw
 ---
 
-### Let's face it, writing tests sucks 
+### Let's face it, writing tests sucks
 
 There is a widspread belief that software engineers hate writing tests, even if they sometimes don’t like to admit it. This might just be especially true for Django as comprehensively testing Django applications is not exactly straightforward. For a complete coverage we need to have unit tests as well as integration tests and oftentimes at least some of those are more difficult to write than the code itself. 
 
