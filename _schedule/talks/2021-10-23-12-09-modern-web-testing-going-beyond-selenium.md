@@ -3,7 +3,7 @@ abstract: In this talk, we dive into platform-specific Selenium solutions like P
   and discuss non-Selenium frameworks like TestCafe and Cypress.io. We discuss how
   Rapid Test Development practices empower these non-Selenium test frameworks.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 12:09:00 -0500
 difficulty: All
 image: /static/img/social/presenters/dmitry-vinnik.png

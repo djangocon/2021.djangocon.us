@@ -5,7 +5,7 @@ abstract: Many Djangonauts suddenly find themselves maintaining a project. I’l
   a step change in knowledge, it can be fun too!
 accepted: true
 additional_video_url: https://youtu.be/BKJKAN2kEM8
-category: talks
+category: talk
 date: 2021-10-22 15:30:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png

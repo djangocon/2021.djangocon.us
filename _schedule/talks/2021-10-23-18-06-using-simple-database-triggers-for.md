@@ -11,7 +11,7 @@ abstract: 'Django has evolved over the years to have first-class support for man
   and snapshotting historical changes to your models. You will leave wondering why
   on earth you never used triggers in the first place.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 18:06:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/wes-kendall.png

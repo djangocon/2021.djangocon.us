@@ -5,7 +5,7 @@ abstract: 'Python''s shiny frameworks drive some people to spend too little time
   Join me for the hypothetical learning journey of a Pythonista as we refactor a function
   and learn powerful vanilla Python features.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 11:55:00 -0500
 difficulty: All
 image: /static/img/social/presenters/rodrigo-girao-serrao.png

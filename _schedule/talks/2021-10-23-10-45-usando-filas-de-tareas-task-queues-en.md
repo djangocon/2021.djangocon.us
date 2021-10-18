@@ -7,7 +7,7 @@ abstract: 'Las filas de tareas se encuentran en un sinnúmero de aplicaciones qu
   En esta presentación explicaré los conceptos básicos de las filas de tareas y como
   aprovecharlas mejor.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 10:45:00 -0500
 difficulty: All
 image: /static/img/social/presenters/josue-balandrano-coronel.png

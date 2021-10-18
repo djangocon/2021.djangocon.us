@@ -4,7 +4,7 @@ abstract: Building a prototype in a weekend is the dream of startups and establi
   with your mistakes for years.  This talk will show you the tools and techniques
   to build a minimal-regrets rapid prototype in Django.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 16:50:00 -0500
 difficulty: All
 image: /static/img/social/presenters/benjamin-zags-zagorsky.png

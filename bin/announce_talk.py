@@ -16,13 +16,14 @@ from celery import Celery
 import click
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
+from environs import Env
 import frontmatter
 import pytz
 import requests
 import typer
 
 
-IGNORED_TALK_TYPES = ["break", "lunch"]
+IGNORED_TALK_TYPES = ["break", "lunch", "social hour"]
 
 CONFERENCE_TZ = pytz.timezone("America/Chicago")
 # That 885 number is a reference to the #live-q-and-a channel.
@@ -48,9 +49,12 @@ See the talk information at https://2021.djangocon.us{post[permalink]}
 Live discussions are happening in <#885229363921043486>.
 """
 
-cli_app = typer.Typer(help="Awesome Announce Talks")
 app = Celery("announce_talk")
 app.conf.broker_url = os.environ.get("CELERY_BROKER", "redis:///")
+
+cli_app = typer.Typer(help="Awesome Announce Talks")
+
+env = Env()
 
 
 def post_about_talks(
@@ -212,6 +216,117 @@ def main(
             click.style("Warning: not using celery for posting messages", fg="yellow")
         )
     post_about_talks(path=talks_path, webhook_url=webhook_url, post_now=post_now)
+
+
+@cli_app.command()
+def copy_schedule_to_inbox(
+    talks_path: Path = typer.Option(
+        default="_schedule/talks/", help="Directory where talks are stored"
+    )
+):
+    inbox_folder = Path(env("INBOX_FOLDER", default="inbox"))
+    if not inbox_folder.exists():
+        typer.secho(f"INBOX_FOLDER '{inbox_folder}' does not exist", fg="red")
+        raise typer.Exit()
+
+    if not talks_path.exists():
+        typer.secho(f"talks-path '{talks_path}' does not exist", fg="red")
+        raise typer.Exit()
+
+    filenames = sorted(list(talks_path.glob("*.md")))
+
+    for filename in filenames:
+        post = frontmatter.loads(filename.read_text())
+        new_post = frontmatter.loads("")
+        if post["title"].strip().lower() not in IGNORED_TALK_TYPES:
+            if isinstance(post["date"], datetime.datetime):
+                timestamp = post["date"]
+            else:
+                timestamp = parse(post["date"])
+            timestamp = timestamp.astimezone(CONFERENCE_TZ)
+
+            speakers: list[dict] = post.get("presenters", [])
+            try:
+                speaker = speakers[0]
+            except (IndexError, TypeError):
+                typer.echo(f"No speaker for talk {post['title']}")
+                typer.secho(f"{filename}", fg="red")
+                break
+
+            # TODO queue 5 minute to go message separately from this
+            body = {
+                "content": MESSAGE_TEMPLATE.format(
+                    post=post,
+                    speaker=speaker["name"],
+                    video_url=post["video_url"],
+                    timestamp=timestamp,
+                ),
+                "allowed_mentions": {
+                    "parse": ["everyone"],
+                    "users": [],
+                },
+            }
+
+            five_to_go_body = {
+                "content": FIVE_MINUTE_WARNING_TEMPLATE.format(
+                    post=post,
+                    speaker=speaker["name"],
+                    timestamp=timestamp,
+                ),
+                "allowed_mentions": {
+                    "parse": ["everyone"],
+                    "users": [],
+                },
+            }
+
+            # Copy only what we need to "new_post"
+            new_post.content = body["content"]
+            new_post["date"] = post["date"]
+            new_post["title"] = post["title"]
+
+            # TODO: do something with "five_to_go_body"
+            # new_post["five_to_go_body"] = five_to_go_body["content"]
+
+            # TODO: we can customize what gets included with Discord
+            # new_post["allowed_mentions"] = body["allowed_mentions"]
+
+            destination = inbox_folder.joinpath(filename.name)
+
+            # TODO: Fix, this made debugging easier...
+            if True:  # not destination.exists():
+                typer.echo(f"copying {filename.name} to {destination.parent}")
+                destination.write_text(frontmatter.dumps(new_post))
+            # else:
+            #     typer.secho(f"{filename.name} already exists", fg="red")
+
+
+@cli_app.command()
+def process_folder():
+    inbox_folder = Path(env("INBOX_FOLDER", default="inbox"))
+    outbox_folder = Path(env("OUTBOX_FOLDER", default="outbox"))
+
+    now = datetime.datetime.now().astimezone(CONFERENCE_TZ)
+    typer.secho(f"now: {now}", fg="yellow")
+
+    if not inbox_folder.exists():
+        typer.secho(f"INBOX_FOLDER '{inbox_folder}' does not exist", fg="red")
+        raise typer.Exit()
+
+    if not outbox_folder.exists():
+        typer.secho(f"OUTBOX_FOLDER '{outbox_folder}' does not exist", fg="red")
+        raise typer.Exit()
+
+    filenames = inbox_folder.glob("*.md")
+    for filename in filenames:
+        post = frontmatter.loads(filename.read_text())
+        if isinstance(post["date"], datetime.datetime):
+            timestamp = post["date"]
+        else:
+            timestamp = parse(post["date"])
+
+        timestamp = timestamp.astimezone(CONFERENCE_TZ)
+        if timestamp <= now:
+            typer.secho(f"I would move {filename}", fg="green")
 
 
 if __name__ == "__main__":

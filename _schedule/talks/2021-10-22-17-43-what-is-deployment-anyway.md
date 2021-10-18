@@ -6,7 +6,7 @@ abstract: 'So you''ve finished the DjangoGirls tutorial or smol demo, now you wa
   In this presentation we will discuss the basics beyond running a django project
   locally, and discuss the concepts and strategies around how to host your project.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 17:43:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katie-mclaughlin.png

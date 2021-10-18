@@ -4,7 +4,7 @@ abstract: Learn how the Open edX project consistently keeps 14 services spanning
   on its 4th major Django upgrade, edX has developed an assortment of tools and processes
   to make these upgrades go faster and smoother.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 13:30:00 -0500
 difficulty: All
 image: /static/img/social/presenters/jeremy-bowman.png

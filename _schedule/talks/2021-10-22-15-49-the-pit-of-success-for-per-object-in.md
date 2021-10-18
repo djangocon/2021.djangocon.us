@@ -3,7 +3,7 @@ abstract: Privacy matters, and I know I make mistakes, so I built a tool to make
   I don’t need to sweat about permission bugs. That tool builds per-object permissions
   right into the Django ORM. Privacy checks are conducted under the hood, automatically.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 15:49:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/madelaine-boyd.png

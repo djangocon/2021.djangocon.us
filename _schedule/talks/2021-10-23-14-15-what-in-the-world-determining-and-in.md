@@ -4,7 +4,7 @@ abstract: As piles of data continue to bury us all, geo-spatial data provides a 
   within the Python & Django ecosystem to find & show the meaning in this data that's
   far more than just points on a map.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 14:15:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/tyrel-denison.png

@@ -4,7 +4,7 @@ abstract: Django provides a robust permissions framework out of the box, but it 
   based on their attributes? In NetBox, we do exactly that by leveraging the ORM,
   JSON, and database transactions.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 17:37:00 -0500
 difficulty: Intermediate
 image: /static/img/presenters/jeremy-stretch.png

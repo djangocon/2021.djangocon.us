@@ -4,7 +4,7 @@ abstract: REST and HATEOAS are terms that are most often associated these days w
   you can create a better REST-ful system than nearly any JSON API developer, without
   even really trying, using good ol' Django.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 15:25:00 -0500
 difficulty: All
 image: /static/img/social/presenters/carson-gross.png
@@ -36,7 +36,7 @@ track: null
 video_url: https://youtu.be/L_UWY-zHlOA
 ---
 
-# REST, HATEOAS & Django - 
+# REST, HATEOAS & Django -
 *it's OK to not use JSON... or Javascript* 
 
 ## Intro

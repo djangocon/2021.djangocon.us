@@ -1,7 +1,7 @@
 ---
 abstract: Learn how to build and run a live blog with Wagtail Live within 30 minutes.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 11:00:00 -0500
 difficulty: All
 image: /static/img/social/presenters/tidjani-dia.png

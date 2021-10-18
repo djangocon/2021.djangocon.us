@@ -4,7 +4,7 @@ abstract: Multitenancy offers a cost sensitive way to implement data segregation
   We present a new lightweight multitenancy approach that is compatible with any Django
   application, easy to implement, use, and maintain.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 16:09:00 -0500
 difficulty: All
 image: /static/img/social/presenters/brendan-wee.png

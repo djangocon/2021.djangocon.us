@@ -3,7 +3,7 @@ abstract: You've heard of Kubernetes ☸️. But unless you’ve worked with it 
   it in action, you probably only have a vague idea of what it is. Let me give you
   an introduction so you can confidently say "I know Kubernetes!"
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 09:00:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/markus-holtermann.png

@@ -4,7 +4,7 @@ abstract: In this talk, we will focus on two aspects. First, performing penetrat
   OWASP Top 10 risks. Second, strategies and configuration settings for making the
   source code and Django applications secure.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 09:15:00 -0500
 difficulty: All
 image: /static/img/social/presenters/gajendra-deshpande.png

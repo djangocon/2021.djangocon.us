@@ -4,7 +4,7 @@ abstract: En esta charla hablaremos sobre cómo preparar tu proyecto para soport
   campos y modelos) selección automática o manual de idioma, traducción de URLs y
   traducción de contenido.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 15:40:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/adolfo-fitoria.png

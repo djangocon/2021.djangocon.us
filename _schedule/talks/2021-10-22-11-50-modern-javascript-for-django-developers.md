@@ -7,7 +7,7 @@ abstract: 'Many Django developers are intimidated by "modern" JavaScript, and th
   This talk outlines how to use Django with a modern framework like React without
   giving up Django''s View/Template system.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 11:50:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/cory-zue.png

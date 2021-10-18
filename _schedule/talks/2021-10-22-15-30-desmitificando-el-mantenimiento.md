@@ -5,7 +5,7 @@ abstract: Muchos Djangonautas de repente tienen la necesidad de mantener un proy
   es una mejora en conocimiento y divertida también!
 accepted: true
 additional_video_url: https://youtu.be/56sxu9vEJNc
-category: talks
+category: talk
 date: 2021-10-22 15:30:00 -0500
 difficulty: Beginner
 image: /static/img/social/presenters/katherine-michel.png

@@ -5,7 +5,7 @@ abstract: 'Ser mentor es una gran responsabilidad pero aporta el bienestar de un
   En mi charla compartiré como mis experiencias se han convertido en una serie de
   consejos para ser un gran mentor.'
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 14:25:00 -0500
 difficulty: All
 image: /static/img/social/presenters/ramon-huidobro.png

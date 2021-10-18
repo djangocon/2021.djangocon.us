@@ -4,7 +4,7 @@ abstract: Let’s talk about getting started with the end in mind and making sur
   a tour of options such as pyenv, venv, virtualenv, conda and Docker as great ways
   to make sure you can develop in a sane environment.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-23 17:05:00 -0500
 difficulty: All
 image: /static/img/social/presenters/calvin-hendryx-parker.png

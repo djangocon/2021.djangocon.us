@@ -4,7 +4,7 @@ abstract: This talk introduces Kontrasto, a library for Django and Wagtail that 
   guidelines define color contrast, and more generally where Django developers’ expertise
   can be used to improve accessibility.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 11:11:00 -0500
 difficulty: Intermediate
 image: /static/img/social/presenters/thibaud-colas.png

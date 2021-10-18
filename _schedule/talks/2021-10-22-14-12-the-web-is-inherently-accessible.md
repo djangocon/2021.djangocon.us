@@ -4,7 +4,7 @@ abstract: The web is accessible by default; it is our design decisions that stop
   with semantic HTML. Many designers and developers have a poor grasp of what native
   elements to use and what functionality they provide.
 accepted: true
-category: talks
+category: talk
 date: 2021-10-22 14:12:00 -0500
 difficulty: All
 image: /static/img/social/presenters/rachele-ditullio.png
