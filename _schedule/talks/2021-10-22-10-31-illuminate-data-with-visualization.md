@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-22 10:31:00 -0500
 difficulty: All
-image: /static/img/social/presenters/drishti-jain.png
+image: /static/img/social/presenters/drishti-jain.png?v=2021-10-01
 layout: session-details
 permalink: /talks/illuminate-data-with-visualization/
 presenter_slugs:

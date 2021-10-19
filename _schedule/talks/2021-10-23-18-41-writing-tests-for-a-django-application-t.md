@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 18:41:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/alan-una-larisa.png
+image: /static/img/social/presenters/alan-una-larisa.png?v=2021-10-01
 layout: session-details
 permalink: /talks/writing-tests-for-a-django-application-t/
 presenter_slugs:

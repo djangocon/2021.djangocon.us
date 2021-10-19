@@ -10,7 +10,7 @@ accepted: true
 category: talk
 date: 2021-10-23 10:45:00 -0500
 difficulty: All
-image: /static/img/social/presenters/josue-balandrano-coronel.png
+image: /static/img/social/presenters/josue-balandrano-coronel.png?v=2021-10-01
 layout: session-details
 permalink: /talks/usando-filas-de-tareas-task-queues-en/
 presenter_slugs:

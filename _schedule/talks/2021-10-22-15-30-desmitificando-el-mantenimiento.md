@@ -8,7 +8,7 @@ additional_video_url: https://youtu.be/56sxu9vEJNc
 category: talk
 date: 2021-10-22 15:30:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/katherine-michel.png
+image: /static/img/social/presenters/katherine-michel.png?v=2021-10-01
 layout: session-details
 permalink: /talks/desmitificando-el-mantenimiento/
 presenter_slugs:

@@ -6,7 +6,7 @@ accepted: true
 category: talk
 date: 2021-10-23 11:38:00 -0500
 difficulty: All
-image: /static/img/social/presenters/dan-palmer.png
+image: /static/img/social/presenters/dan-palmer.png?v=2021-10-01
 layout: session-details
 permalink: /talks/scaling-django-to-500-apps/
 presenter_slugs:
