@@ -71,7 +71,7 @@ def post_about_talks(
         try:
             post = frontmatter.loads(filename.read_text())
 
-            if post["title"].strip().lower() not in IGNORED_TALK_TYPES:
+            if post["category"].strip().lower() not in IGNORED_TALK_TYPES:
                 if isinstance(post["date"], datetime.datetime):
                     timestamp = post["date"]
                 else:
@@ -238,7 +238,7 @@ def copy_schedule_to_inbox(
     for filename in filenames:
         post = frontmatter.loads(filename.read_text())
         new_post = frontmatter.loads("")
-        if post["title"].strip().lower() not in IGNORED_TALK_TYPES:
+        if post["category"].strip().lower() not in IGNORED_TALK_TYPES:
             if isinstance(post["date"], datetime.datetime):
                 timestamp = post["date"]
             else:
@@ -281,6 +281,7 @@ def copy_schedule_to_inbox(
 
             # Copy only what we need to "new_post"
             new_post.content = body["content"]
+            new_post["category"] = post["category"]
             new_post["date"] = post["date"]
             new_post["title"] = post["title"]
 
