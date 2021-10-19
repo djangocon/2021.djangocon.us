@@ -24,7 +24,7 @@ presenters:
   company: ''
   github: ''
   name: Andrew Knight
-  photo_url: /static/img/speakers/andrew-knight.jpg
+  photo_url: /static/img/presenters/andrew-knight.jpg
   twitter: AutomationPanda
   website: https://automationpanda.com/
 published: true
