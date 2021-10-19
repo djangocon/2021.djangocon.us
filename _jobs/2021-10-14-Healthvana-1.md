@@ -16,7 +16,7 @@ website_text: Apply here
 Healthvana makes navigating our health better by empowering the patient with their own health information. We created a patient platform for healthcare providers to manage and communicate with their populations. Healthvana excels at engaging patients in their health and helping them take whatever next step towards better health - all via your mobile phone.
 Since 2015, our technology has been used in the fight to help end HIV, and since April 2020, to end COVID-19. Healthvana is the nation’s leading patient platform for both HIV and COVID-19 - having helped tens-of-millions of patients achieve better health outcomes.
 
-Healthvana is looking to add a Senior Backend Engineer to our growing team. Solid, readable, well-tested code is more important to us than the quickest thing you can deploy to production (though we like to move fast, too). We use well-known technologies like Python, Django, and React.
+Healthvana is looking to add a Backend Engineer to our growing team. Solid, readable, well-tested code is more important to us than the quickest thing you can deploy to production (though we like to move fast, too). We use well-known technologies like Python, Django, and React.
 
 *Requirements*
 - Have experience building and running production web applications (2+ years)
