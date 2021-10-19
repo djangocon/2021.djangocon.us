@@ -2,7 +2,7 @@
 company: Django Software Foundation
 github: amakarudze
 name: Anna Makarudze
-photo_url: /static/img/speakers/anna-makarudze.jpg
+photo_url: /static/img/presenters/anna-makarudze.jpg
 twitter: amakarudze
 website: http://amakarudze.pythonanywhere.com/
 ---

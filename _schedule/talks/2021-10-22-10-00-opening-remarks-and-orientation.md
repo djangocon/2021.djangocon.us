@@ -4,7 +4,7 @@ accepted: true
 category: talk
 date: 2021-10-22 10:00:00 -0500
 difficulty: All
-image: /static/img/organizers/drew.jpg
+image: /static/img/organizers/drew.jpg?v=2021-10-01
 layout: session-details
 permalink: /talks/opening-remarks-and-orientation/
 presenter_slugs:

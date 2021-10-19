@@ -14,7 +14,7 @@ accepted: true
 category: talk
 date: 2021-10-23 18:06:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/wes-kendall.png
+image: /static/img/social/presenters/wes-kendall.png?v=2021-10-01
 layout: session-details
 permalink: /talks/using-simple-database-triggers-for/
 presenter_slugs:
