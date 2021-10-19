@@ -33,5 +33,4 @@ Healthvana is looking to add a Backend Engineer to our growing team. Solid, read
 - Experience working with EMRs, PHI, and HIPAA-compliant systems
 - You've worked with Javascript and React
 - A solid understanding of automated testing and belief that a feature is not complete until tests are written
-
-You’ve got experience in healthcare, and you understand the industry’s challenges for both patients and providers, and where those challenges intersect (and where they don’t)
+- You’ve got experience in healthcare, and you understand the industry’s challenges for both patients and providers, and where those challenges intersect (and where they don’t)
