@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 15:40:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/adolfo-fitoria.png
+image: /static/img/social/presenters/adolfo-fitoria.png?v=2021-10-01
 layout: session-details
 permalink: /talks/se-habla-espanol-django-y-multiples/
 presenter_slugs:

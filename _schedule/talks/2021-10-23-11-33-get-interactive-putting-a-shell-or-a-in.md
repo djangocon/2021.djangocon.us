@@ -5,7 +5,7 @@ accepted: true
 category: talk
 date: 2021-10-23 11:33:00 -0500
 difficulty: All
-image: /static/img/social/presenters/maari-tamm.png
+image: /static/img/social/presenters/maari-tamm.png?v=2021-10-01
 layout: session-details
 permalink: /talks/get-interactive-putting-a-shell-or-a-in/
 presenter_slugs:

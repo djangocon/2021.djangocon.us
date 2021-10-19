@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 15:25:00 -0500
 difficulty: All
-image: /static/img/social/presenters/carson-gross.png
+image: /static/img/social/presenters/carson-gross.png?v=2021-10-01
 layout: session-details
 permalink: /talks/rest-hateoas-django-it-s-ok-to-not-use/
 presenter_slugs:

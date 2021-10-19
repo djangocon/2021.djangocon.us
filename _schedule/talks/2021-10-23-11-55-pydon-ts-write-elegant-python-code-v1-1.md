@@ -8,7 +8,7 @@ accepted: true
 category: talk
 date: 2021-10-23 11:55:00 -0500
 difficulty: All
-image: /static/img/social/presenters/rodrigo-girao-serrao.png
+image: /static/img/social/presenters/rodrigo-girao-serrao.png?v=2021-10-01
 layout: session-details
 permalink: /talks/pydon-ts-write-elegant-python-code-v1-1/
 presenter_slugs:

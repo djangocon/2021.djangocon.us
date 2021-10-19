@@ -10,9 +10,9 @@ billiard==3.6.4.0
     # via celery
 celery[redis]==5.1.2
     # via -r requirements.in
-certifi==2021.5.30
+certifi==2021.10.8
     # via requests
-charset-normalizer==2.0.6
+charset-normalizer==2.0.7
     # via requests
 click==7.1.2
     # via
@@ -29,8 +29,10 @@ click-repl==0.2.0
     # via celery
 dateutils==0.6.12
     # via -r requirements.in
-idna==3.2
+idna==3.3
     # via requests
+inflection==0.5.1
+    # via -r requirements.in
 kombu==5.1.0
     # via celery
 prompt-toolkit==3.0.20
@@ -47,7 +49,7 @@ pytz==2021.3
     # via
     #   celery
     #   dateutils
-pyyaml==5.4.1
+pyyaml==6.0
     # via python-frontmatter
 redis==3.5.3
     # via celery
