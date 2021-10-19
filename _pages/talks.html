@@ -12,10 +12,6 @@ title: Talks Schedule
 <section class="section-pad schedule">
   <div class="row column">
     <h2 class="day">Talks: Friday, October 22</h2>
-    <p class="lead">
-      Registration is <a href="{{ site.ticket_link }}">free</a> this year.
-    </p>
-
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
@@ -32,9 +28,6 @@ title: Talks Schedule
 <section class="section-pad schedule">
   <div class="row column">
     <h2 class="day">Talks: Saturday, October 23</h2>
-    <p class="lead">
-      Registraton is <a href="{{ site.ticket_link }}">free</a> this year.
-    </p>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
