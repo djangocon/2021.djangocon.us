@@ -1,5 +1,6 @@
-import os
 import frontmatter
+import inflection
+import os
 import typer
 
 from datetime import datetime
@@ -183,12 +184,18 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
                 date = post["date"].astimezone(CONFERENCE_TZ)
 
             category = post.get("category")
+
+            if category in ["break", "lunch", "social-hour"]:
+                category = "talk"
+
+            category_plural = inflection.pluralize(category)
+
             permalink = post.get("permalink")
             presenters = post.get("presenters", list())
             track = post.get("track")
 
             if permalink:
-                permalink = "/".join(["", category, slug, ""])
+                permalink = "/".join(["", category_plural, slug, ""])
                 post["permalink"] = permalink
                 dirty = True
 
