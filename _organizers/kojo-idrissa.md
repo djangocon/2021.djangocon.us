@@ -6,5 +6,5 @@ name: Kojo Idrissa
 photo_url: /static/img/organizers/kojo.jpg
 role: Orientation Chair
 twitter: transitionswpz
-website: http://kojoidrissa.com/
+website: https://kojoidrissa.com/
 ---
