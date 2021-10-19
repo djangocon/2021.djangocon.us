@@ -1,8 +1,11 @@
 ---
 company: Django Software Foundation
 github: amakarudze
+layout: speaker-template
 name: Anna Makarudze
+permalink: /presenters/anna-makarudze/
 photo_url: /static/img/presenters/anna-makarudze.jpg
+slug: anna-makarudze
 twitter: amakarudze
 website: http://amakarudze.pythonanywhere.com/
 ---
