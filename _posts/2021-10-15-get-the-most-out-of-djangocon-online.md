@@ -7,7 +7,7 @@ layout: post
 title: How to Engage With Fellow Attendees at DjangoCon US 2021 Online
 ---
 
-We are excited to bring you a slice of the usual DjangoCon US experience virtually! After not having a conference in 2020, we've prioritized sharing the best of DjangoCon US while remaining safe, accessible and 100% online. Details are emailed to registrants, so we recommend that you [get your ticket]({{site.ticket_link}}) and [check out the schedule](https://2021.djangocon.us/talks/) today!
+We are excited to bring you a slice of the usual DjangoCon US experience virtually! After not having a conference in 2020, we've prioritized sharing the best of DjangoCon US while remaining safe, accessible and 100% online. Details are emailed to registrants, so we recommend that you [check out the schedule](https://2021.djangocon.us/talks/) today!
 
 ## :wave: Ways to Engage
 - [YouTube](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw)
@@ -36,7 +36,7 @@ A large group of our community enjoys our conference in the TwitterSphere. [@Dja
 We're excited to announce that we've partnered with the virtual conference platform [SpatialChat](https://spatial.chat) to give a fun and interactive experience. We encourage you to log on and poke around for yourself, but here is a preliminary list of the rooms that will be available to all attendees:
 
 ##### Main Room
-[DJ Rana Ransom](https://soundcloud.com/ranaransom) ([@_tagine on twitter](https://twitter.com/_tagine)) Stream, chat, mingle at lunch and after conference day. 
+[DJ Rana Ransom](https://soundcloud.com/ranaransom) ([@_tagine on twitter](https://twitter.com/_tagine)) Stream, chat, mingle at lunch and after conference day.
 - [Add the Friday live lunch set to your calendar >>](https://calendar.google.com/event?action=TEMPLATE&tmeid=NGI3bXZhdGVpOW5sOThjNHU1dWt2MWxjdWQgZGF3bi53YWdlc0Bt&tmsrc=dawn.wages%40gmail.com)
 - [Add the Saturday live lunch set to your calendar  >>](https://calendar.google.com/event?action=TEMPLATE&tmeid=NGI3bXZhdGVpOW5sOThjNHU1dWt2MWxjdWQgZGF3bi53YWdlc0Bt&tmsrc=dawn.wages%40gmail.com)
 
@@ -100,4 +100,4 @@ In your **Bio**, we ask that you enter these 4 things:
 
 - SpatialChat is mobile friendly, but to get the best experience we recommend logging on with a PC or tablet.
 
-**Don't miss DjangoCon US 2021! [Register for the conference]({{site.ticket_link}}) today!**
+**Don't miss DjangoCon US 2021!**
