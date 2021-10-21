@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-22 16:26:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/jack-linke.png?v=2021-10-03
+image: /static/img/social/presenters/jack-linke.png?v=2021-10-04
 layout: session-details
 permalink: /talks/server-side-is-dead-long-live-server/
 presenter_slugs:

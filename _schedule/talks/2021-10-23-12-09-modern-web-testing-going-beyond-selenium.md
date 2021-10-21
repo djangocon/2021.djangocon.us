@@ -6,7 +6,7 @@ accepted: true
 category: talk
 date: 2021-10-23 12:09:00 -0500
 difficulty: All
-image: /static/img/social/presenters/dmitry-vinnik.png?v=2021-10-03
+image: /static/img/social/presenters/dmitry-vinnik.png?v=2021-10-04
 layout: session-details
 permalink: /talks/modern-web-testing-going-beyond-selenium/
 presenter_slugs:
