@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 17:05:00 -0500
 difficulty: All
-image: /static/img/social/presenters/calvin-hendryx-parker.png?v=2021-10-01
+image: /static/img/social/presenters/calvin-hendryx-parker.png?v=2021-10-02
 layout: session-details
 permalink: /talks/bootstrapping-your-local-python/
 presenter_slugs:

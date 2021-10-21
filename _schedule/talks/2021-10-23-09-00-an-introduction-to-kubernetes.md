@@ -6,7 +6,7 @@ accepted: true
 category: talk
 date: 2021-10-23 09:00:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/markus-holtermann.png?v=2021-10-01
+image: /static/img/social/presenters/markus-holtermann.png?v=2021-10-02
 layout: session-details
 permalink: /talks/an-introduction-to-kubernetes/
 presenter_slugs:

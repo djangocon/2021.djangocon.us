@@ -10,7 +10,7 @@ accepted: true
 category: talk
 date: 2021-10-22 11:50:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/cory-zue.png?v=2021-10-01
+image: /static/img/social/presenters/cory-zue.png?v=2021-10-02
 layout: session-details
 permalink: /talks/modern-javascript-for-django-developers/
 presenter_slugs:
