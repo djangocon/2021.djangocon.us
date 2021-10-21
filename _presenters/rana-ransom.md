@@ -4,7 +4,7 @@ github: ''
 layout: speaker-template
 name: Rana Ransom
 permalink: /presenters/rana-ransom/
-photo_url: ''
+photo_url: /static/img/presenters/rana-ransom.jpg
 slug: rana-ransom
 twitter: _tagine
 website: https://www.facebook.com/ranaransom/
