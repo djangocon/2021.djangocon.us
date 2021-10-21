@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 16:09:00 -0500
 difficulty: All
-image: /static/img/social/presenters/brendan-wee.png?v=2021-10-01
+image: /static/img/social/presenters/brendan-wee.png?v=2021-10-02
 layout: session-details
 permalink: /talks/lightweight-multi-tenant-architecture/
 presenter_slugs:

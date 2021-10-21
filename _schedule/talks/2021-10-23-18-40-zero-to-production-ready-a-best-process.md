@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 18:40:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/itamar-turner-trauring.png?v=2021-10-01
+image: /static/img/social/presenters/itamar-turner-trauring.png?v=2021-10-02
 layout: session-details
 permalink: /talks/zero-to-production-ready-a-best-process/
 presenter_slugs:

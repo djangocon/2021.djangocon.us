@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 09:46:00 -0500
 difficulty: All
-image: /static/img/social/presenters/cagil-ulusahin.png?v=2021-10-01
+image: /static/img/social/presenters/cagil-ulusahin.png?v=2021-10-02
 layout: session-details
 permalink: /talks/how-we-built-a-mobile-application-with/
 presenter_slugs:
