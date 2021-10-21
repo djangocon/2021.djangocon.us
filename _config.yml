@@ -96,6 +96,10 @@ defaults:
       sitemap: false
 
 # Our DjangoCon US settings...
+
+schedule_show_video_urls: false
+
+## All the email addresses
 conduct_email: "conduct@djangocon.us"
 contact_us_email: "hello@djangocon.us"
 opportunity_grants_email: "grants@djangocon.us"
@@ -103,17 +107,15 @@ program_team_email: "program@djangocon.us"
 sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
-# Our DjangoCon US links
+## Our DjangoCon US links
 cfp_application: "https://www.papercall.io/djangocon-us-2021"
-hotel_reservation_link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1575573540205&key=GRP&app=resvlink"
+hotel_reservation_link: ""
+mailing_list: "http://eepurl.com/bpvu2f"
 opportunity_grant_application: ""
-# slack_link: "https://djangoconus2019.herokuapp.com"
 slack_link: ""
 sponsorship_prospectus: ""
 ticket_link: "https://ti.to/defna/djangocon-us-2021"
 # youtube_link: ""
-mailing_list: "http://eepurl.com/bpvu2f"
-schedule_show_video_urls: false
 
 github: [metadata]
 facebook:
