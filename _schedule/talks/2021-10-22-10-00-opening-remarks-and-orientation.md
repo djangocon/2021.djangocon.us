@@ -65,7 +65,7 @@ tags:
 talk_slot: full
 title: Opening Remarks and Orientation
 track: null
-video_url: null
+video_url: https://youtu.be/1UMBbzq4be0
 ---
 
 Drew will give some opening remarks; Kojo will reprise his traditional orientation; and Katia, Catherine, and Josué will give some shout-outs to our sponsors.
