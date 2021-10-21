@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 17:44:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/jyotika-singh.png?v=2021-10-02
+image: /static/img/social/presenters/jyotika-singh.png?v=2021-10-03
 layout: session-details
 permalink: /talks/demystifying-natural-language-processing/
 presenter_slugs:

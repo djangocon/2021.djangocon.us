@@ -9,7 +9,7 @@ accepted: true
 category: talk
 date: 2021-10-23 09:25:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/aldan-creo.png?v=2021-10-02
+image: /static/img/social/presenters/aldan-creo.png?v=2021-10-03
 layout: session-details
 permalink: /talks/busqueda-de-texto-completo-fts-en-tu-web/
 presenter_slugs:

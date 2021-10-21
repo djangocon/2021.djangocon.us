@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 16:50:00 -0500
 difficulty: All
-image: /static/img/social/presenters/benjamin-zags-zagorsky.png?v=2021-10-02
+image: /static/img/social/presenters/benjamin-zags-zagorsky.png?v=2021-10-03
 layout: session-details
 permalink: /talks/rapid-prototyping-in-django/
 presenter_slugs:

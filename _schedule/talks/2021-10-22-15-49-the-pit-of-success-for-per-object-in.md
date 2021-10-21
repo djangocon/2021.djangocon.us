@@ -6,7 +6,7 @@ accepted: true
 category: talk
 date: 2021-10-22 15:49:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/madelaine-boyd.png?v=2021-10-02
+image: /static/img/social/presenters/madelaine-boyd.png?v=2021-10-03
 layout: session-details
 permalink: /talks/the-pit-of-success-for-per-object-in/
 presenter_slugs:

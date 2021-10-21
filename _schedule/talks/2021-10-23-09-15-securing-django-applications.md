@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 09:15:00 -0500
 difficulty: All
-image: /static/img/social/presenters/gajendra-deshpande.png?v=2021-10-02
+image: /static/img/social/presenters/gajendra-deshpande.png?v=2021-10-03
 layout: session-details
 permalink: /talks/securing-django-applications/
 presenter_slugs:

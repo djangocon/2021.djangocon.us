@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-22 14:12:00 -0500
 difficulty: All
-image: /static/img/social/presenters/rachele-ditullio.png?v=2021-10-02
+image: /static/img/social/presenters/rachele-ditullio.png?v=2021-10-03
 layout: session-details
 permalink: /talks/the-web-is-inherently-accessible/
 presenter_slugs:

@@ -8,7 +8,7 @@ additional_video_url: https://youtu.be/BKJKAN2kEM8
 category: talk
 date: 2021-10-22 15:10:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/katherine-michel.png?v=2021-10-02
+image: /static/img/social/presenters/katherine-michel.png?v=2021-10-03
 layout: session-details
 permalink: /talks/maintaining-demystified/
 presenter_slugs:

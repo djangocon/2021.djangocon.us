@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-22 11:11:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/thibaud-colas.png?v=2021-10-02
+image: /static/img/social/presenters/thibaud-colas.png?v=2021-10-03
 layout: session-details
 permalink: /talks/kontrasto-improving-accessibility-with/
 presenter_slugs:

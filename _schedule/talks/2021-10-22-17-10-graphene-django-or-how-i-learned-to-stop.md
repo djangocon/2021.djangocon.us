@@ -9,7 +9,7 @@ accepted: true
 category: talk
 date: 2021-10-22 17:10:00 -0500
 difficulty: All
-image: /static/img/social/presenters/dane-hillard.png?v=2021-10-02
+image: /static/img/social/presenters/dane-hillard.png?v=2021-10-03
 layout: session-details
 permalink: /talks/graphene-django-or-how-i-learned-to-stop/
 presenter_slugs:
