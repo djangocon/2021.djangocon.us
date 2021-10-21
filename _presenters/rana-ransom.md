@@ -3,6 +3,7 @@ company: ''
 github: ''
 layout: speaker-template
 name: Rana Ransom
+override_schedule_title: "Live Sessions DJ"
 permalink: /presenters/rana-ransom/
 photo_url: /static/img/presenters/rana-ransom.jpg
 slug: rana-ransom
