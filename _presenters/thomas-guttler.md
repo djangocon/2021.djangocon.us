@@ -4,7 +4,7 @@ github: guettli
 layout: speaker-template
 name: Thomas Güttler
 permalink: /presenters/thomas-guttler/
-photo_url: /static/img/presenters/thomas-guttler.png
+photo_url: /static/img/presenters/thomas-guttler.jpg
 slug: thomas-guttler
 twitter: guettli
 website: https://thomas-guettler.de/
