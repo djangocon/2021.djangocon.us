@@ -10,7 +10,7 @@ accepted: true
 category: talk
 date: 2021-10-23 13:45:00 -0500
 difficulty: All
-image: /static/img/social/presenters/thomas-guttler.png?v=2021-10-03
+image: /static/img/social/presenters/thomas-guttler.png?v=2021-10-04
 layout: session-details
 permalink: /talks/htmx-frontend-revolution/
 presenter_slugs:

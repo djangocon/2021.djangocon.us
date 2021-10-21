@@ -8,7 +8,7 @@ accepted: true
 category: talk
 date: 2021-10-23 14:25:00 -0500
 difficulty: All
-image: /static/img/social/presenters/ramon-huidobro.png?v=2021-10-03
+image: /static/img/social/presenters/ramon-huidobro.png?v=2021-10-04
 layout: session-details
 permalink: /talks/una-serie-de-relatos-de-mentoring/
 presenter_slugs:

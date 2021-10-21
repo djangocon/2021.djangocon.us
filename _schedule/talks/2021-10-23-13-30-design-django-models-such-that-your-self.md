@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 13:30:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/tarun-garg.png?v=2021-10-03
+image: /static/img/social/presenters/tarun-garg.png?v=2021-10-04
 layout: session-details
 permalink: /talks/design-django-models-such-that-your-self/
 presenter_slugs:

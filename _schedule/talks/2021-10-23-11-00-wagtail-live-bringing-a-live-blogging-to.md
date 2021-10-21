@@ -4,7 +4,7 @@ accepted: true
 category: talk
 date: 2021-10-23 11:00:00 -0500
 difficulty: All
-image: /static/img/social/presenters/tidjani-dia.png?v=2021-10-03
+image: /static/img/social/presenters/tidjani-dia.png?v=2021-10-04
 layout: session-details
 permalink: /talks/wagtail-live-bringing-a-live-blogging-to/
 presenter_slugs:

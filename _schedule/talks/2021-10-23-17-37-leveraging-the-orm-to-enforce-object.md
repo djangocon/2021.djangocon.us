@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-23 17:37:00 -0500
 difficulty: Intermediate
-image: /static/img/social/presenters/jeremy-stretch.png?v=2021-10-03
+image: /static/img/social/presenters/jeremy-stretch.png?v=2021-10-04
 layout: session-details
 permalink: /talks/leveraging-the-orm-to-enforce-object/
 presenter_slugs:

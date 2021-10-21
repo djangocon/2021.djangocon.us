@@ -7,7 +7,7 @@ accepted: true
 category: talk
 date: 2021-10-22 13:30:00 -0500
 difficulty: All
-image: /static/img/social/presenters/jeremy-bowman.png?v=2021-10-03
+image: /static/img/social/presenters/jeremy-bowman.png?v=2021-10-04
 layout: session-details
 permalink: /talks/herding-ponies-coordinating-and-django/
 presenter_slugs:

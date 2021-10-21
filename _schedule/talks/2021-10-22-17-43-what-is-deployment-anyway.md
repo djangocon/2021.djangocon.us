@@ -9,7 +9,7 @@ accepted: true
 category: talk
 date: 2021-10-22 17:43:00 -0500
 difficulty: Beginner
-image: /static/img/social/presenters/katie-mclaughlin.png?v=2021-10-03
+image: /static/img/social/presenters/katie-mclaughlin.png?v=2021-10-04
 layout: session-details
 permalink: /talks/what-is-deployment-anyway/
 presenter_slugs:
