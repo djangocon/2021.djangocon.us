@@ -21,11 +21,15 @@
       <h1 class="speaker-template-name">{{ page.name }}</h1>
       <h2 class="speaker-template-session-title">
         {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
-        {% assign presentation_length = presentations|size %}
-        {% for schedule in presentations %}
-          {{ schedule.title }}
-          {% if presentation_length > 1 %}<br>{% endif %}
-        {% endfor %}
+        {% if page.override_schedule_title %}
+          {{ page.override_schedule_title }}
+        {% else %}
+          {% assign presentation_length = presentations|size %}
+          {% for schedule in presentations %}
+            {{ schedule.title }}
+            {% if presentation_length > 1 %}<br>{% endif %}
+          {% endfor %}
+        {% endif %}
       </h2>
 
     </div>
