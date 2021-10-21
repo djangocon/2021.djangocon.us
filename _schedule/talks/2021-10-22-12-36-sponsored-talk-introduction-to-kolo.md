@@ -7,15 +7,16 @@ difficulty: All
 image: null
 layout: session-details
 permalink: /talks/sponsored-talk-introduction-to-kolo/
-presenter_slugs: null
+presenter_slugs:
+- wilhelm-klopp
 presenters: 
 - bio: I created Kolo
   company: Kolo
   github: ''
   name: Wilhelm Klopp
   photo_url: ''
-  twitter: ''
-  website: ''
+  twitter: wilhelmklopp
+  website: https://kolo.app/
 published: true
 sitemap: true
 slides_url: ''
@@ -24,8 +25,9 @@ tags:
 - Python
 - Django
 talk_slot: full
-title: Sponsored Talk: Introduction to Kolo
+title: "Sponsored Talk: Introduction to Kolo"
 track: null
 video_url: https://youtu.be/Jft89q1yFCs
 ---
 
+Introduction to Kolo
