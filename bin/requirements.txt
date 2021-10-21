@@ -29,16 +29,22 @@ click-repl==0.2.0
     # via celery
 dateutils==0.6.12
     # via -r requirements.in
+greenlet==1.1.2
+    # via playwright
 idna==3.3
     # via requests
 inflection==0.5.1
     # via -r requirements.in
 kombu==5.1.0
     # via celery
+playwright==1.15.3
+    # via -r requirements.in
 prompt-toolkit==3.0.20
     # via click-repl
 pydantic==1.8.2
     # via -r requirements.in
+pyee==8.2.2
+    # via playwright
 python-dateutil==2.8.2
     # via dateutils
 python-frontmatter==1.0.0
@@ -74,6 +80,8 @@ vine==5.0.0
     #   kombu
 wcwidth==0.2.5
     # via prompt-toolkit
+websockets==10.0
+    # via playwright
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

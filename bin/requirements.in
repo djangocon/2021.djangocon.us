@@ -1,6 +1,7 @@
 celery[redis]
 dateutils
 inflection
+playwright
 pydantic
 python-frontmatter
 python-slugify
