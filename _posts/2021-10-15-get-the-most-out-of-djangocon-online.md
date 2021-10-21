@@ -11,7 +11,7 @@ We are excited to bring you a slice of the usual DjangoCon US experience virtual
 
 ## :wave: Ways to Engage
 - [YouTube](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw)
-- [Discord](/chat/)
+- Discord (we will email invites to all attendees)
 - Get active in our [Strava Group](https://www.strava.com/clubs/987456)
 - Recruitment Fair (Friday, October 22nd at 12:45 PM Central Time/17:45 UTC)
 - Live DJ and Scheduled Tunes with [DJ Rana Ransom](https://soundcloud.com/ranaransom) ([@_tagine on twitter](https://twitter.com/_tagine))! (during lunch and at the end of each day of talks, Friday and Saturday)
@@ -23,8 +23,6 @@ We have 36 talks between 10 AM and 6:30 PM CDT Friday, October 22nd, and between
 
 ## :pager: Discord
 Join the Discord space as it is likely to be the most popular place for DjangoCon US attendees to engage with each other. More information is forthcoming about the channel. New to Discord? We got you! Check out this video by Tech Insider on [How to Use Discord](https://www.youtube.com/watch?v=OIqyPJQAgT4).
-
-The best and most up-to-date information on chat experience can be found on our [Chat Information page](/chat).
 
 ## :bike: Strava
 Enjoy Biking? You're not alone. We have a big group of bikers in the Django/Python community. We're hoping you'll come out and use this Django-filled weekend, to keep up the activity. Join the [Strava Group](https://www.strava.com/clubs/987456)!
