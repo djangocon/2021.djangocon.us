@@ -1,5 +1,5 @@
 ---
-abstract: Our Sponsor Kolo 
+abstract: Our Sponsor Kolo
 accepted: true
 category: talk
 date: 2021-10-22 12:36:00 -0500
@@ -9,7 +9,7 @@ layout: session-details
 permalink: /talks/sponsored-talk-introduction-to-kolo/
 presenter_slugs:
 - wilhelm-klopp
-presenters: 
+presenters:
 - bio: I created Kolo
   company: Kolo
   github: ''
@@ -25,7 +25,7 @@ tags:
 - Python
 - Django
 talk_slot: full
-title: "Sponsored Talk: Introduction to Kolo"
+title: 'Sponsored Talk: Introduction to Kolo'
 track: null
 video_url: https://youtu.be/Jft89q1yFCs
 ---
