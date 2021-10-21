@@ -4,7 +4,7 @@ github: tijani-dia
 layout: speaker-template
 name: Tidjani Dia
 permalink: /presenters/tidjani-dia/
-photo_url: ''
+photo_url: /static/img/presenters/tidjani-dia.png
 slug: tidjani-dia
 twitter: ''
 website: https://www.therookiecoder.com/

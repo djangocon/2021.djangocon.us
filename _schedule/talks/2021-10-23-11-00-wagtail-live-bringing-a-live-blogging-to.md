@@ -17,7 +17,7 @@ presenters:
   company: Wagtail
   github: ''
   name: Tidjani Dia
-  photo_url: ''
+  photo_url: /static/img/presenters/tidjani-dia.png
   twitter: ''
   website: https://www.therookiecoder.com/
 published: true
