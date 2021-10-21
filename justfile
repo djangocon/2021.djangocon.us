@@ -19,7 +19,8 @@ IMAGE_SIZE := "1024x512"
     bundle exec rake test
 
 @social:
-    echo "check out... https://github.com/sindresorhus/pageres-cli"
+    python bin/screenshots.py
+    # echo "check out... https://github.com/sindresorhus/pageres-cli"
     # -npx pageres {{ DOMAIN }}/presenters/adolfo-fitoria/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/adolfo-fitoria
     # -npx pageres {{ DOMAIN }}/presenters/alan-una-larisa/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/alan-una-larisa
     # -npx pageres {{ DOMAIN }}/presenters/aldan-creo/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/aldan-creo
@@ -38,12 +39,10 @@ IMAGE_SIZE := "1024x512"
     # -npx pageres {{ DOMAIN }}/presenters/drew-winstel/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/drew-winstel
     # -npx pageres {{ DOMAIN }}/presenters/drishti-jain/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/drishti-jain
     # -npx pageres {{ DOMAIN }}/presenters/gajendra-deshpande/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/gajendra-deshpande
-    # -npx pageres {{ DOMAIN }}/presenters/itamar-turner-trauring/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/itamar-turner
     # -npx pageres {{ DOMAIN }}/presenters/itamar-turner-trauring/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/itamar-turner-trauring
     # -npx pageres {{ DOMAIN }}/presenters/jack-linke/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/jack-linke
     # -npx pageres {{ DOMAIN }}/presenters/jeremy-bowman/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/jeremy-bowman
     # -npx pageres {{ DOMAIN }}/presenters/jeremy-stretch/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/jeremy-stretch
-    # -npx pageres {{ DOMAIN }}/presenters/josue-balandrano-coronel/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/josue-balandrano
     # -npx pageres {{ DOMAIN }}/presenters/josue-balandrano-coronel/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/josue-balandrano-coronel
     # -npx pageres {{ DOMAIN }}/presenters/jyotika-singh/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/jyotika-singh
     # -npx pageres {{ DOMAIN }}/presenters/katherine-michel/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/katherine-michel
@@ -56,7 +55,6 @@ IMAGE_SIZE := "1024x512"
     # -npx pageres {{ DOMAIN }}/presenters/rachele-ditullio/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/rachele-ditullio
     # -npx pageres {{ DOMAIN }}/presenters/ramon-huidobro/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/ramon-huidobro
     # -npx pageres {{ DOMAIN }}/presenters/rana-ransom/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/rana-ransom
-    # -npx pageres {{ DOMAIN }}/presenters/rodrigo-girao-serrao/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/rodrigo-girao
     # -npx pageres {{ DOMAIN }}/presenters/rodrigo-girao-serrao/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/rodrigo-girao-serrao
     # -npx pageres {{ DOMAIN }}/presenters/tarun-garg/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/tarun-garg
     # -npx pageres {{ DOMAIN }}/presenters/thibaud-colas/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/thibaud-colas
