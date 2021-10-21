@@ -7,7 +7,7 @@ website: https://grnh.se/19c9c9a43us
 website_text: Apply here
 ---
 
-**Senior Back-End / Python Engineer**
+# Senior Backend / Python Engineer
 
 *US - Remote*
 

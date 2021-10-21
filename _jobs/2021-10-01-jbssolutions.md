@@ -7,7 +7,7 @@ website: https://bit.ly/2YeGM1B
 website_text: Apply here
 ---
 
-**Senior Developer Python / Django - Remote**
+# Senior Developer Python / Django - Remote
 
 *Remote in the US*
 

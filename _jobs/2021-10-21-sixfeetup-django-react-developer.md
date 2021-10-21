@@ -7,7 +7,7 @@ website: https://www.sixfeetup.com/company/django-developer
 website_text: Apply here
 ---
 
-**Django/React Developer**
+# Django/React Developer
 
 *Global Remote*
 
@@ -21,8 +21,8 @@ As a Django/React Developer, you should be collaborative, a creative problem sol
 
 Why work at Six Feet Up? We offer a unique human-friendly work environment that thrives based on the understanding that we all do our best work when we can choose how and when we work.
 
-Over the years, we have had a chance to work on exciting, highly-visible and renowned projects. We interact with high profile clients. We use Mac computers. We have quarterly Innovation Days and bi-annual retreats. We use a democratic and team-oriented decision-making process. Read more on what makes us unique...
+Over the years, we have had a chance to work on exciting, highly-visible and renowned projects. We interact with high profile clients. We use Mac computers. We have quarterly Innovation Days and bi-annual retreats. We use a democratic and team-oriented decision-making process. [Read more on what makes us unique...](https://www.sixfeetup.com/company/careers)
 
-Does this sound like you? If yes, send your resume and cover letter to jobs@sixfeetup.com with the subject " Django/React Developer (2021)."
+Does this sound like you? If yes, send your resume and cover letter to [jobs@sixfeetup.com](mailto:jobs@sixfeetup.com) with the subject " Django/React Developer (2021)."
 
 To be considered for this position you must also take the following PI assessment: [https://assessment.predictiveindex.com/fP3/b8f278ab-f915-4807-836a-a4cb26dd8e37?type=candidateba](https://assessment.predictiveindex.com/fP3/b8f278ab-f915-4807-836a-a4cb26dd8e37?type=candidateba)

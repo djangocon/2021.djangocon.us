@@ -7,7 +7,7 @@ website: https://boards.greenhouse.io/optimaldynamics/jobs/4034910004
 website_text: Apply here
 ---
 
-**Engineering Team Lead**
+# Engineering Team Lead
 
 *Remote or NYC*
 
