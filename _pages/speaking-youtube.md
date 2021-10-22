@@ -11,6 +11,7 @@ title: Speaking Template for YouTube Videos
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' %}
+{% if post.category != 'break' and post.category != 'lunch' and post.category != 'social-time' %}
 <div class="event-byline">
 <h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - {{ post.title }}</h4>
 
@@ -30,6 +31,7 @@ Copy to clipboard
 </button>
 </div>
 <hr>
+{% endif %}
 {% endif %}
 {% endfor %}
 

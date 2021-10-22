@@ -11,6 +11,7 @@ title: Speaking Checklists for YouTube Videos
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Friday' or day == 'Saturday' %}
+{% if post.category != 'break' and post.category != 'lunch' and post.category != 'social-time' %}
 <div class="event-byline">
 <h2>Video Checklist</h2>
 
@@ -58,6 +59,7 @@ Copy to clipboard
 </button>
 </div>
 <hr>
+{% endif %}
 {% endif %}
 {% endfor %}
 
