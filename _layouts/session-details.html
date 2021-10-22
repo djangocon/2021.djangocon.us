@@ -11,7 +11,7 @@ layout: base
       time-zone-name="short">
       {{ page.date | date: "%b %d %l:%M %p %Z" }}
     </local-time>
-    <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago">:calendar:</a>
+    <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago" aria-label="View talk time on time.is">:calendar:</a>
     {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
     {% comment %}, in {{ page.room }}{% endcomment %}
     {% if page.difficulty %}
