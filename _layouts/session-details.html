@@ -16,9 +16,7 @@ layout: base
     {% comment %}, in {{ page.room }}{% endcomment %}
     {% if page.difficulty %}
       <br>
-      <span
-        class="label"
-        aria-label="Audience level:">{{ page.difficulty }}</span>
+      <span class="label"><span class="sr-only">Audience level: </span>{{ page.difficulty }}</span>
     {% endif %}
   </p>
 </header>
