@@ -16,7 +16,7 @@ title: Twitter Template for Tweets
 
 {% capture twitter-copy-link %}copy-{{ post.slug | slugify }}-twitter{% endcapture %}
 
-<textarea rows="4" id="{{ twitter-copy-link }}">
+<textarea rows="6" id="{{ twitter-copy-link }}">
 {% include twitter-copy-and-paste.html post=post presenter_slugs=post.presenter_slugs %}
 </textarea>
 
