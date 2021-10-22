@@ -30,7 +30,7 @@ presenters:
   website: https://glasnt.com
 published: true
 sitemap: true
-slides_url: ''
+slides_url: https://glasnt.com/talks/
 summary: ''
 tags:
 - django
