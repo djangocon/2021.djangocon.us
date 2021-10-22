@@ -1,5 +1,6 @@
 ---
 company: ''
+github: kojoidrissa
 layout: speaker-template
 name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
