@@ -31,3 +31,5 @@ video_url: https://youtu.be/Jft89q1yFCs
 ---
 
 Kolo shows you everything happening in your running Django app. All without leaving VSCode. Get started at <a href="https://kolo.app/">https://kolo.app/</a>.
+
+<a href="https://2021.djangocon.us/talks/sponsored-talk-introduction-to-kolo/">Sponsored Talk: Introduction to Kolo</a>
