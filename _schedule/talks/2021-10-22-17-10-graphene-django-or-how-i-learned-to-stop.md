@@ -28,6 +28,7 @@ presenters:
   twitter: easyaspython
   website: https://dane.engineering
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

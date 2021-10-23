@@ -30,6 +30,7 @@ presenters:
   twitter: racheleditullio
   website: https://racheleditullio.com/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

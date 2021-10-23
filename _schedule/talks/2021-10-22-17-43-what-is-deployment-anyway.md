@@ -29,6 +29,7 @@ presenters:
   twitter: glasnt
   website: https://glasnt.com
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: https://glasnt.com/talks/
 summary: ''
