@@ -97,7 +97,7 @@ defaults:
 
 # Our DjangoCon US settings...
 
-schedule_show_video_urls: false
+schedule_show_video_urls: true
 
 ## All the email addresses
 conduct_email: "conduct@djangocon.us"
