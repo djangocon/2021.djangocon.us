@@ -39,8 +39,9 @@ presenters:
   twitter: calvinhp
   website: http://www.sixfeetup.com/
 published: true
+show_video_urls: true
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/calvinhp/2021_DjangoCon_BootstrappingyourLocalPythonEnvironment
 summary: ''
 tags:
 - Python
