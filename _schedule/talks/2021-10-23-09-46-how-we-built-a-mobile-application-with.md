@@ -28,7 +28,7 @@ presenters:
 published: true
 show_video_urls: true
 sitemap: true
-slides_url: ''
+slides_url: https://2021.djangocon.us/talks/how-we-built-a-mobile-application-with/
 summary: ''
 tags:
 - Python
