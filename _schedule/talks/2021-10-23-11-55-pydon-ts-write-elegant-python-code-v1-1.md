@@ -30,7 +30,7 @@ presenters:
   website: https://mathspp.com/blog
 published: true
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/mathspp/talks/tree/main/202110_djangoconus_pydonts
 summary: ''
 tags:
 - best practices
