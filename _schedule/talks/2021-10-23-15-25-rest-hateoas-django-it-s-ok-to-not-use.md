@@ -22,6 +22,7 @@ presenters:
   twitter: htmx_org
   website: https://bigsky.software
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

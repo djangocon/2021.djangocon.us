@@ -21,6 +21,7 @@ presenters:
   twitter: Fitoria
   website: http://fitoria.net
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

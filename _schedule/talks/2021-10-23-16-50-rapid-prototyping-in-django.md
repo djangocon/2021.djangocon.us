@@ -25,6 +25,7 @@ presenters:
   twitter: ''
   website: https://zagaran.com
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

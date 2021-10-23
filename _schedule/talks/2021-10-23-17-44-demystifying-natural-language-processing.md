@@ -45,6 +45,7 @@ presenters:
   twitter: jyotikasingh_
   website: https://linkedin.com/in/jyotikasingh
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

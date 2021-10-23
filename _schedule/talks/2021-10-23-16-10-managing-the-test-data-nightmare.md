@@ -28,6 +28,7 @@ presenters:
   twitter: AutomationPanda
   website: https://automationpanda.com/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''
