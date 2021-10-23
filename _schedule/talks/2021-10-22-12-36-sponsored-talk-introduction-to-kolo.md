@@ -18,6 +18,7 @@ presenters:
   twitter: wilhelmklopp
   website: https://kolo.app/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

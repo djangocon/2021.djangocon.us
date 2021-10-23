@@ -35,6 +35,7 @@ presenters:
   twitter: JackDLinke
   website: https://www.jacklinke.com
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

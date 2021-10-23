@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% seo %}
-
-{% if site.schedule_show_video_urls and page.video_url != blank %}
+{% seo %}{% capture meta %}
+{% if page.show_video_urls or site.schedule_show_video_urls %}
+{% if page.video_url != blank %}
 {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
 {% include youtube-embed-head.html id=youtube_id %}
 {% endif %}
+{% endif %}
+{% endcapture %}{{ meta | strip_newlines }}
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/main.css">
 

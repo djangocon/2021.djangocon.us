@@ -29,6 +29,7 @@ presenters:
   twitter: drishtijjain
   website: https://medium.com/@drishtijjain
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

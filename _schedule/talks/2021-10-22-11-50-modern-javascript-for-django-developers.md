@@ -27,6 +27,7 @@ presenters:
   twitter: czue
   website: https://www.coryzue.com/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

@@ -54,6 +54,7 @@ presenters:
   website: https://rmcomplexity.com
 published: true
 room: ''
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

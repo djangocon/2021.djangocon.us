@@ -22,6 +22,7 @@ presenters:
   twitter: thibaud_colas
   website: https://thib.me/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''
