@@ -29,6 +29,7 @@ presenters:
   twitter: mathsppblog
   website: https://mathspp.com/blog
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: https://github.com/mathspp/talks/tree/main/202110_djangoconus_pydonts
 summary: ''

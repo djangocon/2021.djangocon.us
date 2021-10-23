@@ -20,6 +20,7 @@ presenters:
   twitter: DmitryVinnik
   website: https://dvinnik.dev
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

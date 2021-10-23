@@ -30,6 +30,7 @@ presenters:
   twitter: gcdeshpande
   website: https://gcdeshpande.github.io
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

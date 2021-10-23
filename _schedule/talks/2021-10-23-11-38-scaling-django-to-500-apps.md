@@ -24,6 +24,7 @@ presenters:
   twitter: danpalmer
   website: https://danpalmer.me/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

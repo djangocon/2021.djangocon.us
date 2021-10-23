@@ -32,6 +32,7 @@ presenters:
   twitter: acmcmc
   website: https://acmc.codes
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

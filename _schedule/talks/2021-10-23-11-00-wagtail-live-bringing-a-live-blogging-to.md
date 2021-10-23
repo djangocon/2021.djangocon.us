@@ -21,6 +21,7 @@ presenters:
   twitter: ''
   website: https://www.therookiecoder.com/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''
