@@ -26,22 +26,17 @@ layout: base
 <div class="content subpage-content">
   <div class="row">
     <div class="column medium-10 medium-centered" markdown="1">
-      {% if site.schedule_show_video_urls %}
-        {% if page.video_url != blank %}
-          {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
-          {% include youtube-embed.html id=youtube_id %}
-        {% endif %}
+      {% if page.show_video_urls or site.schedule_show_video_urls and page.video_url != blank %}
+        {% assign youtube_id = page.video_url | replace:"https://youtu.be/","" %}
+        {% include youtube-embed.html id=youtube_id %}
 
-        {% if page.video_url != blank or page.slides_url != blank %}
         <section class="event-links">
-          {% if page.video_url != blank %}
           <a
             href="{{ page.video_url }}"
             class="event-link button theme-brand-color5">
             <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Video</title><path d="M9 20v44h82V20zm34 10l20 12-20 12zM26 70c-2.046 0-3.788 1.24-4.563 3H13a2 2 0 1 0 0 4h8.438c.774 1.76 2.516 3 4.562 3 2.046 0 3.788-1.24 4.563-3H87a2 2 0 1 0 0-4H30.562c-.774-1.76-2.516-3-4.562-3z" overflow="visible"/></svg>
             Video
           </a>
-          {% endif %}
           {% if page.slides_url != blank %}
           <a
             href="{{ page.slides_url }}"
@@ -51,7 +46,6 @@ layout: base
           </a>
           {% endif %}
         </section>
-        {% endif %}
       {% endif %}
 
       <h2 style="text-transform:capitalize;">About This
