@@ -26,6 +26,7 @@ presenters:
   twitter: hola_soy_milk
   website: https://ramonh.dev
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

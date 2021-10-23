@@ -32,6 +32,7 @@ presenters:
   twitter: Tarun_Garg2
   website: https://www.linkedin.com/in/tarungarg546/
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

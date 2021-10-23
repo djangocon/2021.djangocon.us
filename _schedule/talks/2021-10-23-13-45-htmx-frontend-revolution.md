@@ -27,6 +27,7 @@ presenters:
   twitter: guettli
   website: https://github.com/guettli
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''

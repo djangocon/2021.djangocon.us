@@ -25,6 +25,7 @@ presenters:
   twitter: tyreldenison
   website: https://hirelofty.com
 published: true
+show_video_urls: true
 sitemap: true
 slides_url: ''
 summary: ''
