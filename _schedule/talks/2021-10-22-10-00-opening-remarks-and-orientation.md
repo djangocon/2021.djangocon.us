@@ -23,11 +23,13 @@ presenters:
   photo_url: /static/img/organizers/drew.jpg
   twitter: hops_and_smoke
   website: http://amakarudze.pythonanywhere.com/
-- bio: Kojo Idrissa has been the Orientation, Lightning Talks, and Sprints Chair at DCUS for many years. This year, he's only doing the first one, but that doesn't mean he loves you any less.
+- bio: Kojo Idrissa has been the Orientation, Lightning Talks, and Sprints Chair at
+    DCUS for many years. This year, he's only doing the first one, but that doesn't
+    mean he loves you any less.
   company: ''
+  github: kojoidrissa
   name: Kojo Idrissa
   photo_url: /static/img/organizers/kojo.jpg
-  github: kojoidrissa
   twitter: transitionswpz
   website: https://kojoidrissa.com/
 - bio: Katia is the President of the Django Events Foundation North America.

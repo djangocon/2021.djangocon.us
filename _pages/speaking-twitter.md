@@ -1,6 +1,5 @@
 ---
-description: Twitter Template for Tweets (this should not be in our sitemaps
-  file)
+description: Twitter Template for Tweets (this should not be in our sitemaps file)
 heading: Twitter Template for Tweets
 layout: default
 permalink: /speaking/twitter/

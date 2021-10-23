@@ -1,6 +1,6 @@
 ---
-description: Our Speaking Checklists for YouTube Videos (this should not be in our sitemaps
-  file)
+description: Our Speaking Checklists for YouTube Videos (this should not be in our
+  sitemaps file)
 heading: Speaking Checklists for YouTube Videos
 layout: default
 permalink: /speaking/youtube/checklists/
