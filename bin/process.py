@@ -105,7 +105,7 @@ class Schedule(FrontmatterModel):
     schedule_layout: Optional[str] = Field(
         alias="schedule-layout"
     )  # TODO: Validate for breaks, lunch, etc
-    show_video_urls = Optional[bool]
+    show_video_urls: Optional[bool]
     slides_url: Optional[str]
     summary: Optional[str]
     tags: Optional[List[str]] = None
