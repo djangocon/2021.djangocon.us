@@ -2,7 +2,6 @@
 heading: 2021 DjangoCon US Recap
 layout: base
 permalink: /recap/
-# permalink: /
 published: true
 title: 2021 DjangoCon US Recap
 ---
@@ -107,11 +106,13 @@ title: 2021 DjangoCon US Recap
     </div>
   </div>
 
+{% assign total_presentations = site.schedule | where:"category", "talk" %}
+
   <div class="section-pad highlight-events theme-medium-gray">
     <div class="events">
       <header style="padding-left: 1em" class="highlight-events-header">
-        <h2>Awesome Talks and Tutorials</h2>
-        <p class="lead">We featured over <strong>35</strong> talks &amp; tutorials this year. Here are some crowd
+        <h2>Awesome Talks</h2>
+        <p class="lead">We featured over <strong>{{ total_presentations.size }}</strong> talks this year. Here are some crowd
           favorites!</p>
         <a href="/schedule/" class="button">See the full schedule</a>
       </header>
@@ -204,11 +205,11 @@ title: 2021 DjangoCon US Recap
             <tbody>
             <tr>
               <td>Attendees</td>
-              <td>15xx</td>
+              <td>~2000</td>
             </tr>
             <tr>
               <td>Talks</td>
-              <td>3x</td>
+              <td>{{ total_presentations.size }}</td>
             </tr>
             </tbody>
           </table>
@@ -227,6 +228,7 @@ title: 2021 DjangoCon US Recap
     {% endcomment %}
   </div>
 
+  {% comment %}
   <div class="photos-block">
     <header class="photos-block-header theme-brand-color4">
       <h2>Picture Perfect</h2>
@@ -246,7 +248,7 @@ title: 2021 DjangoCon US Recap
     </div>
     {% endfor %}
   </div>
-
+  {% endcomment %}
 
   <div class="section-pad organizer-block theme-brand-color4">
     <div class="row">
