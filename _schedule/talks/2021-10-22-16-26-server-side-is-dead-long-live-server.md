@@ -88,4 +88,4 @@ By the end of this talk, audience members will have a better understanding of wh
     - Simplifying things with django-htmx
     - Additional resources
 
-Code examples and slides: https://github.com/jacklinke/htmx-talk-2021
+Code examples and slides: [https://github.com/jacklinke/htmx-talk-2021](https://github.com/jacklinke/htmx-talk-2021)
