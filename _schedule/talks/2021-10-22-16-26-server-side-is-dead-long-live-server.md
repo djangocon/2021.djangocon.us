@@ -29,7 +29,7 @@ presenters:
     of coding, Jack solves unusual math and logic problems, and makes a mess in the
     kitchen."
   company: Watervize
-  github: ''
+  github: jacklinke
   name: Jack Linke
   photo_url: ''
   twitter: JackDLinke
@@ -37,7 +37,7 @@ presenters:
 published: true
 show_video_urls: true
 sitemap: true
-slides_url: ''
+slides_url: https://github.com/jacklinke/htmx-talk-2021#:~:text=Download%20OpenDocument%20Presentation%20file
 summary: ''
 tags:
 - Django
@@ -87,3 +87,5 @@ By the end of this talk, audience members will have a better understanding of wh
     - Complimentary JS libraries
     - Simplifying things with django-htmx
     - Additional resources
+
+Code examples and slides: https://github.com/jacklinke/htmx-talk-2021
