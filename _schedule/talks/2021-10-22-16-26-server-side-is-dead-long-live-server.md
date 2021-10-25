@@ -33,7 +33,7 @@ presenters:
   name: Jack Linke
   photo_url: ''
   twitter: JackDLinke
-  website: https://www.jacklinke.com
+  website: https://jacklinke.com
 published: true
 show_video_urls: true
 sitemap: true
