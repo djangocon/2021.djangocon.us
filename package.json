@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "DjangoCon US Website",
   "devDependencies": {
-    "all-contributors-cli": "^4.11.2",
+    "all-contributors-cli": "^6.20.0",
     "css-loader": "^3.4.2",
     "fibers": "^4.0.2",
     "mini-css-extract-plugin": "^0.9.0",
     "resolve-url-loader": "^3.1.1",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
   },
   "scripts": {
     "add": "all-contributors add",
