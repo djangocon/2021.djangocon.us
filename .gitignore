@@ -1,12 +1,7 @@
-.bundle
-.cache
-.DS_Store
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 .vendor
 _site
-bower_components/
 Gemfile.lock
-node_modules/
-npm-debug.log
-static/*.map
+vendor
