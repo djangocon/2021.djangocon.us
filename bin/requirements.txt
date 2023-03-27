@@ -57,7 +57,7 @@ pytz==2021.3
     #   dateutils
 pyyaml==6.0
     # via python-frontmatter
-redis==3.5.3
+redis==4.5.3
     # via celery
 requests==2.26.0
     # via -r requirements.in
