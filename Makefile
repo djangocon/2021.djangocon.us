@@ -16,7 +16,6 @@ test:
 .PHONY: social
 social:
 	@echo "check out... https://github.com/sindresorhus/pageres-cli"
-	@npx pageres $(DOMAIN)/presenters/alan-una-larisa/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/alan-una-larisa
 	@npx pageres $(DOMAIN)/presenters/andrew-knight/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/andrew-knight
 	@npx pageres $(DOMAIN)/presenters/benjamin-zags-zagorsky/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/benjamin-zags-zagorsky
 	@npx pageres $(DOMAIN)/presenters/brendan-wee/ $(IMAGE_SIZE) --overwrite --filename=static/img/social/presenters/brendan-wee

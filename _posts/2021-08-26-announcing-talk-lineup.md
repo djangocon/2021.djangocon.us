@@ -51,7 +51,6 @@ your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021
 - Wagtail Live: bringing a live blogging tool to the Django ecosystem by Tidjani Dia ([website](https://www.therookiecoder.com/))
 - What in the World? Determining and demonstrating meaning in geospatial data by Tyrel Denison ([twitter](https://twitter.com/tyreldenison), [website](https://hirelofty.com))
 - What is deployment, anyway? by Katie McLaughlin ([twitter](https://twitter.com/glasnt), [website](https://glasnt.com))
-- Writing tests for a Django application doesn't have to suck: the simplest way to write short, fast and maintainable tests by Alan Una Larisa 
 - Zero to production-ready: a best-practices process for Docker packaging by Itamar Turner-Trauring ([twitter](https://twitter.com/itamarst), [website](https://pythonspeed.com))
 
 

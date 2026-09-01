@@ -22,7 +22,6 @@ IMAGE_SIZE := "1024x512"
     python bin/screenshots.py
     # echo "check out... https://github.com/sindresorhus/pageres-cli"
     # -npx pageres {{ DOMAIN }}/presenters/adolfo-fitoria/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/adolfo-fitoria
-    # -npx pageres {{ DOMAIN }}/presenters/alan-una-larisa/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/alan-una-larisa
     # -npx pageres {{ DOMAIN }}/presenters/aldan-creo/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/aldan-creo
     # -npx pageres {{ DOMAIN }}/presenters/andrew-knight/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/andrew-knight
     # -npx pageres {{ DOMAIN }}/presenters/anna-makarudze/ {{ IMAGE_SIZE }} --overwrite --filename=static/img/social/presenters/anna-makarudze
